@@ -9,14 +9,17 @@
 5. **不做模糊自动合并。** 怀疑重复时先 Issue/PR 讨论，不自行换 ID 或删除旧实体。
 6. **不提交私人数据。** 本地标签、观看记录、评分、MediaFile 路径、Presentation Preference 不属于 Community Data。
 7. **不提交未经许可的图片和长篇第三方文本。**
+8. **新实体同步登记 Registry。** 实体、Source Record 和 active ID 条目必须在同一个 PR。
+9. **Merge 必须人工审核。** 不直接删除疑似重复实体，不创建 Redirect 链。
 
 ## 推荐工作流
 
 ```bash
 git checkout -b data/add-example-person
-pnpm new:id person
+pnpm new person
 # 新建 library/people/<id>.json
 # 新建 sources/<id>.json
+# 在 registry/community-ids.json 增加 active 条目并按 id 排序
 pnpm check
 git add .
 git commit
@@ -32,6 +35,7 @@ git commit
 - 已知时填写 `activityStatus`
 - 对未知字段宁可省略，不猜测
 - 对应 `sources/<person-id>.json`
+- 对应的 active Registry 条目
 
 ## 新作品最低要求
 
@@ -42,6 +46,15 @@ git commit
 - 日文标题
 - 已知人物/厂商/系列/Genre 使用现有稳定 ID
 - 对应 `sources/<work-id>.json`
+- 对应的 active Registry 条目
+
+## Source Record 最低要求
+
+- URL 必须是可公开核验的 `http` / `https` 地址，不使用搜索结果摘要。
+- `accessedAt` 使用真实访问日期 `YYYY-MM-DD`。
+- `fields` 填写来源实际支持的实体字段，例如 `names`、`titles.ja`、`releaseDate`。
+- Person 至少有来源支持 `names`；Work 至少有来源支持 `code` 和 `titles`。
+- Maker、Label、Series 至少有来源支持 `names`。
 
 ## 文本版权
 

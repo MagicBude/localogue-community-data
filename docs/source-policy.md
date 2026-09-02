@@ -30,9 +30,30 @@ sources/<entity-id>.json
 }
 ```
 
+`fields` 使用实体字段路径，建议从顶层字段开始，必要时写到本地化子字段：
+
+```json
+[
+  "names",
+  "birthDate",
+  "titles.ja",
+  "releaseDate",
+  "personRelations"
+]
+```
+
+不要写来源实际没有支持的字段。Validator 会检查字段根是否真实存在于 active 实体中，并要求：
+
+- Person 至少有来源支持 `names`；
+- Work 至少有来源支持 `code` 和 `titles`；
+- Maker、Label、Series 至少有来源支持 `names`。
+
+实体合并后，`sources/<sourceId>.json` 仍需保留。旧 ID 虽然不再有 active 实体，但来源历史不能随 Merge 丢失。
+
 ## 禁止
 
 - 不把“搜索结果摘要”当最终来源。
 - 不记录需要登录后才能合法查看的私人内容。
 - 不把来源页面整段文字复制进实体简介。
 - 不虚构 accessedAt、URL 或字段来源。
+- 不把“页面存在”误写成“页面支持全部字段”；每个来源只声明自己实际核验的字段。

@@ -6,15 +6,19 @@ https://github.com/MagicBude/localogue-community-data
 这是 Localogue 的独立 Community Data 仓库，不是主程序仓库。主程序仓库是：
 https://github.com/MagicBude/Localogue
 
-当前 Community Data 仓库已经完成 V0-01 Bootstrap，包含：
+当前 Community Data 仓库已经完成 V0-02 ID Governance，包含：
 - `localogue-pack.json`
 - `library/{people,works,organizations,series,genres}`
 - `sources/`
 - `<type>_<UUIDv4>` 稳定 ID 初版规则
+- `registry/community-ids.json` active / redirect 生命周期登记
+- `registry/merge-plans/merge_<UUIDv4>.json` 人工合并计划
+- 禁止 Redirect 链、跨类型 Redirect 和模糊自动合并
 - Source Record 协议
-- `pnpm check` 无依赖校验器
+- `pnpm check` 无依赖校验器与内置回归测试
+- `pnpm check:localogue -- <path>` 消费端契约检查
 - `pnpm stats`
-- `pnpm new:id <type>`
+- `pnpm new <type>` / `pnpm new:id <type>`
 - GitHub Actions / Issue / PR 模板
 - CC0-1.0 与权利边界说明
 - 完全虚构 examples
@@ -37,11 +41,12 @@ https://github.com/MagicBude/Localogue
 接下来请专注于 `localogue-community-data`，不要修改 Localogue 主项目。希望你继续按“教材级中文文档 + 清晰架构 + 可验证脚本 + 每一步完整 ZIP 覆盖包 + 中文 Conventional Commit 完整提交信息”的方式推进。
 
 下一阶段建议从这里开始：
-- 检查当前 V0-01 初始化内容；
-- 完善 Community ID Registry / Redirect / Merge 预案；
-- 与 Localogue V1-11 Pack Validator 对齐；
-- 设计首批真实数据录入与 Source Record 工作流；
-- 先选 10–50 个真实人物/作品进行小规模端到端验证；
-- 不要一次性导入海量真实数据，先验证 ID、引用、来源、修订和共享升级流程。
+- 执行 Pilot A：先录入 3 个真实人物 + 5 个真实作品；
+- 优先使用无需登录即可核验的日文官方页面；
+- 实体、Source Record、active Registry 条目在同一个批次提交；
+- 在 Localogue 中实际挂载验证 Private Library > Shared Pack；
+- 分四批完成总计 10 人物 + 20 作品；
+- 演练 Duplicate Issue 与 proposed Merge Plan，但消费端支持 Redirect 前不应用真实 Merge；
+- Localogue V1-11 公开后重新执行完整契约对齐。
 
 用户对数据库和 Web 架构仍在学习，因此重要代码和文档要解释“为什么这样设计”，不要只给结论。

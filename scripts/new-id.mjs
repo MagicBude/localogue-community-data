@@ -5,14 +5,15 @@ const aliases = new Map([
   ["work", "work"],
   ["maker", "maker"],
   ["label", "label"],
-  ["organization", "organization"],
   ["series", "series"],
   ["genre", "genre"],
+  ["merge", "merge"],
 ]);
 
 const requested = process.argv[2]?.trim().toLowerCase();
 if (!requested || !aliases.has(requested)) {
-  console.error("用法: pnpm new:id <person|work|maker|label|organization|series|genre>");
+  console.error("用法: pnpm new <person|work|maker|label|series|genre|merge>");
+  console.error("Organization 请按实际 kind 选择 maker 或 label，避免生成无法判定语义的 ID。");
   process.exit(1);
 }
 

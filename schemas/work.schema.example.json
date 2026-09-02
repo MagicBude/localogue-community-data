@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "work_example_abc_123",
+  "id": "work_bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
   "code": "ABC-123",
   "originalLanguage": "ja",
   "titles": {
@@ -23,30 +23,25 @@
   ],
   "personRelations": [
     {
-      "personId": "person_example_001",
+      "personId": "person_aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
       "role": "performer",
       "billingOrder": 1
     },
     {
-      "personId": "person_example_director",
+      "personId": "person_cccccccc-cccc-4ccc-8ccc-cccccccccccc",
       "role": "director"
     }
   ],
-  "makerId": "maker_example",
-  "labelId": "label_example",
+  "makerId": "maker_dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+  "labelId": "label_eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
   "seriesIds": [
-    "series_example"
+    "series_ffffffff-ffff-4fff-8fff-ffffffffffff"
   ],
   "genreIds": [
-    "uniform",
-    "drama"
+    "genre_77777777-7777-4777-8777-777777777777"
   ],
-  "tagIds": [
-    "favorite"
-  ],
-  "assetIds": [
-    "asset_example_cover"
-  ],
+  "tagIds": [],
+  "assetIds": [],
   "mediaFileIds": [],
   "createdAt": "2026-09-01T17:00:00+08:00",
   "updatedAt": "2026-09-01T17:00:00+08:00"

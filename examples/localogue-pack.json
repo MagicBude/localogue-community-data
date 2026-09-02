@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "kind": "shared-library",
+  "id": "io.github.magicbude.localogue-community-data.examples",
+  "name": "Localogue Community Data Fictional Examples",
+  "version": "0.2.0",
+  "description": "仅用于 Validator 与文档演示的完全虚构 Pack Fixture。",
+  "languages": ["ja", "zh-CN", "en"],
+  "license": "CC0-1.0"
+}

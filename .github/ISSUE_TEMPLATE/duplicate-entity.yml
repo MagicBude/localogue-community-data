@@ -19,5 +19,24 @@ body:
     id: evidence
     attributes:
       label: 判断依据与来源
+      description: 请逐项说明公开 URL 证明了什么，不要只贴搜索结果摘要。
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: 可能受影响的引用
+      description: 列出引用这两个 ID 的作品、Organization 或其它实体；未知时写“待扫描”。
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: 建议的合并方向
+      description: 这里只是建议，最终方向由人工审核决定。
+      options:
+        - A → B
+        - B → A
+        - 暂时无法判断
     validations:
       required: true

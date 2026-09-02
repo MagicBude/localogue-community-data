@@ -2,8 +2,12 @@
 
 - [数据格式](data-format.md)
 - [稳定 ID 规则](id-policy.md)
+- [Community ID Registry](id-registry.md)
+- [Merge 与 Redirect](merge-and-redirect.md)
 - [来源记录](source-policy.md)
 - [共享边界与许可](licensing-and-rights.md)
 - [Localogue 接入](localogue-integration.md)
 - [贡献工作流](workflow.md)
 - [版本发布](release-process.md)
+- [Localogue Validator 对齐](localogue-validator-alignment.md)
+- [首批真实数据试运行](real-data-pilot.md)

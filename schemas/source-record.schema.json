@@ -18,12 +18,13 @@
         "additionalProperties": false,
         "required": ["url", "kind", "accessedAt", "fields"],
         "properties": {
-          "url": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
           "kind": { "enum": ["official", "agency", "social", "database", "other"] },
           "title": { "type": "string" },
-          "accessedAt": { "type": "string", "minLength": 1 },
+          "accessedAt": { "type": "string", "format": "date" },
           "fields": {
             "type": "array",
+            "minItems": 1,
             "items": { "type": "string", "minLength": 1 },
             "uniqueItems": true
           },

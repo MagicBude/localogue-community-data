@@ -2,9 +2,9 @@
 
 ## 当前版本
 
-- Pack Version: `0.1.0`
+- Pack Version: `0.2.0`
 - Schema Version: `1`
-- 阶段：Bootstrap / 协议冻结与小规模真实数据验证
+- 阶段：ID Governance / 小规模真实数据试运行准备
 
 ## 已完成
 
@@ -17,11 +17,24 @@
 - PR / Issue 模板
 - 完整贡献、来源和许可文档
 - 虚构示例数据
+- Community ID Registry（active / redirect）
+- 人工 Merge Plan Schema 与状态机
+- Redirect 同类型、单跳和来源历史保留规则
+- Registry / Merge / Source Record 一体化 Validator
+- Localogue checkout 双重兼容性检查脚本
+- 10 人物 + 20 作品真实数据 Pilot 方案
+
+## 审查结论
+
+- V0-01 基线 `pnpm check` 通过，正式 Library 为 0。
+- 修正 `pnpm new:id organization` 会生成 Validator 不接受 ID 的不一致；Organization 现在必须明确选择 `maker` 或 `label`。
+- 2026-09-02 可读取的 Localogue 公开主分支仍为 V1-10，未发现公开 V1-11 分支或 Tag；因此 V1-11 完整对齐仍待上游实现公开后复核。
 
 ## 下一阶段建议
 
-1. 与 Localogue 主项目 V1-11 对齐 Community ID Registry / Pack Validator。
-2. 选择 10–50 个真实人物与作品进行端到端试运行。
-3. 验证 ID 冲突、实体重复、来源更新和字段修订工作流。
-4. 建立 Release / Tag 规则。
-5. 后续再考虑大规模批量导入和独立 Community Asset Pack。
+1. 执行 Pilot A：3 人物 + 5 作品，验证最小真实数据闭环。
+2. 分四批完成总计 10 人物 + 20 作品的端到端试运行。
+3. 演练 Duplicate Issue 和 `proposed` Merge Plan；消费端支持 Redirect 前不应用真实合并。
+4. Localogue V1-11 公开后重新运行契约检查并审查 Redirect 消费语义。
+5. 完成至少一次 patch 数据修订和 Release / Tag 演练。
+6. 后续再考虑大规模批量导入和独立 Community Asset Pack。

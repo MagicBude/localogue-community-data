@@ -31,6 +31,9 @@ localogue-community-data/
 │   ├── series/
 │   └── genres/
 ├── sources/
+├── registry/
+│   ├── community-ids.json
+│   └── merge-plans/
 ├── schemas/
 ├── examples/
 ├── scripts/
@@ -46,7 +49,7 @@ localogue-community-data/
 ```bash
 pnpm check
 pnpm stats
-pnpm new:id person
+pnpm new person
 ```
 
 ### 接入 Localogue
@@ -71,10 +74,14 @@ D:/Localogue-Packs/localogue-community-data
 - [贡献指南](CONTRIBUTING.md)
 - [数据格式](docs/data-format.md)
 - [稳定 ID 规则](docs/id-policy.md)
+- [Community ID Registry](docs/id-registry.md)
+- [Merge 与 Redirect](docs/merge-and-redirect.md)
 - [来源与证据](docs/source-policy.md)
 - [共享边界与许可](docs/licensing-and-rights.md)
 - [Localogue 接入说明](docs/localogue-integration.md)
+- [Localogue Validator 对齐](docs/localogue-validator-alignment.md)
+- [首批真实数据试运行](docs/real-data-pilot.md)
 
 ## 当前阶段
 
-当前版本是 **0.1.0 / Bootstrap**：先冻结目录、稳定 ID、来源记录和校验规则。建议先用少量真实实体验证流程，不要一次性导入大规模未经审查的数据。
+当前版本是 **0.2.0 / ID Governance**：已增加 Community ID Registry、Merge Plan、Redirect 预案和双重 Validator 检查。正式 Library 仍保持为空；下一步按 10 人物 + 20 作品的小规模 Pilot 验证真实数据工作流。

@@ -3,12 +3,13 @@
 ## 新实体
 
 1. 搜索仓库，确认没有已有实体或别名记录。
-2. `pnpm new:id <type>` 生成稳定 ID。
+2. `pnpm new <type>` 生成稳定 ID。
 3. 创建 `library/<collection>/<id>.json`。
 4. 创建 `sources/<id>.json`。
-5. 检查所有引用 ID 已存在。
-6. `pnpm check`。
-7. 提交 Pull Request。
+5. 在 `registry/community-ids.json` 增加 active 条目并按 ID 排序。
+6. 检查所有引用 ID 已存在。
+7. `pnpm check`。
+8. 提交 Pull Request。
 
 ## 修改实体
 
@@ -26,3 +27,5 @@
 - 可能受影响的作品/关系
 
 等待未来 Merge Plan / Redirect 机制统一处理。
+
+V0-02 已提供 Merge Plan 与 Redirect 协议；具体状态流转与当前消费端限制见 [Merge 与 Redirect](merge-and-redirect.md)。

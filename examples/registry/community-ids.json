@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "genre_77777777-7777-4777-8777-777777777777",
+      "entityType": "genre",
+      "collection": "genres",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "label_55555555-5555-4555-8555-555555555555",
+      "entityType": "label",
+      "collection": "organizations",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "maker_44444444-4444-4444-8444-444444444444",
+      "entityType": "maker",
+      "collection": "organizations",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "person_11111111-1111-4111-8111-111111111111",
+      "entityType": "person",
+      "collection": "people",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "person_22222222-2222-4222-8222-222222222222",
+      "entityType": "person",
+      "collection": "people",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "person_99999999-9999-4999-8999-999999999999",
+      "entityType": "person",
+      "collection": "people",
+      "status": "redirect",
+      "firstPublishedIn": "0.1.0",
+      "canonicalId": "person_11111111-1111-4111-8111-111111111111",
+      "mergePlanId": "merge_88888888-8888-4888-8888-888888888888",
+      "retiredIn": "0.2.0"
+    },
+    {
+      "id": "series_66666666-6666-4666-8666-666666666666",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    },
+    {
+      "id": "work_33333333-3333-4333-8333-333333333333",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.1.0"
+    }
+  ]
+}

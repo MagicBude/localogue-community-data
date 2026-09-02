@@ -12,7 +12,11 @@
 - 日文原始资料优先，翻译不能覆盖原文。
 - 新人物/作品/Organization/Series 必须使用稳定 ID，不以姓名、番号或标题生成永久主键。
 - 当前稳定 ID 格式使用 `<entity-type>_<UUIDv4>`；已发布 ID 不得因为改名或翻译变化而修改。
+- 每个正式实体必须在 `registry/community-ids.json` 拥有 `active` 条目；已发布 ID 不得从 Registry 删除或复用。
 - 不进行模糊自动实体合并。发现疑似重复时保留双方 ID，进入人工 Review/Merge 流程。
+- Merge 必须使用 `registry/merge-plans/merge_<UUIDv4>.json`；没有已应用计划不得把 ID 改为 Redirect。
+- Redirect 必须直接指向同类型 active ID，禁止 Redirect 链与跨类型合并。
+- Localogue 消费端支持 Registry 前，真实 Merge 原则上只推进到 `approved`，不得贸然 `applied`。
 - 正式人物、作品、Organization、Series 必须有 `sources/<entity-id>.json`。
 - 修改数据后必须运行 `pnpm check`。
 - 保持“一实体一 JSON 文件”，文件名必须与实体 `id` 完全一致。

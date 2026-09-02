@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "person_example_001",
+  "id": "person_aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
   "names": [
     {
       "language": "ja",
@@ -63,6 +63,5 @@
     "zh-CN": "这是用于文档演示的虚构人物数据。",
     "en": "This is fictional sample data for documentation."
   },
-  "portraitAssetId": "asset_example_portrait",
   "galleryAssetIds": []
 }

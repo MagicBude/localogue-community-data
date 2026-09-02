@@ -1,14 +1,16 @@
 {
   "name": "localogue-community-data",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "packageManager": "pnpm@11.24.0",
   "engines": {
     "node": ">=22.0.0"
   },
   "scripts": {
-    "check": "node scripts/validate-pack.mjs",
+    "check": "node scripts/validate-repository-json.mjs && node scripts/validate-pack.mjs && node scripts/validate-examples.mjs && node --test scripts/tests/*.test.mjs",
+    "check:localogue": "node scripts/check-localogue-contract.mjs",
     "stats": "node scripts/stats.mjs",
+    "new": "node scripts/new-id.mjs",
     "new:id": "node scripts/new-id.mjs"
   }
 }

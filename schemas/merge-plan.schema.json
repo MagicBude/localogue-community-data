@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Localogue Community Entity Merge Plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "entityType",
+    "sourceId",
+    "targetId",
+    "status",
+    "rationale",
+    "evidence",
+    "affectedEntityIds",
+    "createdAt"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "entityType": {
+      "enum": ["person", "work", "maker", "label", "series", "genre"]
+    },
+    "sourceId": { "type": "string", "minLength": 1 },
+    "targetId": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["proposed", "approved", "applied", "rejected"]
+    },
+    "rationale": { "type": "string", "minLength": 1 },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "note"],
+        "properties": {
+          "url": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "affectedEntityIds": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "createdAt": { "type": "string", "minLength": 1 },
+    "reviewedAt": { "type": "string", "minLength": 1 },
+    "decisionNote": { "type": "string", "minLength": 1 },
+    "appliedAt": { "type": "string", "minLength": 1 }
+  }
+}

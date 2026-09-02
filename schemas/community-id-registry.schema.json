@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Localogue Community ID Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entries"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "entityType", "collection", "status", "firstPublishedIn"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "entityType": {
+                "enum": ["person", "work", "maker", "label", "series", "genre"]
+              },
+              "collection": {
+                "enum": ["people", "works", "organizations", "series", "genres"]
+              },
+              "status": { "const": "active" },
+              "firstPublishedIn": { "type": "string", "minLength": 1 }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "entityType",
+              "collection",
+              "status",
+              "firstPublishedIn",
+              "canonicalId",
+              "mergePlanId",
+              "retiredIn"
+            ],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "entityType": {
+                "enum": ["person", "work", "maker", "label", "series", "genre"]
+              },
+              "collection": {
+                "enum": ["people", "works", "organizations", "series", "genres"]
+              },
+              "status": { "const": "redirect" },
+              "firstPublishedIn": { "type": "string", "minLength": 1 },
+              "canonicalId": { "type": "string", "minLength": 1 },
+              "mergePlanId": { "type": "string", "minLength": 1 },
+              "retiredIn": { "type": "string", "minLength": 1 }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_99999999-9999-4999-8999-999999999999",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://example.com/fictional/retired-person",
+      "kind": "other",
+      "title": "Fictional retired identity source",
+      "accessedAt": "2026-09-02",
+      "fields": ["names"],
+      "note": "完全虚构，用于演示 Merge 后仍保留旧 ID Source Record。"
+    }
+  ]
+}

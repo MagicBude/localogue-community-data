@@ -11,6 +11,14 @@ library/
 └── genres/
 ```
 
+`sources/` 与 `registry/` 不会被 Localogue V1-10 当作实体 Collection 读取，但它们是正式 Community Data 发布不可缺少的治理层：
+
+```text
+sources/<entity-id>.json
+registry/community-ids.json
+registry/merge-plans/merge_<UUIDv4>.json
+```
+
 所有正式实体都是一个独立 UTF-8 JSON 文件：
 
 ```text
@@ -54,3 +62,5 @@ Maker 与 Label 都存放在 `organizations/`，使用 `kind` 区分。Label 可
 ## Series / Genre
 
 Series 是作品系列实体；Genre 是受控分类实体。二者均必须拥有稳定 ID。
+
+所有正式实体还必须有 active Registry 条目；人物、作品、Organization、Series 必须有 Source Record。

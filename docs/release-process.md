@@ -27,4 +27,10 @@ pnpm stats
 - `localogue-pack.json.updatedAt`
 - `CHANGELOG.md`
 
+如果本次新增或退休 ID，还要确认：
+
+- `registry/community-ids.json` 的 `firstPublishedIn` / `retiredIn` 与发布版本一致；
+- applied Merge Plan 已完成引用迁移并保留旧 Source Record；
+- Registry 没有 Redirect 链。
+
 再创建 Git Tag / GitHub Release。
