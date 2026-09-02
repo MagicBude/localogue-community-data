@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "entityId": "work_39bde2d8-8898-413f-992b-27fb1d603506",
+  "entityType": "work",
+  "sources": [
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88",
+      "kind": "database",
+      "title": "アイデアポケット - Wikipedia",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "code",
+        "titles",
+        "personRelations",
+        "makerId"
+      ]
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA",
+      "kind": "database",
+      "title": "桃乃木かな - Wikipedia",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "releaseDate"
+      ]
+    }
+  ]
+}

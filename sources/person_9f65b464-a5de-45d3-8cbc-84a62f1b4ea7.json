@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_9f65b464-a5de-45d3-8cbc-84a62f1b4ea7",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA",
+      "kind": "database",
+      "title": "桃乃木かな - Wikipedia",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "names",
+        "activityStatus",
+        "careerEvents",
+        "birthDate"
+      ],
+      "note": "当前可公开核验的日文汇总页；退休事件仅记录到年份，避免把作品公开日误当成精确引退日。"
+    }
+  ]
+}

@@ -84,4 +84,4 @@ D:/Localogue-Packs/localogue-community-data
 
 ## 当前阶段
 
-当前版本是 **0.2.0 / ID Governance**：已增加 Community ID Registry、Merge Plan、Redirect 预案和双重 Validator 检查。正式 Library 仍保持为空；下一步按 10 人物 + 20 作品的小规模 Pilot 验证真实数据工作流。
+当前版本是 **0.2.1 / Real Data Pilot A**：已录入 3 位真实人物、5 部真实作品和 3 个引用所需 Maker，并为每个正式实体补齐 Source Record 与 active Registry 条目。下一步先在 Localogue 中实际挂载验证，再进入 Pilot B；不在单次提交中扩张为海量数据。

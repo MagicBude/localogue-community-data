@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entityId": "maker_803ef350-bb0c-4cb3-9399-a8c3b6e6f3f3",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://s1s1s1.com/actress/detail/22486",
+      "kind": "official",
+      "title": "河北彩花 - S1公式サイト",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "names"
+      ]
+    }
+  ]
+}

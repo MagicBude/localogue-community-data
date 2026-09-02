@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "work_39bde2d8-8898-413f-992b-27fb1d603506",
+  "code": "IPZ-637",
+  "originalLanguage": "ja",
+  "titles": {
+    "ja": "FIRST IMPRESSION 89 超アイドル級美少女 衝撃のAVデビュー"
+  },
+  "releaseDate": {
+    "value": "2015-10-19",
+    "precision": "day"
+  },
+  "workTypeIds": [
+    "solo"
+  ],
+  "personRelations": [
+    {
+      "personId": "person_9f65b464-a5de-45d3-8cbc-84a62f1b4ea7",
+      "role": "performer",
+      "billingOrder": 1
+    }
+  ],
+  "makerId": "maker_8532ca68-cad7-4ef5-a7ae-732bfc77dec2",
+  "seriesIds": [],
+  "genreIds": [],
+  "tagIds": [],
+  "assetIds": [],
+  "mediaFileIds": [],
+  "createdAt": "2026-09-02T03:22:42Z",
+  "updatedAt": "2026-09-02T03:22:42Z"
+}

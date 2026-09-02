@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "work_d7fce6f5-2897-4dbf-b982-a25a384714b7",
+  "code": "MIDE-974",
+  "originalLanguage": "ja",
+  "titles": {
+    "ja": "新人 専属19歳AVデビュー “普通”の中で見つけたスターの原石"
+  },
+  "releaseDate": {
+    "value": "2021-10-05",
+    "precision": "day"
+  },
+  "durationMinutes": 210,
+  "workTypeIds": [
+    "solo"
+  ],
+  "personRelations": [
+    {
+      "personId": "person_0476e95b-5010-4460-a561-db3a6c31808e",
+      "role": "performer",
+      "billingOrder": 1
+    }
+  ],
+  "makerId": "maker_5d40b7e2-36e5-4ce4-9a4e-2a745ad8a90a",
+  "seriesIds": [],
+  "genreIds": [],
+  "tagIds": [],
+  "assetIds": [],
+  "mediaFileIds": [],
+  "createdAt": "2026-09-02T03:22:42Z",
+  "updatedAt": "2026-09-02T03:22:42Z"
+}

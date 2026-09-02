@@ -44,6 +44,8 @@
 
 每个批次都独立运行 `pnpm check`，并在 Localogue 中挂载验证。前一个批次出现规则问题时，先修协议，不继续堆数据。
 
+Pilot A 已在 `0.2.1` 完成仓库侧录入与校验，具体对象、来源例外和挂载待办见 [Pilot A 验证报告](pilot-a-report.md)。Pilot A 在 Localogue 实际挂载通过前，不开始 Pilot B。
+
 ## 4. 单个实体录入顺序
 
 1. 搜索 `library/`、`sources/` 和 Registry，确认没有同一实体或旧艺名。

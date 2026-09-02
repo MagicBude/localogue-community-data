@@ -1,4 +1,82 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": "maker_5d40b7e2-36e5-4ce4-9a4e-2a745ad8a90a",
+      "entityType": "maker",
+      "collection": "organizations",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "maker_803ef350-bb0c-4cb3-9399-a8c3b6e6f3f3",
+      "entityType": "maker",
+      "collection": "organizations",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "maker_8532ca68-cad7-4ef5-a7ae-732bfc77dec2",
+      "entityType": "maker",
+      "collection": "organizations",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "person_0476e95b-5010-4460-a561-db3a6c31808e",
+      "entityType": "person",
+      "collection": "people",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "person_9f65b464-a5de-45d3-8cbc-84a62f1b4ea7",
+      "entityType": "person",
+      "collection": "people",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "person_d918989e-100d-4e09-a437-8ec24fd269fd",
+      "entityType": "person",
+      "collection": "people",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "work_26721ff7-05de-4750-8058-6a3c178abf86",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "work_39bde2d8-8898-413f-992b-27fb1d603506",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "work_c2acfa7d-9950-44d4-b0c2-3201679d6e6d",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "work_d7fce6f5-2897-4dbf-b982-a25a384714b7",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    },
+    {
+      "id": "work_ddd1e185-eddb-42e5-8e4e-68976daa0640",
+      "entityType": "work",
+      "collection": "works",
+      "status": "active",
+      "firstPublishedIn": "0.2.1"
+    }
+  ]
 }

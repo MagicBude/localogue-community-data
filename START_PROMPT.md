@@ -6,7 +6,7 @@ https://github.com/MagicBude/localogue-community-data
 这是 Localogue 的独立 Community Data 仓库，不是主程序仓库。主程序仓库是：
 https://github.com/MagicBude/Localogue
 
-当前 Community Data 仓库已经完成 V0-02 ID Governance，包含：
+当前 Community Data 仓库已经完成 V0-03 Real Data Pilot A，Pack 版本为 `0.2.1`，包含：
 - `localogue-pack.json`
 - `library/{people,works,organizations,series,genres}`
 - `sources/`
@@ -23,6 +23,9 @@ https://github.com/MagicBude/Localogue
 - CC0-1.0 与权利边界说明
 - 完全虚构 examples
 - AGENTS / CONTRIBUTING / docs / PROJECT_STATUS / CHANGELOG
+- 3 位真实人物：桃乃木かな、石川澪、河北彩花
+- 5 部真实作品：IPZ-637、IPZ-653、MIDE-974、MIDE-989、SSIS-129
+- 3 个 Maker 支撑实体与 11 份逐实体 Source Record
 
 请先阅读仓库中的 README.md、AGENTS.md、PROJECT_STATUS.md、CONTRIBUTING.md 和 docs，不要猜测当前规范。
 
@@ -41,10 +44,11 @@ https://github.com/MagicBude/Localogue
 接下来请专注于 `localogue-community-data`，不要修改 Localogue 主项目。希望你继续按“教材级中文文档 + 清晰架构 + 可验证脚本 + 每一步完整 ZIP 覆盖包 + 中文 Conventional Commit 完整提交信息”的方式推进。
 
 下一阶段建议从这里开始：
-- 执行 Pilot A：先录入 3 个真实人物 + 5 个真实作品；
-- 优先使用无需登录即可核验的日文官方页面；
-- 实体、Source Record、active Registry 条目在同一个批次提交；
-- 在 Localogue 中实际挂载验证 Private Library > Shared Pack；
+- 先在 Localogue 中实际挂载 Pilot A，验证 Private Library > Shared Pack；
+- 核对 5 个 Work 的 Person 与 Maker 关系是否在界面中正确解析；
+- 挂载验收通过后执行 Pilot B：再录入 3 个真实人物 + 5 个真实作品；
+- 继续优先使用无需登录即可核验的日文官方页面；
+- 实体、Source Record、active Registry 条目继续在同一个批次提交；
 - 分四批完成总计 10 人物 + 20 作品；
 - 演练 Duplicate Issue 与 proposed Merge Plan，但消费端支持 Redirect 前不应用真实 Merge；
 - Localogue V1-11 公开后重新执行完整契约对齐。

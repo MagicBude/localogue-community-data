@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_0476e95b-5010-4460-a561-db3a6c31808e",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://mioishikawa.bitfan.id/contents/menu/62333",
+      "kind": "official",
+      "title": "石川澪公式ファンクラブ - PROFILE",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "names",
+        "birthDate",
+        "careerEvents"
+      ]
+    },
+    {
+      "url": "https://moodyz.com/actress/detail/810311",
+      "kind": "official",
+      "title": "石川澪 - MOODYZ公式サイト",
+      "accessedAt": "2026-09-02",
+      "fields": [
+        "names",
+        "activityStatus"
+      ],
+      "note": "片商现行人物页仍列出作品目录，用于支持当前活动状态。"
+    }
+  ]
+}

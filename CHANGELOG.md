@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.1 - 2026-09-02
+
+- 完成 Pilot A：新增桃乃木かな、石川澪、河北彩花 3 个人物实体。
+- 新增 5 部作品，并建立 Person → Work → Maker 的稳定 ID 引用闭环。
+- 新增アイデアポケット、MOODYZ、エスワン 3 个 Maker 支撑实体。
+- 为 11 个正式实体逐一新增 Source Record，并登记 active Community ID。
+- 官方页可读时优先使用日文官方人物页、事务所页与作品页；IdeaPocket 旧页抓取超时时，明确使用可公开核验的日文目录来源，不伪造访问结果。
+- 保持图片、MediaFile、用户 Tag、观看记录、评分与 Presentation Preference 为零。
+- 新增 Pilot A 验证报告与 V0-03 覆盖包清单。
+
 ## 0.2.0 - 2026-09-02
 
 - 新增 `registry/community-ids.json`，登记 active 与 redirect Community ID 生命周期。

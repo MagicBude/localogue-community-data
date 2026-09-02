@@ -11,3 +11,4 @@
 - [版本发布](release-process.md)
 - [Localogue Validator 对齐](localogue-validator-alignment.md)
 - [首批真实数据试运行](real-data-pilot.md)
+- [Pilot A 验证报告](pilot-a-report.md)
