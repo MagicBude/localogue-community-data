@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Localogue 主程序问题
+    url: https://github.com/MagicBude/Localogue/issues
+    about: UI、导入、媒体扫描、程序 Bug 请在 Localogue 主仓库反馈。

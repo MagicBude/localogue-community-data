@@ -1,0 +1,14 @@
+{
+  "name": "localogue-community-data",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "check": "node scripts/validate-pack.mjs",
+    "stats": "node scripts/stats.mjs",
+    "new:id": "node scripts/new-id.mjs"
+  }
+}

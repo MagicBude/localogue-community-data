@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_66666666-6666-4666-8666-666666666666",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://example.com/fictional/series_66666666-6666-4666-8666-666666666666",
+      "kind": "other",
+      "title": "Fictional example source",
+      "accessedAt": "2026-09-02",
+      "fields": ["example"],
+      "note": "完全虚构，仅用于说明 Source Record 格式。"
+    }
+  ]
+}

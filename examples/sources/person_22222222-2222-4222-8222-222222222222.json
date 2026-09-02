@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_22222222-2222-4222-8222-222222222222",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://example.com/fictional/person_22222222-2222-4222-8222-222222222222",
+      "kind": "other",
+      "title": "Fictional example source",
+      "accessedAt": "2026-09-02",
+      "fields": ["example"],
+      "note": "完全虚构，仅用于说明 Source Record 格式。"
+    }
+  ]
+}

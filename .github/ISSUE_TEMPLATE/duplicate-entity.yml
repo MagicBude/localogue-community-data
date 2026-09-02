@@ -1,0 +1,23 @@
+name: 疑似重复实体
+description: 报告两个可能表示同一人物/作品的稳定 ID
+title: "[Duplicate] "
+labels: ["duplicate-candidate"]
+body:
+  - type: input
+    id: entityA
+    attributes:
+      label: 实体 A
+    validations:
+      required: true
+  - type: input
+    id: entityB
+    attributes:
+      label: 实体 B
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 判断依据与来源
+    validations:
+      required: true

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "person_22222222-2222-4222-8222-222222222222",
+  "names": [
+    { "language": "ja", "value": "架空監督", "type": "primary" }
+  ],
+  "activityStatus": "active",
+  "careerEvents": [],
+  "galleryAssetIds": []
+}

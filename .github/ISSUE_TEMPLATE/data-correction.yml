@@ -1,0 +1,32 @@
+name: 数据修正
+description: 报告人物、作品或关系数据错误
+title: "[Data] "
+labels: ["data-correction"]
+body:
+  - type: input
+    id: entity
+    attributes:
+      label: 实体 ID
+      placeholder: person_xxx / work_xxx
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 当前问题
+      description: 哪个字段不正确？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 建议修正
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可核验来源
+      description: 请提供公开来源 URL 和说明。
+    validations:
+      required: true

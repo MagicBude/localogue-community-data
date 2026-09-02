@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Localogue Community Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entityId", "entityType", "sources"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "entityId": { "type": "string", "minLength": 1 },
+    "entityType": {
+      "enum": ["person", "work", "organization", "series", "genre"]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "kind", "accessedAt", "fields"],
+        "properties": {
+          "url": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["official", "agency", "social", "database", "other"] },
+          "title": { "type": "string" },
+          "accessedAt": { "type": "string", "minLength": 1 },
+          "fields": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true
+          },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
