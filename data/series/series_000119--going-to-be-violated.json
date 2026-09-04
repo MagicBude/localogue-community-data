@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000119",
+  "names": {
+    "ja": "わたし、犯されにゆきます。",
+    "zh-CN": "我将去被侵犯。",
+    "en": "I’m Going to Be Violated."
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000003",
+  "status": "unknown",
+  "officialWebsite": "https://s1s1s1.com/works/list/series/575",
+  "externalIds": {
+    "s1.series": "575"
+  },
+  "firstPublishedIn": "0.4.9"
+}

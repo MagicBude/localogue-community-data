@@ -1,8 +1,8 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.8**
+当前 Pack 版本：**0.4.9**
 
-基线版本：`0.4.7 — Series Candidate Review / Promotion Batch C`
+基线版本：`0.4.8 — Cross-provider Series Index Rollout`
 
 ## 当前正式数据
 
@@ -11,13 +11,13 @@
 | People | 13 | 本阶段不扩量 |
 | Works | 5 | 延续 Pilot A |
 | Organizations | 86 | 5 Maker + 81 Label，本阶段不新增 Organization |
-| Series | 104 | 0.4.8 新增 MOODYZ 3 个、IDEAPOCKET 1 个 |
+| Series | 119 | 0.4.9 为 MOODYZ / IDEAPOCKET / S1 各新增 5 个 |
 | Genres | 325 | 延续核心受控词表 |
-| Registry Active | 533 | 新增 4 个 Series ID |
+| Registry Active | 548 | 新增 15 个 Series ID |
 | Registry Redirect | 0 | 本阶段无 Merge |
 | Merge Plans | 0 | 本阶段无 Merge |
 | Public Sources | 6 | 来源集合不变 |
-| External ID Mappings | 185 | 新增 4 条 approved Series Mapping |
+| External ID Mappings | 200 | 新增 15 条 approved Series Mapping |
 
 ## Organization 组成
 
@@ -26,55 +26,53 @@
 - Maker：5
 - Label：81
 
-## 0.4.8 Cross-provider Series Index Rollout
+## 0.4.9 Five-provider Coverage Balance Batch
 
-本批次把 0.4.4–0.4.7 已验证的 Snapshot / Diff / Review / Promotion 流程从 ATTACKERS / Madonna 扩展到全部 5 个当前正式 Maker：
+本批次不继续扩 ATTACKERS / Madonna，而是优先缩小 MOODYZ、IDEAPOCKET、S1 与前两家的 Series 覆盖差距。
 
-- ATTACKERS
-- Madonna
-- MOODYZ
-- IDEAPOCKET
-- S1 NO.1 STYLE
+### 新增 partial Snapshot
 
-### 快照历史保护
+- MOODYZ：第二份 partial Snapshot，5 条官方 Series，全部人工复核并发布。
+- IDEAPOCKET：第二份 partial Snapshot，5 条官方 Series，全部人工复核并发布。
+- S1：第二份 partial Snapshot，5 条官方 Series，全部人工复核并发布。
 
-`series:index:snapshot` 现在会为同一 Provider、同一日期和同一模式自动分配 `-001 / -002 / ...` 序号，不再覆盖当天早先采集的 Snapshot。历史快照继续全部保存在 `staging/series-index-snapshots/`。
+三份 Snapshot 均保持 `completeTraversal=false`。`position` 只表示本批次审核顺序，不代表官网完整 Series Index 的绝对排序。
 
-### 新 Provider Snapshot
+### 新增正式 Series
 
-- MOODYZ：4 条 partial Snapshot；4/4 已审核发布，其中 3 条为本版本新 Series。
-- IDEAPOCKET：3 条 partial Snapshot；3/3 已审核发布，其中 1 条为本版本新 Series。
-- S1：3 条 partial Snapshot；全部为既有 approved Mapping 精确命中，本版本不新增 S1 Series。
+- MOODYZ：`series_000105` 至 `series_000109`
+- IDEAPOCKET：`series_000110` 至 `series_000114`
+- S1：`series_000115` 至 `series_000119`
 
-这些 Snapshot 都是**工作流验证用 partial snapshot**，不能解释为对应 Maker 的完整 Series Index 已遍历。
+全部条目均以官方 Series 详情页的稳定外部 ID、日文规范名和 Maker 归属作为发布依据；官网没有明确 Label 关系时继续不填写 `labelId`。
 
 ## Series Snapshot / Review 统计
 
 - Series Index Providers：5
-- Series Index Snapshots：9
-- Snapshot Entries：109
-- Series Candidate Reviews：88
-  - publish：87
+- Series Index Snapshots：12
+- Snapshot Entries：124
+- Series Candidate Reviews：103
+  - publish：102
   - hold：1
   - reject：0
-- 最新五个 Provider Snapshot Diff：published 50 / candidate 0 / drift 0 / missing 0 / conflict 0
+- 最新五个 Provider Snapshot Diff：published 55 / candidate 0 / drift 0 / missing 0 / conflict 0
 - 历史 `attackers.series:2273` 继续 hold，不分配 Community ID。
 
 ## 当前 Series Coverage
 
 | Source | Discovered | Reviewed | Published | Unrecognized | Traversal |
 | --- | ---: | ---: | ---: | ---: | --- |
-| S1 official | 3 | 3 | 3 | 0 | incomplete |
+| S1 official | 8 | 8 | 8 | 0 | incomplete |
 | ATTACKERS official | 53 | 53 | 52 | 1 | incomplete |
 | Madonna official | 42 | 42 | 42 | 0 | incomplete |
-| MOODYZ official | 4 | 4 | 4 | 0 | incomplete |
-| IDEAPOCKET official | 3 | 3 | 3 | 0 | incomplete |
+| MOODYZ official | 9 | 9 | 9 | 0 | incomplete |
+| IDEAPOCKET official | 8 | 8 | 8 | 0 | incomplete |
 
 ## 完整性边界
 
-- MOODYZ / IDEAPOCKET 的 Label coverage 已完成，但 Series coverage 仍为 partial；来源级 completeTraversal 继续为 false。
-- S1 已正式接入 Series Index Provider，但当前快照仍不足以证明完整枚举。
-- partial Snapshot 候选归零不等于完整遍历。
+- MOODYZ / IDEAPOCKET 的 Label coverage 已完成，但 Series coverage 仍只是两批 partial Snapshot；来源级 `completeTraversal=false`。
+- S1 已累计两批 partial Snapshot，但仍不能证明完整 Series Index 已遍历。
+- partial Snapshot 候选归零只表示当前批次全部处理完成，不等于 Provider Series 全覆盖。
 - 已发布 ID、历史 Review 与 hold 不因后续 Snapshot 变化而自动删除、合并或重写。
 - 官方详情页没有明确 Label 归属时，不根据标题、番号、常见套路或 AI 推测填写 `labelId`。
 

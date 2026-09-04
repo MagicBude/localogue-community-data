@@ -23,13 +23,13 @@
       "entries": 20
     },
     {
-      "snapshotId": "ideapocket-series-2026-09-04-partial-001",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
       "provider": "ideapocket.series",
       "sourceId": "source_ideapocket_official",
       "makerId": "maker_000001",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 3
+      "entries": 5
     },
     {
       "snapshotId": "madonna-series-2026-09-04-partial-003",
@@ -41,26 +41,26 @@
       "entries": 20
     },
     {
-      "snapshotId": "moodyz-series-2026-09-04-partial-001",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
       "provider": "moodyz.series",
       "sourceId": "source_moodyz_official",
       "makerId": "maker_000002",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 4
+      "entries": 5
     },
     {
-      "snapshotId": "s1-series-2026-09-04-partial-001",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
       "provider": "s1.series",
       "sourceId": "source_s1_official",
       "makerId": "maker_000003",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 3
+      "entries": 5
     }
   ],
   "counts": {
-    "published": 50,
+    "published": 55,
     "published-name-drift": 0,
     "candidate-new": 0,
     "candidate-existing-name": 0,
@@ -312,37 +312,61 @@
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "ideapocket.series",
-      "snapshotId": "ideapocket-series-2026-09-04-partial-001",
-      "externalId": "863",
-      "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+      "externalId": "940",
+      "nameJa": "究極のパンストフェチエロティックス",
       "makerId": "maker_000001",
-      "communityId": "series_000003",
+      "communityId": "series_000110",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://ideapocket.com/works/list/series/863"
+      "sourceUrl": "https://ideapocket.com/works/list/series/940"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "ideapocket.series",
-      "snapshotId": "ideapocket-series-2026-09-04-partial-001",
-      "externalId": "1011",
-      "nameJa": "うちの妻を犯して下さい",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+      "externalId": "941",
+      "nameJa": "キミがイクまで腰振るのをやめない!",
       "makerId": "maker_000001",
-      "communityId": "series_000004",
+      "communityId": "series_000111",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://ideapocket.com/works/list/series/1011"
+      "sourceUrl": "https://ideapocket.com/works/list/series/941"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "ideapocket.series",
-      "snapshotId": "ideapocket-series-2026-09-04-partial-001",
-      "externalId": "939",
-      "nameJa": "見つめる愛情イラマチオ",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+      "externalId": "942",
+      "nameJa": "汗だくSEX",
       "makerId": "maker_000001",
-      "communityId": "series_000104",
+      "communityId": "series_000112",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://ideapocket.com/works/list/series/939"
+      "sourceUrl": "https://ideapocket.com/works/list/series/942"
+    },
+    {
+      "classification": "published",
+      "reason": "approved-external-id",
+      "provider": "ideapocket.series",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+      "externalId": "943",
+      "nameJa": "女子高生痴漢電車",
+      "makerId": "maker_000001",
+      "communityId": "series_000113",
+      "candidateCommunityIds": [],
+      "sourceUrl": "https://ideapocket.com/works/list/series/943"
+    },
+    {
+      "classification": "published",
+      "reason": "approved-external-id",
+      "provider": "ideapocket.series",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+      "externalId": "944",
+      "nameJa": "CLUBBER BITCHIZM",
+      "makerId": "maker_000001",
+      "communityId": "series_000114",
+      "candidateCommunityIds": [],
+      "sourceUrl": "https://ideapocket.com/works/list/series/944"
     },
     {
       "classification": "published",
@@ -588,85 +612,121 @@
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "moodyz.series",
-      "snapshotId": "moodyz-series-2026-09-04-partial-001",
-      "externalId": "5427",
-      "nameJa": "カラミざかり",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
+      "externalId": "3563",
+      "nameJa": "おねだりバックピストン",
       "makerId": "maker_000002",
-      "communityId": "series_000002",
+      "communityId": "series_000105",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://moodyz.com/works/list/series/5427"
+      "sourceUrl": "https://moodyz.com/works/list/series/3563"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "moodyz.series",
-      "snapshotId": "moodyz-series-2026-09-04-partial-001",
-      "externalId": "3489",
-      "nameJa": "聖水くらぶ",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
+      "externalId": "3564",
+      "nameJa": "産後処女を義父に奪われ一度イッたら痙攣アクメが止まらなくなる妻",
       "makerId": "maker_000002",
-      "communityId": "series_000101",
+      "communityId": "series_000106",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://moodyz.com/works/list/series/3489"
+      "sourceUrl": "https://moodyz.com/works/list/series/3564"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "moodyz.series",
-      "snapshotId": "moodyz-series-2026-09-04-partial-001",
-      "externalId": "3519",
-      "nameJa": "W CAST",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
+      "externalId": "3565",
+      "nameJa": "捜査官を辞めて妻になったのに…",
       "makerId": "maker_000002",
-      "communityId": "series_000102",
+      "communityId": "series_000107",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://moodyz.com/works/list/series/3519"
+      "sourceUrl": "https://moodyz.com/works/list/series/3565"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "moodyz.series",
-      "snapshotId": "moodyz-series-2026-09-04-partial-001",
-      "externalId": "3562",
-      "nameJa": "聖水痴女ハーレム",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
+      "externalId": "3566",
+      "nameJa": "おれに初めてセフレができたので彼女とはできないド変態プレイを",
       "makerId": "maker_000002",
-      "communityId": "series_000103",
+      "communityId": "series_000108",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://moodyz.com/works/list/series/3562"
+      "sourceUrl": "https://moodyz.com/works/list/series/3566"
+    },
+    {
+      "classification": "published",
+      "reason": "approved-external-id",
+      "provider": "moodyz.series",
+      "snapshotId": "moodyz-series-2026-09-04-partial-002",
+      "externalId": "3567",
+      "nameJa": "突然の大雨で帰宅難民になった彼女の妹と朝まで…",
+      "makerId": "maker_000002",
+      "communityId": "series_000109",
+      "candidateCommunityIds": [],
+      "sourceUrl": "https://moodyz.com/works/list/series/3567"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "s1.series",
-      "snapshotId": "s1-series-2026-09-04-partial-001",
-      "externalId": "414",
-      "nameJa": "新人NO.1STYLE",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
+      "externalId": "571",
+      "nameJa": "ブラックディックファック",
       "makerId": "maker_000003",
-      "communityId": "series_000001",
+      "communityId": "series_000115",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://s1s1s1.com/works/list/series/414"
+      "sourceUrl": "https://s1s1s1.com/works/list/series/571"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "s1.series",
-      "snapshotId": "s1-series-2026-09-04-partial-001",
-      "externalId": "422",
-      "nameJa": "おま●こ、くぱぁ",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
+      "externalId": "572",
+      "nameJa": "爆乳インストラクター",
       "makerId": "maker_000003",
-      "communityId": "series_000005",
+      "communityId": "series_000116",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://s1s1s1.com/works/list/series/422"
+      "sourceUrl": "https://s1s1s1.com/works/list/series/572"
     },
     {
       "classification": "published",
       "reason": "approved-external-id",
       "provider": "s1.series",
-      "snapshotId": "s1-series-2026-09-04-partial-001",
-      "externalId": "570",
-      "nameJa": "ラブキモメン",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
+      "externalId": "573",
+      "nameJa": "おっぱい離れできないボク",
       "makerId": "maker_000003",
-      "communityId": "series_000006",
+      "communityId": "series_000117",
       "candidateCommunityIds": [],
-      "sourceUrl": "https://s1s1s1.com/works/list/series/570"
+      "sourceUrl": "https://s1s1s1.com/works/list/series/573"
+    },
+    {
+      "classification": "published",
+      "reason": "approved-external-id",
+      "provider": "s1.series",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
+      "externalId": "574",
+      "nameJa": "挿れッパ!!",
+      "makerId": "maker_000003",
+      "communityId": "series_000118",
+      "candidateCommunityIds": [],
+      "sourceUrl": "https://s1s1s1.com/works/list/series/574"
+    },
+    {
+      "classification": "published",
+      "reason": "approved-external-id",
+      "provider": "s1.series",
+      "snapshotId": "s1-series-2026-09-04-partial-002",
+      "externalId": "575",
+      "nameJa": "わたし、犯されにゆきます。",
+      "makerId": "maker_000003",
+      "communityId": "series_000119",
+      "candidateCommunityIds": [],
+      "sourceUrl": "https://s1s1s1.com/works/list/series/575"
     }
   ]
 }

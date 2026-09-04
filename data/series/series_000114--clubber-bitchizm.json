@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000114",
+  "names": {
+    "ja": "CLUBBER BITCHIZM",
+    "zh-CN": "CLUBBER BITCHIZM",
+    "en": "CLUBBER BITCHIZM"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/series/944",
+  "externalIds": {
+    "ideapocket.series": "944"
+  },
+  "firstPublishedIn": "0.4.9"
+}

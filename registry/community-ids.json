@@ -3698,6 +3698,111 @@
       "firstPublishedIn": "0.4.8"
     },
     {
+      "id": "series_000105",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000106",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000107",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000108",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000109",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000110",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000111",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000112",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000113",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000114",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000115",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000116",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000117",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000118",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
+      "id": "series_000119",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.9"
+    },
+    {
       "id": "work_000001",
       "entityType": "work",
       "collection": "works",

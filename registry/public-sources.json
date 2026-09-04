@@ -14,7 +14,7 @@
       ],
       "enumeration": {
         "seriesUrlPattern": "https://ideapocket.com/works/list/series/<id>",
-        "pagination": "/works/label 当前在单页列出 16 个可见 Label；Label 已逐项核验。Series 仍只完成 Pilot 样本，未遍历完整 Series 索引。",
+        "pagination": "/works/label 当前在单页列出 16 个可见 Label并已完整核验；Series 当前已积累两批 partial Snapshot，尚未遍历完整索引。",
         "labelIndex": "https://ideapocket.com/works/label",
         "labelUrlPattern": "https://ideapocket.com/works/list/label/<id>",
         "seriesIndex": "https://ideapocket.com/works/series"
@@ -35,16 +35,16 @@
         },
         {
           "entityType": "series",
-          "discovered": 3,
-          "reviewed": 3,
-          "published": 3,
+          "discovered": 8,
+          "reviewed": 8,
+          "published": 8,
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "IDEAPOCKET 当前官方 Label Index 已完整覆盖；0.4.8 首次纳入 Series Index Provider，并建立 3 条官方可核验的 partial Snapshot 样本。Series 仍未完整枚举，因此来源级 completeTraversal=false。"
+        "IDEAPOCKET 当前官方 Label Index 已完整覆盖；Series 已通过两份 partial Snapshot 扩展到 8 条全部审核发布，但尚未完整枚举，因此来源级 completeTraversal=false。"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "enumeration": {
         "labelUrlPattern": "https://moodyz.com/works/list/label/<id>",
         "seriesUrlPattern": "https://moodyz.com/works/list/series/<id>",
-        "pagination": "/works/label 当前在单页列出 29 个可见 Label；Label 已逐项核验。Series 仍只完成 Pilot 样本，未遍历完整 Series 索引。",
+        "pagination": "/works/label 当前在单页列出 29 个可见 Label并已完整核验；Series 当前已积累两批 partial Snapshot，尚未遍历完整索引。",
         "labelIndex": "https://moodyz.com/works/label",
         "seriesIndex": "https://moodyz.com/works/series"
       },
@@ -81,16 +81,16 @@
         },
         {
           "entityType": "series",
-          "discovered": 4,
-          "reviewed": 4,
-          "published": 4,
+          "discovered": 9,
+          "reviewed": 9,
+          "published": 9,
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "MOODYZ 当前官方 Label Index 已完整覆盖；0.4.8 首次纳入 Series Index Provider，并建立 4 条官方可核验的 partial Snapshot 样本。Series 仍未完整枚举，因此来源级 completeTraversal=false。"
+        "MOODYZ 当前官方 Label Index 已完整覆盖；Series 已通过两份 partial Snapshot 扩展到 9 条全部审核发布，但尚未完整枚举，因此来源级 completeTraversal=false。"
       ]
     },
     {
@@ -106,7 +106,7 @@
       ],
       "enumeration": {
         "seriesUrlPattern": "https://s1s1s1.com/works/list/series/<id>",
-        "pagination": "已核验主 Label 页面与 3 个 Series；当前执行环境无法可靠读取动态 Label/Series 索引，因此不声明完整遍历。",
+        "pagination": "已核验主 Label，并通过两批 partial Snapshot 累积 8 个官方 Series；当前执行环境仍不足以证明完整 Label/Series Index 遍历。",
         "labelUrlPattern": "https://s1s1s1.com/works/list/label/<id>",
         "labelIndex": "https://s1s1s1.com/works/label",
         "seriesIndex": "https://s1s1s1.com/works/series"
@@ -127,16 +127,16 @@
         },
         {
           "entityType": "series",
-          "discovered": 3,
-          "reviewed": 3,
-          "published": 3,
+          "discovered": 8,
+          "reviewed": 8,
+          "published": 8,
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "S1 当前主 Label 与 3 个 Series 均已核验；0.4.8 将 S1 正式纳入 Series Index Provider Registry，并用首份 partial Snapshot 验证既有 Mapping。尚未形成可证明的完整 Series Index 快照。"
+        "S1 当前主 Label 已核验；Series 已通过两份 partial Snapshot 扩展到 8 条全部审核发布，但尚未形成可证明的完整 Series Index 快照。"
       ]
     },
     {

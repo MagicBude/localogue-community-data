@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000109",
+  "names": {
+    "ja": "突然の大雨で帰宅難民になった彼女の妹と朝まで…",
+    "zh-CN": "突降暴雨无法回家，与女友的妹妹直到天亮…",
+    "en": "Stranded by Sudden Heavy Rain with My Girlfriend’s Sister Until Morning..."
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/series/3567",
+  "externalIds": {
+    "moodyz.series": "3567"
+  },
+  "firstPublishedIn": "0.4.9"
+}

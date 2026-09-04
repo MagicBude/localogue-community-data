@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "ideapocket-series-2026-09-04-partial-002",
+  "providerKey": "ideapocket",
+  "provider": "ideapocket.series",
+  "sourceId": "source_ideapocket_official",
+  "makerId": "maker_000001",
+  "indexUrl": "https://ideapocket.com/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "0.4.9 Coverage Balance Batch 的第二份 partial Snapshot。条目由官方 Series 详情页逐项核验，本批次用于连续扩大 MOODYZ / IDEAPOCKET / S1 覆盖，不声明完整索引遍历。",
+    "position 仅表示本批次审核顺序；partial Snapshot 不得用于 completeTraversal 声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "940",
+      "nameJa": "究極のパンストフェチエロティックス",
+      "sourceUrl": "https://ideapocket.com/works/list/series/940"
+    },
+    {
+      "position": 2,
+      "externalId": "941",
+      "nameJa": "キミがイクまで腰振るのをやめない!",
+      "sourceUrl": "https://ideapocket.com/works/list/series/941"
+    },
+    {
+      "position": 3,
+      "externalId": "942",
+      "nameJa": "汗だくSEX",
+      "sourceUrl": "https://ideapocket.com/works/list/series/942"
+    },
+    {
+      "position": 4,
+      "externalId": "943",
+      "nameJa": "女子高生痴漢電車",
+      "sourceUrl": "https://ideapocket.com/works/list/series/943"
+    },
+    {
+      "position": 5,
+      "externalId": "944",
+      "nameJa": "CLUBBER BITCHIZM",
+      "sourceUrl": "https://ideapocket.com/works/list/series/944"
+    }
+  ]
+}

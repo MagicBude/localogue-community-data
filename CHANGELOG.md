@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.4.9 - 2026-09-04
+
+### Five-provider Coverage Balance Batch
+
+- 暂停继续扩 ATTACKERS / Madonna，优先缩小 MOODYZ、IDEAPOCKET、S1 的 Series 覆盖差距。
+- 新增 MOODYZ 第二份 5 条 partial Snapshot，发布 5 个官方 Series。
+- 新增 IDEAPOCKET 第二份 5 条 partial Snapshot，发布 5 个官方 Series。
+- 新增 S1 第二份 5 条 partial Snapshot，发布 5 个官方 Series。
+- 本批次共新增 15 个正式 Series，分配 `series_000105` 至 `series_000119`。
+- Series 总数从 104 增加到 119；Registry Active 从 533 增加到 548；approved External ID Mapping / Provider Observation 从 185 增加到 200。
+- Series Candidate Review 增加到 103（publish 102 / hold 1 / reject 0）。
+- Series Index Snapshot 增加到 12，Snapshot Entry 增加到 124。
+- 最新 5 Provider Snapshot Diff 为 55 published、0 candidate、0 drift、0 missing、0 conflict。
+- MOODYZ Series coverage 更新为 9/9/9，IDEAPOCKET 更新为 8/8/8，S1 更新为 8/8/8；三家仍为 partial coverage。
+- `attackers.series:2273` 继续保持 hold。
+- Pack 版本升级至 0.4.9。
+
 ## 0.4.8 - 2026-09-04
 
 ### Cross-provider Series Index Rollout

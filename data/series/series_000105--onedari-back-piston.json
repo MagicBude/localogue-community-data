@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000105",
+  "names": {
+    "ja": "おねだりバックピストン",
+    "zh-CN": "央求后入抽插",
+    "en": "Begging Backstroke Piston"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/series/3563",
+  "externalIds": {
+    "moodyz.series": "3563"
+  },
+  "firstPublishedIn": "0.4.9"
+}

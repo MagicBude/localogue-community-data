@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "moodyz-series-2026-09-04-partial-002",
+  "providerKey": "moodyz",
+  "provider": "moodyz.series",
+  "sourceId": "source_moodyz_official",
+  "makerId": "maker_000002",
+  "indexUrl": "https://moodyz.com/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "0.4.9 Coverage Balance Batch 的第二份 partial Snapshot。条目由官方 Series 详情页逐项核验，本批次用于连续扩大 MOODYZ / IDEAPOCKET / S1 覆盖，不声明完整索引遍历。",
+    "position 仅表示本批次审核顺序；partial Snapshot 不得用于 completeTraversal 声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "3563",
+      "nameJa": "おねだりバックピストン",
+      "sourceUrl": "https://moodyz.com/works/list/series/3563"
+    },
+    {
+      "position": 2,
+      "externalId": "3564",
+      "nameJa": "産後処女を義父に奪われ一度イッたら痙攣アクメが止まらなくなる妻",
+      "sourceUrl": "https://moodyz.com/works/list/series/3564"
+    },
+    {
+      "position": 3,
+      "externalId": "3565",
+      "nameJa": "捜査官を辞めて妻になったのに…",
+      "sourceUrl": "https://moodyz.com/works/list/series/3565"
+    },
+    {
+      "position": 4,
+      "externalId": "3566",
+      "nameJa": "おれに初めてセフレができたので彼女とはできないド変態プレイを",
+      "sourceUrl": "https://moodyz.com/works/list/series/3566"
+    },
+    {
+      "position": 5,
+      "externalId": "3567",
+      "nameJa": "突然の大雨で帰宅難民になった彼女の妹と朝まで…",
+      "sourceUrl": "https://moodyz.com/works/list/series/3567"
+    }
+  ]
+}

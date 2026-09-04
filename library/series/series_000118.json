@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000118",
+  "names": {
+    "ja": "挿れッパ!!",
+    "zh-CN": "一直插着!!",
+    "en": "Keep It In!!"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000003",
+  "status": "unknown",
+  "officialWebsite": "https://s1s1s1.com/works/list/series/574",
+  "externalIds": {
+    "s1.series": "574"
+  },
+  "firstPublishedIn": "0.4.9"
+}
