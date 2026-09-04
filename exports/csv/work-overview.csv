@@ -1,6 +1,6 @@
-id,code,title_ja,release_date,duration_minutes,performers,maker_id
-work_000001,IPZ-637,FIRST IMPRESSION 89 超アイドル級美少女 衝撃のAVデビュー,2015-10-19,,桃乃木かな,maker_000001
-work_000002,IPZ-653,昇天4本番＋一撃スマッシュ顔射フェラ 初野外！初拘束！初主観！初コスプレ！初ハメ撮り！,2015-11-19,,桃乃木かな,maker_000001
-work_000003,MIDE-974,新人 専属19歳AVデビュー “普通”の中で見つけたスターの原石,2021-10-05,210,石川澪,maker_000002
-work_000004,MIDE-989,恥ずかしくったってエッチ猛特訓！ぜ～んぶ初体験だよ！性感開発3本番スペシャル,2021-11-02,190,石川澪,maker_000002
-work_000005,SSIS-129,河北彩花 Re:start!,2021-07-19,170,河北彩花,maker_000003
+id,code,title_ja,release_date,duration_minutes,performers,maker_id,genre_ids,genres_ja,genres_zh,genres_en
+work_000001,IPZ-637,FIRST IMPRESSION 89 超アイドル級美少女 衝撃のAVデビュー,2015-10-19,,桃乃木かな,maker_000001,genre_000001;genre_000006,美少女;デビュー作,美少女;出道作,Beautiful Girl;Debut Work
+work_000002,IPZ-653,昇天4本番＋一撃スマッシュ顔射フェラ 初野外！初拘束！初主観！初コスプレ！初ハメ撮り！,2015-11-19,,桃乃木かな,maker_000001,genre_000069;genre_000070;genre_000158;genre_000205;genre_000219;genre_000245;genre_000251,主観;ハメ撮り;コスプレ;フェラ;顔射;拘束;野外,主观视角;第一人称拍摄;角色扮演;口交;颜射;拘束;户外,Point of View;POV Recording;Cosplay;Fellatio;Facial;Restraint;Outdoor
+work_000003,MIDE-974,新人 専属19歳AVデビュー “普通”の中で見つけたスターの原石,2021-10-05,210,石川澪,maker_000002,genre_000006,デビュー作,出道作,Debut Work
+work_000004,MIDE-989,恥ずかしくったってエッチ猛特訓！ぜ～んぶ初体験だよ！性感開発3本番スペシャル,2021-11-02,190,石川澪,maker_000002,genre_000324;genre_000325,初体験;性感開発,初次体验;性感开发,First Experience;Sensuality Development
+work_000005,SSIS-129,河北彩花 Re:start!,2021-07-19,170,河北彩花,maker_000003,genre_000008,復帰作,复出作,Comeback Work

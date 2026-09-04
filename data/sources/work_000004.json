@@ -14,8 +14,10 @@
         "releaseDate",
         "durationMinutes",
         "personRelations",
-        "makerId"
-      ]
+        "makerId",
+        "genreIds"
+      ],
+      "note": "Genre 根据官方日文标题中的“初体験”“性感開発”映射。"
     }
   ]
 }

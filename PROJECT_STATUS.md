@@ -2,9 +2,9 @@
 
 ## 当前版本
 
-- Pack Version: `0.3.1`
+- Pack Version: `0.3.2`
 - Schema Version: `1`
-- 阶段：三语分类词表与分面治理
+- 阶段：Work–Genre 引用试运行
 
 ## 已完成
 
@@ -28,9 +28,10 @@
 - Pilot A：桃乃木かな、石川澪、河北彩花 3 人物
 - Pilot A：IPZ-637、IPZ-653、MIDE-974、MIDE-989、SSIS-129 共 5 作品
 - 3 个 Maker 支撑实体、11 份 Source Record 与 11 个 active Registry 条目
-- 323 个日中英三语分类条目
+- 325 个日中英三语分类条目
 - 主题、角色、服装、体型与外观、行为、玩法与偏好、制作类别、媒介与格式、分级九个分面
 - 分类总览、别名 CSV 与格式化 XLSX 自动导出
+- 现有 5 部 Pilot A 作品已建立首轮保守 Genre 引用
 
 ## 审查结论
 
@@ -42,9 +43,9 @@
 
 ## 下一阶段建议
 
-1. 在 Localogue 中挂载 `0.3.1`，验证分类显示与三语字段读取。
-2. 为现有 5 部 Work 人工选择 Genre，验证九分面检索，避免仅有词表而没有引用闭环。
-3. 随后执行 Pilot B：3 人物 + 5 作品，优先复用 Maker / Label / Series。
+1. 在 Localogue 中挂载 `0.3.2`，验证 5 部 Work 的 Genre 关联、分类显示与三语字段读取。
+2. 执行 Pilot B：3 人物 + 5 作品，优先复用 Maker，并首次验证 Label / Series。
+3. 为新作品继续采用来源明确支持的保守 Genre 映射，不根据演员印象或常见套路猜测。
 3. 分四批完成总计 10 人物 + 20 作品的端到端试运行。
 4. 演练 Duplicate Issue 和 `proposed` Merge Plan；消费端支持 Redirect 前不应用真实合并。
 5. Localogue V1-11 公开后重新运行契约检查并审查 Redirect 消费语义。

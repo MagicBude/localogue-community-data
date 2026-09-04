@@ -12,8 +12,10 @@
         "code",
         "titles",
         "personRelations",
-        "makerId"
-      ]
+        "makerId",
+        "genreIds"
+      ],
+      "note": "Genre 仅根据来源收录的日文原题中明确出现的“美少女”“AVデビュー”进行保守映射。"
     },
     {
       "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA",

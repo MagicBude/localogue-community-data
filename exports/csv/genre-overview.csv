@@ -322,3 +322,5 @@ genre_000320,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,SD
 genre_000321,rating,年齢区分,分级,Rating,contentRating,R-18,R-18,R-18,,,,active,reviewed
 genre_000322,rating,年齢区分,分级,Rating,contentRating,R-15,R-15,R-15,,,,active,reviewed
 genre_000323,rating,年齢区分,分级,Rating,contentRating,成人指定,成人限定,Adults Only,,,,active,reviewed
+genre_000324,theme,テーマ,主题,Theme,genreIds,初体験,初次体验,First Experience,,第一次,,active,reviewed
+genre_000325,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,性感開発,性感开发,Sensuality Development,性感帯開発,敏感带开发,Erogenous Zone Training,active,reviewed

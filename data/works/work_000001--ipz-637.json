@@ -22,7 +22,10 @@
   ],
   "makerId": "maker_000001",
   "seriesIds": [],
-  "genreIds": [],
+  "genreIds": [
+    "genre_000001",
+    "genre_000006"
+  ],
   "tagIds": [],
   "assetIds": [],
   "mediaFileIds": [],

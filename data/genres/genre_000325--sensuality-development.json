@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000325",
+  "facet": "practice",
+  "facetNames": {
+    "ja": "プレイ・嗜好",
+    "zh-CN": "玩法与偏好",
+    "en": "Practice & Fetish"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "性感開発",
+    "zh-CN": "性感开发",
+    "en": "Sensuality Development"
+  },
+  "aliases": {
+    "ja": ["性感帯開発"],
+    "zh-CN": ["敏感带开发"],
+    "en": ["Erogenous Zone Training"]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata",
+  "firstPublishedIn": "0.3.2"
+}

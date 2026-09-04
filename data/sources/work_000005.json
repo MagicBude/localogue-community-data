@@ -14,8 +14,10 @@
         "releaseDate",
         "durationMinutes",
         "personRelations",
-        "makerId"
-      ]
+        "makerId",
+        "genreIds"
+      ],
+      "note": "Genre 根据官方标题“Re:start!”明确表达的重新开始含义，保守映射为复出作。"
     }
   ]
 }

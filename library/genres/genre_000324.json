@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000324",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "初体験",
+    "zh-CN": "初次体验",
+    "en": "First Experience"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [
+      "第一次"
+    ],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata",
+  "firstPublishedIn": "0.3.2"
+}

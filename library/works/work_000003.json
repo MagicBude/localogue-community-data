@@ -23,7 +23,9 @@
   ],
   "makerId": "maker_000002",
   "seriesIds": [],
-  "genreIds": [],
+  "genreIds": [
+    "genre_000006"
+  ],
   "tagIds": [],
   "assetIds": [],
   "mediaFileIds": [],

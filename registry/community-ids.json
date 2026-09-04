@@ -2263,6 +2263,20 @@
       "firstPublishedIn": "0.3.1"
     },
     {
+      "id": "genre_000324",
+      "entityType": "genre",
+      "collection": "genres",
+      "status": "active",
+      "firstPublishedIn": "0.3.2"
+    },
+    {
+      "id": "genre_000325",
+      "entityType": "genre",
+      "collection": "genres",
+      "status": "active",
+      "firstPublishedIn": "0.3.2"
+    },
+    {
       "id": "maker_000001",
       "entityType": "maker",
       "collection": "organizations",
