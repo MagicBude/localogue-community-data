@@ -470,6 +470,12 @@ async function readJson(filePath, label) {
 }
 
 function requireUuidId(id, prefix, owner) {
+  if (prefix !== "merge") {
+    const escaped = prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = new RegExp(`^${escaped}_[0-9]{6}$`);
+    if (!pattern.test(id ?? "")) errors.push(`${owner}: id 必须使用 ${prefix}_<六位顺序号>`);
+    return;
+  }
   const escaped = prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const pattern = new RegExp(`^${escaped}_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$`, "i");
   if (!pattern.test(id ?? "")) errors.push(`${owner}: id 必须使用 ${prefix}_<UUIDv4>`);

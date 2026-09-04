@@ -1,16 +1,21 @@
 {
   "name": "localogue-community-data",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "packageManager": "pnpm@11.24.0",
   "engines": {
     "node": ">=22.0.0"
   },
   "scripts": {
-    "check": "node scripts/validate-repository-json.mjs && node scripts/validate-pack.mjs && node scripts/validate-examples.mjs && node --test scripts/tests/*.test.mjs",
+    "data:build": "node scripts/build-data.mjs",
+    "data:export:xlsx": "node scripts/export-xlsx.mjs",
+    "check": "node scripts/build-data.mjs --check && node scripts/validate-repository-json.mjs && node scripts/validate-pack.mjs && node scripts/validate-examples.mjs && node --test scripts/tests/*.test.mjs",
     "check:localogue": "node scripts/check-localogue-contract.mjs",
     "stats": "node scripts/stats.mjs",
     "new": "node scripts/new-id.mjs",
     "new:id": "node scripts/new-id.mjs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
   }
 }

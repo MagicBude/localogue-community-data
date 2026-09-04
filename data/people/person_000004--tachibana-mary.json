@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000004",
+  "names": [
+    {
+      "language": "ja",
+      "value": "橘メアリー",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "橘玛丽",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Mary Tachibana",
+      "type": "romanized"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "retired",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2014",
+        "precision": "year"
+      }
+    },
+    {
+      "type": "retirement",
+      "date": {
+        "value": "2025",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1993-07-07",
+    "precision": "day"
+  },
+  "heightCm": 168,
+  "measurements": {
+    "bustCm": 99,
+    "waistCm": 63,
+    "hipCm": 94,
+    "cup": "H"
+  },
+  "agency": {
+    "name": "LIGHT"
+  },
+  "birthPlace": {
+    "ja": "東京都"
+  },
+  "bloodType": "O",
+  "biographies": {
+    "zh-CN": "2014年出道，隶属LIGHT，也以歌手、DJ及艺人身份活动；2025年宣布结束AV女优活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "work_000005",
+  "code": "SSIS-129",
+  "originalLanguage": "ja",
+  "titles": {
+    "ja": "河北彩花 Re:start!"
+  },
+  "releaseDate": {
+    "value": "2021-07-19",
+    "precision": "day"
+  },
+  "durationMinutes": 170,
+  "workTypeIds": [
+    "solo"
+  ],
+  "personRelations": [
+    {
+      "personId": "person_000003",
+      "role": "performer",
+      "billingOrder": 1
+    }
+  ],
+  "makerId": "maker_000003",
+  "seriesIds": [],
+  "genreIds": [],
+  "tagIds": [],
+  "assetIds": [],
+  "mediaFileIds": [],
+  "createdAt": "2026-09-02T03:22:42Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

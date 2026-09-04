@@ -1,38 +1,32 @@
 # Community Stable ID Policy
 
-## 为什么 ID 不能来自名字
+## 实体 ID
 
-姓名、艺名、旧艺名、中文译名、罗马字都可能变化；作品标题也可能修订。Community ID 必须代表“实体本身”，而不是某个当前显示文本。
-
-## V0-01 冻结格式
-
-使用 `<type>_<UUIDv4>`：
+正式实体使用“小写类型前缀 + 六位十进制顺序号”：
 
 ```text
-person_550e8400-e29b-41d4-a716-446655440000
-work_550e8400-e29b-41d4-a716-446655440001
-maker_550e8400-e29b-41d4-a716-446655440002
-label_550e8400-e29b-41d4-a716-446655440003
-series_550e8400-e29b-41d4-a716-446655440004
-genre_550e8400-e29b-41d4-a716-446655440005
+person_000001
+work_000001
+maker_000001
+label_000001
+series_000001
+genre_000001
 ```
 
-生成：
+姓名、标题和番号会变化，因此不能作为永久主键。顺序号一经发布不得修改、回收或复用；不同实体类型分别递增。
 
-```bash
-pnpm new person
-pnpm new work
-pnpm new merge
+运行 `pnpm new person` 等命令可扫描 `data/` 并生成下一编号。多人 PR 撞号时，后合并的分支重新取号。
+
+## 可读文件名
+
+事实源文件采用：
+
+```text
+data/people/person_000001--momonogi-kana.json
 ```
 
-## 规则
+`person_000001` 是稳定 ID；后面的 slug 只用于人工识别。Shared Pack 生成文件仍为 `library/people/person_000001.json`。
 
-- ID 一经合并进入 `main`，不得因为改名、翻译修订、番号格式修订而更换。
-- 不复用已经删除/合并实体的 ID。
-- 疑似重复实体在 Merge 机制完成前保持两个 ID。
-- 未来如果增加 Redirect / Alias Registry，旧 ID 必须能够解析到最终 Canonical ID，而不是直接失效。
-- 正式实体必须同步登记到 `registry/community-ids.json`。
-- Maker 与 Label 虽然都存放在 `organizations/`，仍分别使用 `maker_` 与 `label_` 前缀；不生成语义不明确的 `organization_` ID。
-- Redirect 必须直接指向同类型 active ID，禁止跨类型 Redirect 和多跳 Redirect 链。
+## Merge Plan
 
-Registry 与 Merge 的完整规则见 [Community ID Registry](id-registry.md) 和 [Merge 与 Redirect](merge-and-redirect.md)。
+Merge Plan 不是实体，继续使用 `merge_<UUIDv4>`，避免并行审核时碰撞。Redirect 必须指向相同类型的 active 顺序 ID。

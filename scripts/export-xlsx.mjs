@@ -1,0 +1,9 @@
+import ExcelJS from "exceljs";
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const root=process.cwd();
+const parse=async file=>{const text=await fs.readFile(file,"utf8");const rows=[];let row=[],cell="",quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(quoted){if(c==='"'&&text[i+1]==='"'){cell+='"';i++;}else if(c==='"')quoted=false;else cell+=c;}else if(c==='"')quoted=true;else if(c===','){row.push(cell);cell="";}else if(c==='\n'){row.push(cell);rows.push(row);row=[];cell="";}else if(c!=='\r')cell+=c;}return rows;};
+const workbook=new ExcelJS.Workbook();workbook.creator="Localogue Community Data";workbook.title="Localogue Community Data 浏览工作簿";
+for(const [sheetName,file] of [["女优总览","actress-overview.csv"],["作品总览","work-overview.csv"]]){const rows=await parse(path.join(root,"exports","csv",file));const sheet=workbook.addWorksheet(sheetName,{views:[{state:"frozen",ySplit:1}]});sheet.addRows(rows);sheet.autoFilter={from:{row:1,column:1},to:{row:Math.max(1,sheet.rowCount),column:sheet.columnCount}};const header=sheet.getRow(1);header.font={bold:true,color:{argb:"FFFFFFFF"}};header.fill={type:"pattern",pattern:"solid",fgColor:{argb:"FF315B7D"}};header.alignment={vertical:"middle",horizontal:"center",wrapText:true};header.height=26;sheet.eachRow((row,index)=>{if(index>1&&index%2===0)row.fill={type:"pattern",pattern:"solid",fgColor:{argb:"FFF3F7FA"}};row.alignment={vertical:"top",wrapText:true};});sheet.columns.forEach((column,index)=>{let max=12;column.eachCell({includeEmpty:false},cell=>max=Math.max(max,String(cell.value??"").length+2));column.width=Math.min(index===19?48:max,40);});}
+await fs.mkdir(path.join(root,"exports","xlsx"),{recursive:true});await workbook.xlsx.writeFile(path.join(root,"exports","xlsx","localogue-community-data.xlsx"));console.log("已生成 exports/xlsx/localogue-community-data.xlsx");

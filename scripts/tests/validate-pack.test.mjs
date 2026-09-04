@@ -6,7 +6,7 @@ import path from "node:path";
 import test from "node:test";
 
 const validatorPath = path.resolve("scripts/validate-pack.mjs");
-const personId = "person_aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa";
+const personId = "person_000001";
 
 test("最小 active 实体、来源与 Registry 可以形成有效 Pack", async () => {
   const fixture = await createFixture();
@@ -42,8 +42,8 @@ test("Source Record 声明实体中不存在的字段时必须失败", async () 
 });
 
 test("Redirect 不得指向另一个 Redirect", async () => {
-  const oldId = "person_bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb";
-  const olderId = "person_cccccccc-cccc-4ccc-8ccc-cccccccccccc";
+  const oldId = "person_000002";
+  const olderId = "person_000003";
   const mergeOne = "merge_dddddddd-dddd-4ddd-8ddd-dddddddddddd";
   const mergeTwo = "merge_eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee";
   const registryEntries = [

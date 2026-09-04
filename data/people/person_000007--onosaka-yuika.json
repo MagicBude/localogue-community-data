@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000007",
+  "names": [
+    {
+      "language": "ja",
+      "value": "小野坂ゆいか",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "小野坂由衣香",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Yuika Onosaka",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "小野坂唯香",
+      "type": "alias"
+    },
+    {
+      "language": "ja",
+      "value": "星野聖七",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2024",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2002-02-09",
+    "precision": "day"
+  },
+  "heightCm": 164,
+  "measurements": {
+    "bustCm": 97,
+    "waistCm": 62,
+    "hipCm": 100,
+    "cup": "H"
+  },
+  "agency": {
+    "name": "T-POWERS"
+  },
+  "bloodType": "A",
+  "biographies": {
+    "zh-CN": "2024年以专属女优身份展开活动，后转为企划单体并加入T-POWERS。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000010",
+  "names": [
+    {
+      "language": "ja",
+      "value": "楓ふうあ",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "枫风亚",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Fua Kaede",
+      "type": "romanized"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2021-08",
+        "precision": "month"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2001-04-20",
+    "precision": "day"
+  },
+  "heightCm": 170,
+  "measurements": {
+    "bustCm": 93,
+    "waistCm": 59,
+    "hipCm": 88,
+    "cup": "F"
+  },
+  "agency": {
+    "name": "c-more ENTERTAINMENT"
+  },
+  "bloodType": "A",
+  "biographies": {
+    "zh-CN": "2021年以S1专属身份出道，后移籍c-more ENTERTAINMENT。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

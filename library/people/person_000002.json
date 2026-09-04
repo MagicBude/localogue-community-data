@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000002",
+  "names": [
+    {
+      "language": "ja",
+      "value": "石川澪",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "石川澪",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Mio Ishikawa",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "石川みお",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2021-10-05",
+        "precision": "day"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2002-03-20",
+    "precision": "day"
+  },
+  "heightCm": 158,
+  "measurements": {
+    "bustCm": 78,
+    "waistCm": 56,
+    "hipCm": 88,
+    "cup": "B"
+  },
+  "agency": {
+    "name": "ALIVE"
+  },
+  "bloodType": null,
+  "biographies": {
+    "zh-CN": "2021年以MOODYZ专属身份出道，现隶属ALIVE，并持续参与作品、写真和综艺活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

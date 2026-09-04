@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "entityId": "work_000005",
+  "entityType": "work",
+  "sources": [
+    {
+      "url": "https://s1s1s1.com/works/detail/SSIS129?page_from=actress&sys_code=30299",
+      "kind": "official",
+      "title": "河北彩花 Re:start! - S1公式サイト",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "code",
+        "titles",
+        "releaseDate",
+        "durationMinutes",
+        "personRelations",
+        "makerId"
+      ]
+    }
+  ]
+}

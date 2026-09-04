@@ -24,7 +24,8 @@ Private Library
 ```text
 localogue-community-data/
 ├── localogue-pack.json
-├── library/
+├── data/                         # 唯一事实源：单实体 JSON
+├── library/                      # 自动生成：Localogue Shared Pack
 │   ├── people/
 │   ├── works/
 │   ├── organizations/
@@ -37,20 +38,27 @@ localogue-community-data/
 ├── schemas/
 ├── examples/
 ├── scripts/
+├── exports/csv/                  # 自动生成：规范表与浏览总览
+├── exports/xlsx/                 # 自动生成：格式化工作簿
 └── docs/
 ```
 
-正式数据遵循“一实体一 JSON 文件”。`examples/` 只包含虚构示例，不会被 Localogue 当成 Shared Pack 数据读取。
+正式数据在 `data/` 遵循“一实体一 JSON 文件”。`library/`、Registry、CSV 和 XLSX 都由它自动生成；`examples/` 只包含虚构示例。
 
 ## 快速开始
 
 要求 Node.js 22+。本仓库没有第三方运行依赖。
 
 ```bash
+pnpm install
+pnpm data:build
+pnpm data:export:xlsx
 pnpm check
 pnpm stats
 pnpm new person
 ```
+
+不要直接修改 `library/` 或 `exports/`。人物事实源可使用 `data/people/person_000001--momonogi-kana.json` 这样的可读文件名，程序引用仍只使用稳定 ID。
 
 ### 接入 Localogue
 
@@ -84,4 +92,4 @@ D:/Localogue-Packs/localogue-community-data
 
 ## 当前阶段
 
-当前版本是 **0.2.1 / Real Data Pilot A**：已录入 3 位真实人物、5 部真实作品和 3 个引用所需 Maker，并为每个正式实体补齐 Source Record 与 active Registry 条目。下一步先在 Localogue 中实际挂载验证，再进入 Pilot B；不在单次提交中扩张为海量数据。
+当前版本是 **0.3.0 / JSON Data Source**：已重写稳定 ID 与生成流程，收录参考表指定的 13 位人物、5 部 Pilot A 作品和 3 个 Maker。CSV、XLSX、Shared Pack 与 Registry 均由 `data/` 自动生成。

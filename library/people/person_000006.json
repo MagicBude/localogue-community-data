@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000006",
+  "names": [
+    {
+      "language": "ja",
+      "value": "白桃はな",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "白桃花",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Hana Shirato",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "はな",
+      "type": "alias"
+    },
+    {
+      "language": "ja",
+      "value": "はなちゃん",
+      "type": "alias"
+    },
+    {
+      "language": "ja",
+      "value": "ももか",
+      "type": "alias"
+    },
+    {
+      "language": "ja",
+      "value": "持田葵",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "retired",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2020",
+        "precision": "year"
+      }
+    },
+    {
+      "type": "retirement",
+      "date": {
+        "value": "2024",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2000-05-12",
+    "precision": "day"
+  },
+  "heightCm": 153,
+  "measurements": {
+    "bustCm": 78,
+    "waistCm": 58,
+    "hipCm": 88,
+    "cup": "C"
+  },
+  "birthPlace": {
+    "ja": "山形県"
+  },
+  "bloodType": "B",
+  "biographies": {
+    "zh-CN": "2020年出道，曾隶属Mine’s；2024年后事务所页面和公开活动均无法确认，当前按已结束活动记录。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

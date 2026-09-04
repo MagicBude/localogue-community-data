@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000005",
+  "names": [
+    {
+      "language": "ja",
+      "value": "宮西ひかる",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "宫西光",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Hikaru Miyanishi",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "藤井知花",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2022",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1999-08-22",
+    "precision": "day"
+  },
+  "heightCm": 161,
+  "measurements": {
+    "bustCm": 88,
+    "waistCm": 61,
+    "hipCm": 86,
+    "cup": "E"
+  },
+  "agency": {
+    "name": "LIGHT"
+  },
+  "bloodType": null,
+  "biographies": {
+    "zh-CN": "2022年以专属女优身份展开主要活动，后持续参与多家厂牌作品。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

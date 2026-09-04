@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000013",
+  "names": [
+    {
+      "language": "ja",
+      "value": "瀬戸環奈",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "濑户环奈",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Kanna Seto",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "セトカン",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2025",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2004-05-10",
+    "precision": "day"
+  },
+  "heightCm": 170,
+  "measurements": {
+    "bustCm": 101,
+    "waistCm": 59,
+    "hipCm": 91,
+    "cup": "J"
+  },
+  "agency": {
+    "name": "Bstar"
+  },
+  "birthPlace": {
+    "ja": "神奈川県"
+  },
+  "bloodType": "B",
+  "biographies": {
+    "zh-CN": "2025年展开写真与S1专属女优活动，隶属Bstar。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

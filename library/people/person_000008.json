@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000008",
+  "names": [
+    {
+      "language": "ja",
+      "value": "八木奈々",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "八木奈奈",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Nana Yagi",
+      "type": "romanized"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2019",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2000-09-03",
+    "precision": "day"
+  },
+  "heightCm": 156,
+  "measurements": {
+    "bustCm": 82,
+    "waistCm": 56,
+    "hipCm": 86,
+    "cup": "E"
+  },
+  "agency": {
+    "name": "Mine's"
+  },
+  "birthPlace": {
+    "ja": "長野県"
+  },
+  "bloodType": null,
+  "biographies": {
+    "zh-CN": "2019年以MOODYZ专属身份出道，隶属Mine’s，同时参与影视、综艺、模特及偶像活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

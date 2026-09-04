@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "maker_000001",
+  "kind": "maker",
+  "names": {
+    "ja": "架空メーカー",
+    "zh-CN": "架空厂商",
+    "en": "Fictional Maker"
+  }
+}

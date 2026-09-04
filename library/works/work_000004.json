@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "work_000004",
+  "code": "MIDE-989",
+  "originalLanguage": "ja",
+  "titles": {
+    "ja": "恥ずかしくったってエッチ猛特訓！ぜ～んぶ初体験だよ！性感開発3本番スペシャル"
+  },
+  "releaseDate": {
+    "value": "2021-11-02",
+    "precision": "day"
+  },
+  "durationMinutes": 190,
+  "workTypeIds": [
+    "solo"
+  ],
+  "personRelations": [
+    {
+      "personId": "person_000002",
+      "role": "performer",
+      "billingOrder": 1
+    }
+  ],
+  "makerId": "maker_000002",
+  "seriesIds": [],
+  "genreIds": [],
+  "tagIds": [],
+  "assetIds": [],
+  "mediaFileIds": [],
+  "createdAt": "2026-09-02T03:22:42Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

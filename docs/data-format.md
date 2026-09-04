@@ -19,13 +19,13 @@ registry/community-ids.json
 registry/merge-plans/merge_<UUIDv4>.json
 ```
 
-所有正式实体都是一个独立 UTF-8 JSON 文件：
+`data/` 是唯一事实源。所有正式实体都是一个独立 UTF-8 JSON 文件：
 
 ```text
-library/people/<person-id>.json
+data/people/<person-id>--<readable-slug>.json
 ```
 
-文件名必须等于 JSON 内 `id`。
+可读 slug 只帮助人工浏览，不参与引用。`pnpm data:build` 会生成 `library/people/<person-id>.json`、CSV 和 Registry。
 
 ## Person
 

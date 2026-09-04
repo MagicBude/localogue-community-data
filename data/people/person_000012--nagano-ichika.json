@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000012",
+  "names": [
+    {
+      "language": "ja",
+      "value": "永野一夏",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "永野一夏",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Ichika Nagano",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "いちか",
+      "type": "alias"
+    },
+    {
+      "language": "ja",
+      "value": "永野いち夏",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "unknown",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2019-06",
+        "precision": "month"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1997-11-23",
+    "precision": "day"
+  },
+  "heightCm": 150,
+  "measurements": {
+    "bustCm": 78,
+    "waistCm": 54,
+    "hipCm": 75,
+    "cup": "C"
+  },
+  "agency": {
+    "name": "DINO"
+  },
+  "birthPlace": {
+    "ja": "神奈川県"
+  },
+  "bloodType": "A",
+  "biographies": {
+    "zh-CN": "2019年出道，曾以“永野いち夏”等写法活动；当前公开活动状态不足以可靠判定。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

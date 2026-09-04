@@ -2,15 +2,17 @@
 
 ## 当前版本
 
-- Pack Version: `0.2.1`
+- Pack Version: `0.3.0`
 - Schema Version: `1`
-- 阶段：Real Data Pilot A 完成 / 等待 Localogue 挂载验收
+- 阶段：JSON 唯一事实源、顺序 ID 与自动导出重构
 
 ## 已完成
 
 - Shared Pack Manifest
 - 标准 Library 目录
-- UUIDv4 稳定 ID 初版规则
+- 六位顺序稳定 ID
+- 13 位真实人物主数据
+- JSON → Shared Pack / CSV / XLSX 自动生成
 - Entity Source Record
 - 无依赖 Validator
 - GitHub Actions 自动校验

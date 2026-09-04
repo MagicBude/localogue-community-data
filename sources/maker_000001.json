@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "maker_000001",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://ideapocket.com/",
+      "kind": "official",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names"
+      ]
+    }
+  ]
+}

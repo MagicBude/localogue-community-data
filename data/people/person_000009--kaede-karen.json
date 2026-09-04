@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000009",
+  "names": [
+    {
+      "language": "ja",
+      "value": "楓カレン",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "枫花恋",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Karen Kaede",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "田中レモン",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2018",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1999-08-25",
+    "precision": "day"
+  },
+  "heightCm": 162,
+  "measurements": {
+    "bustCm": 82,
+    "waistCm": 59,
+    "hipCm": 81,
+    "cup": "D"
+  },
+  "agency": {
+    "name": "Life Promotion"
+  },
+  "birthPlace": {
+    "ja": "東京都"
+  },
+  "bloodType": "O",
+  "biographies": {
+    "zh-CN": "2018年以IdeaPocket专属身份出道，后经历活动阶段变化，并持续参与影视和综艺活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "entityId": "work_000003",
+  "entityType": "work",
+  "sources": [
+    {
+      "url": "https://moodyz.com/works/detail/MIDE974",
+      "kind": "official",
+      "title": "新人 専属19歳AVデビュー - MOODYZ公式サイト",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "code",
+        "titles",
+        "releaseDate",
+        "durationMinutes",
+        "personRelations",
+        "makerId"
+      ]
+    }
+  ]
+}

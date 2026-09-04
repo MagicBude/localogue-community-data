@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_000011",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://www.javdatabase.com/idols/yuka-murakami/",
+      "kind": "database",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "activityStatus",
+        "careerEvents",
+        "birthDate",
+        "heightCm",
+        "measurements",
+        "agency",
+        "birthPlace",
+        "bloodType"
+      ],
+      "note": "结合公开资料与用户提供的参考表核对；来源未明确支持的字段仍需后续逐字段复核。"
+    }
+  ]
+}

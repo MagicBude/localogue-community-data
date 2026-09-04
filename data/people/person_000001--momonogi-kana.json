@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000001",
+  "names": [
+    {
+      "language": "ja",
+      "value": "桃乃木かな",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "桃乃木香奈",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Kana Momonogi",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "松嶋真麻",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "retired",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2015-10-19",
+        "precision": "day"
+      }
+    },
+    {
+      "type": "retirement",
+      "date": {
+        "value": "2025",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1996-12-24",
+    "precision": "day"
+  },
+  "heightCm": 153,
+  "measurements": {
+    "bustCm": 80,
+    "waistCm": 54,
+    "hipCm": 80,
+    "cup": "E"
+  },
+  "agency": {
+    "name": "Life Promotion"
+  },
+  "birthPlace": {
+    "ja": "東京都"
+  },
+  "bloodType": "AB",
+  "biographies": {
+    "zh-CN": "2015年出道并长期作为IdeaPocket专属女优活动，亦从事歌手、综艺及网络内容活动；2025年结束AV女优活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

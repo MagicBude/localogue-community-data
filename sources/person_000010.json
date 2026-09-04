@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_000010",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%93%E5%AF%8C%E6%84%9B",
+      "kind": "database",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "activityStatus",
+        "careerEvents",
+        "birthDate",
+        "heightCm",
+        "measurements",
+        "agency",
+        "bloodType"
+      ],
+      "note": "结合公开资料与用户提供的参考表核对；来源未明确支持的字段仍需后续逐字段复核。"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 1. **日文原始资料优先。** 人物至少保留一个 `ja + primary` 姓名；作品以日文原题作为 canonical 原始标题。
 2. **事实与翻译分离。** 中文、英文是本地化映射，不覆盖日文原始字段。
 3. **来源可追溯。** 正式人物、作品、Organization、Series 必须有 `sources/<entity-id>.json`。
-4. **禁止用名称/番号当永久主键。** 新实体使用本仓库生成的稳定 ID。
+4. **禁止用名称/番号当永久主键。** 新实体使用 `<类型>_<六位顺序号>`，删除后不复用。
 5. **不做模糊自动合并。** 怀疑重复时先 Issue/PR 讨论，不自行换 ID 或删除旧实体。
 6. **不提交私人数据。** 本地标签、观看记录、评分、MediaFile 路径、Presentation Preference 不属于 Community Data。
 7. **不提交未经许可的图片和长篇第三方文本。**
@@ -17,9 +17,10 @@
 ```bash
 git checkout -b data/add-example-person
 pnpm new person
-# 新建 library/people/<id>.json
-# 新建 sources/<id>.json
-# 在 registry/community-ids.json 增加 active 条目并按 id 排序
+# 新建 data/people/<id>--<readable-slug>.json
+# 新建 data/sources/<id>.json
+pnpm data:build
+pnpm data:export:xlsx
 pnpm check
 git add .
 git commit

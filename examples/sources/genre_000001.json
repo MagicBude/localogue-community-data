@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "genre_000001",
+  "entityType": "genre",
+  "sources": [
+    {
+      "url": "https://example.com/fictional/genre_000001",
+      "kind": "other",
+      "title": "Fictional example source",
+      "accessedAt": "2026-09-02",
+      "fields": ["names"],
+      "note": "完全虚构，仅用于说明 Source Record 格式。"
+    }
+  ]
+}

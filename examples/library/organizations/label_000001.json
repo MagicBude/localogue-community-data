@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000001",
+  "kind": "label",
+  "names": {
+    "ja": "架空レーベル",
+    "zh-CN": "架空厂牌",
+    "en": "Fictional Label"
+  },
+  "parentOrganizationId": "maker_000001"
+}

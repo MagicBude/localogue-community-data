@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000003",
+  "names": [
+    {
+      "language": "ja",
+      "value": "河北彩花",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "河北彩花",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Saika Kawakita",
+      "type": "romanized"
+    },
+    {
+      "language": "ja",
+      "value": "河北彩伽",
+      "type": "alias"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2018",
+        "precision": "year"
+      }
+    },
+    {
+      "type": "comeback",
+      "date": {
+        "value": "2021",
+        "precision": "year"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "1999-04-24",
+    "precision": "day"
+  },
+  "heightCm": 169,
+  "measurements": {
+    "bustCm": 87,
+    "waistCm": 57,
+    "hipCm": 86,
+    "cup": "E"
+  },
+  "agency": {
+    "name": "T-POWERS"
+  },
+  "birthPlace": {
+    "ja": "千葉県"
+  },
+  "bloodType": "O",
+  "biographies": {
+    "zh-CN": "2018年以S1专属身份出道，短暂离开后于2021年复出；曾使用河北彩伽名义，2026年恢复河北彩花并加入T-POWERS。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entityId": "person_000008",
+  "entityType": "person",
+  "sources": [
+    {
+      "url": "https://mines-pro.jp/model/10786",
+      "kind": "agency",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "activityStatus",
+        "careerEvents",
+        "birthDate",
+        "heightCm",
+        "measurements",
+        "agency",
+        "birthPlace",
+        "bloodType"
+      ],
+      "note": "结合公开资料与用户提供的参考表核对；来源未明确支持的字段仍需后续逐字段复核。"
+    }
+  ]
+}

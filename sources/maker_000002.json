@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "maker_000002",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://moodyz.com/",
+      "kind": "official",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names"
+      ]
+    }
+  ]
+}

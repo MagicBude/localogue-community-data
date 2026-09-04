@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "work_000001",
+  "code": "EXAMPLE-001",
+  "originalLanguage": "ja",
+  "titles": {
+    "ja": "架空作品タイトル",
+    "zh-CN": "架空作品标题",
+    "en": "Fictional Work Title"
+  },
+  "releaseDate": { "value": "2026-01-15", "precision": "day" },
+  "durationMinutes": 120,
+  "workTypeIds": ["solo"],
+  "personRelations": [
+    { "personId": "person_000001", "role": "performer", "billingOrder": 1 },
+    { "personId": "person_000002", "role": "director" }
+  ],
+  "makerId": "maker_000001",
+  "labelId": "label_000001",
+  "seriesIds": ["series_000001"],
+  "genreIds": ["genre_000001"],
+  "tagIds": [],
+  "assetIds": [],
+  "mediaFileIds": [],
+  "createdAt": "2026-09-02T10:36:00+08:00",
+  "updatedAt": "2026-09-02T10:36:00+08:00"
+}

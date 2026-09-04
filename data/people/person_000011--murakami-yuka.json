@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "person_000011",
+  "names": [
+    {
+      "language": "ja",
+      "value": "村上悠華",
+      "type": "primary"
+    },
+    {
+      "language": "zh-CN",
+      "value": "村上悠华",
+      "type": "localized"
+    },
+    {
+      "language": "en",
+      "value": "Yuka Murakami",
+      "type": "romanized"
+    }
+  ],
+  "occupations": [
+    "actress"
+  ],
+  "activityStatus": "active",
+  "careerEvents": [
+    {
+      "type": "debut",
+      "date": {
+        "value": "2023-09",
+        "precision": "month"
+      }
+    }
+  ],
+  "birthDate": {
+    "value": "2003-01-30",
+    "precision": "day"
+  },
+  "heightCm": 163,
+  "measurements": {
+    "bustCm": 85,
+    "waistCm": 59,
+    "hipCm": 88,
+    "cup": "E"
+  },
+  "agency": {
+    "name": "LIGHT"
+  },
+  "birthPlace": {
+    "ja": "東京都"
+  },
+  "bloodType": null,
+  "biographies": {
+    "zh-CN": "2023年以S1专属身份出道，隶属LIGHT，并参与写真及公开活动。"
+  },
+  "galleryAssetIds": [],
+  "createdAt": "2026-09-04T00:00:00Z",
+  "updatedAt": "2026-09-04T00:00:00Z"
+}
