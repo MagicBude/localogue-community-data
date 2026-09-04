@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "maker_000004",
+  "kind": "maker",
+  "names": {
+    "ja": "ATTACKERS",
+    "zh-CN": "ATTACKERS",
+    "en": "ATTACKERS"
+  },
+  "aliases": {
+    "ja": [
+      "アタッカーズ"
+    ],
+    "zh-CN": [],
+    "en": [
+      "Attackers"
+    ]
+  },
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/",
+  "firstPublishedIn": "0.4.1"
+}

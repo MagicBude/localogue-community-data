@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000008",
+  "kind": "label",
+  "names": {
+    "ja": "蛇縛",
+    "zh-CN": "蛇缚"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2749",
+  "externalIds": {
+    "attackers.label": "2749"
+  },
+  "firstPublishedIn": "0.4.1"
+}

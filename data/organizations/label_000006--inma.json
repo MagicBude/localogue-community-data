@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000006",
+  "kind": "label",
+  "names": {
+    "ja": "淫魔",
+    "zh-CN": "淫魔"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2737",
+  "externalIds": {
+    "attackers.label": "2737"
+  },
+  "firstPublishedIn": "0.4.1"
+}

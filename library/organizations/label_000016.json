@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000016",
+  "kind": "label",
+  "names": {
+    "ja": "AVグランプリ",
+    "zh-CN": "AV大奖赛",
+    "en": "AV Grand Prix"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/10077",
+  "externalIds": {
+    "attackers.label": "10077"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "AV Grand Prix"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

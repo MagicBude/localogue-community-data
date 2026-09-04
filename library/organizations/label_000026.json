@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000026",
+  "kind": "label",
+  "names": {
+    "ja": "ACHIJO(アチージョ)",
+    "zh-CN": "ACHIJO(アチージョ)",
+    "en": "ACHIJO"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/12603",
+  "externalIds": {
+    "madonna.label": "12603"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "ACHIJO"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

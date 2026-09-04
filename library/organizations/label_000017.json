@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000017",
+  "kind": "label",
+  "names": {
+    "ja": "おっぱい祭り",
+    "zh-CN": "Oppai祭",
+    "en": "Oppai Festival"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/10142",
+  "externalIds": {
+    "attackers.label": "10142"
+  },
+  "firstPublishedIn": "0.4.1"
+}

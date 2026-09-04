@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000027",
+  "kind": "label",
+  "names": {
+    "ja": "MADOOOON!!!!",
+    "zh-CN": "MADOOOON!!!!",
+    "en": "MADOOOON!!!!"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/12502",
+  "externalIds": {
+    "madonna.label": "12502"
+  },
+  "firstPublishedIn": "0.4.1"
+}

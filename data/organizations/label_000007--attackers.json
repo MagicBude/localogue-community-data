@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000007",
+  "kind": "label",
+  "names": {
+    "ja": "Attackers",
+    "zh-CN": "Attackers",
+    "en": "Attackers"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2739",
+  "externalIds": {
+    "attackers.label": "2739"
+  },
+  "firstPublishedIn": "0.4.1"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000028",
+  "kind": "label",
+  "names": {
+    "ja": "Re:Madonna/AIリマスター",
+    "zh-CN": "Re:Madonna/AI重制",
+    "en": "Re:Madonna/AI Remaster"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/10130",
+  "externalIds": {
+    "madonna.label": "10130"
+  },
+  "firstPublishedIn": "0.4.1"
+}

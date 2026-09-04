@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000031",
+  "kind": "label",
+  "names": {
+    "ja": "※スマホ推奨タテ動画※マドーンショート",
+    "zh-CN": "※推荐手机观看竖屏视频※Madonna Short",
+    "en": "Mobile Recommended Vertical Video: Madonna Short"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/10119",
+  "externalIds": {
+    "madonna.label": "10119"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "マドーンショート"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000015",
+  "kind": "label",
+  "names": {
+    "ja": "AVOPEN",
+    "zh-CN": "AVOPEN",
+    "en": "AVOPEN"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/9483",
+  "externalIds": {
+    "attackers.label": "9483"
+  },
+  "firstPublishedIn": "0.4.1"
+}

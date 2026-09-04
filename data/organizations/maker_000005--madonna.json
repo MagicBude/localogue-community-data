@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "maker_000005",
+  "kind": "maker",
+  "names": {
+    "ja": "マドンナ",
+    "zh-CN": "Madonna",
+    "en": "Madonna"
+  },
+  "aliases": {
+    "ja": [
+      "Madonna"
+    ],
+    "zh-CN": [
+      "Madonna"
+    ],
+    "en": [
+      "Madonna AV"
+    ]
+  },
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/",
+  "firstPublishedIn": "0.4.1"
+}

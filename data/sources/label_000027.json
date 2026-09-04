@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "label_000027",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://madonna-av.com/works/list/label/12502",
+      "kind": "official",
+      "title": "MADOOOON!!!! 該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "parentOrganizationId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Label 目录。URL 路径中的 12502 作为 madonna.label 命名空间内的稳定 Label 外部 ID；Label Index 明确把该名称列为当前公开 Label。"
+    }
+  ]
+}

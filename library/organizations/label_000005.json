@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000005",
+  "kind": "label",
+  "names": {
+    "ja": "大人のドラマ",
+    "zh-CN": "成人剧情",
+    "en": "Adult Drama"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/9455",
+  "externalIds": {
+    "attackers.label": "9455"
+  },
+  "firstPublishedIn": "0.4.1"
+}

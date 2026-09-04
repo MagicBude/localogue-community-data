@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000033",
+  "kind": "label",
+  "names": {
+    "ja": "AVOPEN",
+    "zh-CN": "AVOPEN",
+    "en": "AVOPEN"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/9483",
+  "externalIds": {
+    "madonna.label": "9483"
+  },
+  "firstPublishedIn": "0.4.1"
+}

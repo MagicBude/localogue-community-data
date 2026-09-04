@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000024",
+  "kind": "label",
+  "names": {
+    "ja": "Fitch",
+    "zh-CN": "Fitch",
+    "en": "Fitch"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/7354",
+  "externalIds": {
+    "madonna.label": "7354"
+  },
+  "firstPublishedIn": "0.4.1"
+}

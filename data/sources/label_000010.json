@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "label_000010",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://attackers.net/works/list/label/2756",
+      "kind": "official",
+      "title": "SUPER SPECIAL 該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "parentOrganizationId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Label 目录。URL 路径中的 2756 作为 attackers.label 命名空间内的稳定 Label 外部 ID；Label Index 明确把该名称列为当前公开 Label。"
+    }
+  ]
+}

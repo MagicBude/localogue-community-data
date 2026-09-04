@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000023",
+  "kind": "label",
+  "names": {
+    "ja": "MadonnaVR",
+    "zh-CN": "Madonna VR",
+    "en": "Madonna VR"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/9789",
+  "externalIds": {
+    "madonna.label": "9789"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "Madonna VR"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

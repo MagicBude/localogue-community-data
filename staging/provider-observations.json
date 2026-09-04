@@ -1,11 +1,333 @@
 {
   "schemaVersion": 1,
   "observations": [
-    {"sourceId": "source_moodyz_official", "provider": "moodyz.label", "entityType": "label", "externalId": "5048", "nameJa": "MOODYZ DIVA", "sourceUrl": "https://moodyz.com/works/list/label/5048"},
-    {"sourceId": "source_moodyz_official", "provider": "moodyz.label", "entityType": "label", "externalId": "12798", "nameJa": "みんなのキカタン", "sourceUrl": "https://moodyz.com/works/list/label/12798"},
-    {"sourceId": "source_s1_official", "provider": "s1.series", "entityType": "series", "externalId": "414", "nameJa": "新人NO.1STYLE", "sourceUrl": "https://s1s1s1.com/works/list/series/414"},
-    {"sourceId": "source_moodyz_official", "provider": "moodyz.series", "entityType": "series", "externalId": "5427", "nameJa": "カラミざかり", "sourceUrl": "https://moodyz.com/works/list/series/5427"},
-    {"sourceId": "source_ideapocket_official", "provider": "ideapocket.series", "entityType": "series", "externalId": "863", "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に", "sourceUrl": "https://ideapocket.com/works/list/series/863"},
-    {"sourceId": "source_ideapocket_official", "provider": "ideapocket.series", "entityType": "series", "externalId": "1011", "nameJa": "うちの妻を犯して下さい", "sourceUrl": "https://ideapocket.com/works/list/series/1011"}
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "5048",
+      "nameJa": "MOODYZ DIVA",
+      "sourceUrl": "https://moodyz.com/works/list/label/5048"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "12798",
+      "nameJa": "みんなのキカタン",
+      "sourceUrl": "https://moodyz.com/works/list/label/12798"
+    },
+    {
+      "sourceId": "source_s1_official",
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "414",
+      "nameJa": "新人NO.1STYLE",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/414"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "5427",
+      "nameJa": "カラミざかり",
+      "sourceUrl": "https://moodyz.com/works/list/series/5427"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "863",
+      "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
+      "sourceUrl": "https://ideapocket.com/works/list/series/863"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "1011",
+      "nameJa": "うちの妻を犯して下さい",
+      "sourceUrl": "https://ideapocket.com/works/list/series/1011"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2754",
+      "nameJa": "死夜悪",
+      "sourceUrl": "https://attackers.net/works/list/label/2754"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2751",
+      "nameJa": "龍縛",
+      "sourceUrl": "https://attackers.net/works/list/label/2751"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "9455",
+      "nameJa": "大人のドラマ",
+      "sourceUrl": "https://attackers.net/works/list/label/9455"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2737",
+      "nameJa": "淫魔",
+      "sourceUrl": "https://attackers.net/works/list/label/2737"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2739",
+      "nameJa": "Attackers",
+      "sourceUrl": "https://attackers.net/works/list/label/2739"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2749",
+      "nameJa": "蛇縛",
+      "sourceUrl": "https://attackers.net/works/list/label/2749"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2735",
+      "nameJa": "アタッカーズ・アンソロジー",
+      "sourceUrl": "https://attackers.net/works/list/label/2735"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "2756",
+      "nameJa": "SUPER SPECIAL",
+      "sourceUrl": "https://attackers.net/works/list/label/2756"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "12605",
+      "nameJa": "誘女",
+      "sourceUrl": "https://attackers.net/works/list/label/12605"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "81348",
+      "nameJa": "アタッカーズVR",
+      "sourceUrl": "https://attackers.net/works/list/label/81348"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "5245",
+      "nameJa": "アタックゾーン",
+      "sourceUrl": "https://attackers.net/works/list/label/5245"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "nameJa": "春のパンツまつり",
+      "sourceUrl": "https://attackers.net/works/list/label/85265"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "nameJa": "AVOPEN",
+      "sourceUrl": "https://attackers.net/works/list/label/9483"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "10077",
+      "nameJa": "AVグランプリ",
+      "sourceUrl": "https://attackers.net/works/list/label/10077"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "10142",
+      "nameJa": "おっぱい祭り",
+      "sourceUrl": "https://attackers.net/works/list/label/10142"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "10144",
+      "nameJa": "秋のシコシコ強化月間",
+      "sourceUrl": "https://attackers.net/works/list/label/10144"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "10151",
+      "nameJa": "背徳ビチョビチョ！NTR大放出",
+      "sourceUrl": "https://attackers.net/works/list/label/10151"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "3669",
+      "nameJa": "Madonna",
+      "sourceUrl": "https://madonna-av.com/works/list/label/3669"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12490",
+      "nameJa": "MONROE",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12490"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9387",
+      "nameJa": "Obasan",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9387"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9789",
+      "nameJa": "MadonnaVR",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9789"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7354",
+      "nameJa": "Fitch",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7354"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9419",
+      "nameJa": "熟れコミ",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9419"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12603",
+      "nameJa": "ACHIJO(アチージョ)",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12603"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12502",
+      "nameJa": "MADOOOON!!!!",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12502"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10130",
+      "nameJa": "Re:Madonna/AIリマスター",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10130"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7993",
+      "nameJa": "Fitch　BEST",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7993"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10159",
+      "nameJa": "性録ch",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10159"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10119",
+      "nameJa": "※スマホ推奨タテ動画※マドーンショート",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10119"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "nameJa": "春のパンツまつり",
+      "sourceUrl": "https://madonna-av.com/works/list/label/85265"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "nameJa": "AVOPEN",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9483"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10142",
+      "nameJa": "おっぱい祭り",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10142"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10077",
+      "nameJa": "AVグランプリ",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10077"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10151",
+      "nameJa": "背徳ビチョビチョ！NTR大放出",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10151"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "3125",
+      "nameJa": "bizarre　amaturs",
+      "sourceUrl": "https://madonna-av.com/works/list/label/3125"
+    }
   ]
 }

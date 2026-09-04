@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000012",
+  "kind": "label",
+  "names": {
+    "ja": "アタッカーズVR",
+    "zh-CN": "ATTACKERS VR",
+    "en": "ATTACKERS VR"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/81348",
+  "externalIds": {
+    "attackers.label": "81348"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "ATTACKERS VR"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

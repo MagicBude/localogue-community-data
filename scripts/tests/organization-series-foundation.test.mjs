@@ -10,7 +10,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const validateScript = path.resolve(here, "..", "validate-foundation-registry.mjs");
 const reconcileScript = path.resolve(here, "..", "reconcile-provider-entities.mjs");
 
-async function fixture({ badLabelParent = false, duplicateMapping = false } = {}) {
+async function fixture({ badLabelParent = false, duplicateMapping = false, crossProviderSameExternalId = false } = {}) {
   const root = await mkdtemp(path.join(tmpdir(), "localogue-foundation-"));
   for (const relative of ["data/organizations", "data/series", "registry", "staging", "exports/reports", "exports/csv"]) {
     await mkdir(path.join(root, relative), { recursive: true });
@@ -40,6 +40,14 @@ async function fixture({ badLabelParent = false, duplicateMapping = false } = {}
     { provider: "demo.series", entityType: "series", externalId: "20", communityId: "series_000001", status: "approved", sourceUrl: "https://example.com/series/20", reviewedAt: "2026-09-04" },
   ];
   if (duplicateMapping) mappings.push({ ...mappings[0] });
+  if (crossProviderSameExternalId) {
+    const secondLabel = {
+      schemaVersion: 1, id: "label_000002", kind: "label", names: { ja: "Label" },
+      parentOrganizationId: "maker_000001", status: "active", externalIds: { "demo2.label": "10" },
+    };
+    await writeFile(path.join(root, "data/organizations/label2.json"), JSON.stringify(secondLabel));
+    mappings.push({ provider: "demo2.label", entityType: "label", externalId: "10", communityId: "label_000002", status: "approved", sourceUrl: "https://example.org/label/10", reviewedAt: "2026-09-04" });
+  }
   await writeFile(path.join(root, "registry/external-id-mappings.json"), JSON.stringify({ schemaVersion: 1, mappings }));
   await writeFile(path.join(root, "staging/organization-candidates.json"), JSON.stringify({ schemaVersion: 1, candidates: [] }));
   await writeFile(path.join(root, "staging/provider-observations.json"), JSON.stringify({ schemaVersion: 1, observations: [
@@ -86,5 +94,14 @@ test("Provider 稳定外部 ID 精确映射进入 auto-applied", async () => {
     assert.match(generate.stdout, /auto-applied=1/);
     const check = run(reconcileScript, root, ["--check"]);
     assert.equal(check.status, 0, `${check.stdout}\n${check.stderr}`);
+  } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+
+test("不同 Provider 可以复用相同数值外部 ID，不能按裸 ID 错误冲突", async () => {
+  const root = await fixture({ crossProviderSameExternalId: true });
+  try {
+    const result = run(validateScript, root);
+    assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
   } finally { await rm(root, { recursive: true, force: true }); }
 });

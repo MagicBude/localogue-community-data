@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000004",
+  "kind": "label",
+  "names": {
+    "ja": "龍縛",
+    "zh-CN": "龙缚"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2751",
+  "externalIds": {
+    "attackers.label": "2751"
+  },
+  "firstPublishedIn": "0.4.1"
+}

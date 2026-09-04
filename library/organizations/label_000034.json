@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000034",
+  "kind": "label",
+  "names": {
+    "ja": "おっぱい祭り",
+    "zh-CN": "Oppai祭",
+    "en": "Oppai Festival"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/10142",
+  "externalIds": {
+    "madonna.label": "10142"
+  },
+  "firstPublishedIn": "0.4.1"
+}

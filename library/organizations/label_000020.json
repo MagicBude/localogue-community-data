@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000020",
+  "kind": "label",
+  "names": {
+    "ja": "Madonna",
+    "zh-CN": "Madonna",
+    "en": "Madonna"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/3669",
+  "externalIds": {
+    "madonna.label": "3669"
+  },
+  "firstPublishedIn": "0.4.1"
+}

@@ -6,7 +6,12 @@
       "name": "IDEAPOCKET 官方作品目录",
       "sourceType": "official",
       "baseUrl": "https://ideapocket.com/",
-      "entityTypes": ["maker", "label", "series", "work"],
+      "entityTypes": [
+        "maker",
+        "label",
+        "series",
+        "work"
+      ],
       "enumeration": {
         "seriesUrlPattern": "https://ideapocket.com/works/list/series/<id>",
         "pagination": "站点目录分页；本批次未完整遍历全部 Series 页面"
@@ -16,16 +21,30 @@
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
-        {"entityType": "series", "discovered": 2, "reviewed": 2, "published": 2, "conflicts": 0, "unrecognized": 0}
+        {
+          "entityType": "series",
+          "discovered": 2,
+          "reviewed": 2,
+          "published": 2,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
       ],
-      "knownLimitations": ["本批次只验证高复用 Series 样本，没有遍历整个 Series 索引和所有分页。"]
+      "knownLimitations": [
+        "本批次只验证高复用 Series 样本，没有遍历整个 Series 索引和所有分页。"
+      ]
     },
     {
       "id": "source_moodyz_official",
       "name": "MOODYZ 官方作品目录",
       "sourceType": "official",
       "baseUrl": "https://moodyz.com/",
-      "entityTypes": ["maker", "label", "series", "work"],
+      "entityTypes": [
+        "maker",
+        "label",
+        "series",
+        "work"
+      ],
       "enumeration": {
         "labelUrlPattern": "https://moodyz.com/works/list/label/<id>",
         "seriesUrlPattern": "https://moodyz.com/works/list/series/<id>",
@@ -36,17 +55,38 @@
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
-        {"entityType": "label", "discovered": 2, "reviewed": 2, "published": 2, "conflicts": 0, "unrecognized": 0},
-        {"entityType": "series", "discovered": 1, "reviewed": 1, "published": 1, "conflicts": 0, "unrecognized": 0}
+        {
+          "entityType": "label",
+          "discovered": 2,
+          "reviewed": 2,
+          "published": 2,
+          "conflicts": 0,
+          "unrecognized": 0
+        },
+        {
+          "entityType": "series",
+          "discovered": 1,
+          "reviewed": 1,
+          "published": 1,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
       ],
-      "knownLimitations": ["尚未完整枚举全部 Label 和 Series，因此不能声明 MOODYZ 当前公开目录已覆盖。"]
+      "knownLimitations": [
+        "尚未完整枚举全部 Label 和 Series，因此不能声明 MOODYZ 当前公开目录已覆盖。"
+      ]
     },
     {
       "id": "source_s1_official",
       "name": "S1 NO.1 STYLE 官方作品目录",
       "sourceType": "official",
       "baseUrl": "https://s1s1s1.com/",
-      "entityTypes": ["maker", "label", "series", "work"],
+      "entityTypes": [
+        "maker",
+        "label",
+        "series",
+        "work"
+      ],
       "enumeration": {
         "seriesUrlPattern": "https://s1s1s1.com/works/list/series/<id>",
         "pagination": "Series 作品列表分页；本批次未完整遍历全部 Series"
@@ -56,16 +96,27 @@
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
-        {"entityType": "series", "discovered": 1, "reviewed": 1, "published": 1, "conflicts": 0, "unrecognized": 0}
+        {
+          "entityType": "series",
+          "discovered": 1,
+          "reviewed": 1,
+          "published": 1,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
       ],
-      "knownLimitations": ["新人NO.1STYLE 页面本身存在多页作品，但本批次目标是确认 Series 实体，不等价于完整枚举 S1 全部 Series。"]
+      "knownLimitations": [
+        "新人NO.1STYLE 页面本身存在多页作品，但本批次目标是确认 Series 实体，不等价于完整枚举 S1 全部 Series。"
+      ]
     },
     {
       "id": "source_will_company",
       "name": "株式会社WILL 官方公司页",
       "sourceType": "official",
       "baseUrl": "https://will-hp.jp/",
-      "entityTypes": ["company"],
+      "entityTypes": [
+        "company"
+      ],
       "enumeration": {
         "companyPage": "https://will-hp.jp/company/index.html",
         "pagination": "单页公司概要，不是 Maker/Label 枚举目录"
@@ -75,9 +126,100 @@
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": true,
       "coverage": [
-        {"entityType": "company", "discovered": 1, "reviewed": 1, "published": 0, "conflicts": 0, "unrecognized": 0}
+        {
+          "entityType": "company",
+          "discovered": 1,
+          "reviewed": 1,
+          "published": 0,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
       ],
-      "knownLimitations": ["Localogue 当前正式 OrganizationKind 尚未把 company 作为一等消费类型，因此先进入 Staging，不伪装成 Maker。"]
+      "knownLimitations": [
+        "Localogue 当前正式 OrganizationKind 尚未把 company 作为一等消费类型，因此先进入 Staging，不伪装成 Maker。"
+      ]
+    },
+    {
+      "id": "source_attackers_official",
+      "name": "ATTACKERS 官方 Maker / Label 目录",
+      "sourceType": "official",
+      "baseUrl": "https://attackers.net/",
+      "entityTypes": [
+        "maker",
+        "label"
+      ],
+      "enumeration": {
+        "makerPage": "https://attackers.net/",
+        "labelIndex": "https://attackers.net/works/label",
+        "labelUrlPattern": "https://attackers.net/works/list/label/<id>",
+        "pagination": "当前 /works/label 索引在单页列出全部 17 个可见 Label；本批次逐项进入 Label 链接核验外部 ID"
+      },
+      "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 attackers.label 命名空间内的稳定外部 ID 使用",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": true,
+      "coverage": [
+        {
+          "entityType": "maker",
+          "discovered": 1,
+          "reviewed": 1,
+          "published": 1,
+          "conflicts": 0,
+          "unrecognized": 0
+        },
+        {
+          "entityType": "label",
+          "discovered": 17,
+          "reviewed": 17,
+          "published": 17,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
+      ],
+      "knownLimitations": [
+        "completeTraversal=true 仅表示 2026-09-04 时点官方 /works/label 当前可见索引已全部遍历；不代表历史已删除 Label、Series、Work 或集团/法律公司关系已完整覆盖。"
+      ]
+    },
+    {
+      "id": "source_madonna_official",
+      "name": "Madonna 官方 Maker / Label 目录",
+      "sourceType": "official",
+      "baseUrl": "https://madonna-av.com/",
+      "entityTypes": [
+        "maker",
+        "label"
+      ],
+      "enumeration": {
+        "makerPage": "https://madonna-av.com/",
+        "labelIndex": "https://madonna-av.com/works/label",
+        "labelUrlPattern": "https://madonna-av.com/works/list/label/<id>",
+        "pagination": "当前 /works/label 索引在单页列出全部 18 个可见 Label；本批次逐项进入 Label 链接核验外部 ID"
+      },
+      "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 madonna.label 命名空间内的稳定外部 ID 使用",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": true,
+      "coverage": [
+        {
+          "entityType": "maker",
+          "discovered": 1,
+          "reviewed": 1,
+          "published": 1,
+          "conflicts": 0,
+          "unrecognized": 0
+        },
+        {
+          "entityType": "label",
+          "discovered": 18,
+          "reviewed": 18,
+          "published": 18,
+          "conflicts": 0,
+          "unrecognized": 0
+        }
+      ],
+      "knownLimitations": [
+        "completeTraversal=true 仅表示 2026-09-04 时点官方 /works/label 当前可见索引已全部遍历；不代表历史已删除 Label、Series、Work 或集团/法律公司关系已完整覆盖。"
+      ]
     }
   ]
 }

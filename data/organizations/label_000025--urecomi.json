@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000025",
+  "kind": "label",
+  "names": {
+    "ja": "熟れコミ",
+    "zh-CN": "熟れコミ"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/9419",
+  "externalIds": {
+    "madonna.label": "9419"
+  },
+  "firstPublishedIn": "0.4.1"
+}

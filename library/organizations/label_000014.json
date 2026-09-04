@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000014",
+  "kind": "label",
+  "names": {
+    "ja": "春のパンツまつり",
+    "zh-CN": "春季内裤祭",
+    "en": "Spring Panties Festival"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/85265",
+  "externalIds": {
+    "attackers.label": "85265"
+  },
+  "firstPublishedIn": "0.4.1"
+}

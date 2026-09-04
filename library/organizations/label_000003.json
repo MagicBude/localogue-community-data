@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000003",
+  "kind": "label",
+  "names": {
+    "ja": "死夜悪",
+    "zh-CN": "死夜恶"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2754",
+  "externalIds": {
+    "attackers.label": "2754"
+  },
+  "firstPublishedIn": "0.4.1"
+}

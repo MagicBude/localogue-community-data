@@ -1,6 +1,6 @@
 # Provider Entity Mapping 与精确自动关联
 
-> 适用版本：0.4.0
+> 适用版本：0.4.1
 
 本文件定义外部 Provider 的 Maker/Label/Series 如何映射到 Community Entity。
 
@@ -67,3 +67,21 @@ Foundation Validator 会拒绝：
 - approved Mapping 与目标实体 `externalIds` 不一致。
 
 这使 Mapping 表本身可以成为自动关联的可信输入，而不是另一份未经约束的别名表。
+
+## 6. Provider namespace 不是装饰字段
+
+0.4.1 的 ATTACKERS / Madonna Label Index 暴露了一个很重要的真实场景：不同官网可能出现**同名 Label，甚至相同的数值型 Label ID**。
+
+例如同为 `9483`：
+
+- `attackers.label + label + 9483`
+- `madonna.label + label + 9483`
+
+它们的 Mapping key 不相同，因为 Provider namespace 不同；对应 Label 的 `parentOrganizationId` 也分别指向不同 Maker。
+
+因此：
+
+- 不允许只拿裸数字 `9483` 当全局外部 ID；
+- 不允许只凭 `AVOPEN` 这样的同名规范名跨 Maker 合并；
+- Provider namespace + entityType + externalId 才构成外部身份键；
+- 若未来确认两个站点引用的是同一个更上层活动/项目，应另外建模，而不是破坏现有 Label 父级语义强行合并。

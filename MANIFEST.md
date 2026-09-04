@@ -1,48 +1,56 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.0**
+当前 Pack 版本：**0.4.1**
 
-基线提交：`c59e6711c26925b0eb446e63c6dc0d48b208d941`（0.3.2）
+基线版本：`0.4.0 — Organization & Series Registry Foundation`
 
 ## 当前正式数据
 
 | 数据集 | 数量 | 说明 |
 | --- | ---: | --- |
-| People | 13 | 延续 0.3.2 |
-| Works | 5 | 延续 Pilot A，不在本阶段扩量 |
-| Organizations | 5 | 3 Maker + 2 Label |
-| Series | 4 | 第一批官方 Series |
-| Genres | 325 | 延续 0.3.2 核心受控词表 |
-| Registry Active | 352 | 346 + 2 Label + 4 Series |
+| People | 13 | 本阶段不扩量 |
+| Works | 5 | 延续 Pilot A |
+| Organizations | 42 | 5 Maker + 37 Label |
+| Series | 4 | 本阶段不扩 Series |
+| Genres | 325 | 延续核心受控词表 |
+| Registry Active | 389 | 352 + 2 Maker + 35 Label |
 | Registry Redirect | 0 | 本阶段无 Merge |
 | Merge Plans | 0 | 本阶段无 Merge |
 
-## 0.4.0 Foundation 资产
+## 0.4.1 新增正式 Organization
 
-- Public Source Registry：4 个来源；
-- approved External ID Mapping：6 条；
-- Organization Candidate：1 条（株式会社WILL，公司实体暂不正式发布）；
-- Provider Observation：6 条；
-- Provider reconciliation：6 条均由已审核稳定外部 ID 精确命中。
+- `maker_000004` — ATTACKERS
+- `maker_000005` — マドンナ / Madonna
+- `label_000003` ～ `label_000019` — ATTACKERS 当前官方 Label Index 的 17 个 Label
+- `label_000020` ～ `label_000037` — Madonna 当前官方 Label Index 的 18 个 Label
 
-## 正式新增 Organization
+## Registry / Mapping
 
-- `label_000001` — MOODYZ DIVA → `maker_000002` MOODYZ
-- `label_000002` — みんなのキカタン → `maker_000002` MOODYZ
+- Public Source Registry：6 个来源；
+- approved External ID Mapping：41 条；
+- Organization Candidate：1 条（株式会社WILL）；
+- Provider Observation：41 条；
+- Provider reconciliation：41 条全部由 approved 外部 ID 精确命中。
 
-## 正式新增 Series
+## 本版本可证明的覆盖声明
 
-- `series_000001` — 新人NO.1STYLE → `maker_000003` エスワン
-- `series_000002` — カラミざかり → `maker_000002` MOODYZ
-- `series_000003` — 死ぬほど大嫌いな上司とまさかの相部屋に → `maker_000001` アイデアポケット
-- `series_000004` — うちの妻を犯して下さい → `maker_000001` アイデアポケット
+### ATTACKERS
 
-## 兼容边界
+2026-09-04 时点，`https://attackers.net/works/label` 当前公开 Label Index 单页可见 **17** 个 Label；本版本已逐项访问对应 Label URL、记录外部 ID 并正式发布，因此该 **当前公开 Label Index** 可标记 `completeTraversal=true`。
 
-0.4.0 已冻结 Group/Company/Maker/Label 语义和 Schema，但当前 Localogue Shared Pack 对 Group/Company 尚未形成完整的一等消费契约。因此 Company/Group 本阶段优先进入 Staging，禁止为了兼容把 Company/Group 伪装成 Maker/Label。
+### Madonna
 
-## 覆盖声明
+2026-09-04 时点，`https://madonna-av.com/works/label` 当前公开 Label Index 单页可见 **18** 个 Label；本版本已逐项访问对应 Label URL、记录外部 ID 并正式发布，因此该 **当前公开 Label Index** 可标记 `completeTraversal=true`。
 
-本版本**不声明已收集所有 Maker、Label 或 Series**。
+### 完整性的边界
 
-IdeaPocket、MOODYZ、S1 的本阶段数据仅是第一批官方目录样本，`completeTraversal=false`；WILL 官方公司信息页作为单页 Company Candidate 已完成本页核验，但不等于 WILL 整个品牌/组织网络已经覆盖。
+这里的“完整”只针对上述两个 URL 在检查日期公开展示的 Label Index。它**不表示**：
+
+- 已覆盖网站历史上删除或隐藏的 Label；
+- 已覆盖 ATTACKERS / Madonna 全部 Series 或 Work；
+- 已完成其法律公司、运营集团或历史组织关系；
+- 已经收集所有 AV Maker / Label。
+
+## 身份隔离原则
+
+ATTACKERS 与 Madonna 的官方 Label Index 都包含 `AVOPEN`、`AVグランプリ`、`おっぱい祭り` 等名称，其中部分 URL 甚至复用相同数值 ID。Community Data 不跨 Maker 自动合并这些条目：`attackers.label:<id>` 与 `madonna.label:<id>` 是不同 Provider namespace，且 Label 的正式父级不同。

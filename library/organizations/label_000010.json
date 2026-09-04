@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000010",
+  "kind": "label",
+  "names": {
+    "ja": "SUPER SPECIAL",
+    "zh-CN": "SUPER SPECIAL",
+    "en": "SUPER SPECIAL"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2756",
+  "externalIds": {
+    "attackers.label": "2756"
+  },
+  "firstPublishedIn": "0.4.1"
+}

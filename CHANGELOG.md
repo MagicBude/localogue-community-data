@@ -2,6 +2,28 @@
 
 本文件记录 Localogue Community Data 的 Pack 版本变化。
 
+## 0.4.1 - 2026-09-04
+
+### 新增
+
+- 正式新增 ATTACKERS 与 Madonna 两个 Maker。
+- 完整遍历 ATTACKERS 当前官方 Label Index，发布 17 个 Label。
+- 完整遍历 Madonna 当前官方 Label Index，发布 18 个 Label。
+- 为 35 个 Label 建立独立 Source Record、Provider Observation 与 approved External ID Mapping。
+- 新增 Provider namespace 隔离回归测试，允许不同官方 Provider 使用相同数值 ID，而不会错误合并不同 Maker 下的 Label。
+
+### 覆盖
+
+- `source_attackers_official`：Maker 1/1、Label 17/17，`completeTraversal=true`。
+- `source_madonna_official`：Maker 1/1、Label 18/18，`completeTraversal=true`。
+- `completeTraversal=true` 只表示 2026-09-04 时点对应官方 `/works/label` 当前公开索引全部可见条目已逐项遍历；不代表历史已删除 Label、Series、Work 或集团/法人关系已完整覆盖。
+
+### 校验
+
+- 相同的活动型 Label 名称（如 `AVOPEN`、`AVグランプリ`）如果出现在不同 Maker 的官方 Label Index 中，按 Maker-local Label 分别建实体。
+- 外部 ID 的身份键始终包含 Provider namespace；例如 `attackers.label:9483` 与 `madonna.label:9483` 不属于同一个 Mapping key。
+- 不因 Label 名称相同、数值 ID 相同或营销活动相同而跨 Maker 自动合并。
+
 ## 0.4.0 - 2026-09-04
 
 ### 新增

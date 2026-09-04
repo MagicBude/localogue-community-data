@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000029",
+  "kind": "label",
+  "names": {
+    "ja": "Fitch　BEST",
+    "zh-CN": "Fitch BEST",
+    "en": "Fitch BEST"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/7993",
+  "externalIds": {
+    "madonna.label": "7993"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "Fitch BEST"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

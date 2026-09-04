@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000022",
+  "kind": "label",
+  "names": {
+    "ja": "Obasan",
+    "zh-CN": "Obasan",
+    "en": "Obasan"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/9387",
+  "externalIds": {
+    "madonna.label": "9387"
+  },
+  "firstPublishedIn": "0.4.1"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000018",
+  "kind": "label",
+  "names": {
+    "ja": "秋のシコシコ強化月間",
+    "zh-CN": "秋季强化月"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/10144",
+  "externalIds": {
+    "attackers.label": "10144"
+  },
+  "firstPublishedIn": "0.4.1"
+}

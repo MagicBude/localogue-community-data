@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000021",
+  "kind": "label",
+  "names": {
+    "ja": "MONROE",
+    "zh-CN": "MONROE",
+    "en": "MONROE"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/12490",
+  "externalIds": {
+    "madonna.label": "12490"
+  },
+  "firstPublishedIn": "0.4.1"
+}

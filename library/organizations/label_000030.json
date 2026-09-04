@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000030",
+  "kind": "label",
+  "names": {
+    "ja": "性録ch",
+    "zh-CN": "性录ch"
+  },
+  "parentOrganizationId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/label/10159",
+  "externalIds": {
+    "madonna.label": "10159"
+  },
+  "firstPublishedIn": "0.4.1"
+}

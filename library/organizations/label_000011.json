@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000011",
+  "kind": "label",
+  "names": {
+    "ja": "誘女",
+    "zh-CN": "诱女"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/12605",
+  "externalIds": {
+    "attackers.label": "12605"
+  },
+  "firstPublishedIn": "0.4.1"
+}

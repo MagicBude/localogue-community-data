@@ -1,6 +1,6 @@
 # Organization & Series Registry
 
-> 适用版本：Localogue Community Data 0.4.0
+> 适用版本：Localogue Community Data 0.4.1
 
 本文说明 Community Data 如何区分 Group、Company、Maker、Label 与 Series，以及为什么这些概念不能只用“厂商”一个字段混在一起。
 
@@ -103,3 +103,11 @@ WILL 公司信息已经通过官方公司页核验，但由于当前消费兼容
 - 是否存在同名历史实体；
 - 官方来源；
 - 外部 ID 是否与既有 Mapping 冲突。
+
+## 8. 0.4.1：Maker-local Label 身份
+
+ATTACKERS 与 Madonna 的官方 Label Index 同时出现了 `AVOPEN`、`AVグランプリ`、`おっぱい祭り`、`春のパンツまつり`、`背徳ビチョビチョ！NTR大放出` 等名称。
+
+当前 Organization 模型规定 Label 必须直接挂 Maker，所以这些条目按**各自官方 Maker 目录中的 Label 身份**分别发布。即使名称相同、官网底层数值 ID 相同，也不能绕过父级关系直接合并。
+
+这并不否认它们可能来自同一个跨 Maker 活动；它只是说明“跨 Maker 活动”与“Maker 目录里的 Label”是两个不同层级的问题。未来如果需要表达活动实体，应新增合适的数据模型，而不是让一个 Label 同时拥有多个 Maker 父级。

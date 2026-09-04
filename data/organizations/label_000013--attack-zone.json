@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000013",
+  "kind": "label",
+  "names": {
+    "ja": "アタックゾーン",
+    "zh-CN": "Attack Zone",
+    "en": "Attack Zone"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/5245",
+  "externalIds": {
+    "attackers.label": "5245"
+  },
+  "firstPublishedIn": "0.4.1",
+  "aliases": {
+    "ja": [
+      "ATTACK ZONE"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

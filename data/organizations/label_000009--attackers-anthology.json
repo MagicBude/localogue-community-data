@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000009",
+  "kind": "label",
+  "names": {
+    "ja": "アタッカーズ・アンソロジー",
+    "zh-CN": "ATTACKERS Anthology",
+    "en": "ATTACKERS Anthology"
+  },
+  "parentOrganizationId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/label/2735",
+  "externalIds": {
+    "attackers.label": "2735"
+  },
+  "firstPublishedIn": "0.4.1"
+}
