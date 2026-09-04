@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.5 - 2026-09-04
+
+### Series Candidate Review / Promotion Batch A
+
+- 新增 `staging/series-candidate-reviews.json`，将 Snapshot candidate 的人工审核决策与正式发布解耦。
+- 新增 Review Schema、Validator、CSV/XLSX 审核视图与 3 条回归测试。
+- 将 0.4.4 两份 partial Snapshot 中 19 个 `candidate-new` 逐项经官方 Series 详情页复核后正式发布：ATTACKERS 9 个、Madonna 10 个。
+- Series 从 17 增加到 36，Registry Active 从 446 增加到 465，approved External ID Mapping 从 98 增加到 117。
+- 最新 Snapshot Diff 更新为 20 个 `published`、0 candidate、0 drift、0 conflict；Snapshot 仍为 partial，因此 ATTACKERS / Madonna Series completeTraversal 保持 false。
+- `publish` Review 必须同时与 Snapshot、正式 Series 和 approved Mapping 三方一致；`hold/reject` 禁止提前占用 Community ID。
+
+
 ## 0.4.4 - 2026-09-04
 
 ### Added

@@ -3089,6 +3089,139 @@
       "firstPublishedIn": "0.4.3"
     },
     {
+      "id": "series_000018",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000019",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000020",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000021",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000022",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000023",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000024",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000025",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000026",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000027",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000028",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000029",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000030",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000031",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000032",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000033",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000034",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000035",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
+      "id": "series_000036",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.5"
+    },
+    {
       "id": "work_000001",
       "entityType": "work",
       "collection": "works",

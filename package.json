@@ -1,6 +1,6 @@
 {
   "name": "localogue-community-data",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "private": true,
   "packageManager": "pnpm@11.24.0",
   "engines": {
@@ -10,13 +10,14 @@
     "data:build": "node scripts/build-data.mjs",
     "data:export:xlsx": "node scripts/export-xlsx.mjs && node scripts/export-foundation-xlsx.mjs",
     "provider:reconcile": "node scripts/reconcile-provider-entities.mjs",
-    "check": "node scripts/build-data.mjs --check && node scripts/validate-repository-json.mjs && node scripts/validate-pack.mjs && node scripts/validate-foundation-registry.mjs && node scripts/validate-series-index-snapshots.mjs && node scripts/reconcile-provider-entities.mjs --check && node scripts/diff-series-index-snapshots.mjs --check && node scripts/validate-examples.mjs && node --test scripts/tests/*.test.mjs",
+    "check": "node scripts/build-data.mjs --check && node scripts/validate-repository-json.mjs && node scripts/validate-pack.mjs && node scripts/validate-foundation-registry.mjs && node scripts/validate-series-index-snapshots.mjs && node scripts/validate-series-candidate-reviews.mjs && node scripts/reconcile-provider-entities.mjs --check && node scripts/diff-series-index-snapshots.mjs --check && node scripts/validate-examples.mjs && node --test scripts/tests/*.test.mjs",
     "check:localogue": "node scripts/check-localogue-contract.mjs",
     "stats": "node scripts/stats.mjs",
     "new": "node scripts/new-id.mjs",
     "new:id": "node scripts/new-id.mjs",
     "series:index:snapshot": "node scripts/snapshot-series-index.mjs",
-    "series:index:diff": "node scripts/diff-series-index-snapshots.mjs"
+    "series:index:diff": "node scripts/diff-series-index-snapshots.mjs",
+    "series:index:review:check": "node scripts/validate-series-candidate-reviews.mjs"
   },
   "dependencies": {
     "exceljs": "^4.4.0"

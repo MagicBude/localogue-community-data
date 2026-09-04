@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000026",
+  "names": {
+    "ja": "女豹",
+    "zh-CN": "女豹",
+    "en": "Leopard Woman"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2263",
+  "externalIds": {
+    "attackers.series": "2263"
+  },
+  "firstPublishedIn": "0.4.5"
+}

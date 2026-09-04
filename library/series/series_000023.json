@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000023",
+  "names": {
+    "ja": "貞操帯の女",
+    "zh-CN": "贞操带之女",
+    "en": "Woman in a Chastity Belt"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2259",
+  "externalIds": {
+    "attackers.series": "2259"
+  },
+  "firstPublishedIn": "0.4.5"
+}

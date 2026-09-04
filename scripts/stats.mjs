@@ -85,4 +85,17 @@ try {
   stats.seriesIndexCandidates = "ERROR";
   stats.seriesIndexMissingFromComplete = "ERROR";
 }
+try {
+  const reviews = JSON.parse(await readFile(path.resolve(process.cwd(), "staging/series-candidate-reviews.json"), "utf8"));
+  const items = Array.isArray(reviews.reviews) ? reviews.reviews : [];
+  stats.seriesCandidateReviews = items.length;
+  stats.seriesCandidateReviewPublish = items.filter((item) => item.decision === "publish").length;
+  stats.seriesCandidateReviewHold = items.filter((item) => item.decision === "hold").length;
+  stats.seriesCandidateReviewReject = items.filter((item) => item.decision === "reject").length;
+} catch {
+  stats.seriesCandidateReviews = "ERROR";
+  stats.seriesCandidateReviewPublish = "ERROR";
+  stats.seriesCandidateReviewHold = "ERROR";
+  stats.seriesCandidateReviewReject = "ERROR";
+}
 console.table(stats);

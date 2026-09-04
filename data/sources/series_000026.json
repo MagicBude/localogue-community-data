@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000026",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://attackers.net/works/list/series/2263",
+      "kind": "official",
+      "title": "女豹該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "0.4.4 Series Index Snapshot 中的候选经官方 Series 详情页人工复核后发布。URL 路径中的 2263 登记为 attackers.series 命名空间内的稳定外部 ID；未根据名称推断 Label 归属。"
+    }
+  ]
+}

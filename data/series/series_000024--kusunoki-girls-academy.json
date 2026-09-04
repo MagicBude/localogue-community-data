@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000024",
+  "names": {
+    "ja": "楠木女学院",
+    "zh-CN": "楠木女子学院",
+    "en": "Kusunoki Girls’ Academy"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2260",
+  "externalIds": {
+    "attackers.series": "2260"
+  },
+  "firstPublishedIn": "0.4.5"
+}

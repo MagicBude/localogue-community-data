@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000021",
+  "names": {
+    "ja": "絶対調教",
+    "zh-CN": "绝对调教",
+    "en": "Absolute Training"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2257",
+  "externalIds": {
+    "attackers.series": "2257"
+  },
+  "firstPublishedIn": "0.4.5"
+}

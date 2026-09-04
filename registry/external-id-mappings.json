@@ -157,10 +157,91 @@
     {
       "provider": "attackers.series",
       "entityType": "series",
+      "externalId": "2253",
+      "communityId": "series_000018",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2253",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2254",
+      "communityId": "series_000019",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2254",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2255",
+      "communityId": "series_000020",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2255",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
       "externalId": "2256",
       "communityId": "series_000011",
       "status": "approved",
       "sourceUrl": "https://attackers.net/works/list/series/2256",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2257",
+      "communityId": "series_000021",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2257",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2258",
+      "communityId": "series_000022",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2258",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2259",
+      "communityId": "series_000023",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2259",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2260",
+      "communityId": "series_000024",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2260",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2261",
+      "communityId": "series_000025",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2261",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2263",
+      "communityId": "series_000026",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2263",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -548,6 +629,96 @@
       "communityId": "label_000023",
       "status": "approved",
       "sourceUrl": "https://madonna-av.com/works/list/label/9789",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1549",
+      "communityId": "series_000027",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1549",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1550",
+      "communityId": "series_000028",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1550",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1551",
+      "communityId": "series_000029",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1551",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1552",
+      "communityId": "series_000030",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1552",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1553",
+      "communityId": "series_000031",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1553",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1554",
+      "communityId": "series_000032",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1554",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1555",
+      "communityId": "series_000033",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1555",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1556",
+      "communityId": "series_000034",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1556",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1557",
+      "communityId": "series_000035",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1557",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1558",
+      "communityId": "series_000036",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1558",
       "reviewedAt": "2026-09-04"
     },
     {

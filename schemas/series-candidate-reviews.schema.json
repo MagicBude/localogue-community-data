@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MagicBude/localogue-community-data/schemas/series-candidate-reviews.schema.json",
+  "title": "Localogue Series Candidate Review Ledger",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "reviews"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "provider",
+          "externalId",
+          "snapshotId",
+          "decision",
+          "reviewedAt",
+          "nameJa",
+          "makerId",
+          "sourceUrl",
+          "reason"
+        ],
+        "properties": {
+          "provider": {
+            "type": "string",
+            "minLength": 1
+          },
+          "externalId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "snapshotId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decision": {
+            "enum": [
+              "publish",
+              "hold",
+              "reject"
+            ]
+          },
+          "reviewedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "communityId": {
+            "type": "string",
+            "pattern": "^series_[0-9]{6}$"
+          },
+          "nameJa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "makerId": {
+            "type": "string",
+            "pattern": "^maker_[0-9]{6}$"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -256,6 +256,14 @@ const candidateRows = (candidates.candidates ?? []).map((candidate) => [
 ]);
 output.set("exports/csv/organization-candidates.csv", csv([candidateHeader, ...candidateRows]));
 
+const seriesReviews = await readJson("staging/series-candidate-reviews.json", { reviews: [] });
+const seriesReviewHeader = ["provider","external_id","snapshot_id","decision","reviewed_at","community_id","name_ja","maker_id","source_url","reason"];
+const seriesReviewRows = (seriesReviews.reviews ?? []).map((review) => [
+  review.provider, review.externalId, review.snapshotId, review.decision, review.reviewedAt, review.communityId ?? "",
+  review.nameJa, review.makerId, review.sourceUrl, review.reason,
+]);
+output.set("exports/csv/series-candidate-reviews.csv", csv([seriesReviewHeader, ...seriesReviewRows]));
+
 let stale = [];
 if (!checkOnly) {
   for (const collection of collections) {

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000031",
+  "names": {
+    "ja": "僕のおばさん",
+    "zh-CN": "我的阿姨",
+    "en": "My Aunt"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1553",
+  "externalIds": {
+    "madonna.series": "1553"
+  },
+  "firstPublishedIn": "0.4.5"
+}

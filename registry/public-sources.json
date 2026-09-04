@@ -212,15 +212,15 @@
         {
           "entityType": "series",
           "discovered": 17,
-          "reviewed": 8,
-          "published": 8,
+          "reviewed": 17,
+          "published": 17,
           "conflicts": 0,
-          "unrecognized": 9,
+          "unrecognized": 0,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "ATTACKERS Maker/Label coverage 已完整；Series 已建立 partial index snapshot。当前联合发现 17 个 Series，其中 8 个已发布、9 个仍为待审核候选；快照不是完整遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
+        "ATTACKERS 当前 partial Series Snapshot 联合发现 17 个 Series，已全部审核并发布；但 Snapshot 不是完整索引遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
       ]
     },
     {
@@ -268,15 +268,15 @@
         {
           "entityType": "series",
           "discovered": 13,
-          "reviewed": 3,
-          "published": 3,
+          "reviewed": 13,
+          "published": 13,
           "conflicts": 0,
-          "unrecognized": 10,
+          "unrecognized": 0,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "Madonna Maker/Label coverage 已完整；Series 已建立 partial index snapshot。当前联合发现 13 个 Series，其中 3 个已发布、10 个仍为待审核候选；快照不是完整遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
+        "Madonna 当前 partial Series Snapshot 联合发现 13 个 Series，已全部审核并发布；但 Snapshot 不是完整索引遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
       ]
     }
   ]

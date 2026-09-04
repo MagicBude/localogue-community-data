@@ -42,6 +42,7 @@ const mappings = await readJson("registry/external-id-mappings.json", { mappings
 const candidates = await readJson("staging/organization-candidates.json", { candidates: [] });
 const reconciliation = await readJson("exports/reports/provider-reconciliation.json", { results: [] });
 const seriesIndexDiff = await readJson("exports/reports/series-index-diff.json", { selectedSnapshots: [], results: [] });
+const seriesCandidateReviews = await readJson("staging/series-candidate-reviews.json", { reviews: [] });
 const orgById = new Map(organizations.map((item) => [item.id, item]));
 
 const workbook = new ExcelJS.Workbook();
@@ -98,6 +99,12 @@ setupSheet(workbook, "Series Index Candidates", [
   ["Classification", "classification", 24], ["Reason", "reason", 36], ["Provider", "provider", 24], ["Snapshot ID", "snapshotId", 38],
   ["External ID", "externalId", 18], ["日本語", "ja", 42], ["Maker ID", "makerId", 18], ["Community ID", "communityId", 20], ["Candidates", "candidates", 28], ["Source URL", "url", 56],
 ], (seriesIndexDiff.results ?? []).filter((item) => item.classification !== "published").map((item) => ({ classification: item.classification, reason: item.reason, provider: item.provider, snapshotId: item.snapshotId, externalId: item.externalId, ja: item.nameJa, makerId: item.makerId, communityId: item.communityId ?? "", candidates: (item.candidateCommunityIds ?? []).join("; "), url: item.sourceUrl })));
+
+setupSheet(workbook, "Series Candidate Reviews", [
+  ["Decision", "decision", 14], ["Provider", "provider", 24], ["External ID", "externalId", 18], ["Snapshot ID", "snapshotId", 40],
+  ["Community ID", "communityId", 20], ["日本語", "ja", 42], ["Maker ID", "makerId", 18], ["Reviewed", "reviewedAt", 14],
+  ["Source URL", "url", 56], ["Reason", "reason", 70],
+], (seriesCandidateReviews.reviews ?? []).map((item) => ({ decision: item.decision, provider: item.provider, externalId: item.externalId, snapshotId: item.snapshotId, communityId: item.communityId ?? "", ja: item.nameJa, makerId: item.makerId, reviewedAt: item.reviewedAt, url: item.sourceUrl, reason: item.reason })));
 
 await fs.mkdir(path.dirname(out), { recursive: true });
 await workbook.xlsx.writeFile(out);

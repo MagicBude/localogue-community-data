@@ -2,158 +2,6 @@
   "schemaVersion": 1,
   "observations": [
     {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5048",
-      "nameJa": "MOODYZ DIVA",
-      "sourceUrl": "https://moodyz.com/works/list/label/5048"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "12798",
-      "nameJa": "みんなのキカタン",
-      "sourceUrl": "https://moodyz.com/works/list/label/12798"
-    },
-    {
-      "sourceId": "source_s1_official",
-      "provider": "s1.series",
-      "entityType": "series",
-      "externalId": "414",
-      "nameJa": "新人NO.1STYLE",
-      "sourceUrl": "https://s1s1s1.com/works/list/series/414"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.series",
-      "entityType": "series",
-      "externalId": "5427",
-      "nameJa": "カラミざかり",
-      "sourceUrl": "https://moodyz.com/works/list/series/5427"
-    },
-    {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.series",
-      "entityType": "series",
-      "externalId": "863",
-      "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
-      "sourceUrl": "https://ideapocket.com/works/list/series/863"
-    },
-    {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.series",
-      "entityType": "series",
-      "externalId": "1011",
-      "nameJa": "うちの妻を犯して下さい",
-      "sourceUrl": "https://ideapocket.com/works/list/series/1011"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2754",
-      "nameJa": "死夜悪",
-      "sourceUrl": "https://attackers.net/works/list/label/2754"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2751",
-      "nameJa": "龍縛",
-      "sourceUrl": "https://attackers.net/works/list/label/2751"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "9455",
-      "nameJa": "大人のドラマ",
-      "sourceUrl": "https://attackers.net/works/list/label/9455"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2737",
-      "nameJa": "淫魔",
-      "sourceUrl": "https://attackers.net/works/list/label/2737"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2739",
-      "nameJa": "Attackers",
-      "sourceUrl": "https://attackers.net/works/list/label/2739"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2749",
-      "nameJa": "蛇縛",
-      "sourceUrl": "https://attackers.net/works/list/label/2749"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2735",
-      "nameJa": "アタッカーズ・アンソロジー",
-      "sourceUrl": "https://attackers.net/works/list/label/2735"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2756",
-      "nameJa": "SUPER SPECIAL",
-      "sourceUrl": "https://attackers.net/works/list/label/2756"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "12605",
-      "nameJa": "誘女",
-      "sourceUrl": "https://attackers.net/works/list/label/12605"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "81348",
-      "nameJa": "アタッカーズVR",
-      "sourceUrl": "https://attackers.net/works/list/label/81348"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "5245",
-      "nameJa": "アタックゾーン",
-      "sourceUrl": "https://attackers.net/works/list/label/5245"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "85265",
-      "nameJa": "春のパンツまつり",
-      "sourceUrl": "https://attackers.net/works/list/label/85265"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "9483",
-      "nameJa": "AVOPEN",
-      "sourceUrl": "https://attackers.net/works/list/label/9483"
-    },
-    {
       "sourceId": "source_attackers_official",
       "provider": "attackers.label",
       "entityType": "label",
@@ -186,124 +34,388 @@
       "sourceUrl": "https://attackers.net/works/list/label/10151"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "3669",
-      "nameJa": "Madonna",
-      "sourceUrl": "https://madonna-av.com/works/list/label/3669"
+      "externalId": "12605",
+      "nameJa": "誘女",
+      "sourceUrl": "https://attackers.net/works/list/label/12605"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12490",
-      "nameJa": "MONROE",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12490"
+      "externalId": "2735",
+      "nameJa": "アタッカーズ・アンソロジー",
+      "sourceUrl": "https://attackers.net/works/list/label/2735"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9387",
-      "nameJa": "Obasan",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9387"
+      "externalId": "2737",
+      "nameJa": "淫魔",
+      "sourceUrl": "https://attackers.net/works/list/label/2737"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9789",
-      "nameJa": "MadonnaVR",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9789"
+      "externalId": "2739",
+      "nameJa": "Attackers",
+      "sourceUrl": "https://attackers.net/works/list/label/2739"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "7354",
-      "nameJa": "Fitch",
-      "sourceUrl": "https://madonna-av.com/works/list/label/7354"
+      "externalId": "2749",
+      "nameJa": "蛇縛",
+      "sourceUrl": "https://attackers.net/works/list/label/2749"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9419",
-      "nameJa": "熟れコミ",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9419"
+      "externalId": "2751",
+      "nameJa": "龍縛",
+      "sourceUrl": "https://attackers.net/works/list/label/2751"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12603",
-      "nameJa": "ACHIJO(アチージョ)",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12603"
+      "externalId": "2754",
+      "nameJa": "死夜悪",
+      "sourceUrl": "https://attackers.net/works/list/label/2754"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12502",
-      "nameJa": "MADOOOON!!!!",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12502"
+      "externalId": "2756",
+      "nameJa": "SUPER SPECIAL",
+      "sourceUrl": "https://attackers.net/works/list/label/2756"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "10130",
-      "nameJa": "Re:Madonna/AIリマスター",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10130"
+      "externalId": "5245",
+      "nameJa": "アタックゾーン",
+      "sourceUrl": "https://attackers.net/works/list/label/5245"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "7993",
-      "nameJa": "Fitch　BEST",
-      "sourceUrl": "https://madonna-av.com/works/list/label/7993"
+      "externalId": "81348",
+      "nameJa": "アタッカーズVR",
+      "sourceUrl": "https://attackers.net/works/list/label/81348"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
-      "entityType": "label",
-      "externalId": "10159",
-      "nameJa": "性録ch",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10159"
-    },
-    {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
-      "entityType": "label",
-      "externalId": "10119",
-      "nameJa": "※スマホ推奨タテ動画※マドーンショート",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10119"
-    },
-    {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
       "externalId": "85265",
       "nameJa": "春のパンツまつり",
-      "sourceUrl": "https://madonna-av.com/works/list/label/85265"
+      "sourceUrl": "https://attackers.net/works/list/label/85265"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "9455",
+      "nameJa": "大人のドラマ",
+      "sourceUrl": "https://attackers.net/works/list/label/9455"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.label",
       "entityType": "label",
       "externalId": "9483",
       "nameJa": "AVOPEN",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9483"
+      "sourceUrl": "https://attackers.net/works/list/label/9483"
     },
     {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.label",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2253",
+      "nameJa": "アナル奴隷白書",
+      "sourceUrl": "https://attackers.net/works/list/series/2253"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2254",
+      "nameJa": "夫の目の前で犯されて",
+      "sourceUrl": "https://attackers.net/works/list/series/2254"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2255",
+      "nameJa": "地獄の女神",
+      "sourceUrl": "https://attackers.net/works/list/series/2255"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2256",
+      "nameJa": "奴隷島",
+      "sourceUrl": "https://attackers.net/works/list/series/2256"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2257",
+      "nameJa": "絶対調教",
+      "sourceUrl": "https://attackers.net/works/list/series/2257"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2258",
+      "nameJa": "淫乱奴隷の強制快楽",
+      "sourceUrl": "https://attackers.net/works/list/series/2258"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2259",
+      "nameJa": "貞操帯の女",
+      "sourceUrl": "https://attackers.net/works/list/series/2259"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2260",
+      "nameJa": "楠木女学院",
+      "sourceUrl": "https://attackers.net/works/list/series/2260"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2261",
+      "nameJa": "鬼畜輪姦",
+      "sourceUrl": "https://attackers.net/works/list/series/2261"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2263",
+      "nameJa": "女豹",
+      "sourceUrl": "https://attackers.net/works/list/series/2263"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2269",
+      "nameJa": "あなたに愛されたくて。",
+      "sourceUrl": "https://attackers.net/works/list/series/2269"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2270",
+      "nameJa": "あなた、許して…。",
+      "sourceUrl": "https://attackers.net/works/list/series/2270"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2274",
+      "nameJa": "犯される度に美しく",
+      "sourceUrl": "https://attackers.net/works/list/series/2274"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2293",
+      "nameJa": "脱獄者",
+      "sourceUrl": "https://attackers.net/works/list/series/2293"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2325",
+      "nameJa": "団鬼六",
+      "sourceUrl": "https://attackers.net/works/list/series/2325"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2402",
+      "nameJa": "侵入者",
+      "sourceUrl": "https://attackers.net/works/list/series/2402"
+    },
+    {
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "5317",
+      "nameJa": "調教志願",
+      "sourceUrl": "https://attackers.net/works/list/series/5317"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10077",
+      "nameJa": "AVグランプリ",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10077"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10103",
+      "nameJa": "SELECTED",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10103"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
       "entityType": "label",
       "externalId": "10142",
       "nameJa": "おっぱい祭り",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10142"
+      "sourceUrl": "https://ideapocket.com/works/list/label/10142"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10144",
+      "nameJa": "秋のシコシコ強化月間",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10144"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10151",
+      "nameJa": "背徳ビチョビチョ！NTR大放出",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10151"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "12442",
+      "nameJa": "アイポケ逸材発掘プロジェクト",
+      "sourceUrl": "https://ideapocket.com/works/list/label/12442"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "12835",
+      "nameJa": "ゆるポケ",
+      "sourceUrl": "https://ideapocket.com/works/list/label/12835"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2758",
+      "nameJa": "Angel",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2758"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2760",
+      "nameJa": "Angel PREMIUM",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2760"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2767",
+      "nameJa": "HIGH-SCHOOL Pink",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2767"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2769",
+      "nameJa": "アイデアポケットBEST",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2769"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2771",
+      "nameJa": "ティッシュ",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2771"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2776",
+      "nameJa": "Supreme",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2776"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "nameJa": "春のパンツまつり",
+      "sourceUrl": "https://ideapocket.com/works/list/label/85265"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "nameJa": "AVOPEN",
+      "sourceUrl": "https://ideapocket.com/works/list/label/9483"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "9790",
+      "nameJa": "IP-VR",
+      "sourceUrl": "https://ideapocket.com/works/list/label/9790"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "1011",
+      "nameJa": "うちの妻を犯して下さい",
+      "sourceUrl": "https://ideapocket.com/works/list/series/1011"
+    },
+    {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "863",
+      "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
+      "sourceUrl": "https://ideapocket.com/works/list/series/863"
     },
     {
       "sourceId": "source_madonna_official",
@@ -317,9 +429,65 @@
       "sourceId": "source_madonna_official",
       "provider": "madonna.label",
       "entityType": "label",
+      "externalId": "10119",
+      "nameJa": "※スマホ推奨タテ動画※マドーンショート",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10119"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10130",
+      "nameJa": "Re:Madonna/AIリマスター",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10130"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10142",
+      "nameJa": "おっぱい祭り",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10142"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
       "externalId": "10151",
       "nameJa": "背徳ビチョビチョ！NTR大放出",
       "sourceUrl": "https://madonna-av.com/works/list/label/10151"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10159",
+      "nameJa": "性録ch",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10159"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12490",
+      "nameJa": "MONROE",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12490"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12502",
+      "nameJa": "MADOOOON!!!!",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12502"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12603",
+      "nameJa": "ACHIJO(アチージョ)",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12603"
     },
     {
       "sourceId": "source_madonna_official",
@@ -330,68 +498,188 @@
       "sourceUrl": "https://madonna-av.com/works/list/label/3125"
     },
     {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
       "entityType": "label",
-      "externalId": "5047",
-      "nameJa": "MOODYZ BEST",
-      "sourceUrl": "https://moodyz.com/works/list/label/5047"
+      "externalId": "3669",
+      "nameJa": "Madonna",
+      "sourceUrl": "https://madonna-av.com/works/list/label/3669"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7354",
+      "nameJa": "Fitch",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7354"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7993",
+      "nameJa": "Fitch　BEST",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7993"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "nameJa": "春のパンツまつり",
+      "sourceUrl": "https://madonna-av.com/works/list/label/85265"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9387",
+      "nameJa": "Obasan",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9387"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9419",
+      "nameJa": "熟れコミ",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9419"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "nameJa": "AVOPEN",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9483"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9789",
+      "nameJa": "MadonnaVR",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9789"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1549",
+      "nameJa": "となりの奥さん",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1549"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1550",
+      "nameJa": "美熟女と黒人",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1550"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1551",
+      "nameJa": "愛する夫の目の前で・・・",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1551"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1552",
+      "nameJa": "特選 友達の母",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1552"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1553",
+      "nameJa": "僕のおばさん",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1553"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1554",
+      "nameJa": "素人人妻ナンパ総集編4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1554"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1555",
+      "nameJa": "五十路熟女18人4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1555"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1556",
+      "nameJa": "団地妻20人4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1556"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1557",
+      "nameJa": "犯された熟女たち総集編4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1557"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1558",
+      "nameJa": "妖艶おんな愛戯",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1558"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1749",
+      "nameJa": "夫の上司に飾られた　人妻ボディアクセサリー",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1749"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1846",
+      "nameJa": "年下レズビアンに愛された私",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1846"
+    },
+    {
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1891",
+      "nameJa": "廃業寸前",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1891"
     },
     {
       "sourceId": "source_moodyz_official",
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "5046",
-      "nameJa": "MOODYZ ACID",
-      "sourceUrl": "https://moodyz.com/works/list/label/5046"
+      "externalId": "10077",
+      "nameJa": "AVグランプリ",
+      "sourceUrl": "https://moodyz.com/works/list/label/10077"
     },
     {
       "sourceId": "source_moodyz_official",
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "6879",
-      "nameJa": "MOODYZ GATI",
-      "sourceUrl": "https://moodyz.com/works/list/label/6879"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9782",
-      "nameJa": "MOODYZ VR",
-      "sourceUrl": "https://moodyz.com/works/list/label/9782"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9732",
-      "nameJa": "MOODYZ Fresh",
-      "sourceUrl": "https://moodyz.com/works/list/label/9732"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9308",
-      "nameJa": "まんきつ",
-      "sourceUrl": "https://moodyz.com/works/list/label/9308"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5090",
-      "nameJa": "MOODYZ REAL",
-      "sourceUrl": "https://moodyz.com/works/list/label/5090"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5049",
-      "nameJa": "MOODYZ ISM",
-      "sourceUrl": "https://moodyz.com/works/list/label/5049"
+      "externalId": "10106",
+      "nameJa": "エロい！",
+      "sourceUrl": "https://moodyz.com/works/list/label/10106"
     },
     {
       "sourceId": "source_moodyz_official",
@@ -408,102 +696,6 @@
       "externalId": "10131",
       "nameJa": "MOODYZ ニュージーニアス",
       "sourceUrl": "https://moodyz.com/works/list/label/10131"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9458",
-      "nameJa": "MUTTURI",
-      "sourceUrl": "https://moodyz.com/works/list/label/9458"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5409",
-      "nameJa": "MOODYZ VALUE",
-      "sourceUrl": "https://moodyz.com/works/list/label/5409"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10174",
-      "nameJa": "ハメドリ",
-      "sourceUrl": "https://moodyz.com/works/list/label/10174"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "8916",
-      "nameJa": "MOODYZ ASS",
-      "sourceUrl": "https://moodyz.com/works/list/label/8916"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9397",
-      "nameJa": "Q-EYE",
-      "sourceUrl": "https://moodyz.com/works/list/label/9397"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10106",
-      "nameJa": "エロい！",
-      "sourceUrl": "https://moodyz.com/works/list/label/10106"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9288",
-      "nameJa": "寝取られ本舗",
-      "sourceUrl": "https://moodyz.com/works/list/label/9288"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "8917",
-      "nameJa": "MOODYZ ES",
-      "sourceUrl": "https://moodyz.com/works/list/label/8917"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "85265",
-      "nameJa": "春のパンツまつり",
-      "sourceUrl": "https://moodyz.com/works/list/label/85265"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "11471",
-      "nameJa": "BD-MOODYZ DIVA",
-      "sourceUrl": "https://moodyz.com/works/list/label/11471"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10157",
-      "nameJa": "MOODYZ HARD",
-      "sourceUrl": "https://moodyz.com/works/list/label/10157"
-    },
-    {
-      "sourceId": "source_moodyz_official",
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9483",
-      "nameJa": "AVOPEN",
-      "sourceUrl": "https://moodyz.com/works/list/label/9483"
     },
     {
       "sourceId": "source_moodyz_official",
@@ -533,9 +725,9 @@
       "sourceId": "source_moodyz_official",
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10077",
-      "nameJa": "AVグランプリ",
-      "sourceUrl": "https://moodyz.com/works/list/label/10077"
+      "externalId": "10157",
+      "nameJa": "MOODYZ HARD",
+      "sourceUrl": "https://moodyz.com/works/list/label/10157"
     },
     {
       "sourceId": "source_moodyz_official",
@@ -546,132 +738,172 @@
       "sourceUrl": "https://moodyz.com/works/list/label/10172"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2771",
-      "nameJa": "ティッシュ",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2771"
+      "externalId": "10174",
+      "nameJa": "ハメドリ",
+      "sourceUrl": "https://moodyz.com/works/list/label/10174"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2769",
-      "nameJa": "アイデアポケットBEST",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2769"
+      "externalId": "11471",
+      "nameJa": "BD-MOODYZ DIVA",
+      "sourceUrl": "https://moodyz.com/works/list/label/11471"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "9790",
-      "nameJa": "IP-VR",
-      "sourceUrl": "https://ideapocket.com/works/list/label/9790"
+      "externalId": "12798",
+      "nameJa": "みんなのキカタン",
+      "sourceUrl": "https://moodyz.com/works/list/label/12798"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2776",
-      "nameJa": "Supreme",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2776"
+      "externalId": "5046",
+      "nameJa": "MOODYZ ACID",
+      "sourceUrl": "https://moodyz.com/works/list/label/5046"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "12442",
-      "nameJa": "アイポケ逸材発掘プロジェクト",
-      "sourceUrl": "https://ideapocket.com/works/list/label/12442"
+      "externalId": "5047",
+      "nameJa": "MOODYZ BEST",
+      "sourceUrl": "https://moodyz.com/works/list/label/5047"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2767",
-      "nameJa": "HIGH-SCHOOL Pink",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2767"
+      "externalId": "5048",
+      "nameJa": "MOODYZ DIVA",
+      "sourceUrl": "https://moodyz.com/works/list/label/5048"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "12835",
-      "nameJa": "ゆるポケ",
-      "sourceUrl": "https://ideapocket.com/works/list/label/12835"
+      "externalId": "5049",
+      "nameJa": "MOODYZ ISM",
+      "sourceUrl": "https://moodyz.com/works/list/label/5049"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2758",
-      "nameJa": "Angel",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2758"
+      "externalId": "5090",
+      "nameJa": "MOODYZ REAL",
+      "sourceUrl": "https://moodyz.com/works/list/label/5090"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10103",
-      "nameJa": "SELECTED",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10103"
+      "externalId": "5409",
+      "nameJa": "MOODYZ VALUE",
+      "sourceUrl": "https://moodyz.com/works/list/label/5409"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "9483",
-      "nameJa": "AVOPEN",
-      "sourceUrl": "https://ideapocket.com/works/list/label/9483"
+      "externalId": "6879",
+      "nameJa": "MOODYZ GATI",
+      "sourceUrl": "https://moodyz.com/works/list/label/6879"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
       "externalId": "85265",
       "nameJa": "春のパンツまつり",
-      "sourceUrl": "https://ideapocket.com/works/list/label/85265"
+      "sourceUrl": "https://moodyz.com/works/list/label/85265"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10077",
-      "nameJa": "AVグランプリ",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10077"
+      "externalId": "8916",
+      "nameJa": "MOODYZ ASS",
+      "sourceUrl": "https://moodyz.com/works/list/label/8916"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10142",
-      "nameJa": "おっぱい祭り",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10142"
+      "externalId": "8917",
+      "nameJa": "MOODYZ ES",
+      "sourceUrl": "https://moodyz.com/works/list/label/8917"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10151",
-      "nameJa": "背徳ビチョビチョ！NTR大放出",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10151"
+      "externalId": "9288",
+      "nameJa": "寝取られ本舗",
+      "sourceUrl": "https://moodyz.com/works/list/label/9288"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2760",
-      "nameJa": "Angel PREMIUM",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2760"
+      "externalId": "9308",
+      "nameJa": "まんきつ",
+      "sourceUrl": "https://moodyz.com/works/list/label/9308"
     },
     {
-      "sourceId": "source_ideapocket_official",
-      "provider": "ideapocket.label",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10144",
-      "nameJa": "秋のシコシコ強化月間",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10144"
+      "externalId": "9397",
+      "nameJa": "Q-EYE",
+      "sourceUrl": "https://moodyz.com/works/list/label/9397"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9458",
+      "nameJa": "MUTTURI",
+      "sourceUrl": "https://moodyz.com/works/list/label/9458"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "nameJa": "AVOPEN",
+      "sourceUrl": "https://moodyz.com/works/list/label/9483"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9732",
+      "nameJa": "MOODYZ Fresh",
+      "sourceUrl": "https://moodyz.com/works/list/label/9732"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9782",
+      "nameJa": "MOODYZ VR",
+      "sourceUrl": "https://moodyz.com/works/list/label/9782"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "5427",
+      "nameJa": "カラミざかり",
+      "sourceUrl": "https://moodyz.com/works/list/series/5427"
     },
     {
       "sourceId": "source_s1_official",
@@ -680,6 +912,14 @@
       "externalId": "4355",
       "nameJa": "S1 NO.1 STYLE",
       "sourceUrl": "https://s1s1s1.com/works/list/label/4355"
+    },
+    {
+      "sourceId": "source_s1_official",
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "414",
+      "nameJa": "新人NO.1STYLE",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/414"
     },
     {
       "sourceId": "source_s1_official",
@@ -696,94 +936,6 @@
       "externalId": "570",
       "nameJa": "ラブキモメン",
       "sourceUrl": "https://s1s1s1.com/works/list/series/570"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2402",
-      "nameJa": "侵入者",
-      "sourceUrl": "https://attackers.net/works/list/series/2402"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2269",
-      "nameJa": "あなたに愛されたくて。",
-      "sourceUrl": "https://attackers.net/works/list/series/2269"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2270",
-      "nameJa": "あなた、許して…。",
-      "sourceUrl": "https://attackers.net/works/list/series/2270"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2293",
-      "nameJa": "脱獄者",
-      "sourceUrl": "https://attackers.net/works/list/series/2293"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2256",
-      "nameJa": "奴隷島",
-      "sourceUrl": "https://attackers.net/works/list/series/2256"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2274",
-      "nameJa": "犯される度に美しく",
-      "sourceUrl": "https://attackers.net/works/list/series/2274"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "2325",
-      "nameJa": "団鬼六",
-      "sourceUrl": "https://attackers.net/works/list/series/2325"
-    },
-    {
-      "sourceId": "source_attackers_official",
-      "provider": "attackers.series",
-      "entityType": "series",
-      "externalId": "5317",
-      "nameJa": "調教志願",
-      "sourceUrl": "https://attackers.net/works/list/series/5317"
-    },
-    {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.series",
-      "entityType": "series",
-      "externalId": "1846",
-      "nameJa": "年下レズビアンに愛された私",
-      "sourceUrl": "https://madonna-av.com/works/list/series/1846"
-    },
-    {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.series",
-      "entityType": "series",
-      "externalId": "1891",
-      "nameJa": "廃業寸前",
-      "sourceUrl": "https://madonna-av.com/works/list/series/1891"
-    },
-    {
-      "sourceId": "source_madonna_official",
-      "provider": "madonna.series",
-      "entityType": "series",
-      "externalId": "1749",
-      "nameJa": "夫の上司に飾られた　人妻ボディアクセサリー",
-      "sourceUrl": "https://madonna-av.com/works/list/series/1749"
     }
   ]
 }

@@ -163,3 +163,8 @@ Snapshot/Diff 不会：
 `Snapshot → Diff → 人工审核 candidate → 分配顺序 ID → 正式 JSON + Source Record + Mapping → pnpm check`
 
 这样即使 Series 数量增长到数百或数千，也仍然保留可审计的发现和发布边界。
+
+
+## 0.4.5 起的 Review Ledger
+
+Snapshot Diff 产生的 candidate 不再直接进入正式 Registry。人工复核后必须先写入 `staging/series-candidate-reviews.json`，再发布正式 Series、Source Record 和 approved Mapping。详见 `docs/SERIES_CANDIDATE_REVIEW.md`。

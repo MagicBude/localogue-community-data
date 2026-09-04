@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000030",
+  "names": {
+    "ja": "特選 友達の母",
+    "zh-CN": "特选 朋友的母亲",
+    "en": "Special Selection: Friend’s Mother"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1552",
+  "externalIds": {
+    "madonna.series": "1552"
+  },
+  "firstPublishedIn": "0.4.5"
+}

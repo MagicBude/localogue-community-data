@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000020",
+  "names": {
+    "ja": "地獄の女神",
+    "zh-CN": "地狱女神",
+    "en": "Goddess of Hell"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2255",
+  "externalIds": {
+    "attackers.series": "2255"
+  },
+  "firstPublishedIn": "0.4.5"
+}
