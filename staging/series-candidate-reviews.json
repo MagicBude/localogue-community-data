@@ -541,6 +541,18 @@
       "reason": "官方 Series 详情页与 Batch C Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
     },
     {
+      "provider": "ideapocket.series",
+      "externalId": "939",
+      "snapshotId": "ideapocket-series-2026-09-04-partial-001",
+      "decision": "publish",
+      "reviewedAt": "2026-09-04",
+      "communityId": "series_000104",
+      "nameJa": "見つめる愛情イラマチオ",
+      "makerId": "maker_000001",
+      "sourceUrl": "https://ideapocket.com/works/list/series/939",
+      "reason": "官方 Series 详情页与 0.4.8 跨 Provider partial Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
+    },
+    {
       "provider": "madonna.series",
       "externalId": "1546",
       "snapshotId": "madonna-series-2026-09-04-partial-002",
@@ -1007,6 +1019,42 @@
       "makerId": "maker_000005",
       "sourceUrl": "https://madonna-av.com/works/list/series/1595",
       "reason": "官方 Series 详情页与 Batch C Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
+    },
+    {
+      "provider": "moodyz.series",
+      "externalId": "3489",
+      "snapshotId": "moodyz-series-2026-09-04-partial-001",
+      "decision": "publish",
+      "reviewedAt": "2026-09-04",
+      "communityId": "series_000101",
+      "nameJa": "聖水くらぶ",
+      "makerId": "maker_000002",
+      "sourceUrl": "https://moodyz.com/works/list/series/3489",
+      "reason": "官方 Series 详情页与 0.4.8 跨 Provider partial Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
+    },
+    {
+      "provider": "moodyz.series",
+      "externalId": "3519",
+      "snapshotId": "moodyz-series-2026-09-04-partial-001",
+      "decision": "publish",
+      "reviewedAt": "2026-09-04",
+      "communityId": "series_000102",
+      "nameJa": "W CAST",
+      "makerId": "maker_000002",
+      "sourceUrl": "https://moodyz.com/works/list/series/3519",
+      "reason": "官方 Series 详情页与 0.4.8 跨 Provider partial Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
+    },
+    {
+      "provider": "moodyz.series",
+      "externalId": "3562",
+      "snapshotId": "moodyz-series-2026-09-04-partial-001",
+      "decision": "publish",
+      "reviewedAt": "2026-09-04",
+      "communityId": "series_000103",
+      "nameJa": "聖水痴女ハーレム",
+      "makerId": "maker_000002",
+      "sourceUrl": "https://moodyz.com/works/list/series/3562",
+      "reason": "官方 Series 详情页与 0.4.8 跨 Provider partial Snapshot 的 Provider 外部 ID、日文名称和 Maker 归属一致；允许正式发布。"
     }
   ]
 }

@@ -2,44 +2,44 @@
 
 ## 当前版本
 
-`0.4.7 — Series Candidate Review / Promotion Batch C`
+`0.4.8 — Cross-provider Series Index Rollout`
 
-基线：0.4.6
+基线：0.4.7
 
 ## 已完成
 
-1. 继续使用 Series Index Snapshot / Diff / Review / Promotion 流水线，不引入新的自动合并捷径。
-2. ATTACKERS 新增第三份 partial Snapshot，共 20 个官方 Series Index 条目。
-3. Madonna 新增第三份 partial Snapshot，共 20 个官方 Series Index 条目。
-4. ATTACKERS 本批次新增审核并发布 19 个 Series；`attackers.series:2293` 为既有正式 Mapping 精确命中。
-5. Madonna 本批次新增审核并发布 20 个 Series。
-6. 新增 `series_000062` 至 `series_000100`，全部带正式 Source Record、publish Review 与 approved External ID Mapping。
-7. `attackers.series:2273` 继续保持 hold，不分配 Community ID，不创建 Mapping。
-8. 最新 Batch C Snapshot Diff 为 40 published、0 candidate、0 drift、0 missing、0 conflict。
-9. 不新增 Organization、Work、Genre，不修改 Localogue 主程序。
-10. 修正 0.4.6 Markdown 文档中的历史草稿统计；事实数据和 Registry 本身无需回滚或迁移。
+1. Series Index Provider Registry 从 ATTACKERS / Madonna 扩展到 MOODYZ、IDEAPOCKET、S1，共 5 个 Provider。
+2. 修复同一 Provider 同一天重复运行 `series:index:snapshot` 会覆盖旧快照的问题；默认自动分配三位批次序号。
+3. 新增快照历史保留回归测试，验证连续两次采集生成 `partial-001` 与 `partial-002`。
+4. MOODYZ 建立首份 4 条 partial Snapshot，并新增发布 3 个官方 Series。
+5. IDEAPOCKET 建立首份 3 条 partial Snapshot，并新增发布 1 个官方 Series。
+6. S1 建立首份 3 条 partial Snapshot，仅验证既有 approved Mapping，不为了数量创建新正式实体。
+7. 新增 `series_000101` 至 `series_000104`，全部具有 Source Record、publish Review、approved Mapping 与 Provider Observation。
+8. 最新 5 Provider Snapshot Diff 为 50 published、0 candidate、0 drift、0 missing、0 conflict。
+9. `attackers.series:2273` 继续保持 hold。
+10. 不新增 Organization、Work、Genre，不修改 Localogue 主程序。
 
 ## 当前正式统计
 
 - People: 13
 - Works: 5
 - Organizations: 86（Maker 5 / Label 81）
-- Series: 100
+- Series: 104
 - Genres: 325
-- Registry Active: 529
+- Registry Active: 533
 - Registry Redirect: 0
 - Merge Plans: 0
 - Public Sources: 6
-- External ID Mappings: 181
+- External ID Mappings: 185
 - Organization Candidates: 1
 
 ## Series Review / Snapshot 统计
 
-- Series Index Providers: 2
-- Series Index Snapshots: 6
-- Snapshot Entries: 99
-- Series Candidate Reviews: 84（publish 83 / hold 1 / reject 0）
-- Latest Snapshot published exact matches: 40
+- Series Index Providers: 5
+- Series Index Snapshots: 9
+- Snapshot Entries: 109
+- Series Candidate Reviews: 88（publish 87 / hold 1 / reject 0）
+- Latest Snapshot published exact matches: 50
 - New Series candidates: 0
 - Name drift: 0
 - Missing from complete snapshot: 0
@@ -52,21 +52,15 @@
 | S1 official | 3 | 3 | 3 | 0 | incomplete |
 | ATTACKERS official | 53 | 53 | 52 | 1 | incomplete |
 | Madonna official | 42 | 42 | 42 | 0 | incomplete |
-| MOODYZ official | 1 | 1 | 1 | 0 | incomplete |
-| IDEAPOCKET official | 2 | 2 | 2 | 0 | incomplete |
-
-ATTACKERS 的 1 个 unrecognized 是已经人工 Review 为 `hold` 的 `attackers.series:2273`。它不是“尚未看过”的未知候选，也不会因为最新 partial Snapshot 不再包含它就自动改变审核决定。
-
-## 0.4.6 文档勘误
-
-0.4.6 的实际仓库事实是 Series 61、Registry Active 490、External ID Mapping 142、Review 45（publish 44 / hold 1）。上一版部分 Markdown 残留了早期计划值 62 / 491 / 143 和 hold=0。0.4.7 已统一修正文档；正式数据、Review Ledger 与 Registry 无需修复。
+| MOODYZ official | 4 | 4 | 4 | 0 | incomplete |
+| IDEAPOCKET official | 3 | 3 | 3 | 0 | incomplete |
 
 ## 下一阶段
 
-### 0.4.x：Series Snapshot / Review Batch D
+### 0.4.x：Five-provider Series Snapshot Batch
 
-1. 继续按 ATTACKERS / Madonna 官方 Series Index 顺序向后扩展 partial Snapshot。
-2. 保留 `attackers.series:2273` hold，直到出现额外可靠交叉证据再重新审核。
-3. 当连续批次覆盖足够大时，优先尝试由 `series:index:snapshot` 直接抓取完整 Index；只有实际完整解析、去重并核验数量后才使用 `--complete`。
-4. 将 Snapshot/Review 机制逐步扩展到 MOODYZ、IDEAPOCKET、S1。
-5. 遇到 name drift、same-name candidate、missing-from-complete-index 时独立人工处理，禁止自动改名、合并或删除。
+1. 使用修正后的 `series:index:snapshot` 在真实网络环境中继续抓取五个 Provider 的 Series Index，并保留每批历史快照。
+2. 优先让 MOODYZ / IDEAPOCKET / S1 的 Snapshot 从“少量验证样本”扩展为连续可审计批次，避免数据长期集中于 ATTACKERS / Madonna。
+3. ATTACKERS / Madonna 继续沿既有索引推进，但不为了数量跳过 Review。
+4. `attackers.series:2273` 继续 hold，直到取得额外可靠证据。
+5. 只有实际完整解析并核验某个 Provider 当前官方 Series Index 后，才允许生成 complete Snapshot 并更新 coverage.completeTraversal。

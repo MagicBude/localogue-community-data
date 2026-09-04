@@ -21,7 +21,7 @@
     ]
   },
   "counts": {
-    "auto-applied": 181,
+    "auto-applied": 185,
     "suggested": 0,
     "conflict": 0,
     "unrecognized": 0
@@ -983,6 +983,17 @@
       "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
       "communityId": "series_000003",
       "sourceUrl": "https://ideapocket.com/works/list/series/863"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "939",
+      "nameJa": "見つめる愛情イラマチオ",
+      "communityId": "series_000104",
+      "sourceUrl": "https://ideapocket.com/works/list/series/939"
     },
     {
       "classification": "auto-applied",
@@ -1962,6 +1973,39 @@
       "nameJa": "MOODYZ VR",
       "communityId": "label_000041",
       "sourceUrl": "https://moodyz.com/works/list/label/9782"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3489",
+      "nameJa": "聖水くらぶ",
+      "communityId": "series_000101",
+      "sourceUrl": "https://moodyz.com/works/list/series/3489"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3519",
+      "nameJa": "W CAST",
+      "communityId": "series_000102",
+      "sourceUrl": "https://moodyz.com/works/list/series/3519"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3562",
+      "nameJa": "聖水痴女ハーレム",
+      "communityId": "series_000103",
+      "sourceUrl": "https://moodyz.com/works/list/series/3562"
     },
     {
       "classification": "auto-applied",

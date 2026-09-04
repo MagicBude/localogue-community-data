@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.4.8 - 2026-09-04
+
+### Cross-provider Series Index Rollout
+
+- 将 Series Index Provider Registry 从 2 个扩展到 5 个，新增 MOODYZ、IDEAPOCKET、S1。
+- 修正 `series:index:snapshot` 同日重复运行会覆盖快照的问题：默认自动分配 `partial-001 / 002 / ...` 或 `complete-001 / 002 / ...`，保留历史审计链。
+- 新增同日连续执行两次仍保留两份快照的回归测试。
+- 新增 MOODYZ / IDEAPOCKET / S1 各一份首批 partial Snapshot，共 10 个官方 Series 条目。
+- MOODYZ 新增发布 3 个 Series：聖水くらぶ、W CAST、聖水痴女ハーレム。
+- IDEAPOCKET 新增发布 1 个 Series：見つめる愛情イラマチオ。
+- S1 首份 Snapshot 仅复核既有 3 条 approved Series Mapping，本批次不为了数量创建新 S1 Series。
+- 正式 Series 从 100 增加到 104；Registry Active 从 529 增加到 533；approved External ID Mapping 从 181 增加到 185。
+- Series Index Providers 增加到 5、Snapshots 增加到 9、Snapshot Entries 增加到 109；Review Ledger 增加到 88（publish 87 / hold 1 / reject 0）。
+- 所有新增 Provider Snapshot 继续保持 partial，不声明 MOODYZ、IDEAPOCKET 或 S1 Series Index 已完整覆盖。
+- Pack 版本升级至 0.4.8。
+
 ## 0.4.7 - 2026-09-04
 
 ### Series Review Batch C

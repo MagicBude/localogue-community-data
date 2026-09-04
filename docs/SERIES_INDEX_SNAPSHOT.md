@@ -173,3 +173,19 @@ Snapshot Diff 产生的 candidate 不再直接进入正式 Registry。人工复�
 ## 0.4.6 Batch B
 
 新增 `partial-002`，旧 `partial-001` 保留。最新 ATTACKERS segment 20 条，Madonna segment 19 条，二者仍为 `completeTraversal=false`。Batch B 证明 Snapshot 可以分段累计，但 latest diff 只描述最新 segment，不能把“当前 segment 已处理完”解释为完整索引覆盖。
+
+## 0.4.8：同日快照历史保留与跨 Provider 扩展
+
+从 0.4.8 起，`series:index:snapshot` 默认使用带三位序号的 Snapshot ID：
+
+```text
+<provider>-series-YYYY-MM-DD-partial-001
+<provider>-series-YYYY-MM-DD-partial-002
+...
+```
+
+同一天重复抓取不会覆盖上一份快照。序号只表达同一 Provider、同一日期、同一模式下的采集批次，不代表官网 Series 的业务排序。
+
+当前 Series Index Provider Registry 已覆盖 ATTACKERS、Madonna、MOODYZ、IDEAPOCKET、S1 五个 Maker。MOODYZ、IDEAPOCKET、S1 的首份快照仍是 `partial`：只有实际完整解析、去重、校验全部当前官方索引内容后，才允许讨论 `completeTraversal=true`。
+
+`--output` 只改变写入路径，不改变 Snapshot 身份治理；正常仓库流程应让工具自动写入 `staging/series-index-snapshots/`，以确保后续 Diff 能发现全部历史快照。

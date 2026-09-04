@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000101",
+  "names": {
+    "ja": "聖水くらぶ",
+    "zh-CN": "圣水俱乐部",
+    "en": "Holy Water Club"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/series/3489",
+  "externalIds": {
+    "moodyz.series": "3489"
+  },
+  "firstPublishedIn": "0.4.8"
+}

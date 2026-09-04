@@ -1,3 +1,6 @@
 snapshot_id,provider,source_id,maker_id,captured_at,complete_traversal,entries
 attackers-series-2026-09-04-partial-003,attackers.series,source_attackers_official,maker_000004,2026-09-04,false,20
+ideapocket-series-2026-09-04-partial-001,ideapocket.series,source_ideapocket_official,maker_000001,2026-09-04,false,3
 madonna-series-2026-09-04-partial-003,madonna.series,source_madonna_official,maker_000005,2026-09-04,false,20
+moodyz-series-2026-09-04-partial-001,moodyz.series,source_moodyz_official,maker_000002,2026-09-04,false,4
+s1-series-2026-09-04-partial-001,s1.series,source_s1_official,maker_000003,2026-09-04,false,3

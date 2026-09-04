@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "ideapocket-series-2026-09-04-partial-001",
+  "providerKey": "ideapocket",
+  "provider": "ideapocket.series",
+  "sourceId": "source_ideapocket_official",
+  "makerId": "maker_000001",
+  "indexUrl": "https://ideapocket.com/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "0.4.8 跨 Provider rollout 的首份 partial Snapshot。条目由官方 Series Index 入口与官方 Series 详情页逐项核验；本批次不是完整索引遍历。",
+    "position 表示本批次审核顺序，不声明等同于官网完整索引的绝对排序；partial Snapshot 不得用于 completeTraversal 声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "863",
+      "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に",
+      "sourceUrl": "https://ideapocket.com/works/list/series/863"
+    },
+    {
+      "position": 2,
+      "externalId": "1011",
+      "nameJa": "うちの妻を犯して下さい",
+      "sourceUrl": "https://ideapocket.com/works/list/series/1011"
+    },
+    {
+      "position": 3,
+      "externalId": "939",
+      "nameJa": "見つめる愛情イラマチオ",
+      "sourceUrl": "https://ideapocket.com/works/list/series/939"
+    }
+  ]
+}

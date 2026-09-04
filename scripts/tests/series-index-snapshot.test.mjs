@@ -67,3 +67,22 @@ test("Snapshot Diff 不自动发布未映射 Series；完整快照缺失正式 I
   assert.equal(await fs.readFile(path.join(root, "registry/external-id-mappings.json"), "utf8"), beforeMappings);
   await assert.doesNotReject(fs.access(path.join(root, "data/series/series_000003--three.json")));
 });
+
+
+test("series:index:snapshot 同日重复运行自动递增序号，不覆盖历史快照", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "localogue-series-snapshot-sequence-"));
+  await writeJson(root, "registry/series-index-providers.json", { schemaVersion: 1, providers: [{ key: "demo", sourceId: "source_demo", provider: "demo.series", makerId: "maker_000001", indexUrl: "https://example.test/works/series", detailUrlTemplate: "https://example.test/works/list/series/<id>", detailPathPattern: "^/works/list/series/(\\d+)$", indexIsSinglePage: false }] });
+  await fs.writeFile(path.join(root, "index.html"), '<a href="/works/list/series/100">第一シリーズ</a>', "utf8");
+  const snapshotScript = path.resolve(import.meta.dirname, "../snapshot-series-index.mjs");
+  for (let i = 0; i < 2; i += 1) {
+    const run = spawnSync(process.execPath, [snapshotScript, "demo", "--input-html", "index.html", "--captured-at", "2026-09-04"], { cwd: root, encoding: "utf8" });
+    assert.equal(run.status, 0, run.stderr || run.stdout);
+  }
+  const dir = path.join(root, "staging/series-index-snapshots");
+  const names = (await fs.readdir(dir)).sort();
+  assert.deepEqual(names, ["demo-series-2026-09-04-partial-001.json", "demo-series-2026-09-04-partial-002.json"]);
+  const first = JSON.parse(await fs.readFile(path.join(dir, names[0]), "utf8"));
+  const second = JSON.parse(await fs.readFile(path.join(dir, names[1]), "utf8"));
+  assert.equal(first.snapshotId, "demo-series-2026-09-04-partial-001");
+  assert.equal(second.snapshotId, "demo-series-2026-09-04-partial-002");
+});

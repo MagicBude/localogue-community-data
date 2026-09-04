@@ -785,6 +785,15 @@
       "reviewedAt": "2026-09-04"
     },
     {
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "939",
+      "communityId": "series_000104",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/series/939",
+      "reviewedAt": "2026-09-04"
+    },
+    {
       "provider": "madonna.label",
       "entityType": "label",
       "externalId": "10077",
@@ -1583,6 +1592,33 @@
       "communityId": "label_000041",
       "status": "approved",
       "sourceUrl": "https://moodyz.com/works/list/label/9782",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3489",
+      "communityId": "series_000101",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/series/3489",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3519",
+      "communityId": "series_000102",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/series/3519",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3562",
+      "communityId": "series_000103",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/series/3562",
       "reviewedAt": "2026-09-04"
     },
     {

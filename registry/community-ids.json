@@ -3670,6 +3670,34 @@
       "firstPublishedIn": "0.4.7"
     },
     {
+      "id": "series_000101",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.8"
+    },
+    {
+      "id": "series_000102",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.8"
+    },
+    {
+      "id": "series_000103",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.8"
+    },
+    {
+      "id": "series_000104",
+      "entityType": "series",
+      "collection": "series",
+      "status": "active",
+      "firstPublishedIn": "0.4.8"
+    },
+    {
       "id": "work_000001",
       "entityType": "work",
       "collection": "works",

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000104",
+  "names": {
+    "ja": "見つめる愛情イラマチオ",
+    "zh-CN": "凝视的爱情深喉",
+    "en": "Affectionate Irrumatio with Eye Contact"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/series/939",
+  "externalIds": {
+    "ideapocket.series": "939"
+  },
+  "firstPublishedIn": "0.4.8"
+}

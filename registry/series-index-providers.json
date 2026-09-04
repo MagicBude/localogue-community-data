@@ -12,6 +12,16 @@
       "indexIsSinglePage": true
     },
     {
+      "key": "ideapocket",
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "makerId": "maker_000001",
+      "indexUrl": "https://ideapocket.com/works/series",
+      "detailUrlTemplate": "https://ideapocket.com/works/list/series/<id>",
+      "detailPathPattern": "^/works/list/series/(\\d+)$",
+      "indexIsSinglePage": false
+    },
+    {
       "key": "madonna",
       "sourceId": "source_madonna_official",
       "provider": "madonna.series",
@@ -20,6 +30,26 @@
       "detailUrlTemplate": "https://madonna-av.com/works/list/series/<id>",
       "detailPathPattern": "^/works/list/series/(\\d+)$",
       "indexIsSinglePage": true
+    },
+    {
+      "key": "moodyz",
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "makerId": "maker_000002",
+      "indexUrl": "https://moodyz.com/works/series",
+      "detailUrlTemplate": "https://moodyz.com/works/list/series/<id>",
+      "detailPathPattern": "^/works/list/series/(\\d+)$",
+      "indexIsSinglePage": false
+    },
+    {
+      "key": "s1",
+      "sourceId": "source_s1_official",
+      "provider": "s1.series",
+      "makerId": "maker_000003",
+      "indexUrl": "https://s1s1s1.com/works/series",
+      "detailUrlTemplate": "https://s1s1s1.com/works/list/series/<id>",
+      "detailPathPattern": "^/works/list/series/(\\d+)$",
+      "indexIsSinglePage": false
     }
   ]
 }

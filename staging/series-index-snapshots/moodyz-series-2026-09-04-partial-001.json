@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "moodyz-series-2026-09-04-partial-001",
+  "providerKey": "moodyz",
+  "provider": "moodyz.series",
+  "sourceId": "source_moodyz_official",
+  "makerId": "maker_000002",
+  "indexUrl": "https://moodyz.com/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "0.4.8 跨 Provider rollout 的首份 partial Snapshot。条目由官方 Series Index 入口与官方 Series 详情页逐项核验；本批次不是完整索引遍历。",
+    "position 表示本批次审核顺序，不声明等同于官网完整索引的绝对排序；partial Snapshot 不得用于 completeTraversal 声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "5427",
+      "nameJa": "カラミざかり",
+      "sourceUrl": "https://moodyz.com/works/list/series/5427"
+    },
+    {
+      "position": 2,
+      "externalId": "3489",
+      "nameJa": "聖水くらぶ",
+      "sourceUrl": "https://moodyz.com/works/list/series/3489"
+    },
+    {
+      "position": 3,
+      "externalId": "3519",
+      "nameJa": "W CAST",
+      "sourceUrl": "https://moodyz.com/works/list/series/3519"
+    },
+    {
+      "position": 4,
+      "externalId": "3562",
+      "nameJa": "聖水痴女ハーレム",
+      "sourceUrl": "https://moodyz.com/works/list/series/3562"
+    }
+  ]
+}

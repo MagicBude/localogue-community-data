@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000102",
+  "names": {
+    "ja": "W CAST",
+    "zh-CN": "W CAST",
+    "en": "W CAST"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/series/3519",
+  "externalIds": {
+    "moodyz.series": "3519"
+  },
+  "firstPublishedIn": "0.4.8"
+}

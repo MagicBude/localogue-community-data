@@ -15,7 +15,7 @@ const outputArg = getArg("--output");
 const capturedAt = getArg("--captured-at") ?? new Date().toISOString().slice(0, 10);
 
 if (!providerKey) {
-  console.error("用法: pnpm series:index:snapshot -- <provider-key> [--input-html path] [--output path] [--captured-at YYYY-MM-DD] [--complete]");
+  console.error("用法: pnpm series:index:snapshot -- <provider-key> [--input-html path] [--output path] [--captured-at YYYY-MM-DD] [--complete]；同一日期/模式重复运行会自动分配 -001/-002/...，不会覆盖历史快照");
   process.exit(1);
 }
 
@@ -57,10 +57,19 @@ if (entries.length === 0) {
   process.exit(1);
 }
 
-const snapshotId = `${providerKey}-series-${capturedAt}${complete ? "-complete" : "-partial"}`;
-const output = outputArg
-  ? path.resolve(root, outputArg)
-  : path.join(root, "staging", "series-index-snapshots", `${snapshotId}.json`);
+const snapshotDir = path.join(root, "staging", "series-index-snapshots");
+await fs.mkdir(snapshotDir, { recursive: true });
+const mode = complete ? "complete" : "partial";
+const prefix = `${providerKey}-series-${capturedAt}-${mode}-`;
+let existingNames = [];
+try { existingNames = await fs.readdir(snapshotDir); } catch {}
+const used = existingNames
+  .map((name) => name.match(new RegExp(`^${prefix.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}(\\d{3})\\.json$`)))
+  .filter(Boolean)
+  .map((match) => Number.parseInt(match[1], 10));
+const sequence = String((used.length ? Math.max(...used) : 0) + 1).padStart(3, "0");
+const snapshotId = `${prefix}${sequence}`;
+const output = outputArg ? path.resolve(root, outputArg) : path.join(snapshotDir, `${snapshotId}.json`);
 const snapshot = {
   schemaVersion: 1,
   snapshotId,

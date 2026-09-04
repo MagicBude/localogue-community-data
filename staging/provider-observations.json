@@ -698,6 +698,14 @@
       "sourceUrl": "https://ideapocket.com/works/list/series/863"
     },
     {
+      "sourceId": "source_ideapocket_official",
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "939",
+      "nameJa": "見つめる愛情イラマチオ",
+      "sourceUrl": "https://ideapocket.com/works/list/series/939"
+    },
+    {
       "sourceId": "source_madonna_official",
       "provider": "madonna.label",
       "entityType": "label",
@@ -1408,6 +1416,30 @@
       "externalId": "9782",
       "nameJa": "MOODYZ VR",
       "sourceUrl": "https://moodyz.com/works/list/label/9782"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3489",
+      "nameJa": "聖水くらぶ",
+      "sourceUrl": "https://moodyz.com/works/list/series/3489"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3519",
+      "nameJa": "W CAST",
+      "sourceUrl": "https://moodyz.com/works/list/series/3519"
+    },
+    {
+      "sourceId": "source_moodyz_official",
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "3562",
+      "nameJa": "聖水痴女ハーレム",
+      "sourceUrl": "https://moodyz.com/works/list/series/3562"
     },
     {
       "sourceId": "source_moodyz_official",
