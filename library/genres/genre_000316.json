@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000316",
+  "facet": "media",
+  "facetNames": {
+    "ja": "媒体・形式",
+    "zh-CN": "媒介与格式",
+    "en": "Media & Format"
+  },
+  "assignmentTarget": "mediaFormat",
+  "names": {
+    "ja": "ダウンロード",
+    "zh-CN": "数字下载",
+    "en": "Download"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

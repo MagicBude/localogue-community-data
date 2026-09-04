@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000111",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "令嬢",
+    "zh-CN": "千金小姐",
+    "en": "Heiress"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

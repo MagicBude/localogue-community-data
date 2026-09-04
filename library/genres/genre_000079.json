@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000079",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "女子校生",
+    "zh-CN": "女高中生",
+    "en": "Female High School Student"
+  },
+  "aliases": {
+    "zh-CN": [
+      "女高中生"
+    ],
+    "ja": [
+      "JK"
+    ],
+    "en": [
+      "Schoolgirl"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

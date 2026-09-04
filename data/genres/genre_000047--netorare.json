@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000047",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "寝取られ",
+    "zh-CN": "被夺爱",
+    "en": "Netorare"
+  },
+  "aliases": {
+    "zh-CN": [
+      "NTR"
+    ],
+    "ja": [
+      "NTR"
+    ],
+    "en": [
+      "NTR"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

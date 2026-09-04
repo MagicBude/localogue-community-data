@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000039",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "変身",
+    "zh-CN": "变身",
+    "en": "Transformation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000059",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "フェチ",
+    "zh-CN": "恋物",
+    "en": "Fetish"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

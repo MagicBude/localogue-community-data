@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000099",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "メイド",
+    "zh-CN": "女仆",
+    "en": "Maid"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

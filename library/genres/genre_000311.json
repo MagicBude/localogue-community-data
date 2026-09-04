@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000311",
+  "facet": "media",
+  "facetNames": {
+    "ja": "媒体・形式",
+    "zh-CN": "媒介与格式",
+    "en": "Media & Format"
+  },
+  "assignmentTarget": "mediaFormat",
+  "names": {
+    "ja": "VHS",
+    "zh-CN": "VHS录像带",
+    "en": "VHS"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

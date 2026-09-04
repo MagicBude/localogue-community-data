@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000322",
+  "facet": "rating",
+  "facetNames": {
+    "ja": "年齢区分",
+    "zh-CN": "分级",
+    "en": "Rating"
+  },
+  "assignmentTarget": "contentRating",
+  "names": {
+    "ja": "R-15",
+    "zh-CN": "R-15",
+    "en": "R-15"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

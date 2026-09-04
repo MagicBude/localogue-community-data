@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000274",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "成人向けアニメ",
+    "zh-CN": "成人动画",
+    "en": "Adult Animation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

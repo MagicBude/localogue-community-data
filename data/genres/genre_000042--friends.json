@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000042",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "友達",
+    "zh-CN": "朋友",
+    "en": "Friends"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

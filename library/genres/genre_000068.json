@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000068",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "恋愛リアリティ",
+    "zh-CN": "恋爱真人秀",
+    "en": "Dating Reality"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

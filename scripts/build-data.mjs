@@ -28,7 +28,7 @@ const output = new Map();
 for (const collection of collections) for (const entity of data[collection]) output.set(`library/${collection}/${entity.id}.json`, `${JSON.stringify(entity, null, 2)}\n`);
 for (const file of await jsonFiles(path.join(root, "data", "sources"))) output.set(`sources/${file}`, await fs.readFile(path.join(root, "data", "sources", file), "utf8"));
 const typeFor = (collection, entity) => collection === "organizations" ? entity.kind : collection === "people" ? "person" : collection.slice(0, -1);
-const entries = collections.flatMap((collection) => data[collection].map((entity) => ({id:entity.id,entityType:typeFor(collection,entity),collection,status:"active",firstPublishedIn:"0.3.0"}))).sort((a,b)=>a.id.localeCompare(b.id));
+const entries = collections.flatMap((collection) => data[collection].map((entity) => ({id:entity.id,entityType:typeFor(collection,entity),collection,status:"active",firstPublishedIn:collection === "genres" ? "0.3.1" : "0.3.0"}))).sort((a,b)=>a.id.localeCompare(b.id));
 output.set("registry/community-ids.json", `${JSON.stringify({schemaVersion:1,entries}, null, 2)}\n`);
 
 const peopleHeader=["id","name_ja","name_zh","name_en","occupation","status","aliases","debut_date","retirement_date","comeback_date","birth_date","height_cm","cup","bust_cm","waist_cm","hip_cm","birthplace_ja","blood_type","agency","biography_zh"];
@@ -39,6 +39,12 @@ const workHeader=["id","code","title_ja","release_date","duration_minutes","perf
 const peopleById=new Map(data.people.map(p=>[p.id,name(p,"ja","primary")]));
 const workRows=data.works.map(w=>[w.id,w.code,w.titles?.ja,w.releaseDate?.value,w.durationMinutes,(w.personRelations??[]).map(r=>peopleById.get(r.personId)??r.personId).join(";"),w.makerId]);
 output.set("exports/csv/work-overview.csv",csv([workHeader,...workRows]));
+const genreHeader=["id","facet","facet_ja","facet_zh","facet_en","assignment_target","name_ja","name_zh","name_en","aliases_ja","aliases_zh","aliases_en","status","translation_status"];
+const genreRows=data.genres.map(g=>[g.id,g.facet,g.facetNames?.ja,g.facetNames?.["zh-CN"],g.facetNames?.en,g.assignmentTarget,g.names?.ja,g.names?.["zh-CN"],g.names?.en,(g.aliases?.ja??[]).join(";"),(g.aliases?.["zh-CN"]??[]).join(";"),(g.aliases?.en??[]).join(";"),g.status,g.translationStatus]);
+output.set("exports/csv/genre-overview.csv",csv([genreHeader,...genreRows]));
+const aliasHeader=["genre_id","facet","language","alias","canonical_name"];
+const aliasRows=data.genres.flatMap(g=>Object.entries(g.aliases??{}).flatMap(([language,values])=>(values??[]).map(alias=>[g.id,g.facet,language,alias,g.names?.[language]??""])));
+output.set("exports/csv/genre-aliases.csv",csv([aliasHeader,...aliasRows]));
 
 let stale=[];
 if (!checkOnly) {

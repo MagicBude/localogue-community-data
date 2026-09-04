@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000280",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "ベスト盤",
+    "zh-CN": "精选集",
+    "en": "Best-of Compilation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

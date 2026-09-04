@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000304",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "4時間以上",
+    "zh-CN": "4小时以上",
+    "en": "Over Four Hours"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

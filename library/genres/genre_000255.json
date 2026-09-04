@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000255",
+  "facet": "practice",
+  "facetNames": {
+    "ja": "プレイ・嗜好",
+    "zh-CN": "玩法与偏好",
+    "en": "Practice & Fetish"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "温泉プレイ",
+    "zh-CN": "温泉玩法",
+    "en": "Hot Spring Play"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

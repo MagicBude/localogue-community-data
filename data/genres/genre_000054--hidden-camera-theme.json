@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000054",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "盗撮",
+    "zh-CN": "偷拍题材",
+    "en": "Hidden Camera Theme"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

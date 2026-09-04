@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000296",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "男性向け",
+    "zh-CN": "男性向",
+    "en": "For Men"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

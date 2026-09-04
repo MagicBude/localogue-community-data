@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000194",
+  "facet": "body",
+  "facetNames": {
+    "ja": "体型・外見",
+    "zh-CN": "体型与外观",
+    "en": "Body & Appearance"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "筋肉質",
+    "zh-CN": "肌肉型",
+    "en": "Muscular"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

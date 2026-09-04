@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000154",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "浴衣",
+    "zh-CN": "浴衣",
+    "en": "Yukata"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

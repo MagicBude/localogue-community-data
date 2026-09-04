@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000309",
+  "facet": "media",
+  "facetNames": {
+    "ja": "媒体・形式",
+    "zh-CN": "媒介与格式",
+    "en": "Media & Format"
+  },
+  "assignmentTarget": "mediaFormat",
+  "names": {
+    "ja": "Blu-ray",
+    "zh-CN": "蓝光",
+    "en": "Blu-ray"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

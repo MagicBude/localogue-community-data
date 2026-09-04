@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000146",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ネグリジェ",
+    "zh-CN": "睡裙",
+    "en": "Negligee"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

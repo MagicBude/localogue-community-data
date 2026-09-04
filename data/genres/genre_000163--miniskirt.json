@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000163",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ミニスカート",
+    "zh-CN": "迷你裙",
+    "en": "Miniskirt"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000084",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "OL",
+    "zh-CN": "职场女性",
+    "en": "Office Lady"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

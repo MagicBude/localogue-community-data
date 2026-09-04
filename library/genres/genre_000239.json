@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000239",
+  "facet": "act",
+  "facetNames": {
+    "ja": "行為",
+    "zh-CN": "行为",
+    "en": "Act"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "尻叩き",
+    "zh-CN": "打屁股",
+    "en": "Spanking"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

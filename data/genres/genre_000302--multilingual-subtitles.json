@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000302",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "多言語字幕",
+    "zh-CN": "多语言字幕",
+    "en": "Multilingual Subtitles"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

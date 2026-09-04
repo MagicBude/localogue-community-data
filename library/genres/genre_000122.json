@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000122",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "お姫様",
+    "zh-CN": "公主",
+    "en": "Princess"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

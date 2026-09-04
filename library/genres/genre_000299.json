@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000299",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "モザイク",
+    "zh-CN": "有码",
+    "en": "Censored"
+  },
+  "aliases": {
+    "zh-CN": [
+      "有码"
+    ],
+    "ja": [
+      "修正あり"
+    ],
+    "en": [
+      "Mosaic Censored"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

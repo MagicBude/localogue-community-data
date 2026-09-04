@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000256",
+  "facet": "practice",
+  "facetNames": {
+    "ja": "プレイ・嗜好",
+    "zh-CN": "玩法与偏好",
+    "en": "Practice & Fetish"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "玩具",
+    "zh-CN": "成人玩具",
+    "en": "Sex Toys"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

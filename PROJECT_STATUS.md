@@ -2,9 +2,9 @@
 
 ## 当前版本
 
-- Pack Version: `0.3.0`
+- Pack Version: `0.3.1`
 - Schema Version: `1`
-- 阶段：JSON 唯一事实源、顺序 ID 与自动导出重构
+- 阶段：三语分类词表与分面治理
 
 ## 已完成
 
@@ -28,6 +28,9 @@
 - Pilot A：桃乃木かな、石川澪、河北彩花 3 人物
 - Pilot A：IPZ-637、IPZ-653、MIDE-974、MIDE-989、SSIS-129 共 5 作品
 - 3 个 Maker 支撑实体、11 份 Source Record 与 11 个 active Registry 条目
+- 323 个日中英三语分类条目
+- 主题、角色、服装、体型与外观、行为、玩法与偏好、制作类别、媒介与格式、分级九个分面
+- 分类总览、别名 CSV 与格式化 XLSX 自动导出
 
 ## 审查结论
 
@@ -39,8 +42,9 @@
 
 ## 下一阶段建议
 
-1. 在 Localogue 中挂载 `0.2.1`，验证 5 个 Work 均能解析 Person 与 Maker，且 Private Library 覆盖优先。
-2. 验收通过后执行 Pilot B：3 人物 + 5 作品，优先复用 Maker / Label / Series。
+1. 在 Localogue 中挂载 `0.3.1`，验证分类显示与三语字段读取。
+2. 为现有 5 部 Work 人工选择 Genre，验证九分面检索，避免仅有词表而没有引用闭环。
+3. 随后执行 Pilot B：3 人物 + 5 作品，优先复用 Maker / Label / Series。
 3. 分四批完成总计 10 人物 + 20 作品的端到端试运行。
 4. 演练 Duplicate Issue 和 `proposed` Merge Plan；消费端支持 Redirect 前不应用真实合并。
 5. Localogue V1-11 公开后重新运行契约检查并审查 Redirect 消费语义。

@@ -1,9 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "genre_000001",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "架空区分",
+    "zh-CN": "虚构分面",
+    "en": "Fictional Facet"
+  },
+  "assignmentTarget": "genreIds",
   "names": {
     "ja": "架空ジャンル",
     "zh-CN": "架空分类",
     "en": "Fictional Genre"
-  }
+  },
+  "aliases": { "ja": [], "zh-CN": [], "en": [] },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "fictional-example"
 }

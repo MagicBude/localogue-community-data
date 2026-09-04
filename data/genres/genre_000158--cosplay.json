@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000158",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "コスプレ",
+    "zh-CN": "角色扮演",
+    "en": "Cosplay"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

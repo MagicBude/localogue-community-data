@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000269",
+  "facet": "practice",
+  "facetNames": {
+    "ja": "プレイ・嗜好",
+    "zh-CN": "玩法与偏好",
+    "en": "Practice & Fetish"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ゲイ",
+    "zh-CN": "男同性题材",
+    "en": "Gay"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

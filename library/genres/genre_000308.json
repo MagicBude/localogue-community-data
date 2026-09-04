@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000308",
+  "facet": "media",
+  "facetNames": {
+    "ja": "媒体・形式",
+    "zh-CN": "媒介与格式",
+    "en": "Media & Format"
+  },
+  "assignmentTarget": "mediaFormat",
+  "names": {
+    "ja": "DVD",
+    "zh-CN": "DVD",
+    "en": "DVD"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

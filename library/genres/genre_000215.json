@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000215",
+  "facet": "act",
+  "facetNames": {
+    "ja": "行為",
+    "zh-CN": "行为",
+    "en": "Act"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "立ちバック",
+    "zh-CN": "站立后入",
+    "en": "Standing Rear-entry"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000010",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ファン感謝",
+    "zh-CN": "粉丝感谢",
+    "en": "Fan Appreciation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

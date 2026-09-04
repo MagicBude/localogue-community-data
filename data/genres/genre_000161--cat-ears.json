@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000161",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "猫耳",
+    "zh-CN": "猫耳",
+    "en": "Cat Ears"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

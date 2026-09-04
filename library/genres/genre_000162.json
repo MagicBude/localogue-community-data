@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000162",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ゴスロリ",
+    "zh-CN": "哥特萝莉",
+    "en": "Gothic Lolita"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

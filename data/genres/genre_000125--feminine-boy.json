@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000125",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "男の娘",
+    "zh-CN": "伪娘",
+    "en": "Feminine Boy"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

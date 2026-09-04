@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000126",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "トランスジェンダー女性",
+    "zh-CN": "跨性别女性",
+    "en": "Transgender Woman"
+  },
+  "aliases": {
+    "zh-CN": [
+      "女装人妖"
+    ],
+    "ja": [
+      "ニューハーフ"
+    ],
+    "en": [
+      "Trans Woman"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

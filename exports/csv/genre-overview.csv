@@ -1,0 +1,324 @@
+id,facet,facet_ja,facet_zh,facet_en,assignment_target,name_ja,name_zh,name_en,aliases_ja,aliases_zh,aliases_en,status,translation_status
+genre_000001,theme,テーマ,主题,Theme,genreIds,美少女,美少女,Beautiful Girl,,,,active,reviewed
+genre_000002,theme,テーマ,主题,Theme,genreIds,人妻,已婚女性,Married Woman,,,,active,reviewed
+genre_000003,theme,テーマ,主题,Theme,genreIds,熟女,熟女,Mature Woman,,,,active,reviewed
+genre_000004,theme,テーマ,主题,Theme,genreIds,素人,素人,Amateur,,,,active,reviewed
+genre_000005,theme,テーマ,主题,Theme,genreIds,初撮り,首次拍摄,First Shoot,,,,active,reviewed
+genre_000006,theme,テーマ,主题,Theme,genreIds,デビュー作,出道作,Debut Work,,,,active,reviewed
+genre_000007,theme,テーマ,主题,Theme,genreIds,引退作,引退作,Retirement Work,,,,active,reviewed
+genre_000008,theme,テーマ,主题,Theme,genreIds,復帰作,复出作,Comeback Work,,,,active,reviewed
+genre_000009,theme,テーマ,主题,Theme,genreIds,記念作,纪念作品,Anniversary Work,,,,active,reviewed
+genre_000010,theme,テーマ,主题,Theme,genreIds,ファン感謝,粉丝感谢,Fan Appreciation,,,,active,reviewed
+genre_000011,theme,テーマ,主题,Theme,genreIds,単体作品,单体作品,Solo Performer Work,,,,active,reviewed
+genre_000012,theme,テーマ,主题,Theme,genreIds,企画作品,企划作品,Concept Work,,,,active,reviewed
+genre_000013,theme,テーマ,主题,Theme,genreIds,共演,共演,Co-starring,,,,active,reviewed
+genre_000014,theme,テーマ,主题,Theme,genreIds,ドラマ,剧情,Drama,,,,active,reviewed
+genre_000015,theme,テーマ,主题,Theme,genreIds,ドキュメンタリー,纪录片,Documentary,,,,active,reviewed
+genre_000016,theme,テーマ,主题,Theme,genreIds,恋愛,恋爱,Romance,,,,active,reviewed
+genre_000017,theme,テーマ,主题,Theme,genreIds,ラブコメ,爱情喜剧,Romantic Comedy,,,,active,reviewed
+genre_000018,theme,テーマ,主题,Theme,genreIds,コメディ,喜剧,Comedy,,,,active,reviewed
+genre_000019,theme,テーマ,主题,Theme,genreIds,サスペンス,悬疑,Suspense,,,,active,reviewed
+genre_000020,theme,テーマ,主题,Theme,genreIds,ホラー,恐怖,Horror,,,,active,reviewed
+genre_000021,theme,テーマ,主题,Theme,genreIds,SF,科幻,Science Fiction,,,,active,reviewed
+genre_000022,theme,テーマ,主题,Theme,genreIds,ファンタジー,奇幻,Fantasy,,,,active,reviewed
+genre_000023,theme,テーマ,主题,Theme,genreIds,パロディ,戏仿,Parody,,,,active,reviewed
+genre_000024,theme,テーマ,主题,Theme,genreIds,時代劇,历史剧,Period Drama,,,,active,reviewed
+genre_000025,theme,テーマ,主题,Theme,genreIds,旅行,旅行,Travel,,,,active,reviewed
+genre_000026,theme,テーマ,主题,Theme,genreIds,温泉,温泉,Hot Spring,,,,active,reviewed
+genre_000027,theme,テーマ,主题,Theme,genreIds,学校,学校题材,School Setting,,,,active,reviewed
+genre_000028,theme,テーマ,主题,Theme,genreIds,職場,职场题材,Workplace Setting,,,,active,reviewed
+genre_000029,theme,テーマ,主题,Theme,genreIds,美容院,美容院,Beauty Salon,,,,active,reviewed
+genre_000030,theme,テーマ,主题,Theme,genreIds,エステ,美容护理,Beauty Treatment,,,,active,reviewed
+genre_000031,theme,テーマ,主题,Theme,genreIds,病院,医院,Hospital Setting,,,,active,reviewed
+genre_000032,theme,テーマ,主题,Theme,genreIds,スポーツ,运动,Sports,,,,active,reviewed
+genre_000033,theme,テーマ,主题,Theme,genreIds,ダンス,舞蹈,Dance,,,,active,reviewed
+genre_000034,theme,テーマ,主题,Theme,genreIds,時間停止,时间停止,Time Stop,,,,active,reviewed
+genre_000035,theme,テーマ,主题,Theme,genreIds,透明人間,隐形人,Invisible Person,,,,active,reviewed
+genre_000036,theme,テーマ,主题,Theme,genreIds,入れ替わり,身份互换,Body Swap,,,,active,reviewed
+genre_000037,theme,テーマ,主题,Theme,genreIds,催眠,催眠,Hypnosis,,,,active,reviewed
+genre_000038,theme,テーマ,主题,Theme,genreIds,洗脳,洗脑,Mind Control,,,,active,reviewed
+genre_000039,theme,テーマ,主题,Theme,genreIds,変身,变身,Transformation,,,,active,reviewed
+genre_000040,theme,テーマ,主题,Theme,genreIds,女体化,女性化,Feminization,,,,active,reviewed
+genre_000041,theme,テーマ,主题,Theme,genreIds,恋人,情侣,Couple,,,,active,reviewed
+genre_000042,theme,テーマ,主题,Theme,genreIds,友達,朋友,Friends,,,,active,reviewed
+genre_000043,theme,テーマ,主题,Theme,genreIds,幼なじみ,青梅竹马,Childhood Friends,,,,active,reviewed
+genre_000044,theme,テーマ,主题,Theme,genreIds,家族,家庭,Family,,,,active,reviewed
+genre_000045,theme,テーマ,主题,Theme,genreIds,近親設定,近亲设定,Incest Theme,,,,active,reviewed
+genre_000046,theme,テーマ,主题,Theme,genreIds,不倫,婚外情,Infidelity,,,,active,reviewed
+genre_000047,theme,テーマ,主题,Theme,genreIds,寝取られ,被夺爱,Netorare,NTR,NTR,NTR,active,reviewed
+genre_000048,theme,テーマ,主题,Theme,genreIds,寝取り,夺爱,Netori,,,,active,reviewed
+genre_000049,theme,テーマ,主题,Theme,genreIds,浮気,出轨,Cheating,,,,active,reviewed
+genre_000050,theme,テーマ,主题,Theme,genreIds,誘惑,诱惑,Seduction,,,,active,reviewed
+genre_000051,theme,テーマ,主题,Theme,genreIds,逆ナン,女性搭讪,Reverse Pickup,,,,active,reviewed
+genre_000052,theme,テーマ,主题,Theme,genreIds,ナンパ,搭讪,Pickup,,,,active,reviewed
+genre_000053,theme,テーマ,主题,Theme,genreIds,痴漢,痴汉题材,Groping Theme,,,,active,reviewed
+genre_000054,theme,テーマ,主题,Theme,genreIds,盗撮,偷拍题材,Hidden Camera Theme,,,,active,reviewed
+genre_000055,theme,テーマ,主题,Theme,genreIds,覗き,偷窥题材,Voyeurism,,,,active,reviewed
+genre_000056,theme,テーマ,主题,Theme,genreIds,露出,公开暴露,Public Exposure,,,,active,reviewed
+genre_000057,theme,テーマ,主题,Theme,genreIds,羞恥,羞耻,Humiliation,,,,active,reviewed
+genre_000058,theme,テーマ,主题,Theme,genreIds,いたずら,恶作剧,Prank,,,,active,reviewed
+genre_000059,theme,テーマ,主题,Theme,genreIds,フェチ,恋物,Fetish,,,,active,reviewed
+genre_000060,theme,テーマ,主题,Theme,genreIds,脚フェチ,腿控,Leg Fetish,,,,active,reviewed
+genre_000061,theme,テーマ,主题,Theme,genreIds,足フェチ,足控,Foot Fetish,,,,active,reviewed
+genre_000062,theme,テーマ,主题,Theme,genreIds,乳フェチ,乳房偏好,Breast Fetish,,,,active,reviewed
+genre_000063,theme,テーマ,主题,Theme,genreIds,尻フェチ,臀部偏好,Butt Fetish,,,,active,reviewed
+genre_000064,theme,テーマ,主题,Theme,genreIds,匂いフェチ,气味偏好,Scent Fetish,,,,active,reviewed
+genre_000065,theme,テーマ,主题,Theme,genreIds,汗,汗水,Sweat,,,,active,reviewed
+genre_000066,theme,テーマ,主题,Theme,genreIds,日焼け,晒黑,Tanned,,,,active,reviewed
+genre_000067,theme,テーマ,主题,Theme,genreIds,全裸,全裸,Full Nudity,,,,active,reviewed
+genre_000068,theme,テーマ,主题,Theme,genreIds,恋愛リアリティ,恋爱真人秀,Dating Reality,,,,active,reviewed
+genre_000069,theme,テーマ,主题,Theme,genreIds,主観,主观视角,Point of View,,,,active,reviewed
+genre_000070,theme,テーマ,主题,Theme,genreIds,ハメ撮り,第一人称拍摄,POV Recording,,,,active,reviewed
+genre_000071,role,役柄,角色,Role,genreIds,アイドル,偶像,Idol,,,,active,reviewed
+genre_000072,role,役柄,角色,Role,genreIds,芸能人,艺人,Celebrity,,,,active,reviewed
+genre_000073,role,役柄,角色,Role,genreIds,女子アナ,女主播,Female Announcer,,,,active,reviewed
+genre_000074,role,役柄,角色,Role,genreIds,女優,女演员,Actress,,,,active,reviewed
+genre_000075,role,役柄,角色,Role,genreIds,モデル,模特,Model,,,,active,reviewed
+genre_000076,role,役柄,角色,Role,genreIds,グラビアアイドル,写真偶像,Gravure Idol,,,,active,reviewed
+genre_000077,role,役柄,角色,Role,genreIds,学生,学生,Student,,,,active,reviewed
+genre_000078,role,役柄,角色,Role,genreIds,女子大生,女大学生,Female College Student,,,,active,reviewed
+genre_000079,role,役柄,角色,Role,genreIds,女子校生,女高中生,Female High School Student,JK,女高中生,Schoolgirl,active,reviewed
+genre_000080,role,役柄,角色,Role,genreIds,先生,教师,Teacher,,,,active,reviewed
+genre_000081,role,役柄,角色,Role,genreIds,女教師,女教师,Female Teacher,,,,active,reviewed
+genre_000082,role,役柄,角色,Role,genreIds,家庭教師,家庭教师,Private Tutor,,,,active,reviewed
+genre_000083,role,役柄,角色,Role,genreIds,講師,讲师,Instructor,,,,active,reviewed
+genre_000084,role,役柄,角色,Role,genreIds,OL,职场女性,Office Lady,,,,active,reviewed
+genre_000085,role,役柄,角色,Role,genreIds,秘書,秘书,Secretary,,,,active,reviewed
+genre_000086,role,役柄,角色,Role,genreIds,受付嬢,前台接待,Receptionist,,,,active,reviewed
+genre_000087,role,役柄,角色,Role,genreIds,店員,店员,Shop Clerk,,,,active,reviewed
+genre_000088,role,役柄,角色,Role,genreIds,ウェイトレス,服务员,Waitress,,,,active,reviewed
+genre_000089,role,役柄,角色,Role,genreIds,看護師,护士,Nurse,,,,active,reviewed
+genre_000090,role,役柄,角色,Role,genreIds,女医,女医生,Female Doctor,,,,active,reviewed
+genre_000091,role,役柄,角色,Role,genreIds,女検事,女检察官,Female Prosecutor,,,,active,reviewed
+genre_000092,role,役柄,角色,Role,genreIds,警察官,警察,Police Officer,,,,active,reviewed
+genre_000093,role,役柄,角色,Role,genreIds,客室乗務員,空乘,Flight Attendant,,,,active,reviewed
+genre_000094,role,役柄,角色,Role,genreIds,車掌,列车乘务员,Train Conductor,,,,active,reviewed
+genre_000095,role,役柄,角色,Role,genreIds,美容師,美发师,Hairdresser,,,,active,reviewed
+genre_000096,role,役柄,角色,Role,genreIds,エステティシャン,美容师,Esthetician,,,,active,reviewed
+genre_000097,role,役柄,角色,Role,genreIds,女将,女掌柜,Inn Proprietress,,,,active,reviewed
+genre_000098,role,役柄,角色,Role,genreIds,女主人,女主人,Hostess,,,,active,reviewed
+genre_000099,role,役柄,角色,Role,genreIds,メイド,女仆,Maid,,,,active,reviewed
+genre_000100,role,役柄,角色,Role,genreIds,巫女,巫女,Shrine Maiden,,,,active,reviewed
+genre_000101,role,役柄,角色,Role,genreIds,シスター,修女,Nun,,,,active,reviewed
+genre_000102,role,役柄,角色,Role,genreIds,花嫁,新娘,Bride,,,,active,reviewed
+genre_000103,role,役柄,角色,Role,genreIds,若妻,年轻妻子,Young Wife,,,,active,reviewed
+genre_000104,role,役柄,角色,Role,genreIds,未亡人,寡妇,Widow,,,,active,reviewed
+genre_000105,role,役柄,角色,Role,genreIds,母,母亲,Mother,,,,active,reviewed
+genre_000106,role,役柄,角色,Role,genreIds,義母,继母,Stepmother,,,,active,reviewed
+genre_000107,role,役柄,角色,Role,genreIds,姉,姐姐,Older Sister,,,,active,reviewed
+genre_000108,role,役柄,角色,Role,genreIds,妹,妹妹,Younger Sister,,,,active,reviewed
+genre_000109,role,役柄,角色,Role,genreIds,娘,女儿,Daughter,,,,active,reviewed
+genre_000110,role,役柄,角色,Role,genreIds,お嬢様,大小姐,Young Lady,,,,active,reviewed
+genre_000111,role,役柄,角色,Role,genreIds,令嬢,千金小姐,Heiress,,,,active,reviewed
+genre_000112,role,役柄,角色,Role,genreIds,幼なじみ,青梅竹马,Childhood Friend,,,,active,reviewed
+genre_000113,role,役柄,角色,Role,genreIds,ギャル,辣妹,Gyaru,,,,active,reviewed
+genre_000114,role,役柄,角色,Role,genreIds,清楚系,清纯系,Innocent Type,,,,active,reviewed
+genre_000115,role,役柄,角色,Role,genreIds,童顔,童颜,Baby-faced,,,,active,reviewed
+genre_000116,role,役柄,角色,Role,genreIds,熟女,熟女角色,Mature Woman Role,,,,active,reviewed
+genre_000117,role,役柄,角色,Role,genreIds,人妻,人妻角色,Married Woman Role,,,,active,reviewed
+genre_000118,role,役柄,角色,Role,genreIds,素人,素人角色,Amateur Role,,,,active,reviewed
+genre_000119,role,役柄,角色,Role,genreIds,女戦士,女战士,Female Warrior,,,,active,reviewed
+genre_000120,role,役柄,角色,Role,genreIds,くノ一,女忍者,Kunoichi,,,,active,reviewed
+genre_000121,role,役柄,角色,Role,genreIds,格闘家,格斗家,Martial Artist,,,,active,reviewed
+genre_000122,role,役柄,角色,Role,genreIds,お姫様,公主,Princess,,,,active,reviewed
+genre_000123,role,役柄,角色,Role,genreIds,女王様,女王,Dominatrix,,,,active,reviewed
+genre_000124,role,役柄,角色,Role,genreIds,奴隷,奴隶,Slave Role,,,,active,reviewed
+genre_000125,role,役柄,角色,Role,genreIds,男の娘,伪娘,Feminine Boy,,,,active,reviewed
+genre_000126,role,役柄,角色,Role,genreIds,トランスジェンダー女性,跨性别女性,Transgender Woman,ニューハーフ,女装人妖,Trans Woman,active,reviewed
+genre_000127,role,役柄,角色,Role,genreIds,男性出演者,男演员,Male Performer,,,,active,reviewed
+genre_000128,role,役柄,角色,Role,genreIds,高齢男性,高龄男性,Older Man,,,,active,reviewed
+genre_000129,role,役柄,角色,Role,genreIds,外国人出演者,外国演员,Foreign Performer,,,,active,reviewed
+genre_000130,role,役柄,角色,Role,genreIds,アジア系出演者,亚洲演员,Asian Performer,,,,active,reviewed
+genre_000131,role,役柄,角色,Role,genreIds,黒人出演者,黑人演员,Black Performer,,,,active,reviewed
+genre_000132,role,役柄,角色,Role,genreIds,白人出演者,白人演员,White Performer,,,,active,reviewed
+genre_000133,wardrobe,衣装,服装,Wardrobe,genreIds,制服,制服,Uniform,,,,active,reviewed
+genre_000134,wardrobe,衣装,服装,Wardrobe,genreIds,セーラー服,水手服,Sailor Uniform,,,,active,reviewed
+genre_000135,wardrobe,衣装,服装,Wardrobe,genreIds,学校制服,校服,School Uniform,,,,active,reviewed
+genre_000136,wardrobe,衣装,服装,Wardrobe,genreIds,体操着,运动服,Gym Clothes,,,,active,reviewed
+genre_000137,wardrobe,衣装,服装,Wardrobe,genreIds,ブルマー,运动短裤,Bloomers,,,,active,reviewed
+genre_000138,wardrobe,衣装,服装,Wardrobe,genreIds,スクール水着,学校泳装,School Swimsuit,,,,active,reviewed
+genre_000139,wardrobe,衣装,服装,Wardrobe,genreIds,水着,泳装,Swimsuit,,,,active,reviewed
+genre_000140,wardrobe,衣装,服装,Wardrobe,genreIds,ビキニ,比基尼,Bikini,,,,active,reviewed
+genre_000141,wardrobe,衣装,服装,Wardrobe,genreIds,競泳水着,竞泳泳装,Competition Swimsuit,,,,active,reviewed
+genre_000142,wardrobe,衣装,服装,Wardrobe,genreIds,下着,内衣,Lingerie,,,,active,reviewed
+genre_000143,wardrobe,衣装,服装,Wardrobe,genreIds,ブラジャー,胸罩,Bra,,,,active,reviewed
+genre_000144,wardrobe,衣装,服装,Wardrobe,genreIds,パンティ,内裤,Panties,,,,active,reviewed
+genre_000145,wardrobe,衣装,服装,Wardrobe,genreIds,ベビードール,娃娃装,Babydoll,,,,active,reviewed
+genre_000146,wardrobe,衣装,服装,Wardrobe,genreIds,ネグリジェ,睡裙,Negligee,,,,active,reviewed
+genre_000147,wardrobe,衣装,服装,Wardrobe,genreIds,裸エプロン,裸体围裙,Nude Apron,,,,active,reviewed
+genre_000148,wardrobe,衣装,服装,Wardrobe,genreIds,エプロン,围裙,Apron,,,,active,reviewed
+genre_000149,wardrobe,衣装,服装,Wardrobe,genreIds,メイド服,女仆装,Maid Outfit,,,,active,reviewed
+genre_000150,wardrobe,衣装,服装,Wardrobe,genreIds,ナース服,护士服,Nurse Outfit,,,,active,reviewed
+genre_000151,wardrobe,衣装,服装,Wardrobe,genreIds,OL服,OL装,Office Wear,,,,active,reviewed
+genre_000152,wardrobe,衣装,服装,Wardrobe,genreIds,スーツ,西装,Suit,,,,active,reviewed
+genre_000153,wardrobe,衣装,服装,Wardrobe,genreIds,和服,和服,Kimono,,,,active,reviewed
+genre_000154,wardrobe,衣装,服装,Wardrobe,genreIds,浴衣,浴衣,Yukata,,,,active,reviewed
+genre_000155,wardrobe,衣装,服装,Wardrobe,genreIds,喪服,丧服,Mourning Dress,,,,active,reviewed
+genre_000156,wardrobe,衣装,服装,Wardrobe,genreIds,チャイナドレス,旗袍,Cheongsam,,,,active,reviewed
+genre_000157,wardrobe,衣装,服装,Wardrobe,genreIds,ウェディングドレス,婚纱,Wedding Dress,,,,active,reviewed
+genre_000158,wardrobe,衣装,服装,Wardrobe,genreIds,コスプレ,角色扮演,Cosplay,,,,active,reviewed
+genre_000159,wardrobe,衣装,服装,Wardrobe,genreIds,アニメコスプレ,动漫角色扮演,Anime Cosplay,,,,active,reviewed
+genre_000160,wardrobe,衣装,服装,Wardrobe,genreIds,バニーガール,兔女郎,Bunny Girl,,,,active,reviewed
+genre_000161,wardrobe,衣装,服装,Wardrobe,genreIds,猫耳,猫耳,Cat Ears,,,,active,reviewed
+genre_000162,wardrobe,衣装,服装,Wardrobe,genreIds,ゴスロリ,哥特萝莉,Gothic Lolita,,,,active,reviewed
+genre_000163,wardrobe,衣装,服装,Wardrobe,genreIds,ミニスカート,迷你裙,Miniskirt,,,,active,reviewed
+genre_000164,wardrobe,衣装,服装,Wardrobe,genreIds,超ミニスカート,超短裙,Micro Miniskirt,,,,active,reviewed
+genre_000165,wardrobe,衣装,服装,Wardrobe,genreIds,タイトスカート,紧身裙,Pencil Skirt,,,,active,reviewed
+genre_000166,wardrobe,衣装,服装,Wardrobe,genreIds,ストッキング,丝袜,Stockings,,,,active,reviewed
+genre_000167,wardrobe,衣装,服装,Wardrobe,genreIds,パンスト,连裤袜,Pantyhose,,,,active,reviewed
+genre_000168,wardrobe,衣装,服装,Wardrobe,genreIds,ニーハイ,过膝袜,Thigh-high Socks,,,,active,reviewed
+genre_000169,wardrobe,衣装,服装,Wardrobe,genreIds,ルーズソックス,泡泡袜,Loose Socks,,,,active,reviewed
+genre_000170,wardrobe,衣装,服装,Wardrobe,genreIds,ブーツ,长靴,Boots,,,,active,reviewed
+genre_000171,wardrobe,衣装,服装,Wardrobe,genreIds,ハイヒール,高跟鞋,High Heels,,,,active,reviewed
+genre_000172,wardrobe,衣装,服装,Wardrobe,genreIds,眼鏡,眼镜,Glasses,,,,active,reviewed
+genre_000173,wardrobe,衣装,服装,Wardrobe,genreIds,帽子,帽子,Hat,,,,active,reviewed
+genre_000174,wardrobe,衣装,服装,Wardrobe,genreIds,マスク,口罩,Mask,,,,active,reviewed
+genre_000175,wardrobe,衣装,服装,Wardrobe,genreIds,全身タイツ,全身紧身衣,Bodysuit,,身体套装,Zentai,active,reviewed
+genre_000176,wardrobe,衣装,服装,Wardrobe,genreIds,レオタード,紧身衣,Leotard,,,,active,reviewed
+genre_000177,wardrobe,衣装,服装,Wardrobe,genreIds,ボンデージ,束缚装,Bondage Wear,,,,active,reviewed
+genre_000178,wardrobe,衣装,服装,Wardrobe,genreIds,女装,女装,Cross-dressing,,,,active,reviewed
+genre_000179,wardrobe,衣装,服装,Wardrobe,genreIds,着衣,着衣,Clothed,,,,active,reviewed
+genre_000180,wardrobe,衣装,服装,Wardrobe,genreIds,半裸,半裸,Partially Nude,,,,active,reviewed
+genre_000181,body,体型・外見,体型与外观,Body & Appearance,genreIds,巨乳,巨乳,Big Bust,,,,active,reviewed
+genre_000182,body,体型・外見,体型与外观,Body & Appearance,genreIds,爆乳,爆乳,Very Large Bust,,,,active,reviewed
+genre_000183,body,体型・外見,体型与外观,Body & Appearance,genreIds,超乳,超大胸部,Extremely Large Bust,,,,active,reviewed
+genre_000184,body,体型・外見,体型与外观,Body & Appearance,genreIds,貧乳,贫乳,Small Bust,,,,active,reviewed
+genre_000185,body,体型・外見,体型与外观,Body & Appearance,genreIds,微乳,微乳,Petite Bust,,,,active,reviewed
+genre_000186,body,体型・外見,体型与外观,Body & Appearance,genreIds,美乳,美胸,Beautiful Breasts,,,,active,reviewed
+genre_000187,body,体型・外見,体型与外观,Body & Appearance,genreIds,巨尻,巨臀,Big Butt,,,,active,reviewed
+genre_000188,body,体型・外見,体型与外观,Body & Appearance,genreIds,美尻,美臀,Beautiful Butt,,,,active,reviewed
+genre_000189,body,体型・外見,体型与外观,Body & Appearance,genreIds,スレンダー,苗条,Slender,,,,active,reviewed
+genre_000190,body,体型・外見,体型与外观,Body & Appearance,genreIds,ぽっちゃり,丰满,Chubby,,,,active,reviewed
+genre_000191,body,体型・外見,体型与外观,Body & Appearance,genreIds,肥満,肥胖,Plus-size,,,,active,reviewed
+genre_000192,body,体型・外見,体型与外观,Body & Appearance,genreIds,長身,高挑,Tall,,,,active,reviewed
+genre_000193,body,体型・外見,体型与外观,Body & Appearance,genreIds,小柄,娇小,Petite,,,,active,reviewed
+genre_000194,body,体型・外見,体型与外观,Body & Appearance,genreIds,筋肉質,肌肉型,Muscular,,,,active,reviewed
+genre_000195,body,体型・外見,体型与外观,Body & Appearance,genreIds,日焼け,晒黑肤色,Tanned,,,,active,reviewed
+genre_000196,body,体型・外見,体型与外观,Body & Appearance,genreIds,色白,白皙,Fair-skinned,,,,active,reviewed
+genre_000197,body,体型・外見,体型与外观,Body & Appearance,genreIds,美脚,美腿,Beautiful Legs,,,,active,reviewed
+genre_000198,body,体型・外見,体型与外观,Body & Appearance,genreIds,妊婦,孕妇,Pregnant,,,,active,reviewed
+genre_000199,body,体型・外見,体型与外观,Body & Appearance,genreIds,パイパン,无阴毛,Hairless,,,,active,reviewed
+genre_000200,body,体型・外見,体型与外观,Body & Appearance,genreIds,剛毛,体毛浓密,Hairy,,,,active,reviewed
+genre_000201,body,体型・外見,体型与外观,Body & Appearance,genreIds,童顔,童颜,Baby-faced,,,,active,reviewed
+genre_000202,body,体型・外見,体型与外观,Body & Appearance,genreIds,成熟体型,成熟体型,Mature Figure,,,,active,reviewed
+genre_000203,act,行為,行为,Act,genreIds,キス,接吻,Kissing,,,,active,reviewed
+genre_000204,act,行為,行为,Act,genreIds,ディープキス,深吻,Deep Kissing,,,,active,reviewed
+genre_000205,act,行為,行为,Act,genreIds,フェラ,口交,Fellatio,,,,active,reviewed
+genre_000206,act,行為,行为,Act,genreIds,イラマチオ,深喉,Deep Throat,,,,active,reviewed
+genre_000207,act,行為,行为,Act,genreIds,クンニ,舔阴,Cunnilingus,,,,active,reviewed
+genre_000208,act,行為,行为,Act,genreIds,手コキ,手交,Handjob,,,,active,reviewed
+genre_000209,act,行為,行为,Act,genreIds,足コキ,足交,Footjob,,,,active,reviewed
+genre_000210,act,行為,行为,Act,genreIds,パイズリ,乳交,Paizuri,,,,active,reviewed
+genre_000211,act,行為,行为,Act,genreIds,素股,股间摩擦,Intercrural Sex,,,,active,reviewed
+genre_000212,act,行為,行为,Act,genreIds,騎乗位,女上位,Cowgirl,,,,active,reviewed
+genre_000213,act,行為,行为,Act,genreIds,正常位,传教士体位,Missionary,,,,active,reviewed
+genre_000214,act,行為,行为,Act,genreIds,後背位,后入式,Rear-entry,,,,active,reviewed
+genre_000215,act,行為,行为,Act,genreIds,立ちバック,站立后入,Standing Rear-entry,,,,active,reviewed
+genre_000216,act,行為,行为,Act,genreIds,69,69式,Sixty-nine,,,,active,reviewed
+genre_000217,act,行為,行为,Act,genreIds,アナル,肛交,Anal Sex,,,,active,reviewed
+genre_000218,act,行為,行为,Act,genreIds,中出し,体内射精,Creampie,,,,active,reviewed
+genre_000219,act,行為,行为,Act,genreIds,顔射,颜射,Facial,,,,active,reviewed
+genre_000220,act,行為,行为,Act,genreIds,口内発射,口内射精,Oral Ejaculation,,,,active,reviewed
+genre_000221,act,行為,行为,Act,genreIds,飲精,吞精,Semen Swallowing,,,,active,reviewed
+genre_000222,act,行為,行为,Act,genreIds,ぶっかけ,多人射精,Bukkake,,,,active,reviewed
+genre_000223,act,行為,行为,Act,genreIds,ごっくん,吞饮精液,Gokkun,,,,active,reviewed
+genre_000224,act,行為,行为,Act,genreIds,放尿,排尿,Urination,,,,active,reviewed
+genre_000225,act,行為,行为,Act,genreIds,潮吹き,潮吹,Squirting,,,,active,reviewed
+genre_000226,act,行為,行为,Act,genreIds,大量潮吹き,大量潮吹,Heavy Squirting,,,,active,reviewed
+genre_000227,act,行為,行为,Act,genreIds,指入れ,指交,Fingering,,,,active,reviewed
+genre_000228,act,行為,行为,Act,genreIds,フィスト,拳交,Fisting,,,,active,reviewed
+genre_000229,act,行為,行为,Act,genreIds,複数プレイ,多人性行为,Group Sex,,,,active,reviewed
+genre_000230,act,行為,行为,Act,genreIds,3P,三人性行为,Threesome,,,,active,reviewed
+genre_000231,act,行為,行为,Act,genreIds,乱交,群交,Orgy,,,,active,reviewed
+genre_000232,act,行為,行为,Act,genreIds,自慰,自慰,Masturbation,,,,active,reviewed
+genre_000233,act,行為,行为,Act,genreIds,相互自慰,相互自慰,Mutual Masturbation,,,,active,reviewed
+genre_000234,act,行為,行为,Act,genreIds,ローション,润滑液玩法,Lotion Play,,,,active,reviewed
+genre_000235,act,行為,行为,Act,genreIds,マッサージ,按摩,Massage,,,,active,reviewed
+genre_000236,act,行為,行为,Act,genreIds,オイル,精油按摩,Oil Play,,,,active,reviewed
+genre_000237,act,行為,行为,Act,genreIds,乳首責め,乳头刺激,Nipple Stimulation,,,,active,reviewed
+genre_000238,act,行為,行为,Act,genreIds,乳揉み,揉胸,Breast Fondling,,,,active,reviewed
+genre_000239,act,行為,行为,Act,genreIds,尻叩き,打屁股,Spanking,,,,active,reviewed
+genre_000240,act,行為,行为,Act,genreIds,言葉責め,言语调教,Dirty Talk,,,,active,reviewed
+genre_000241,act,行為,行为,Act,genreIds,痴女,主动女性,Seductress,,,,active,reviewed
+genre_000242,act,行為,行为,Act,genreIds,男潮吹き,男性潮吹,Male Squirting,,,,active,reviewed
+genre_000243,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,SM,SM,BDSM,,,,active,reviewed
+genre_000244,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,緊縛,绳缚,Kinbaku,,,,active,reviewed
+genre_000245,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,拘束,拘束,Restraint,,,,active,reviewed
+genre_000246,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,調教,调教,Training,,,,active,reviewed
+genre_000247,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,奴隷,奴隶玩法,Slave Play,,,,active,reviewed
+genre_000248,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,女王様,女王玩法,Dominatrix Play,,,,active,reviewed
+genre_000249,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,羞恥プレイ,羞耻玩法,Humiliation Play,,,,active,reviewed
+genre_000250,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,露出プレイ,露出玩法,Exhibitionism,,,,active,reviewed
+genre_000251,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,野外,户外,Outdoor,,,,active,reviewed
+genre_000252,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,カーセックス,车内性行为,Car Sex,,,,active,reviewed
+genre_000253,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,風呂,浴室,Bath,,,,active,reviewed
+genre_000254,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,泡風呂,泡泡浴,Bubble Bath,,,,active,reviewed
+genre_000255,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,温泉プレイ,温泉玩法,Hot Spring Play,,,,active,reviewed
+genre_000256,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,玩具,成人玩具,Sex Toys,,,,active,reviewed
+genre_000257,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,バイブ,振动棒,Vibrator,,,,active,reviewed
+genre_000258,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,ディルド,仿真阳具,Dildo,,,,active,reviewed
+genre_000259,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,ローター,跳蛋,Bullet Vibrator,,,,active,reviewed
+genre_000260,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,異物挿入,异物插入,Object Insertion,,,,active,reviewed
+genre_000261,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,媚薬,催情药设定,Aphrodisiac Theme,,,,active,reviewed
+genre_000262,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,触手,触手,Tentacles,,,,active,reviewed
+genre_000263,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,催眠プレイ,催眠玩法,Hypnosis Play,,,,active,reviewed
+genre_000264,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,盗撮風,偷拍风格,Hidden-camera Style,,,,active,reviewed
+genre_000265,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,ハメ撮り,第一人称实录,POV Sex,,,,active,reviewed
+genre_000266,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,ナンパもの,搭讪企划,Pickup Production,,,,active,reviewed
+genre_000267,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,痴漢もの,痴汉企划,Groping Production,,,,active,reviewed
+genre_000268,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,レズビアン,女同性题材,Lesbian,,,,active,reviewed
+genre_000269,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,ゲイ,男同性题材,Gay,,,,active,reviewed
+genre_000270,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,バイセクシュアル,双性恋题材,Bisexual,,,,active,reviewed
+genre_000271,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,男女混合,男女混合,Mixed-gender,,,,active,reviewed
+genre_000272,practice,プレイ・嗜好,玩法与偏好,Practice & Fetish,genreIds,フェムドム,女性主导,Femdom,,,,active,reviewed
+genre_000273,production,作品形式,制作类别,Production Type,workType,成人向け実写,成人实拍,Adult Live Action,,,,active,reviewed
+genre_000274,production,作品形式,制作类别,Production Type,workType,成人向けアニメ,成人动画,Adult Animation,,,,active,reviewed
+genre_000275,production,作品形式,制作类别,Production Type,workType,イメージビデオ,写真影像,Image Video,,,,active,reviewed
+genre_000276,production,作品形式,制作类别,Production Type,workType,ピンク映画,粉红电影,Pink Film,,,,active,reviewed
+genre_000277,production,作品形式,制作类别,Production Type,workType,オリジナル作品,原创作品,Original Work,,,,active,reviewed
+genre_000278,production,作品形式,制作类别,Production Type,workType,原作もの,改编作品,Adaptation,,,,active,reviewed
+genre_000279,production,作品形式,制作类别,Production Type,workType,総集編,合集,Compilation,,,,active,reviewed
+genre_000280,production,作品形式,制作类别,Production Type,workType,ベスト盤,精选集,Best-of Compilation,,,,active,reviewed
+genre_000281,production,作品形式,制作类别,Production Type,workType,オムニバス,短篇合集,Omnibus,,,,active,reviewed
+genre_000282,production,作品形式,制作类别,Production Type,workType,単体作品,单体作品,Single-performer Work,,,,active,reviewed
+genre_000283,production,作品形式,制作类别,Production Type,workType,共演作品,共演作品,Co-starring Work,,,,active,reviewed
+genre_000284,production,作品形式,制作类别,Production Type,workType,VR専用,VR专用,VR-only,,,,active,reviewed
+genre_000285,production,作品形式,制作类别,Production Type,workType,3D,3D,3D,,,,active,reviewed
+genre_000286,production,作品形式,制作类别,Production Type,workType,主観映像,主观视角影像,POV Video,,,,active,reviewed
+genre_000287,production,作品形式,制作类别,Production Type,workType,ドラマ作品,剧情作品,Drama Production,,,,active,reviewed
+genre_000288,production,作品形式,制作类别,Production Type,workType,ドキュメンタリー作品,纪录片作品,Documentary Production,,,,active,reviewed
+genre_000289,production,作品形式,制作类别,Production Type,workType,インタビュー,访谈,Interview,,,,active,reviewed
+genre_000290,production,作品形式,制作类别,Production Type,workType,How-to,教学,Instructional,,,,active,reviewed
+genre_000291,production,作品形式,制作类别,Production Type,workType,投稿作品,投稿作品,Submitted Work,,,,active,reviewed
+genre_000292,production,作品形式,制作类别,Production Type,workType,自主制作,独立制作,Independent Production,,,,active,reviewed
+genre_000293,production,作品形式,制作类别,Production Type,workType,海外作品,海外作品,Overseas Production,,,,active,reviewed
+genre_000294,production,作品形式,制作类别,Production Type,workType,輸入作品,进口作品,Imported Work,,,,active,reviewed
+genre_000295,production,作品形式,制作类别,Production Type,workType,女性向け,女性向,For Women,,,,active,reviewed
+genre_000296,production,作品形式,制作类别,Production Type,workType,男性向け,男性向,For Men,,,,active,reviewed
+genre_000297,production,作品形式,制作类别,Production Type,workType,同人作品,同人作品,Doujin Work,,,,active,reviewed
+genre_000298,production,作品形式,制作类别,Production Type,workType,無修正,无码,Uncensored,修正なし,无码,Uncensored,active,reviewed
+genre_000299,production,作品形式,制作类别,Production Type,workType,モザイク,有码,Censored,修正あり,有码,Mosaic Censored,active,reviewed
+genre_000300,production,作品形式,制作类别,Production Type,workType,薄消し,薄码,Light Mosaic,,,,active,reviewed
+genre_000301,production,作品形式,制作类别,Production Type,workType,字幕付き,带字幕,Subtitled,,,,active,reviewed
+genre_000302,production,作品形式,制作类别,Production Type,workType,多言語字幕,多语言字幕,Multilingual Subtitles,,,,active,reviewed
+genre_000303,production,作品形式,制作类别,Production Type,workType,リマスター,重制,Remastered,,,,active,reviewed
+genre_000304,production,作品形式,制作类别,Production Type,workType,4時間以上,4小时以上,Over Four Hours,,,,active,reviewed
+genre_000305,production,作品形式,制作类别,Production Type,workType,短編,短片,Short Form,,,,active,reviewed
+genre_000306,production,作品形式,制作类别,Production Type,workType,長編,长片,Feature-length,,,,active,reviewed
+genre_000307,production,作品形式,制作类别,Production Type,workType,シリーズ作品,系列作品,Series Entry,,,,active,reviewed
+genre_000308,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,DVD,DVD,DVD,,,,active,reviewed
+genre_000309,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,Blu-ray,蓝光,Blu-ray,,,,active,reviewed
+genre_000310,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,HD DVD,HD DVD,HD DVD,,,,active,reviewed
+genre_000311,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,VHS,VHS录像带,VHS,,,,active,reviewed
+genre_000312,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,UMD Video,UMD视频,UMD Video,,,,active,reviewed
+genre_000313,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,MicroSD,MicroSD卡,MicroSD,,,,active,reviewed
+genre_000314,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,配信,数字发行,Digital Distribution,デジタル配信,数字发行,Digital Release,active,reviewed
+genre_000315,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,ストリーミング,流媒体,Streaming,,,,active,reviewed
+genre_000316,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,ダウンロード,数字下载,Download,,,,active,reviewed
+genre_000317,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,4K UHD,4K超高清,4K UHD,,,,active,reviewed
+genre_000318,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,フルHD,全高清,Full HD,,,,active,reviewed
+genre_000319,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,HD,高清,HD,,,,active,reviewed
+genre_000320,media,媒体・形式,媒介与格式,Media & Format,mediaFormat,SD,标清,Standard Definition,,,,active,reviewed
+genre_000321,rating,年齢区分,分级,Rating,contentRating,R-18,R-18,R-18,,,,active,reviewed
+genre_000322,rating,年齢区分,分级,Rating,contentRating,R-15,R-15,R-15,,,,active,reviewed
+genre_000323,rating,年齢区分,分级,Rating,contentRating,成人指定,成人限定,Adults Only,,,,active,reviewed

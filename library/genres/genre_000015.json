@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000015",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ドキュメンタリー",
+    "zh-CN": "纪录片",
+    "en": "Documentary"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

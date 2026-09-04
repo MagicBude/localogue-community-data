@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000094",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "車掌",
+    "zh-CN": "列车乘务员",
+    "en": "Train Conductor"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

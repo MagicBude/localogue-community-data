@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000175",
+  "facet": "wardrobe",
+  "facetNames": {
+    "ja": "衣装",
+    "zh-CN": "服装",
+    "en": "Wardrobe"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "全身タイツ",
+    "zh-CN": "全身紧身衣",
+    "en": "Bodysuit"
+  },
+  "aliases": {
+    "zh-CN": [
+      "身体套装"
+    ],
+    "ja": [],
+    "en": [
+      "Zentai"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

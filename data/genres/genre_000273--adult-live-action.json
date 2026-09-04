@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000273",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "成人向け実写",
+    "zh-CN": "成人实拍",
+    "en": "Adult Live Action"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

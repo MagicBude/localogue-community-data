@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000298",
+  "facet": "production",
+  "facetNames": {
+    "ja": "作品形式",
+    "zh-CN": "制作类别",
+    "en": "Production Type"
+  },
+  "assignmentTarget": "workType",
+  "names": {
+    "ja": "無修正",
+    "zh-CN": "无码",
+    "en": "Uncensored"
+  },
+  "aliases": {
+    "zh-CN": [
+      "无码"
+    ],
+    "ja": [
+      "修正なし"
+    ],
+    "en": [
+      "Uncensored"
+    ]
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

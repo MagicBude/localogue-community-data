@@ -92,4 +92,4 @@ D:/Localogue-Packs/localogue-community-data
 
 ## 当前阶段
 
-当前版本是 **0.3.0 / JSON Data Source**：已重写稳定 ID 与生成流程，收录参考表指定的 13 位人物、5 部 Pilot A 作品和 3 个 Maker。CSV、XLSX、Shared Pack 与 Registry 均由 `data/` 自动生成。
+当前版本是 **0.3.1 / Genre Vocabulary Foundation**：除 13 位人物、5 部作品和 3 个 Maker 外，已建立 323 个日文、简体中文、英文对照的分类条目，并按九个语义分面管理。详见 [三语分类词表](docs/genre-vocabulary.md)。CSV、XLSX、Shared Pack 与 Registry 均由 `data/` 自动生成。

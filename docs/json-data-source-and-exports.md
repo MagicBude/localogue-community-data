@@ -15,6 +15,8 @@ CSV 与 XLSX 适合浏览和批量检查，但不是权威数据。发现错误�
 - `exports/csv/`：方便程序交换与表格浏览。
 - `exports/xlsx/`：冻结标题、筛选、换行和列宽优化后的人工浏览工作簿。
 
+分类数据还会派生 `genre-overview.csv` 与 `genre-aliases.csv`，XLSX 中对应“分类词表”和“分类别名”工作表。规范名、别名或翻译仍只允许在 `data/genres/` 中修改。
+
 ## 标准工作流
 
 ```bash

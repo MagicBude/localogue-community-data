@@ -166,10 +166,20 @@ function validateSeries() {
 }
 
 function validateGenres() {
+  const keys = new Map();
   for (const genre of collections.genres) {
     requireUuidId(genre.id, "genre", `genre ${genre.id}`);
     if (genre.schemaVersion !== 1) errors.push(`genre ${genre.id}: schemaVersion 必须为 1`);
     if (!genre.names?.ja?.trim()) errors.push(`genre ${genre.id}: 缺少 names.ja 日文原名`);
+    if (!genre.names?.["zh-CN"]?.trim()) errors.push(`genre ${genre.id}: 缺少 names.zh-CN 简体中文名`);
+    if (!genre.names?.en?.trim()) errors.push(`genre ${genre.id}: 缺少 names.en 英文名`);
+    if (!["theme","role","wardrobe","body","act","practice","production","media","rating"].includes(genre.facet)) errors.push(`genre ${genre.id}: facet 无效 (${genre.facet})`);
+    if (!["genreIds","workType","mediaFormat","contentRating"].includes(genre.assignmentTarget)) errors.push(`genre ${genre.id}: assignmentTarget 无效 (${genre.assignmentTarget})`);
+    if (genre.status !== "active") errors.push(`genre ${genre.id}: status 当前必须为 active`);
+    if (!genre.facetNames?.ja || !genre.facetNames?.["zh-CN"] || !genre.facetNames?.en) errors.push(`genre ${genre.id}: facetNames 必须包含日中英三语`);
+    for (const language of ["ja","zh-CN","en"]) if (!Array.isArray(genre.aliases?.[language])) errors.push(`genre ${genre.id}: aliases.${language} 必须为数组`);
+    const key = `${genre.facet}\0${genre.names?.ja?.trim().toLocaleLowerCase("ja")}`;
+    if (keys.has(key)) errors.push(`genre ${genre.id}: 同一 facet 的日文规范名与 ${keys.get(key)} 重复 (${genre.names?.ja})`); else keys.set(key, genre.id);
   }
 }
 

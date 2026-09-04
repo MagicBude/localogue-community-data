@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000204",
+  "facet": "act",
+  "facetNames": {
+    "ja": "行為",
+    "zh-CN": "行为",
+    "en": "Act"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ディープキス",
+    "zh-CN": "深吻",
+    "en": "Deep Kissing"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

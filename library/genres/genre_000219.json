@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000219",
+  "facet": "act",
+  "facetNames": {
+    "ja": "行為",
+    "zh-CN": "行为",
+    "en": "Act"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "顔射",
+    "zh-CN": "颜射",
+    "en": "Facial"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000130",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "アジア系出演者",
+    "zh-CN": "亚洲演员",
+    "en": "Asian Performer"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

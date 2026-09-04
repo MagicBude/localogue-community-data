@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000091",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "女検事",
+    "zh-CN": "女检察官",
+    "en": "Female Prosecutor"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

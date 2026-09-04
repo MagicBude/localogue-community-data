@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000017",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "ラブコメ",
+    "zh-CN": "爱情喜剧",
+    "en": "Romantic Comedy"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

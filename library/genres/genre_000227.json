@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000227",
+  "facet": "act",
+  "facetNames": {
+    "ja": "行為",
+    "zh-CN": "行为",
+    "en": "Act"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "指入れ",
+    "zh-CN": "指交",
+    "en": "Fingering"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

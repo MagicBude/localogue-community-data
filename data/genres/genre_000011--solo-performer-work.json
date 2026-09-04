@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000011",
+  "facet": "theme",
+  "facetNames": {
+    "ja": "テーマ",
+    "zh-CN": "主题",
+    "en": "Theme"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "単体作品",
+    "zh-CN": "单体作品",
+    "en": "Solo Performer Work"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}

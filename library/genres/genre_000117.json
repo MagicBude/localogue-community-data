@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "genre_000117",
+  "facet": "role",
+  "facetNames": {
+    "ja": "役柄",
+    "zh-CN": "角色",
+    "en": "Role"
+  },
+  "assignmentTarget": "genreIds",
+  "names": {
+    "ja": "人妻",
+    "zh-CN": "人妻角色",
+    "en": "Married Woman Role"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "status": "active",
+  "translationStatus": "reviewed",
+  "contentContext": "adult-metadata"
+}
