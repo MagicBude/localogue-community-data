@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.6 - 2026-09-04
+
+### Series Candidate Review / Promotion Batch B
+
+- 新增 ATTACKERS partial Snapshot Batch B（20 条）与 Madonna partial Snapshot Batch B（19 条）。
+- 经官方详情页逐项复核后新增 25 个正式 Series：ATTACKERS 16、Madonna 9。
+- ATTACKERS `series/2273` 官方 Series 名仅为“１”，本阶段明确 Review=hold，不分配 Community ID、不创建 approved Mapping。
+- Series 从 36 增加到 61，Registry Active 从 465 增加到 490，approved External ID Mapping / Observation 从 117 增加到 142。
+- Review Ledger 累计 45：publish 44、hold 1、reject 0。
+- 最新 Snapshot Diff 为 38 published、1 candidate-new、0 drift、0 missing、0 conflict。
+- ATTACKERS Series coverage 更新为 discovered 34 / reviewed 34 / published 33 / unrecognized 1；Madonna 更新为 22/22/22/0。
+- 两者 Snapshot 仍为 partial，因此 completeTraversal 继续为 false。
+
 ## 0.4.5 - 2026-09-04
 
 ### Series Candidate Review / Promotion Batch A

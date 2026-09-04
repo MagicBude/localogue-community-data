@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000049",
+  "names": {
+    "ja": "壺に堕とされた女",
+    "zh-CN": "坠入圈套的女人",
+    "en": "Woman Lured into the Trap"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2281",
+  "externalIds": {
+    "attackers.series": "2281"
+  },
+  "firstPublishedIn": "0.4.6"
+}

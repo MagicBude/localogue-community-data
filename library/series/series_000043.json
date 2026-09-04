@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000043",
+  "names": {
+    "ja": "感じるほどに、踊る肉体",
+    "zh-CN": "越感受，身体越舞动",
+    "en": "The More She Feels, the More Her Body Dances"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2272",
+  "externalIds": {
+    "attackers.series": "2272"
+  },
+  "firstPublishedIn": "0.4.6"
+}

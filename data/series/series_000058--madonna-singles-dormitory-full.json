@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000058",
+  "names": {
+    "ja": "こちらマドンナ独身寮・ただいま満室",
+    "zh-CN": "这里是Madonna单身宿舍·目前满员",
+    "en": "Madonna Singles Dormitory: Currently Full"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1561",
+  "externalIds": {
+    "madonna.series": "1561"
+  },
+  "firstPublishedIn": "0.4.6"
+}

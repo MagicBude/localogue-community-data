@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000047",
+  "names": {
+    "ja": "夫のいない昼下がり",
+    "zh-CN": "丈夫不在的午后",
+    "en": "Afternoon Without Her Husband"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2279",
+  "externalIds": {
+    "attackers.series": "2279"
+  },
+  "firstPublishedIn": "0.4.6"
+}

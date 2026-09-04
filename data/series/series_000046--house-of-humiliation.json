@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000046",
+  "names": {
+    "ja": "恥辱の館",
+    "zh-CN": "耻辱之馆",
+    "en": "House of Humiliation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2278",
+  "externalIds": {
+    "attackers.series": "2278"
+  },
+  "firstPublishedIn": "0.4.6"
+}

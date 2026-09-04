@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000042",
+  "names": {
+    "ja": "恋する妻達",
+    "zh-CN": "恋爱的妻子们",
+    "en": "Wives in Love"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2271",
+  "externalIds": {
+    "attackers.series": "2271"
+  },
+  "firstPublishedIn": "0.4.6"
+}

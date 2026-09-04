@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000037",
+  "names": {
+    "ja": "不貞な上下関係",
+    "zh-CN": "不贞的上下级关系",
+    "en": "Unfaithful Hierarchy"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2264",
+  "externalIds": {
+    "attackers.series": "2264"
+  },
+  "firstPublishedIn": "0.4.6"
+}

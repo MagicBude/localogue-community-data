@@ -168,3 +168,8 @@ Snapshot/Diff 不会：
 ## 0.4.5 起的 Review Ledger
 
 Snapshot Diff 产生的 candidate 不再直接进入正式 Registry。人工复核后必须先写入 `staging/series-candidate-reviews.json`，再发布正式 Series、Source Record 和 approved Mapping。详见 `docs/SERIES_CANDIDATE_REVIEW.md`。
+
+
+## 0.4.6 Batch B
+
+新增 `partial-002`，旧 `partial-001` 保留。最新 ATTACKERS segment 20 条，Madonna segment 19 条，二者仍为 `completeTraversal=false`。Batch B 证明 Snapshot 可以分段累计，但 latest diff 只描述最新 segment，不能把“当前 segment 已处理完”解释为完整索引覆盖。

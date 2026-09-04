@@ -3,7 +3,7 @@
   "kind": "shared-library",
   "id": "io.github.magicbude.localogue-community-data",
   "name": "Localogue Community Data",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "由社区维护、供 Localogue 以只读 Shared Pack 方式挂载的公共结构化元数据。",
   "languages": [
     "ja",
@@ -13,5 +13,5 @@
   "license": "CC0-1.0",
   "sourceUrl": "https://github.com/MagicBude/localogue-community-data",
   "createdAt": "2026-09-02T10:36:00+08:00",
-  "updatedAt": "2026-09-04T17:25:00+09:00"
+  "updatedAt": "2026-09-04T15:38:00+08:00"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000048",
+  "names": {
+    "ja": "服従の性奉仕",
+    "zh-CN": "服从的性奉仕",
+    "en": "Sexual Servitude of Obedience"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2280",
+  "externalIds": {
+    "attackers.series": "2280"
+  },
+  "firstPublishedIn": "0.4.6"
+}

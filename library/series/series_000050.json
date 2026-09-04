@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000050",
+  "names": {
+    "ja": "女教師玩具化計画",
+    "zh-CN": "女教师玩具化计划",
+    "en": "Female Teacher Toyification Plan"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2282",
+  "externalIds": {
+    "attackers.series": "2282"
+  },
+  "firstPublishedIn": "0.4.6"
+}

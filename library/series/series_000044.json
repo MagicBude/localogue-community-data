@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000044",
+  "names": {
+    "ja": "心まで犯されて。",
+    "zh-CN": "连心也被侵犯。",
+    "en": "Violated to the Heart"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2275",
+  "externalIds": {
+    "attackers.series": "2275"
+  },
+  "firstPublishedIn": "0.4.6"
+}

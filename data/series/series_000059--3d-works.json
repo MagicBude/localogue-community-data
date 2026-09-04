@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000059",
+  "names": {
+    "ja": "3D作品",
+    "zh-CN": "3D作品",
+    "en": "3D Works"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1562",
+  "externalIds": {
+    "madonna.series": "1562"
+  },
+  "firstPublishedIn": "0.4.6"
+}

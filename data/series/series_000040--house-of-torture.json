@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000040",
+  "names": {
+    "ja": "拷問の館",
+    "zh-CN": "拷问之馆",
+    "en": "House of Torture"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2267",
+  "externalIds": {
+    "attackers.series": "2267"
+  },
+  "firstPublishedIn": "0.4.6"
+}

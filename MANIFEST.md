@@ -1,8 +1,8 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.5**
+当前 Pack 版本：**0.4.6**
 
-基线版本：`0.4.4 — Series Index Snapshot / Enumerator Foundation`
+基线版本：`0.4.5 — Series Candidate Review / Promotion Batch A`
 
 ## 当前正式数据
 
@@ -10,50 +10,38 @@
 | --- | ---: | --- |
 | People | 13 | 本阶段不扩量 |
 | Works | 5 | 延续 Pilot A |
-| Organizations | 86 | 5 Maker + 81 Label，本阶段不新增 Organization |
-| Series | 36 | 0.4.5 新增 19 个经 Review 批准的官方 Series |
+| Organizations | 86 | 5 Maker + 81 Label |
+| Series | 61 | 0.4.6 新增 25 个经 Review 批准的官方 Series |
 | Genres | 325 | 延续核心受控词表 |
-| Registry Active | 465 | 新增 19 个 Series ID |
+| Registry Active | 490 | 新增 25 个 Series ID |
 | Registry Redirect | 0 | 本阶段无 Merge |
 | Merge Plans | 0 | 本阶段无 Merge |
 
-## 0.4.5 Review / Promotion
+## 0.4.6 Series Review Batch B
 
-- Series Candidate Reviews：19；
-- publish：19；hold：0；reject：0；
-- ATTACKERS 新增正式 Series：9；
-- Madonna 新增正式 Series：10；
-- approved External ID Mapping：117；
-- Provider Observation：117。
+- ATTACKERS 新增第二份 partial Snapshot：20 条；其中 16 个新候选 publish、1 个候选 hold、3 个已发布精确命中。
+- Madonna 新增第二份 partial Snapshot：19 条；其中 9 个新候选 publish、10 个已发布精确命中。
+- 本版本新增正式 Series：25。
+- Series Candidate Reviews：累计 45；publish 44、hold 1、reject 0。
+- approved External ID Mapping / Provider Observation：142。
 
-0.4.5 将流程冻结为：
-
-`官方 Index → Snapshot → Diff Candidate → 官方详情页人工复核 → Review Ledger → 正式 Series + Source Record + approved Mapping`
-
-Snapshot 仍然只是发现层；即使 candidate 已经全部发布，也不能把 partial Snapshot 错写成完整 Index Coverage。
+ATTACKERS `series/2273` 的官方规范名仅为全角“１”，虽然来源是官方页面，但信息量异常低，本阶段明确 hold，不分配 Community ID。
 
 ## 最新 Snapshot Diff
 
-当前两份 0.4.4 partial Snapshot 本身不变，共 20 条：
-
-- ATTACKERS：10 条，全部已进入正式 Mapping；
-- Madonna：10 条，全部已进入正式 Mapping；
-- `published`：20；
-- `candidate-new`：0；
-- `candidate-existing-name`：0；
-- `published-name-drift`：0；
-- `missing-from-complete-index`：0；
-- conflict：0。
+- 最新 ATTACKERS Snapshot：20 条；19 published，1 candidate-new（已 Review=hold）。
+- 最新 Madonna Snapshot：19 条；19 published。
+- 合计 `published=38`、`candidate-new=1`、drift=0、missing=0、conflict=0。
+- staging 累计 4 份 Snapshot、59 个 Snapshot Entry。
 
 ## 完整性边界
 
-ATTACKERS Series 当前联合发现 17、审核 17、发布 17；Madonna Series 当前联合发现 13、审核 13、发布 13。两者的最新 Snapshot 仍是 partial，所以 `series.completeTraversal=false`、来源级 `completeTraversal=false`。
+ATTACKERS Series 当前 discovered/reviewed/published = 34/34/33，另有 1 个 hold；Madonna 为 22/22/22。最新 Snapshot 仍是 partial，因此两者 `series.completeTraversal=false`、来源级 `completeTraversal=false`。
 
 ## 安全边界
 
-- Review `publish` 必须引用存在的 Snapshot entry；
-- Review 的 Provider 外部 ID、日文名、Maker、Source URL 必须与 Snapshot 一致；
-- `publish` 必须与正式 Series 和 approved Mapping 三方一致；
-- `hold/reject` 不允许提前占用 Community ID；
-- 不根据同名、模糊相似或 AI 推测自动发布；
+- 官方来源不等于无条件发布；异常低信息量名称可以 hold。
+- hold/reject 不占 Community ID，也不写 approved Mapping。
+- partial Snapshot 不用于删除或 Redirect 历史正式 Series。
+- 同名、模糊相似和 AI 推测不得自动创建或合并实体。
 - 不新增大量 Work，不提交图片和私人状态。

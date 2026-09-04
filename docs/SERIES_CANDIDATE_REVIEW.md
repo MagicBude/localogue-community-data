@@ -42,3 +42,8 @@ Validator 会检查：
 - reject：0。
 
 这只表示**当前 partial Snapshot 中的候选已清空**，不代表 ATTACKERS 或 Madonna 的完整 Series Index 已覆盖。两者的 `series.completeTraversal` 仍必须保持 `false`。
+
+
+## 0.4.6 Batch B
+
+第二批新增 26 个 Review 决策：25 个 publish、1 个 hold。`attackers.series:2273` 的官方规范名仅为全角“１”，因此即使来源是官方页面，也不直接固化为永久 Community ID。该案例明确证明 Review 的职责不只是确认来源真假，还要阻止明显异常元数据直接进入正式 Registry。

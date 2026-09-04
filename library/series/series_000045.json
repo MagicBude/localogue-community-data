@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000045",
+  "names": {
+    "ja": "堕ちていく令嬢",
+    "zh-CN": "堕落的千金小姐",
+    "en": "The Falling Young Lady"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2277",
+  "externalIds": {
+    "attackers.series": "2277"
+  },
+  "firstPublishedIn": "0.4.6"
+}

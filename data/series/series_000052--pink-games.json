@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000052",
+  "names": {
+    "ja": "桃色遊戯",
+    "zh-CN": "桃色游戏",
+    "en": "Pink Games"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2286",
+  "externalIds": {
+    "attackers.series": "2286"
+  },
+  "firstPublishedIn": "0.4.6"
+}

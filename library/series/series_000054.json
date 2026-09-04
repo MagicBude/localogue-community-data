@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000054",
+  "names": {
+    "ja": "母さんとしたい!",
+    "zh-CN": "想和妈妈做！",
+    "en": "I Want to Do It with Mom!"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1547",
+  "externalIds": {
+    "madonna.series": "1547"
+  },
+  "firstPublishedIn": "0.4.6"
+}
