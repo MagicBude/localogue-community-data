@@ -2,20 +2,23 @@
 
 ## 当前版本
 
-`0.4.3 — Series Registry Batch A`
+`0.4.4 — Series Index Snapshot / Enumerator Foundation`
 
-基线：0.4.2
+基线：0.4.3
 
 ## 已完成
 
-1. 保持 0.4.2 的 Label Foundation：ATTACKERS、Madonna、MOODYZ、IDEAPOCKET 当前官方 Label Index 均已有独立实体类型级覆盖记录。
-2. 为 S1 正式新增主 Label `S1 NO.1 STYLE`（`s1.label:4355`）；由于尚未获得可证明的完整 Label Index 快照，不声明 S1 Label coverage 完整。
-3. 新增 13 个官方可核验 Series：S1 2 个、ATTACKERS 8 个、Madonna 3 个。
-4. 每个新增 Label / Series 均建立正式 Source Record、approved External ID Mapping 与 Provider Observation。
-5. External ID Mapping / Provider Observation 扩展至 98 条；Provider reconciliation 为 98 auto-applied、0 suggested、0 conflicts、0 unrecognized。
-6. ATTACKERS / Madonna 开始声明 Series coverage；Maker/Label coverage 保持 complete，Series coverage 为 incomplete，因此来源级 `completeTraversal=false`。
-7. Series 不推断 `labelId`：官方 Series 页面没有明确 Label 归属时只记录 Maker。
-8. 不新增 Work，不改变株式会社WILL Candidate，不修改 Localogue 主程序。
+1. 保持 0.4.3 的正式数据不变：People 13、Works 5、Organizations 86、Series 17、Genres 325。
+2. 新增 `registry/series-index-providers.json`，首批登记 ATTACKERS 与 Madonna 两个官方 Series Index Provider。
+3. 新增 `pnpm series:index:snapshot -- <provider>`：从官方 `/works/series` HTML 中只提取 `/works/list/series/<id>`、日文名和详情 URL。
+4. Snapshot 默认 partial；只有显式 `--complete` 且 Provider 声明单页索引时才允许标记完整遍历。
+5. 新增 `staging/series-index-snapshots/`，保存发现层快照，不分配 Community ID。
+6. 新增 `pnpm series:index:diff`，把最新 Snapshot 与 approved External ID Mapping 对账。
+7. Diff 分类支持 published、published-name-drift、candidate-new、candidate-existing-name、missing-from-complete-index、conflict。
+8. 完整快照缺失历史 approved ID 只进入审核报告，不自动删除或 Redirect。
+9. 新增 Series Snapshot Validator、CSV/JSON 报告和 XLSX 人工审核工作表。
+10. 第一批 partial snapshot：ATTACKERS 10 条、Madonna 10 条；共得到 1 条已发布精确命中与 19 条待审核新候选。
+11. 不新增正式 Series，不新增 Mapping，不修改 Localogue 主程序。
 
 ## 当前正式统计
 
@@ -31,33 +34,36 @@
 - External ID Mappings: 98
 - Organization Candidates: 1
 
-## 当前可证明的 Label 覆盖
+## Series Index Staging 统计
 
-| Source | Label discovered | Reviewed | Published | Label traversal | Source traversal |
-| --- | ---: | ---: | ---: | --- | --- |
-| ATTACKERS official | 17 | 17 | 17 | complete | partial（Series 未完整） |
-| Madonna official | 18 | 18 | 18 | complete | partial（Series 未完整） |
-| MOODYZ official | 29 | 29 | 29 | complete | partial（Series 未完整） |
-| IDEAPOCKET official | 16 | 16 | 16 | complete | partial（Series 未完整） |
-| S1 official | 1 | 1 | 1 | incomplete | partial |
+- Series Index Providers: 2
+- Series Index Snapshots: 2
+- Snapshot Entries: 20
+- Latest Snapshot published exact matches: 1
+- New Series candidates: 19
+- Name drift: 0
+- Existing-name candidates: 0
+- Missing from complete snapshot: 0
+- Conflicts: 0
 
-S1 的 `1/1` 只表示当前批次发现并审核的主 Label 页面，不代表官方 Label Index 只有一个条目。
+## 当前 Series Coverage
 
-## 当前 Series Batch
+| Source | Discovered | Reviewed | Published | Unrecognized / Candidate | Traversal |
+| --- | ---: | ---: | ---: | ---: | --- |
+| S1 official | 3 | 3 | 3 | 0 | incomplete |
+| ATTACKERS official | 17 | 8 | 8 | 9 | incomplete |
+| Madonna official | 13 | 3 | 3 | 10 | incomplete |
+| MOODYZ official | 1 | 1 | 1 | 0 | incomplete |
+| IDEAPOCKET official | 2 | 2 | 2 | 0 | incomplete |
 
-| Source | Series discovered | Reviewed | Published | Series traversal |
-| --- | ---: | ---: | ---: | --- |
-| S1 official | 3 | 3 | 3 | incomplete |
-| ATTACKERS official | 8 | 8 | 8 | incomplete |
-| Madonna official | 3 | 3 | 3 | incomplete |
-| MOODYZ official | 1 | 1 | 1 | incomplete |
-| IDEAPOCKET official | 2 | 2 | 2 | incomplete |
+ATTACKERS / Madonna 的 discovered 现在包含“已发布 approved ID ∪ 最新 partial snapshot ID”。Snapshot 未完整遍历，所以 coverage.completeTraversal 继续保持 false。
 
 ## 下一阶段
 
-### 0.4.x：Series Index Snapshot / Enumerator
+### 0.4.x：完整 Series Index Snapshot + Candidate Review Batch
 
-1. 优先建立可重复的官方 Series Index 枚举与快照流程，把“搜索发现几个 Series”升级为“可证明遍历某个公开索引”。
-2. 对 ATTACKERS / Madonna 的 `/works/series` 优先做完整候选快照，再人工审核并批量发布。
-3. S1 的动态 Label/Series 索引在当前采集环境中无法可靠形成完整列表；继续保持 incomplete，不根据搜索引擎结果数量推断完整度。
-4. Series 数量开始快速增长后，不再依赖手工逐条创建 JSON；生成流程必须继续输出新增、更新、冲突、未识别与待审核数量。
+1. 在可直连官网的真实仓库环境运行 `pnpm series:index:snapshot -- attackers` 与 `-- madonna`，获取完整的当前官方索引 HTML 解析结果。
+2. 人工确认索引结构、条目数量和是否确实单页完整后，再决定是否以 `--complete` 写入完整快照。
+3. 运行 `pnpm series:index:diff`，按 Provider 分批审核 `candidate-new`；一次发布可控数量的 Series，不一次性把几百条未审核结果全塞进正式 Registry。
+4. `published-name-drift`、`candidate-existing-name`、`missing-from-complete-index` 必须单独人工处理，禁止自动改名/合并/删除。
+5. 后续把相同 Snapshot Provider Registry 模式扩展到 MOODYZ、IDEAPOCKET、S1（前提是官方 Series Index 能稳定解析）。

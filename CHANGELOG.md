@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.4.4 - 2026-09-04
+
+### Added
+- 新增 Series Index Provider Registry，首批支持 ATTACKERS 与 Madonna 官方 Series Index。
+- 新增 `series:index:snapshot` 官方索引 Snapshot 工具，支持 live fetch、离线 HTML fixture 与显式 `--complete`。
+- 新增 `staging/series-index-snapshots/`，首批保存 ATTACKERS / Madonna 各 10 条 partial snapshot。
+- 新增 `series:index:diff`，输出 Snapshot 与正式 External ID Mapping 的可审计差异和候选 CSV/JSON。
+- 新增 Series Index Snapshot Validator 与离线解析/不自动删除回归测试。
+- XLSX 增加 Series Index Snapshots / Series Index Candidates 工作表。
+
+### Changed
+- ATTACKERS Series coverage 更新为联合发现 17、已发布 8、待审核 9，仍为 incomplete。
+- Madonna Series coverage 更新为联合发现 13、已发布 3、待审核 10，仍为 incomplete。
+- `stats` 增加 Series Index Provider、Snapshot、Entry、Candidate 与 missing-from-complete 统计。
+
+### Governance
+- Snapshot 只属于发现/Staging 层，不占 Community ID，也不会自动创建正式 Series 或 approved Mapping。
+- 同名无 Mapping 只进入人工审核；完整 Snapshot 暂时缺少历史正式 ID 时只生成审核警告，绝不自动删除或 Redirect。
+
 ## 0.4.3 - 2026-09-04
 
 ### Added

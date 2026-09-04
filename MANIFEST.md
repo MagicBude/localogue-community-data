@@ -1,8 +1,8 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.3**
+当前 Pack 版本：**0.4.4**
 
-基线版本：`0.4.2 — Existing Maker Label Coverage Batch B`
+基线版本：`0.4.3 — Series Registry Batch A`
 
 ## 当前正式数据
 
@@ -10,42 +10,61 @@
 | --- | ---: | --- |
 | People | 13 | 本阶段不扩量 |
 | Works | 5 | 延续 Pilot A |
-| Organizations | 86 | 5 Maker + 81 Label |
-| Series | 17 | 新增 Series Batch A 13 个 |
+| Organizations | 86 | 5 Maker + 81 Label，本阶段不新增正式 Organization |
+| Series | 17 | 本阶段不新增正式 Series，先建立批量发现流水线 |
 | Genres | 325 | 延续核心受控词表 |
-| Registry Active | 446 | 新增 1 Label + 13 Series |
+| Registry Active | 446 | 本阶段不新增正式 Community ID |
 | Registry Redirect | 0 | 本阶段无 Merge |
 | Merge Plans | 0 | 本阶段无 Merge |
 
-## 0.4.3 新增正式实体
+## 0.4.4 新增治理与 Staging 数据
 
-### S1
+- Series Index Provider Registry：2 个 Provider（ATTACKERS / Madonna）；
+- Series Index Snapshot：2 份 partial snapshot；
+- Snapshot Entries：20 条；
+- Series Index Diff：1 条 `published` 精确命中、19 条 `candidate-new`；
+- `published-name-drift`：0；
+- `candidate-existing-name`：0；
+- `missing-from-complete-index`：0；
+- conflict：0。
 
-- `label_000081`：S1 NO.1 STYLE，官方外部 ID `s1.label:4355`；当前只确认该正式 Label 页面，不声明 S1 Label Index 已完整遍历。
-- `series_000005`：おま●こ、くぱぁ（`s1.series:422`）。
-- `series_000006`：ラブキモメン（`s1.series:570`）。
-- 连同既有 `series_000001` 新人NO.1STYLE，S1 当前已发布 3 个官方 Series 样本。
+## Series Index Snapshot / Enumerator
+
+0.4.4 将 Series 批量建设拆成：
+
+`官方 Series Index → Snapshot → Diff / Candidate → 人工审核 → 正式 Series + Source Record + approved Mapping`
+
+新增命令：
+
+```bash
+pnpm series:index:snapshot -- attackers
+pnpm series:index:snapshot -- madonna
+pnpm series:index:diff
+```
+
+Snapshot 默认是 partial。只有操作者确认当前公开索引确实完整遍历时，才允许显式使用 `--complete`；即使完整快照出现，脚本也不会自动创建、合并、删除或 Redirect 正式实体。
+
+## 当前 Snapshot Coverage
 
 ### ATTACKERS
 
-新增 8 个官方 Series：
-
-- `series_000007` 侵入者（`attackers.series:2402`）
-- `series_000008` あなたに愛されたくて。（`attackers.series:2269`）
-- `series_000009` あなた、許して…。（`attackers.series:2270`）
-- `series_000010` 脱獄者（`attackers.series:2293`）
-- `series_000011` 奴隷島（`attackers.series:2256`）
-- `series_000012` 犯される度に美しく（`attackers.series:2274`）
-- `series_000013` 団鬼六（`attackers.series:2325`）
-- `series_000014` 調教志願（`attackers.series:5317`）
+- 已发布 approved Series：8；
+- partial snapshot：10 条；
+- 与已发布重叠：1 条（奴隷島 / `attackers.series:2256`）；
+- 联合发现：17；
+- snapshot 待审核新候选：9；
+- Series completeTraversal：false。
 
 ### Madonna
 
-新增 3 个官方 Series：
+- 已发布 approved Series：3；
+- partial snapshot：10 条；
+- 与已发布重叠：0；
+- 联合发现：13；
+- snapshot 待审核新候选：10；
+- Series completeTraversal：false。
 
-- `series_000015` 年下レズビアンに愛された私（`madonna.series:1846`）
-- `series_000016` 廃業寸前（`madonna.series:1891`）
-- `series_000017` 夫の上司に飾られた　人妻ボディアクセサリー（`madonna.series:1749`）
+两份 snapshot 都只是工作流验证用的官方索引 partial snapshot，不得解释成完整 Series Index 覆盖。
 
 ## Registry / Mapping
 
@@ -53,23 +72,14 @@
 - approved External ID Mapping：98 条；
 - Organization Candidate：1 条（株式会社WILL）；
 - Provider Observation：98 条；
-- Provider reconciliation：98 条全部由 approved 外部 ID 精确命中。
+- Provider reconciliation：98 条全部由 approved 外部 ID 精确命中；
+- Series Snapshot 候选与 approved Mapping 分开治理，不会直接进入 Provider Observation 或正式 Registry。
 
-## 完整度边界
+## 安全边界
 
-0.4.3 继续使用 0.4.2 引入的实体类型级 `coverage[].completeTraversal`：
-
-- ATTACKERS / Madonna 的 Maker 与 Label coverage 仍为 complete；
-- 本版本开始为二者声明 Series coverage，但只录入第一批官方 Series，因此 Series coverage 为 incomplete；
-- 因为 `entityTypes` 新增了 Series，ATTACKERS / Madonna 的来源级 `completeTraversal` 必须由 `true` 调整为 `false`；
-- S1 的 Label 与 Series 都只完成官方页面级核验，尚未形成可证明的完整索引快照，因此两类 coverage 均为 incomplete。
-
-这不改变 0.4.1 / 0.4.2 对各 Maker 当前官方 Label Index 的已有完整性结论；完整度必须始终按“来源 + 实体类型 + 检查日期”解释。
-
-## Series 关联原则
-
-- 正式 Series 必须具有官方 Source Record；
-- `makerId` 由官方来源域名/Source Registry 明确归属；
-- `labelId` 不根据名称、作品标题或常见发行习惯猜测，只有公开证据明确支持时才填写；
-- 同名 Series 不跨 Maker 自动合并；
-- 本批次不导入大量 Work，也不提交任何图片或私人状态。
+- Snapshot 不占 Community ID；
+- Snapshot 中的同名只用于候选提示，不自动合并；
+- approved Provider 外部 ID 仍是正式自动关联白名单；
+- 完整 Snapshot 暂时看不到一个历史正式 ID 时只产生 `missing-from-complete-index`，禁止自动删除；
+- 不根据搜索结果数量、AI 推测或标题相似度声明完整覆盖；
+- 本阶段不导入大量 Work，不提交图片和私人状态。

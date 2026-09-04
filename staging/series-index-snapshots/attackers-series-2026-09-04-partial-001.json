@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "attackers-series-2026-09-04-partial-001",
+  "providerKey": "attackers",
+  "provider": "attackers.series",
+  "sourceId": "source_attackers_official",
+  "makerId": "maker_000004",
+  "indexUrl": "https://attackers.net/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "本快照只记录官方 Series Index 当前可核验的前 10 个条目，用于验证 Snapshot/Diff 工作流；不是完整索引快照，不得用于完整性声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "2253",
+      "nameJa": "アナル奴隷白書",
+      "sourceUrl": "https://attackers.net/works/list/series/2253"
+    },
+    {
+      "position": 2,
+      "externalId": "2254",
+      "nameJa": "夫の目の前で犯されて",
+      "sourceUrl": "https://attackers.net/works/list/series/2254"
+    },
+    {
+      "position": 3,
+      "externalId": "2255",
+      "nameJa": "地獄の女神",
+      "sourceUrl": "https://attackers.net/works/list/series/2255"
+    },
+    {
+      "position": 4,
+      "externalId": "2256",
+      "nameJa": "奴隷島",
+      "sourceUrl": "https://attackers.net/works/list/series/2256"
+    },
+    {
+      "position": 5,
+      "externalId": "2257",
+      "nameJa": "絶対調教",
+      "sourceUrl": "https://attackers.net/works/list/series/2257"
+    },
+    {
+      "position": 6,
+      "externalId": "2258",
+      "nameJa": "淫乱奴隷の強制快楽",
+      "sourceUrl": "https://attackers.net/works/list/series/2258"
+    },
+    {
+      "position": 7,
+      "externalId": "2259",
+      "nameJa": "貞操帯の女",
+      "sourceUrl": "https://attackers.net/works/list/series/2259"
+    },
+    {
+      "position": 8,
+      "externalId": "2260",
+      "nameJa": "楠木女学院",
+      "sourceUrl": "https://attackers.net/works/list/series/2260"
+    },
+    {
+      "position": 9,
+      "externalId": "2261",
+      "nameJa": "鬼畜輪姦",
+      "sourceUrl": "https://attackers.net/works/list/series/2261"
+    },
+    {
+      "position": 10,
+      "externalId": "2263",
+      "nameJa": "女豹",
+      "sourceUrl": "https://attackers.net/works/list/series/2263"
+    }
+  ]
+}

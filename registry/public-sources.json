@@ -183,9 +183,10 @@
         "labelUrlPattern": "https://attackers.net/works/list/label/<id>",
         "pagination": "当前 /works/label 索引在单页列出全部 17 个可见 Label；本批次逐项进入 Label 链接核验外部 ID",
         "seriesUrlPattern": "https://attackers.net/works/list/series/<id>",
-        "seriesIndex": "https://attackers.net/works/series"
+        "seriesIndex": "https://attackers.net/works/series",
+        "seriesSnapshotWorkflow": "staging/series-index-snapshots/ + pnpm series:index:diff"
       },
-      "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 attackers.label 命名空间内的稳定外部 ID 使用",
+      "externalIdStability": "Label 详情 URL 的 label/<id> 与 Series 详情 URL 的 series/<id> 分别作为 attackers.label / attackers.series 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
@@ -210,16 +211,16 @@
         },
         {
           "entityType": "series",
-          "discovered": 8,
+          "discovered": 17,
           "reviewed": 8,
           "published": 8,
           "conflicts": 0,
-          "unrecognized": 0,
+          "unrecognized": 9,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "ATTACKERS 当前 Maker/Label coverage 已完整；本批次新增 8 个官方 Series 样本，但尚未完整枚举 Series Index，因此来源级 completeTraversal 降为 false。"
+        "ATTACKERS Maker/Label coverage 已完整；Series 已建立 partial index snapshot。当前联合发现 17 个 Series，其中 8 个已发布、9 个仍为待审核候选；快照不是完整遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
       ]
     },
     {
@@ -238,9 +239,10 @@
         "labelUrlPattern": "https://madonna-av.com/works/list/label/<id>",
         "pagination": "当前 /works/label 索引在单页列出全部 18 个可见 Label；本批次逐项进入 Label 链接核验外部 ID",
         "seriesUrlPattern": "https://madonna-av.com/works/list/series/<id>",
-        "seriesIndex": "https://madonna-av.com/works/series"
+        "seriesIndex": "https://madonna-av.com/works/series",
+        "seriesSnapshotWorkflow": "staging/series-index-snapshots/ + pnpm series:index:diff"
       },
-      "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 madonna.label 命名空间内的稳定外部 ID 使用",
+      "externalIdStability": "Label 详情 URL 的 label/<id> 与 Series 详情 URL 的 series/<id> 分别作为 madonna.label / madonna.series 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
@@ -265,16 +267,16 @@
         },
         {
           "entityType": "series",
-          "discovered": 3,
+          "discovered": 13,
           "reviewed": 3,
           "published": 3,
           "conflicts": 0,
-          "unrecognized": 0,
+          "unrecognized": 10,
           "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "Madonna 当前 Maker/Label coverage 已完整；本批次新增 3 个官方 Series 样本，但尚未完整枚举 Series Index，因此来源级 completeTraversal 降为 false。"
+        "Madonna Maker/Label coverage 已完整；Series 已建立 partial index snapshot。当前联合发现 13 个 Series，其中 3 个已发布、10 个仍为待审核候选；快照不是完整遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
       ]
     }
   ]

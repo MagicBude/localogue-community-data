@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "key": "attackers",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "makerId": "maker_000004",
+      "indexUrl": "https://attackers.net/works/series",
+      "detailUrlTemplate": "https://attackers.net/works/list/series/<id>",
+      "detailPathPattern": "^/works/list/series/(\\d+)$",
+      "indexIsSinglePage": true
+    },
+    {
+      "key": "madonna",
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "makerId": "maker_000005",
+      "indexUrl": "https://madonna-av.com/works/series",
+      "detailUrlTemplate": "https://madonna-av.com/works/list/series/<id>",
+      "detailPathPattern": "^/works/list/series/(\\d+)$",
+      "indexIsSinglePage": true
+    }
+  ]
+}

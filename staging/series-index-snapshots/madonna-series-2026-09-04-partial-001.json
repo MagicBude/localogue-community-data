@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "madonna-series-2026-09-04-partial-001",
+  "providerKey": "madonna",
+  "provider": "madonna.series",
+  "sourceId": "source_madonna_official",
+  "makerId": "maker_000005",
+  "indexUrl": "https://madonna-av.com/works/series",
+  "capturedAt": "2026-09-04",
+  "captureMethod": "web-review",
+  "completeTraversal": false,
+  "notes": [
+    "本快照只记录官方 Series Index 当前可核验的前 10 个条目，用于验证 Snapshot/Diff 工作流；不是完整索引快照，不得用于完整性声明。"
+  ],
+  "entries": [
+    {
+      "position": 1,
+      "externalId": "1549",
+      "nameJa": "となりの奥さん",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1549"
+    },
+    {
+      "position": 2,
+      "externalId": "1550",
+      "nameJa": "美熟女と黒人",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1550"
+    },
+    {
+      "position": 3,
+      "externalId": "1551",
+      "nameJa": "愛する夫の目の前で・・・",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1551"
+    },
+    {
+      "position": 4,
+      "externalId": "1552",
+      "nameJa": "特選 友達の母",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1552"
+    },
+    {
+      "position": 5,
+      "externalId": "1553",
+      "nameJa": "僕のおばさん",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1553"
+    },
+    {
+      "position": 6,
+      "externalId": "1554",
+      "nameJa": "素人人妻ナンパ総集編4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1554"
+    },
+    {
+      "position": 7,
+      "externalId": "1555",
+      "nameJa": "五十路熟女18人4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1555"
+    },
+    {
+      "position": 8,
+      "externalId": "1556",
+      "nameJa": "団地妻20人4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1556"
+    },
+    {
+      "position": 9,
+      "externalId": "1557",
+      "nameJa": "犯された熟女たち総集編4時間",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1557"
+    },
+    {
+      "position": 10,
+      "externalId": "1558",
+      "nameJa": "妖艶おんな愛戯",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1558"
+    }
+  ]
+}

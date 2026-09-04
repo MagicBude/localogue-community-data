@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Series Index Provider Registry",
+  "type": "object",
+  "required": ["schemaVersion", "providers"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "sourceId", "provider", "makerId", "indexUrl", "detailUrlTemplate", "detailPathPattern", "indexIsSinglePage"],
+        "properties": {
+          "key": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+          "sourceId": { "type": "string", "pattern": "^source_[a-z0-9_]+$" },
+          "provider": { "type": "string", "pattern": "^[a-z0-9_.-]+\\.series$" },
+          "makerId": { "type": "string", "pattern": "^maker_\\d{6}$" },
+          "indexUrl": { "type": "string", "format": "uri" },
+          "detailUrlTemplate": { "type": "string", "pattern": "<id>" },
+          "detailPathPattern": { "type": "string", "minLength": 1 },
+          "indexIsSinglePage": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

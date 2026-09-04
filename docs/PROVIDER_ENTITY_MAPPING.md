@@ -85,3 +85,14 @@ Foundation Validator 会拒绝：
 - 不允许只凭 `AVOPEN` 这样的同名规范名跨 Maker 合并；
 - Provider namespace + entityType + externalId 才构成外部身份键；
 - 若未来确认两个站点引用的是同一个更上层活动/项目，应另外建模，而不是破坏现有 Label 父级语义强行合并。
+
+## 7. 0.4.4：Snapshot Diff 不等于 External ID Mapping
+
+`staging/series-index-snapshots/` 中出现一个 Provider Series ID，只表示官方索引观察到了这个 ID。它必须与 `registry/external-id-mappings.json` 分开治理。
+
+- Snapshot 有 ID + approved Mapping：可以判定为已发布精确命中；
+- Snapshot 有 ID、无 Mapping：只能进入候选；
+- Snapshot 名称与正式 Series 精确同名、但 ID 未映射：仍然需要人工审核，不自动补 Mapping；
+- 完整 Snapshot 看不到历史 Mapping：只生成 `missing-from-complete-index`，不自动删除。
+
+因此 External ID Mapping 仍然是“经过审核后允许自动关联”的白名单；Snapshot 只是发现层。

@@ -57,4 +57,32 @@ try {
   const candidates = JSON.parse(await readFile(path.resolve(process.cwd(), "staging/organization-candidates.json"), "utf8"));
   stats.organizationCandidates = Array.isArray(candidates.candidates) ? candidates.candidates.length : "ERROR";
 } catch { stats.organizationCandidates = "ERROR"; }
+
+try {
+  const providerRegistry = JSON.parse(await readFile(path.resolve(process.cwd(), "registry/series-index-providers.json"), "utf8"));
+  stats.seriesIndexProviders = Array.isArray(providerRegistry.providers) ? providerRegistry.providers.length : "ERROR";
+} catch { stats.seriesIndexProviders = "ERROR"; }
+try {
+  const dir = path.resolve(process.cwd(), "staging/series-index-snapshots");
+  const names = (await readdir(dir)).filter((name) => name.endsWith(".json"));
+  stats.seriesIndexSnapshots = names.length;
+  let entries = 0;
+  for (const name of names) {
+    const snapshot = JSON.parse(await readFile(path.join(dir, name), "utf8"));
+    entries += Array.isArray(snapshot.entries) ? snapshot.entries.length : 0;
+  }
+  stats.seriesIndexSnapshotEntries = entries;
+} catch (error) {
+  stats.seriesIndexSnapshots = error?.code === "ENOENT" ? 0 : "ERROR";
+  stats.seriesIndexSnapshotEntries = error?.code === "ENOENT" ? 0 : "ERROR";
+}
+try {
+  const report = JSON.parse(await readFile(path.resolve(process.cwd(), "exports/reports/series-index-diff.json"), "utf8"));
+  const counts = report.counts ?? {};
+  stats.seriesIndexCandidates = (counts["candidate-new"] ?? 0) + (counts["candidate-existing-name"] ?? 0) + (counts["published-name-drift"] ?? 0);
+  stats.seriesIndexMissingFromComplete = counts["missing-from-complete-index"] ?? 0;
+} catch {
+  stats.seriesIndexCandidates = "ERROR";
+  stats.seriesIndexMissingFromComplete = "ERROR";
+}
 console.table(stats);

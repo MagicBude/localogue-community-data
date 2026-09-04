@@ -113,3 +113,18 @@ Label 与 Series 必须拆开统计。即使 `/works/label` 已完整遍历，�
 - MOODYZ：Label 29/29 complete；Series 1 个 Pilot，incomplete；来源级 false。
 - IDEAPOCKET：Label 16/16 complete；Series 2 个 Pilot，incomplete；来源级 false。
 - ATTACKERS / Madonna：当前 source.entityTypes 只有 Maker + Label，二者都 complete，因此来源级仍为 true。
+
+## 7. 0.4.4：Series Index Snapshot 是 Candidate/Staging 的专用入口
+
+Series 数量进入批量阶段后，不再直接把搜索结果写成正式实体。`staging/series-index-snapshots/` 保存官方索引观察快照，`pnpm series:index:diff` 再与 approved Mapping 对账。
+
+重要边界：
+
+1. partial snapshot 只能证明“这些条目被发现”，不能证明索引完整；
+2. Snapshot Entry 不占 Community ID；
+3. 未映射条目进入 `series-index-candidates.csv`，不会自动发布；
+4. 完整快照缺少一个历史 approved ID 时也不能自动删除；
+5. Source Registry 的 `discovered` 可以包含未发布候选，`published` 只统计正式实体；
+6. `completeTraversal` 仍然只能由实际完整遍历结果决定。
+
+详细流程见 `docs/SERIES_INDEX_SNAPSHOT.md`。

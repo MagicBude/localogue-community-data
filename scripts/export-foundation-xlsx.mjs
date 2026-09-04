@@ -41,6 +41,7 @@ const sources = await readJson("registry/public-sources.json", { sources: [] });
 const mappings = await readJson("registry/external-id-mappings.json", { mappings: [] });
 const candidates = await readJson("staging/organization-candidates.json", { candidates: [] });
 const reconciliation = await readJson("exports/reports/provider-reconciliation.json", { results: [] });
+const seriesIndexDiff = await readJson("exports/reports/series-index-diff.json", { selectedSnapshots: [], results: [] });
 const orgById = new Map(organizations.map((item) => [item.id, item]));
 
 const workbook = new ExcelJS.Workbook();
@@ -85,6 +86,18 @@ setupSheet(workbook, "Reconciliation", [
   ["Result", "result", 16], ["Reason", "reason", 28], ["Provider", "provider", 24], ["Type", "type", 14], ["External ID", "externalId", 18],
   ["日本語", "ja", 40], ["Community ID", "communityId", 20], ["Candidates", "candidates", 28], ["Source URL", "url", 54],
 ], (reconciliation.results ?? []).map((item) => ({ result: item.classification, reason: item.reason, provider: item.provider, type: item.entityType, externalId: item.externalId, ja: item.nameJa, communityId: item.communityId ?? "", candidates: (item.candidateCommunityIds ?? []).join("; "), url: item.sourceUrl })));
+
+
+
+setupSheet(workbook, "Series Index Snapshots", [
+  ["Snapshot ID", "snapshotId", 38], ["Provider", "provider", 24], ["Source ID", "sourceId", 30], ["Maker ID", "makerId", 18],
+  ["Captured", "capturedAt", 14], ["Complete", "complete", 12], ["Entries", "entries", 12],
+], (seriesIndexDiff.selectedSnapshots ?? []).map((item) => ({ snapshotId: item.snapshotId, provider: item.provider, sourceId: item.sourceId, makerId: item.makerId, capturedAt: item.capturedAt, complete: item.completeTraversal ? "yes" : "no", entries: item.entries })));
+
+setupSheet(workbook, "Series Index Candidates", [
+  ["Classification", "classification", 24], ["Reason", "reason", 36], ["Provider", "provider", 24], ["Snapshot ID", "snapshotId", 38],
+  ["External ID", "externalId", 18], ["日本語", "ja", 42], ["Maker ID", "makerId", 18], ["Community ID", "communityId", 20], ["Candidates", "candidates", 28], ["Source URL", "url", 56],
+], (seriesIndexDiff.results ?? []).filter((item) => item.classification !== "published").map((item) => ({ classification: item.classification, reason: item.reason, provider: item.provider, snapshotId: item.snapshotId, externalId: item.externalId, ja: item.nameJa, makerId: item.makerId, communityId: item.communityId ?? "", candidates: (item.candidateCommunityIds ?? []).join("; "), url: item.sourceUrl })));
 
 await fs.mkdir(path.dirname(out), { recursive: true });
 await workbook.xlsx.writeFile(out);
