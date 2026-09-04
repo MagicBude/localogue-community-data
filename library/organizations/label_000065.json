@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000065",
+  "kind": "label",
+  "names": {
+    "ja": "ティッシュ"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2771",
+  "externalIds": {
+    "ideapocket.label": "2771"
+  },
+  "firstPublishedIn": "0.4.2"
+}

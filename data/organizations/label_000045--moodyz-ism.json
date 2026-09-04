@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000045",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ ISM",
+    "zh-CN": "MOODYZ ISM",
+    "en": "MOODYZ ISM"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5049",
+  "externalIds": {
+    "moodyz.label": "5049"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　ISM"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000067",
+  "kind": "label",
+  "names": {
+    "ja": "IP-VR",
+    "zh-CN": "IP-VR",
+    "en": "IP-VR"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/9790",
+  "externalIds": {
+    "ideapocket.label": "9790"
+  },
+  "firstPublishedIn": "0.4.2"
+}

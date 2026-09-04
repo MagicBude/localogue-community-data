@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000046",
+  "kind": "label",
+  "names": {
+    "ja": "きれいなお姉さんは好きですか"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/10107",
+  "externalIds": {
+    "moodyz.label": "10107"
+  },
+  "firstPublishedIn": "0.4.2"
+}

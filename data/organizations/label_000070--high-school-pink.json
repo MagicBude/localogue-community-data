@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000070",
+  "kind": "label",
+  "names": {
+    "ja": "HIGH-SCHOOL Pink",
+    "zh-CN": "HIGH-SCHOOL Pink",
+    "en": "HIGH-SCHOOL Pink"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2767",
+  "externalIds": {
+    "ideapocket.label": "2767"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "HIGH-SCHOOL　Pink"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

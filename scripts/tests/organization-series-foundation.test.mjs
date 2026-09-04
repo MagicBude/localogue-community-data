@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -33,7 +33,7 @@ async function fixture({ badLabelParent = false, duplicateMapping = false, cross
   await writeFile(path.join(root, "registry/public-sources.json"), JSON.stringify({ schemaVersion: 1, sources: [{
     id: "source_demo", name: "Demo", sourceType: "official", baseUrl: "https://example.com/", entityTypes: ["label", "series"],
     accessStatus: "reachable", lastCheckedAt: "2026-09-04", completeTraversal: false,
-    coverage: [{ entityType: "label", discovered: 1, reviewed: 1, published: 1, conflicts: 0, unrecognized: 0 }], knownLimitations: [],
+    coverage: [{ entityType: "label", discovered: 1, reviewed: 1, published: 1, conflicts: 0, unrecognized: 0, completeTraversal: false }], knownLimitations: [],
   }] }));
   const mappings = [
     { provider: "demo.label", entityType: "label", externalId: "10", communityId: "label_000001", status: "approved", sourceUrl: "https://example.com/label/10", reviewedAt: "2026-09-04" },
@@ -103,5 +103,33 @@ test("不同 Provider 可以复用相同数值外部 ID，不能按裸 ID 错误
   try {
     const result = run(validateScript, root);
     assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
+  } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+
+test("来源级完整度可以为 false，同时单个 Label coverage 为 complete", async () => {
+  const root = await fixture();
+  try {
+    const sourcePath = path.join(root, "registry/public-sources.json");
+    const registry = JSON.parse(await readFile(sourcePath, "utf8"));
+    registry.sources[0].coverage[0].completeTraversal = true;
+    // series 位于 entityTypes 但没有 complete coverage，所以来源级仍应是 false。
+    await writeFile(sourcePath, JSON.stringify(registry));
+    const result = run(validateScript, root);
+    assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
+  } finally { await rm(root, { recursive: true, force: true }); }
+});
+
+test("来源级 completeTraversal 不能在部分实体类型未完整时错误标 true", async () => {
+  const root = await fixture();
+  try {
+    const sourcePath = path.join(root, "registry/public-sources.json");
+    const registry = JSON.parse(await readFile(sourcePath, "utf8"));
+    registry.sources[0].completeTraversal = true;
+    registry.sources[0].coverage[0].completeTraversal = true;
+    await writeFile(sourcePath, JSON.stringify(registry));
+    const result = run(validateScript, root);
+    assert.notEqual(result.status, 0);
+    assert.match(`${result.stdout}\n${result.stderr}`, /来源级 completeTraversal/);
   } finally { await rm(root, { recursive: true, force: true }); }
 });

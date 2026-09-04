@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000069",
+  "kind": "label",
+  "names": {
+    "ja": "アイポケ逸材発掘プロジェクト"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/12442",
+  "externalIds": {
+    "ideapocket.label": "12442"
+  },
+  "firstPublishedIn": "0.4.2"
+}

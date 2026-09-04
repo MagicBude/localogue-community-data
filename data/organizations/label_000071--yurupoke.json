@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000071",
+  "kind": "label",
+  "names": {
+    "ja": "ゆるポケ"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/12835",
+  "externalIds": {
+    "ideapocket.label": "12835"
+  },
+  "firstPublishedIn": "0.4.2"
+}

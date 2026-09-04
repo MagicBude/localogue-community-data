@@ -2,6 +2,26 @@
 
 本文件记录 Localogue Community Data 的 Pack 版本变化。
 
+## 0.4.2 - 2026-09-04
+
+### 新增
+
+- 完整遍历 MOODYZ 当前官方 `/works/label` 索引：29 个可见 Label 全部审核并发布；其中 2 个来自 0.4.0，本版本新增 27 个。
+- 完整遍历 IDEAPOCKET 当前官方 `/works/label` 索引：16 个可见 Label 全部审核并发布。
+- 新增 43 个正式 Label、43 份独立 Source Record、43 条 approved External ID Mapping 与 43 条 Provider Observation。
+
+### Source Registry
+
+- 为 `coverage[]` 新增实体类型级 `completeTraversal`，解决“同一来源 Label 已完整、Series 仍不完整”无法表达的问题。
+- 来源级 `completeTraversal` 保留为聚合状态：只有 `entityTypes` 中每一种实体类型都有 `coverage.completeTraversal=true` 时才允许为 true。
+- MOODYZ 与 IDEAPOCKET 的 Label coverage 现在为 complete，但由于 Series 尚未完整枚举，两者来源级 `completeTraversal` 仍保持 false。
+
+### 校验与导出
+
+- Validator 校验 coverage 类型重复、coverage 类型必须属于 source.entityTypes、每个 coverage 必须显式声明完整遍历状态，以及来源级聚合状态一致性。
+- CSV/XLSX 的 Source Registry 覆盖统计增加 per-entity complete 状态。
+- Provider reconciliation 扩展到 84 条 approved 外部 ID 精确映射，仍无 suggested/conflict/unrecognized。
+
 ## 0.4.1 - 2026-09-04
 
 ### 新增

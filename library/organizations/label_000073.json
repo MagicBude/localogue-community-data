@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000073",
+  "kind": "label",
+  "names": {
+    "ja": "SELECTED",
+    "zh-CN": "SELECTED",
+    "en": "SELECTED"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/10103",
+  "externalIds": {
+    "ideapocket.label": "10103"
+  },
+  "firstPublishedIn": "0.4.2"
+}

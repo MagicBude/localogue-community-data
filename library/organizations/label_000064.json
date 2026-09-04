@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000064",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZショート",
+    "zh-CN": "MOODYZ短片",
+    "en": "MOODYZ Short"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/10172",
+  "externalIds": {
+    "moodyz.label": "10172"
+  },
+  "firstPublishedIn": "0.4.2"
+}

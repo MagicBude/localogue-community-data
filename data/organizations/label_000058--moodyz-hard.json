@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000058",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ HARD",
+    "zh-CN": "MOODYZ HARD",
+    "en": "MOODYZ HARD"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/10157",
+  "externalIds": {
+    "moodyz.label": "10157"
+  },
+  "firstPublishedIn": "0.4.2"
+}

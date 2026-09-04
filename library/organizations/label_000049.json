@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000049",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ VALUE",
+    "zh-CN": "MOODYZ VALUE",
+    "en": "MOODYZ VALUE"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5409",
+  "externalIds": {
+    "moodyz.label": "5409"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　VALUE"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

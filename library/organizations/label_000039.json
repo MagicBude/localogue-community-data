@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000039",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ ACID",
+    "zh-CN": "MOODYZ ACID",
+    "en": "MOODYZ ACID"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5046",
+  "externalIds": {
+    "moodyz.label": "5046"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　ACID"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

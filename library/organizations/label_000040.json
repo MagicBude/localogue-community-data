@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000040",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ GATI",
+    "zh-CN": "MOODYZ GATI",
+    "en": "MOODYZ GATI"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/6879",
+  "externalIds": {
+    "moodyz.label": "6879"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　GATI"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

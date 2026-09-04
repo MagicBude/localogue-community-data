@@ -1,6 +1,6 @@
 # Public Source Registry 与 Candidate/Staging 工作流
 
-> 适用版本：0.4.1
+> 适用版本：0.4.2
 
 Community Data 不以“搜索到多少结果”证明完整性，而以**指定公开来源是否已完成可验证遍历**来描述覆盖程度。
 
@@ -81,3 +81,35 @@ Candidate 不占用正式 Community ID。只有通过人工审核并准备正式
 因此这里的 `completeTraversal=true` 可以解释为“检查日期这个**特定索引**的当前可见条目全部审核完毕”。它不能被扩大解释成网站全部历史数据完整。
 
 Label 与 Series 必须拆开统计。即使 `/works/label` 已完整遍历，也不能因此把同一网站的 Series 覆盖标成 complete。
+
+## 6. 0.4.2：完整遍历必须按实体类型表达
+
+0.4.1 的来源级 `completeTraversal` 对只维护 Maker/Label 的来源够用，但 MOODYZ、IDEAPOCKET 同时包含 Label 与 Series：Label Index 可以已经全部遍历，而 Series 仍只做了少量 Pilot。
+
+因此 0.4.2 增加：
+
+```json
+{
+  "entityType": "label",
+  "discovered": 29,
+  "reviewed": 29,
+  "published": 29,
+  "conflicts": 0,
+  "unrecognized": 0,
+  "completeTraversal": true
+}
+```
+
+规则：
+
+1. `coverage[].completeTraversal` 只回答“这个实体类型对应的指定公开索引是否已经遍历全部当前可见条目”；
+2. 来源级 `completeTraversal` 是聚合状态；只有 `source.entityTypes` 中所有类型都有 complete coverage 时才可以为 `true`；
+3. 已完整遍历 Label，不得把 Series 的完整度一起提升；
+4. 已遍历完分页并不等于所有候选都已发布，conflict / unrecognized 可以仍然大于 0；
+5. 完整度必须带检查日期和已知限制，不能被解释为永久完整。
+
+0.4.2 的实际例子：
+
+- MOODYZ：Label 29/29 complete；Series 1 个 Pilot，incomplete；来源级 false。
+- IDEAPOCKET：Label 16/16 complete；Series 2 个 Pilot，incomplete；来源级 false。
+- ATTACKERS / Madonna：当前 source.entityTypes 只有 Maker + Label，二者都 complete，因此来源级仍为 true。

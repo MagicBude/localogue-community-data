@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000047",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ ニュージーニアス",
+    "en": "MOODYZ New Genius"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/10131",
+  "externalIds": {
+    "moodyz.label": "10131"
+  },
+  "firstPublishedIn": "0.4.2"
+}

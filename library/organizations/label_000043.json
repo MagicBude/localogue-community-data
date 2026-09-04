@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000043",
+  "kind": "label",
+  "names": {
+    "ja": "まんきつ"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/9308",
+  "externalIds": {
+    "moodyz.label": "9308"
+  },
+  "firstPublishedIn": "0.4.2"
+}

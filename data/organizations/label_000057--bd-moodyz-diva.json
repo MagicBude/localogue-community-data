@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000057",
+  "kind": "label",
+  "names": {
+    "ja": "BD-MOODYZ DIVA",
+    "zh-CN": "BD-MOODYZ DIVA",
+    "en": "BD-MOODYZ DIVA"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/11471",
+  "externalIds": {
+    "moodyz.label": "11471"
+  },
+  "firstPublishedIn": "0.4.2"
+}

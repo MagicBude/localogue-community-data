@@ -99,12 +99,21 @@ for (const source of publicSources?.sources ?? []) {
   if (!isUrl(source.baseUrl)) errors.push(`public source ${source.id}: baseUrl 无效`);
   if (!isDate(source.lastCheckedAt)) errors.push(`public source ${source.id}: lastCheckedAt 必须为 YYYY-MM-DD`);
   if (typeof source.completeTraversal !== "boolean") errors.push(`public source ${source.id}: completeTraversal 必须为布尔值`);
+  const coverageByType = new Map();
   for (const coverage of source.coverage ?? []) {
+    if (!source.entityTypes?.includes(coverage.entityType)) errors.push(`public source ${source.id}: coverage.${coverage.entityType} 未列入 entityTypes`);
+    if (coverageByType.has(coverage.entityType)) errors.push(`public source ${source.id}: coverage.entityType 重复 (${coverage.entityType})`);
+    coverageByType.set(coverage.entityType, coverage);
+    if (typeof coverage.completeTraversal !== "boolean") errors.push(`public source ${source.id}: coverage.${coverage.entityType}.completeTraversal 必须为布尔值`);
     for (const key of ["discovered", "reviewed", "published", "conflicts", "unrecognized"]) {
       if (!Number.isInteger(coverage[key]) || coverage[key] < 0) errors.push(`public source ${source.id}: coverage.${key} 必须为非负整数`);
     }
     if ((coverage.reviewed ?? 0) > (coverage.discovered ?? 0)) errors.push(`public source ${source.id}: reviewed 不得大于 discovered`);
     if ((coverage.published ?? 0) > (coverage.reviewed ?? 0)) errors.push(`public source ${source.id}: published 不得大于 reviewed`);
+  }
+  const allDeclaredTypesComplete = Array.isArray(source.entityTypes) && source.entityTypes.length > 0 && source.entityTypes.every((type) => coverageByType.get(type)?.completeTraversal === true);
+  if (source.completeTraversal !== allDeclaredTypesComplete) {
+    errors.push(`public source ${source.id}: 来源级 completeTraversal 必须等于所有 entityTypes 的 coverage.completeTraversal 聚合结果`);
   }
 }
 

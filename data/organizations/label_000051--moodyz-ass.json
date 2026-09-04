@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000051",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ ASS",
+    "zh-CN": "MOODYZ ASS",
+    "en": "MOODYZ ASS"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/8916",
+  "externalIds": {
+    "moodyz.label": "8916"
+  },
+  "firstPublishedIn": "0.4.2"
+}

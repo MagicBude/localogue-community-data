@@ -222,7 +222,7 @@ const sourceRegistryRows = (publicSources.sources ?? []).map((source) => [
   source.accessStatus,
   source.lastCheckedAt,
   source.completeTraversal,
-  (source.coverage ?? []).map((item) => `${item.entityType}:discovered=${item.discovered}|reviewed=${item.reviewed}|published=${item.published}|conflicts=${item.conflicts}|unrecognized=${item.unrecognized}`).join(";"),
+  (source.coverage ?? []).map((item) => `${item.entityType}:discovered=${item.discovered}|reviewed=${item.reviewed}|published=${item.published}|conflicts=${item.conflicts}|unrecognized=${item.unrecognized}|complete=${item.completeTraversal}`).join(";"),
   (source.knownLimitations ?? []).join(" | "),
 ]);
 output.set("exports/csv/public-source-registry.csv", csv([sourceRegistryHeader, ...sourceRegistryRows]));

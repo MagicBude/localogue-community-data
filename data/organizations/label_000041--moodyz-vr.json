@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000041",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ VR",
+    "zh-CN": "MOODYZ VR",
+    "en": "MOODYZ VR"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/9782",
+  "externalIds": {
+    "moodyz.label": "9782"
+  },
+  "firstPublishedIn": "0.4.2"
+}

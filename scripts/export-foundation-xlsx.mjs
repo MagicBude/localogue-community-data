@@ -69,7 +69,7 @@ setupSheet(workbook, "Source Registry", [
 ], (sources.sources ?? []).map((source) => ({
   id: source.id, name: source.name, type: source.sourceType, url: source.baseUrl, entities: (source.entityTypes ?? []).join("; "), status: source.accessStatus,
   checked: source.lastCheckedAt, complete: source.completeTraversal ? "yes" : "no",
-  coverage: (source.coverage ?? []).map((item) => `${item.entityType}: ${item.published}/${item.discovered} published`).join("; "), limits: (source.knownLimitations ?? []).join(" | "),
+  coverage: (source.coverage ?? []).map((item) => `${item.entityType}: ${item.published}/${item.discovered} published, complete=${item.completeTraversal ? "yes" : "no"}`).join("; "), limits: (source.knownLimitations ?? []).join(" | "),
 })));
 
 setupSheet(workbook, "External ID Mapping", [

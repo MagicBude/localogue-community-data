@@ -2,27 +2,140 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Public Source Registry",
   "type": "object",
-  "required": ["schemaVersion", "sources"],
+  "required": [
+    "schemaVersion",
+    "sources"
+  ],
   "properties": {
-    "schemaVersion": {"const": 1},
+    "schemaVersion": {
+      "const": 1
+    },
     "sources": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "sourceType", "baseUrl", "entityTypes", "accessStatus", "lastCheckedAt", "completeTraversal", "coverage"],
+        "required": [
+          "id",
+          "name",
+          "sourceType",
+          "baseUrl",
+          "entityTypes",
+          "accessStatus",
+          "lastCheckedAt",
+          "completeTraversal",
+          "coverage"
+        ],
         "properties": {
-          "id": {"type": "string", "pattern": "^source_[a-z0-9_]+$"},
-          "name": {"type": "string", "minLength": 1},
-          "sourceType": {"enum": ["official", "distributor", "database"]},
-          "baseUrl": {"type": "string", "format": "uri"},
-          "entityTypes": {"type": "array", "items": {"enum": ["group", "company", "maker", "label", "series", "work"]}, "uniqueItems": true},
-          "enumeration": {"type": "object"},
-          "externalIdStability": {"type": "string"},
-          "accessStatus": {"enum": ["reachable", "partial", "blocked", "unknown"]},
-          "lastCheckedAt": {"type": "string", "format": "date"},
-          "completeTraversal": {"type": "boolean"},
-          "coverage": {"type": "array"},
-          "knownLimitations": {"type": "array", "items": {"type": "string"}}
+          "id": {
+            "type": "string",
+            "pattern": "^source_[a-z0-9_]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceType": {
+            "enum": [
+              "official",
+              "distributor",
+              "database"
+            ]
+          },
+          "baseUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "entityTypes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "group",
+                "company",
+                "maker",
+                "label",
+                "series",
+                "work"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "enumeration": {
+            "type": "object"
+          },
+          "externalIdStability": {
+            "type": "string"
+          },
+          "accessStatus": {
+            "enum": [
+              "reachable",
+              "partial",
+              "blocked",
+              "unknown"
+            ]
+          },
+          "lastCheckedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "completeTraversal": {
+            "type": "boolean"
+          },
+          "coverage": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "entityType",
+                "discovered",
+                "reviewed",
+                "published",
+                "conflicts",
+                "unrecognized",
+                "completeTraversal"
+              ],
+              "properties": {
+                "entityType": {
+                  "enum": [
+                    "group",
+                    "company",
+                    "maker",
+                    "label",
+                    "series",
+                    "work"
+                  ]
+                },
+                "discovered": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "reviewed": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "published": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "conflicts": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "unrecognized": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "completeTraversal": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "knownLimitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       }
     }

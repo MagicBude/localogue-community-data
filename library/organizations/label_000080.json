@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000080",
+  "kind": "label",
+  "names": {
+    "ja": "秋のシコシコ強化月間",
+    "zh-CN": "秋季强化月"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/10144",
+  "externalIds": {
+    "ideapocket.label": "10144"
+  },
+  "firstPublishedIn": "0.4.2"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000044",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ REAL",
+    "zh-CN": "MOODYZ REAL",
+    "en": "MOODYZ REAL"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5090",
+  "externalIds": {
+    "moodyz.label": "5090"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　REAL"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

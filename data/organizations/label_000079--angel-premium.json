@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000079",
+  "kind": "label",
+  "names": {
+    "ja": "Angel PREMIUM",
+    "zh-CN": "Angel PREMIUM",
+    "en": "Angel PREMIUM"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2760",
+  "externalIds": {
+    "ideapocket.label": "2760"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "Angel　PREMIUM"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

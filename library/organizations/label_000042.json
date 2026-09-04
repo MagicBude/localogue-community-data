@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000042",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ Fresh",
+    "zh-CN": "MOODYZ Fresh",
+    "en": "MOODYZ Fresh"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/9732",
+  "externalIds": {
+    "moodyz.label": "9732"
+  },
+  "firstPublishedIn": "0.4.2"
+}

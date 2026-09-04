@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000056",
+  "kind": "label",
+  "names": {
+    "ja": "春のパンツまつり",
+    "zh-CN": "春季内裤祭",
+    "en": "Spring Panties Festival"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/85265",
+  "externalIds": {
+    "moodyz.label": "85265"
+  },
+  "firstPublishedIn": "0.4.2"
+}

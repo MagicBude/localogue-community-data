@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000075",
+  "kind": "label",
+  "names": {
+    "ja": "春のパンツまつり",
+    "zh-CN": "春季内裤祭",
+    "en": "Spring Panties Festival"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/85265",
+  "externalIds": {
+    "ideapocket.label": "85265"
+  },
+  "firstPublishedIn": "0.4.2"
+}

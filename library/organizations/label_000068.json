@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000068",
+  "kind": "label",
+  "names": {
+    "ja": "Supreme",
+    "zh-CN": "Supreme",
+    "en": "Supreme"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2776",
+  "externalIds": {
+    "ideapocket.label": "2776"
+  },
+  "firstPublishedIn": "0.4.2"
+}

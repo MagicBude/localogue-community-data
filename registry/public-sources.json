@@ -14,24 +14,36 @@
       ],
       "enumeration": {
         "seriesUrlPattern": "https://ideapocket.com/works/list/series/<id>",
-        "pagination": "站点目录分页；本批次未完整遍历全部 Series 页面"
+        "pagination": "/works/label 当前在单页列出 16 个可见 Label；Label 已逐项核验。Series 仍只完成 Pilot 样本，未遍历完整 Series 索引。",
+        "labelIndex": "https://ideapocket.com/works/label",
+        "labelUrlPattern": "https://ideapocket.com/works/list/label/<id>"
       },
-      "externalIdStability": "URL 路径中的 series/<id> 在当前公开目录中可作为稳定 Series 外部 ID 使用",
+      "externalIdStability": "URL 路径中的 label/<id> 与 series/<id> 分别作为 ideapocket.label / ideapocket.series 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
+        {
+          "entityType": "label",
+          "discovered": 16,
+          "reviewed": 16,
+          "published": 16,
+          "conflicts": 0,
+          "unrecognized": 0,
+          "completeTraversal": true
+        },
         {
           "entityType": "series",
           "discovered": 2,
           "reviewed": 2,
           "published": 2,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "本批次只验证高复用 Series 样本，没有遍历整个 Series 索引和所有分页。"
+        "IDEAPOCKET 当前官方 Label Index 已完整遍历；Series 仍未完整枚举，因此来源级 completeTraversal 继续为 false。历史已删除/隐藏 Label 与其他实体类型不在本批次完整性声明内。"
       ]
     },
     {
@@ -48,20 +60,22 @@
       "enumeration": {
         "labelUrlPattern": "https://moodyz.com/works/list/label/<id>",
         "seriesUrlPattern": "https://moodyz.com/works/list/series/<id>",
-        "pagination": "作品目录使用 page 参数分页；本批次未完整遍历所有 Label/Series"
+        "pagination": "/works/label 当前在单页列出 29 个可见 Label；Label 已逐项核验。Series 仍只完成 Pilot 样本，未遍历完整 Series 索引。",
+        "labelIndex": "https://moodyz.com/works/label"
       },
-      "externalIdStability": "URL 路径中的 label/<id> 与 series/<id> 在当前公开目录中可作为对应实体的稳定外部 ID 使用",
+      "externalIdStability": "URL 路径中的 label/<id> 与 series/<id> 分别作为 moodyz.label / moodyz.series 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
         {
           "entityType": "label",
-          "discovered": 2,
-          "reviewed": 2,
-          "published": 2,
+          "discovered": 29,
+          "reviewed": 29,
+          "published": 29,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         },
         {
           "entityType": "series",
@@ -69,11 +83,12 @@
           "reviewed": 1,
           "published": 1,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "尚未完整枚举全部 Label 和 Series，因此不能声明 MOODYZ 当前公开目录已覆盖。"
+        "MOODYZ 当前官方 Label Index 已完整遍历；Series 仍未完整枚举，因此来源级 completeTraversal 继续为 false。历史已删除/隐藏 Label 与其他实体类型不在本批次完整性声明内。"
       ]
     },
     {
@@ -102,7 +117,8 @@
           "reviewed": 1,
           "published": 1,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
@@ -132,7 +148,8 @@
           "reviewed": 1,
           "published": 0,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         }
       ],
       "knownLimitations": [
@@ -165,7 +182,8 @@
           "reviewed": 1,
           "published": 1,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         },
         {
           "entityType": "label",
@@ -173,7 +191,8 @@
           "reviewed": 17,
           "published": 17,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         }
       ],
       "knownLimitations": [
@@ -206,7 +225,8 @@
           "reviewed": 1,
           "published": 1,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         },
         {
           "entityType": "label",
@@ -214,7 +234,8 @@
           "reviewed": 18,
           "published": 18,
           "conflicts": 0,
-          "unrecognized": 0
+          "unrecognized": 0,
+          "completeTraversal": true
         }
       ],
       "knownLimitations": [

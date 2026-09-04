@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000072",
+  "kind": "label",
+  "names": {
+    "ja": "Angel",
+    "zh-CN": "Angel",
+    "en": "Angel"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2758",
+  "externalIds": {
+    "ideapocket.label": "2758"
+  },
+  "firstPublishedIn": "0.4.2"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000050",
+  "kind": "label",
+  "names": {
+    "ja": "ハメドリ"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/10174",
+  "externalIds": {
+    "moodyz.label": "10174"
+  },
+  "firstPublishedIn": "0.4.2"
+}

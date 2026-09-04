@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000038",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ BEST",
+    "zh-CN": "MOODYZ BEST",
+    "en": "MOODYZ BEST"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5047",
+  "externalIds": {
+    "moodyz.label": "5047"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "MOODYZ　BEST"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

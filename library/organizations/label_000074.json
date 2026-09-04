@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000074",
+  "kind": "label",
+  "names": {
+    "ja": "AVOPEN",
+    "zh-CN": "AVOPEN",
+    "en": "AVOPEN"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/9483",
+  "externalIds": {
+    "ideapocket.label": "9483"
+  },
+  "firstPublishedIn": "0.4.2"
+}

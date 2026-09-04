@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000066",
+  "kind": "label",
+  "names": {
+    "ja": "アイデアポケットBEST",
+    "zh-CN": "IDEAPOCKET BEST",
+    "en": "IDEAPOCKET BEST"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/2769",
+  "externalIds": {
+    "ideapocket.label": "2769"
+  },
+  "firstPublishedIn": "0.4.2"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000076",
+  "kind": "label",
+  "names": {
+    "ja": "AVグランプリ",
+    "zh-CN": "AV大奖赛",
+    "en": "AV Grand Prix"
+  },
+  "parentOrganizationId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/label/10077",
+  "externalIds": {
+    "ideapocket.label": "10077"
+  },
+  "firstPublishedIn": "0.4.2",
+  "aliases": {
+    "ja": [
+      "AV Grand Prix"
+    ],
+    "zh-CN": [],
+    "en": []
+  }
+}

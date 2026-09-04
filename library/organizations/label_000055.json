@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000055",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ ES",
+    "zh-CN": "MOODYZ ES",
+    "en": "MOODYZ ES"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/8917",
+  "externalIds": {
+    "moodyz.label": "8917"
+  },
+  "firstPublishedIn": "0.4.2"
+}

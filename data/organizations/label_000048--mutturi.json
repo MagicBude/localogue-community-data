@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000048",
+  "kind": "label",
+  "names": {
+    "ja": "MUTTURI",
+    "zh-CN": "MUTTURI",
+    "en": "MUTTURI"
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/9458",
+  "externalIds": {
+    "moodyz.label": "9458"
+  },
+  "firstPublishedIn": "0.4.2"
+}
