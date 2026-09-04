@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000006",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://s1s1s1.com/works/list/series/570",
+      "kind": "official",
+      "title": "ラブキモメン該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Series 页面。URL 路径中的 570 登记为 s1.series 命名空间内的稳定外部 ID；未根据名称推断 Label 归属。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000009",
+  "names": {
+    "ja": "あなた、許して…。",
+    "zh-CN": "亲爱的，请原谅我……",
+    "en": "Please Forgive Me..."
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2270",
+  "externalIds": {
+    "attackers.series": "2270"
+  },
+  "firstPublishedIn": "0.4.3"
+}

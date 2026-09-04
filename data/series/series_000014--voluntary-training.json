@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000014",
+  "names": {
+    "ja": "調教志願",
+    "zh-CN": "自愿调教",
+    "en": "Voluntary Training"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/5317",
+  "externalIds": {
+    "attackers.series": "5317"
+  },
+  "firstPublishedIn": "0.4.3"
+}

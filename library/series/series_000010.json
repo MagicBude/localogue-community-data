@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000010",
+  "names": {
+    "ja": "脱獄者",
+    "zh-CN": "越狱者",
+    "en": "Escapee"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2293",
+  "externalIds": {
+    "attackers.series": "2293"
+  },
+  "firstPublishedIn": "0.4.3"
+}

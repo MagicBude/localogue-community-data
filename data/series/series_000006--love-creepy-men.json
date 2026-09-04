@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000006",
+  "names": {
+    "ja": "ラブキモメン",
+    "zh-CN": "爱上恶心男",
+    "en": "Love Creepy Men"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000003",
+  "status": "unknown",
+  "officialWebsite": "https://s1s1s1.com/works/list/series/570",
+  "externalIds": {
+    "s1.series": "570"
+  },
+  "firstPublishedIn": "0.4.3"
+}

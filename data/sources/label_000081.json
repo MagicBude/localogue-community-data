@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "label_000081",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://s1s1s1.com/works/list/label/4355",
+      "kind": "official",
+      "title": "S1　NO.1　STYLE該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "parentOrganizationId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "S1 官方 Label 作品页。URL 路径中的 4355 登记为 s1.label 命名空间内的稳定外部 ID；本批次不据此声称 S1 Label Index 已完整遍历。"
+    }
+  ]
+}

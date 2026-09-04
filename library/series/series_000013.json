@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000013",
+  "names": {
+    "ja": "団鬼六",
+    "zh-CN": "团鬼六",
+    "en": "Dan Oniroku"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2325",
+  "externalIds": {
+    "attackers.series": "2325"
+  },
+  "firstPublishedIn": "0.4.3"
+}

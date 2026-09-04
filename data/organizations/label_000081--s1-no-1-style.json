@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000081",
+  "kind": "label",
+  "names": {
+    "ja": "S1 NO.1 STYLE",
+    "zh-CN": "S1 NO.1 STYLE",
+    "en": "S1 NO.1 STYLE"
+  },
+  "aliases": {
+    "ja": [
+      "S1　NO.1　STYLE"
+    ],
+    "zh-CN": [],
+    "en": []
+  },
+  "parentOrganizationId": "maker_000003",
+  "status": "unknown",
+  "officialWebsite": "https://s1s1s1.com/works/list/label/4355",
+  "externalIds": {
+    "s1.label": "4355"
+  },
+  "firstPublishedIn": "0.4.3"
+}

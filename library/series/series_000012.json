@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000012",
+  "names": {
+    "ja": "犯される度に美しく",
+    "zh-CN": "每次被侵犯都更加美丽",
+    "en": "More Beautiful Each Time"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2274",
+  "externalIds": {
+    "attackers.series": "2274"
+  },
+  "firstPublishedIn": "0.4.3"
+}

@@ -21,7 +21,7 @@
     ]
   },
   "counts": {
-    "auto-applied": 84,
+    "auto-applied": 98,
     "suggested": 0,
     "conflict": 0,
     "unrecognized": 0
@@ -950,6 +950,160 @@
       "nameJa": "秋のシコシコ強化月間",
       "communityId": "label_000080",
       "sourceUrl": "https://ideapocket.com/works/list/label/10144"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_s1_official",
+      "provider": "s1.label",
+      "entityType": "label",
+      "externalId": "4355",
+      "nameJa": "S1 NO.1 STYLE",
+      "communityId": "label_000081",
+      "sourceUrl": "https://s1s1s1.com/works/list/label/4355"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_s1_official",
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "422",
+      "nameJa": "おま●こ、くぱぁ",
+      "communityId": "series_000005",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/422"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_s1_official",
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "570",
+      "nameJa": "ラブキモメン",
+      "communityId": "series_000006",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/570"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2402",
+      "nameJa": "侵入者",
+      "communityId": "series_000007",
+      "sourceUrl": "https://attackers.net/works/list/series/2402"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2269",
+      "nameJa": "あなたに愛されたくて。",
+      "communityId": "series_000008",
+      "sourceUrl": "https://attackers.net/works/list/series/2269"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2270",
+      "nameJa": "あなた、許して…。",
+      "communityId": "series_000009",
+      "sourceUrl": "https://attackers.net/works/list/series/2270"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2293",
+      "nameJa": "脱獄者",
+      "communityId": "series_000010",
+      "sourceUrl": "https://attackers.net/works/list/series/2293"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2256",
+      "nameJa": "奴隷島",
+      "communityId": "series_000011",
+      "sourceUrl": "https://attackers.net/works/list/series/2256"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2274",
+      "nameJa": "犯される度に美しく",
+      "communityId": "series_000012",
+      "sourceUrl": "https://attackers.net/works/list/series/2274"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2325",
+      "nameJa": "団鬼六",
+      "communityId": "series_000013",
+      "sourceUrl": "https://attackers.net/works/list/series/2325"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_attackers_official",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "5317",
+      "nameJa": "調教志願",
+      "communityId": "series_000014",
+      "sourceUrl": "https://attackers.net/works/list/series/5317"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1846",
+      "nameJa": "年下レズビアンに愛された私",
+      "communityId": "series_000015",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1846"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1891",
+      "nameJa": "廃業寸前",
+      "communityId": "series_000016",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1891"
+    },
+    {
+      "classification": "auto-applied",
+      "reason": "approved-external-id",
+      "sourceId": "source_madonna_official",
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1749",
+      "nameJa": "夫の上司に飾られた　人妻ボディアクセサリー",
+      "communityId": "series_000017",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1749"
     }
   ]
 }

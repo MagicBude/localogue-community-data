@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000016",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://madonna-av.com/works/list/series/1891",
+      "kind": "official",
+      "title": "廃業寸前該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Series 页面。URL 路径中的 1891 登记为 madonna.series 命名空间内的稳定外部 ID；未根据名称推断 Label 归属。"
+    }
+  ]
+}

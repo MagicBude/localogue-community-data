@@ -2,177 +2,6 @@
   "schemaVersion": 1,
   "mappings": [
     {
-      "provider": "ideapocket.series",
-      "entityType": "series",
-      "externalId": "1011",
-      "communityId": "series_000004",
-      "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/series/1011",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "ideapocket.series",
-      "entityType": "series",
-      "externalId": "863",
-      "communityId": "series_000003",
-      "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/series/863",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "12798",
-      "communityId": "label_000002",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/12798",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5048",
-      "communityId": "label_000001",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5048",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.series",
-      "entityType": "series",
-      "externalId": "5427",
-      "communityId": "series_000002",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/series/5427",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "s1.series",
-      "entityType": "series",
-      "externalId": "414",
-      "communityId": "series_000001",
-      "status": "approved",
-      "sourceUrl": "https://s1s1s1.com/works/list/series/414",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2754",
-      "communityId": "label_000003",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2754",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2751",
-      "communityId": "label_000004",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2751",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "9455",
-      "communityId": "label_000005",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/9455",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2737",
-      "communityId": "label_000006",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2737",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2739",
-      "communityId": "label_000007",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2739",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2749",
-      "communityId": "label_000008",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2749",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2735",
-      "communityId": "label_000009",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2735",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "2756",
-      "communityId": "label_000010",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/2756",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "12605",
-      "communityId": "label_000011",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/12605",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "81348",
-      "communityId": "label_000012",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/81348",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "5245",
-      "communityId": "label_000013",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/5245",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "85265",
-      "communityId": "label_000014",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/85265",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "attackers.label",
-      "entityType": "label",
-      "externalId": "9483",
-      "communityId": "label_000015",
-      "status": "approved",
-      "sourceUrl": "https://attackers.net/works/list/label/9483",
-      "reviewedAt": "2026-09-04"
-    },
-    {
       "provider": "attackers.label",
       "entityType": "label",
       "externalId": "10077",
@@ -209,138 +38,354 @@
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "3669",
-      "communityId": "label_000020",
+      "externalId": "12605",
+      "communityId": "label_000011",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/3669",
+      "sourceUrl": "https://attackers.net/works/list/label/12605",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12490",
-      "communityId": "label_000021",
+      "externalId": "2735",
+      "communityId": "label_000009",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12490",
+      "sourceUrl": "https://attackers.net/works/list/label/2735",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9387",
-      "communityId": "label_000022",
+      "externalId": "2737",
+      "communityId": "label_000006",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9387",
+      "sourceUrl": "https://attackers.net/works/list/label/2737",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9789",
-      "communityId": "label_000023",
+      "externalId": "2739",
+      "communityId": "label_000007",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9789",
+      "sourceUrl": "https://attackers.net/works/list/label/2739",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "7354",
-      "communityId": "label_000024",
+      "externalId": "2749",
+      "communityId": "label_000008",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/7354",
+      "sourceUrl": "https://attackers.net/works/list/label/2749",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "9419",
-      "communityId": "label_000025",
+      "externalId": "2751",
+      "communityId": "label_000004",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9419",
+      "sourceUrl": "https://attackers.net/works/list/label/2751",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12603",
-      "communityId": "label_000026",
+      "externalId": "2754",
+      "communityId": "label_000003",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12603",
+      "sourceUrl": "https://attackers.net/works/list/label/2754",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "12502",
-      "communityId": "label_000027",
+      "externalId": "2756",
+      "communityId": "label_000010",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/12502",
+      "sourceUrl": "https://attackers.net/works/list/label/2756",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "10130",
-      "communityId": "label_000028",
+      "externalId": "5245",
+      "communityId": "label_000013",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10130",
+      "sourceUrl": "https://attackers.net/works/list/label/5245",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
-      "externalId": "7993",
-      "communityId": "label_000029",
+      "externalId": "81348",
+      "communityId": "label_000012",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/7993",
+      "sourceUrl": "https://attackers.net/works/list/label/81348",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
-      "entityType": "label",
-      "externalId": "10159",
-      "communityId": "label_000030",
-      "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10159",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "madonna.label",
-      "entityType": "label",
-      "externalId": "10119",
-      "communityId": "label_000031",
-      "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10119",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
       "entityType": "label",
       "externalId": "85265",
-      "communityId": "label_000032",
+      "communityId": "label_000014",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/85265",
+      "sourceUrl": "https://attackers.net/works/list/label/85265",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.label",
+      "entityType": "label",
+      "externalId": "9455",
+      "communityId": "label_000005",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/label/9455",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.label",
       "entityType": "label",
       "externalId": "9483",
-      "communityId": "label_000033",
+      "communityId": "label_000015",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/9483",
+      "sourceUrl": "https://attackers.net/works/list/label/9483",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "madonna.label",
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2256",
+      "communityId": "series_000011",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2256",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2269",
+      "communityId": "series_000008",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2269",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2270",
+      "communityId": "series_000009",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2270",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2274",
+      "communityId": "series_000012",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2274",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2293",
+      "communityId": "series_000010",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2293",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2325",
+      "communityId": "series_000013",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2325",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "2402",
+      "communityId": "series_000007",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/2402",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "attackers.series",
+      "entityType": "series",
+      "externalId": "5317",
+      "communityId": "series_000014",
+      "status": "approved",
+      "sourceUrl": "https://attackers.net/works/list/series/5317",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10077",
+      "communityId": "label_000076",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10077",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10103",
+      "communityId": "label_000073",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10103",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
       "entityType": "label",
       "externalId": "10142",
-      "communityId": "label_000034",
+      "communityId": "label_000077",
       "status": "approved",
-      "sourceUrl": "https://madonna-av.com/works/list/label/10142",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10142",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10144",
+      "communityId": "label_000080",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10144",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "10151",
+      "communityId": "label_000078",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/10151",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "12442",
+      "communityId": "label_000069",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/12442",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "12835",
+      "communityId": "label_000071",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/12835",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2758",
+      "communityId": "label_000072",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2758",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2760",
+      "communityId": "label_000079",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2760",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2767",
+      "communityId": "label_000070",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2767",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2769",
+      "communityId": "label_000066",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2769",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2771",
+      "communityId": "label_000065",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2771",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "2776",
+      "communityId": "label_000068",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/2776",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "communityId": "label_000075",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/85265",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "communityId": "label_000074",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/9483",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.label",
+      "entityType": "label",
+      "externalId": "9790",
+      "communityId": "label_000067",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/label/9790",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "1011",
+      "communityId": "series_000004",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/series/1011",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "863",
+      "communityId": "series_000003",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/series/863",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -355,10 +400,73 @@
     {
       "provider": "madonna.label",
       "entityType": "label",
+      "externalId": "10119",
+      "communityId": "label_000031",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10119",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10130",
+      "communityId": "label_000028",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10130",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10142",
+      "communityId": "label_000034",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10142",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
       "externalId": "10151",
       "communityId": "label_000036",
       "status": "approved",
       "sourceUrl": "https://madonna-av.com/works/list/label/10151",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "10159",
+      "communityId": "label_000030",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/10159",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12490",
+      "communityId": "label_000021",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12490",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12502",
+      "communityId": "label_000027",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12502",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "12603",
+      "communityId": "label_000026",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/12603",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -371,75 +479,120 @@
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "moodyz.label",
+      "provider": "madonna.label",
       "entityType": "label",
-      "externalId": "5047",
-      "communityId": "label_000038",
+      "externalId": "3669",
+      "communityId": "label_000020",
       "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5047",
+      "sourceUrl": "https://madonna-av.com/works/list/label/3669",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7354",
+      "communityId": "label_000024",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7354",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "7993",
+      "communityId": "label_000029",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/7993",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "85265",
+      "communityId": "label_000032",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/85265",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9387",
+      "communityId": "label_000022",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9387",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9419",
+      "communityId": "label_000025",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9419",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "communityId": "label_000033",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9483",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.label",
+      "entityType": "label",
+      "externalId": "9789",
+      "communityId": "label_000023",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/label/9789",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1749",
+      "communityId": "series_000017",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1749",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1846",
+      "communityId": "series_000015",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1846",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "madonna.series",
+      "entityType": "series",
+      "externalId": "1891",
+      "communityId": "series_000016",
+      "status": "approved",
+      "sourceUrl": "https://madonna-av.com/works/list/series/1891",
       "reviewedAt": "2026-09-04"
     },
     {
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "5046",
-      "communityId": "label_000039",
+      "externalId": "10077",
+      "communityId": "label_000063",
       "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5046",
+      "sourceUrl": "https://moodyz.com/works/list/label/10077",
       "reviewedAt": "2026-09-04"
     },
     {
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "6879",
-      "communityId": "label_000040",
+      "externalId": "10106",
+      "communityId": "label_000053",
       "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/6879",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9782",
-      "communityId": "label_000041",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9782",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9732",
-      "communityId": "label_000042",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9732",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9308",
-      "communityId": "label_000043",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9308",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5090",
-      "communityId": "label_000044",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5090",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5049",
-      "communityId": "label_000045",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5049",
+      "sourceUrl": "https://moodyz.com/works/list/label/10106",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -458,114 +611,6 @@
       "communityId": "label_000047",
       "status": "approved",
       "sourceUrl": "https://moodyz.com/works/list/label/10131",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9458",
-      "communityId": "label_000048",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9458",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "5409",
-      "communityId": "label_000049",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/5409",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10174",
-      "communityId": "label_000050",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/10174",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "8916",
-      "communityId": "label_000051",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/8916",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9397",
-      "communityId": "label_000052",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9397",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10106",
-      "communityId": "label_000053",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/10106",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9288",
-      "communityId": "label_000054",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9288",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "8917",
-      "communityId": "label_000055",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/8917",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "85265",
-      "communityId": "label_000056",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/85265",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "11471",
-      "communityId": "label_000057",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/11471",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "10157",
-      "communityId": "label_000058",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/10157",
-      "reviewedAt": "2026-09-04"
-    },
-    {
-      "provider": "moodyz.label",
-      "entityType": "label",
-      "externalId": "9483",
-      "communityId": "label_000059",
-      "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/9483",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -598,10 +643,10 @@
     {
       "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10077",
-      "communityId": "label_000063",
+      "externalId": "10157",
+      "communityId": "label_000058",
       "status": "approved",
-      "sourceUrl": "https://moodyz.com/works/list/label/10077",
+      "sourceUrl": "https://moodyz.com/works/list/label/10157",
       "reviewedAt": "2026-09-04"
     },
     {
@@ -614,147 +659,228 @@
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2771",
-      "communityId": "label_000065",
+      "externalId": "10174",
+      "communityId": "label_000050",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2771",
+      "sourceUrl": "https://moodyz.com/works/list/label/10174",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2769",
-      "communityId": "label_000066",
+      "externalId": "11471",
+      "communityId": "label_000057",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2769",
+      "sourceUrl": "https://moodyz.com/works/list/label/11471",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "9790",
-      "communityId": "label_000067",
+      "externalId": "12798",
+      "communityId": "label_000002",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/9790",
+      "sourceUrl": "https://moodyz.com/works/list/label/12798",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2776",
-      "communityId": "label_000068",
+      "externalId": "5046",
+      "communityId": "label_000039",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2776",
+      "sourceUrl": "https://moodyz.com/works/list/label/5046",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "12442",
-      "communityId": "label_000069",
+      "externalId": "5047",
+      "communityId": "label_000038",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/12442",
+      "sourceUrl": "https://moodyz.com/works/list/label/5047",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2767",
-      "communityId": "label_000070",
+      "externalId": "5048",
+      "communityId": "label_000001",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2767",
+      "sourceUrl": "https://moodyz.com/works/list/label/5048",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "12835",
-      "communityId": "label_000071",
+      "externalId": "5049",
+      "communityId": "label_000045",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/12835",
+      "sourceUrl": "https://moodyz.com/works/list/label/5049",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2758",
-      "communityId": "label_000072",
+      "externalId": "5090",
+      "communityId": "label_000044",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2758",
+      "sourceUrl": "https://moodyz.com/works/list/label/5090",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10103",
-      "communityId": "label_000073",
+      "externalId": "5409",
+      "communityId": "label_000049",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10103",
+      "sourceUrl": "https://moodyz.com/works/list/label/5409",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "9483",
-      "communityId": "label_000074",
+      "externalId": "6879",
+      "communityId": "label_000040",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/9483",
+      "sourceUrl": "https://moodyz.com/works/list/label/6879",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
       "externalId": "85265",
-      "communityId": "label_000075",
+      "communityId": "label_000056",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/85265",
+      "sourceUrl": "https://moodyz.com/works/list/label/85265",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10077",
-      "communityId": "label_000076",
+      "externalId": "8916",
+      "communityId": "label_000051",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10077",
+      "sourceUrl": "https://moodyz.com/works/list/label/8916",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10142",
-      "communityId": "label_000077",
+      "externalId": "8917",
+      "communityId": "label_000055",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10142",
+      "sourceUrl": "https://moodyz.com/works/list/label/8917",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10151",
-      "communityId": "label_000078",
+      "externalId": "9288",
+      "communityId": "label_000054",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10151",
+      "sourceUrl": "https://moodyz.com/works/list/label/9288",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "2760",
-      "communityId": "label_000079",
+      "externalId": "9308",
+      "communityId": "label_000043",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/2760",
+      "sourceUrl": "https://moodyz.com/works/list/label/9308",
       "reviewedAt": "2026-09-04"
     },
     {
-      "provider": "ideapocket.label",
+      "provider": "moodyz.label",
       "entityType": "label",
-      "externalId": "10144",
-      "communityId": "label_000080",
+      "externalId": "9397",
+      "communityId": "label_000052",
       "status": "approved",
-      "sourceUrl": "https://ideapocket.com/works/list/label/10144",
+      "sourceUrl": "https://moodyz.com/works/list/label/9397",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9458",
+      "communityId": "label_000048",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/9458",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9483",
+      "communityId": "label_000059",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/9483",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9732",
+      "communityId": "label_000042",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/9732",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "9782",
+      "communityId": "label_000041",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/9782",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "5427",
+      "communityId": "series_000002",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/series/5427",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "s1.label",
+      "entityType": "label",
+      "externalId": "4355",
+      "communityId": "label_000081",
+      "status": "approved",
+      "sourceUrl": "https://s1s1s1.com/works/list/label/4355",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "414",
+      "communityId": "series_000001",
+      "status": "approved",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/414",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "422",
+      "communityId": "series_000005",
+      "status": "approved",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/422",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "570",
+      "communityId": "series_000006",
+      "status": "approved",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/570",
       "reviewedAt": "2026-09-04"
     }
   ]

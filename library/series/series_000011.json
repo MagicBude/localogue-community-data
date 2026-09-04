@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000011",
+  "names": {
+    "ja": "奴隷島",
+    "zh-CN": "奴隶岛",
+    "en": "Slave Island"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2256",
+  "externalIds": {
+    "attackers.series": "2256"
+  },
+  "firstPublishedIn": "0.4.3"
+}

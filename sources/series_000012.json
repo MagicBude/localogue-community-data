@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000012",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://attackers.net/works/list/series/2274",
+      "kind": "official",
+      "title": "犯される度に美しく該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Series 页面。URL 路径中的 2274 登记为 attackers.series 命名空间内的稳定外部 ID；未根据名称推断 Label 归属。"
+    }
+  ]
+}

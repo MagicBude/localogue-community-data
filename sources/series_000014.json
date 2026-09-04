@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000014",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://attackers.net/works/list/series/5317",
+      "kind": "official",
+      "title": "調教志願該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "官方 Series 页面。URL 路径中的 5317 登记为 attackers.series 命名空间内的稳定外部 ID；未根据名称推断 Label 归属。"
+    }
+  ]
+}

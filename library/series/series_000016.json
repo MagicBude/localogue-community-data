@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000016",
+  "names": {
+    "ja": "廃業寸前",
+    "zh-CN": "濒临停业",
+    "en": "On the Verge of Closing"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1891",
+  "externalIds": {
+    "madonna.series": "1891"
+  },
+  "firstPublishedIn": "0.4.3"
+}

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.3 - 2026-09-04
+
+### Added
+- 新增 S1 NO.1 STYLE 主 Label（官方外部 ID 4355）。
+- 新增 13 个官方可核验 Series：S1 2 个、ATTACKERS 8 个、Madonna 3 个。
+- 新增对应 Source Record、External ID Mapping 与 Provider Observation。
+
+### Changed
+- ATTACKERS 与 Madonna 开始纳入 Series coverage；Maker/Label coverage 仍保持 complete，但来源级 completeTraversal 因 Series 尚未完整枚举而调整为 false。
+- S1 增加 Label coverage；由于无法证明完整索引遍历，Label 与 Series coverage 均保持 incomplete。
+- Series 不根据名称或作品印象推断 Label 归属，只有官方证据明确支持时才填写 labelId。
+
+
 本文件记录 Localogue Community Data 的 Pack 版本变化。
 
 ## 0.4.2 - 2026-09-04

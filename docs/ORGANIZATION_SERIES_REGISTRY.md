@@ -111,3 +111,12 @@ ATTACKERS 与 Madonna 的官方 Label Index 同时出现了 `AVOPEN`、`AVグラ
 当前 Organization 模型规定 Label 必须直接挂 Maker，所以这些条目按**各自官方 Maker 目录中的 Label 身份**分别发布。即使名称相同、官网底层数值 ID 相同，也不能绕过父级关系直接合并。
 
 这并不否认它们可能来自同一个跨 Maker 活动；它只是说明“跨 Maker 活动”与“Maker 目录里的 Label”是两个不同层级的问题。未来如果需要表达活动实体，应新增合适的数据模型，而不是让一个 Label 同时拥有多个 Maker 父级。
+
+
+## Series 批量建设规则（0.4.3 起）
+
+1. Series 必须来自官方 Series 页面或已审核 Provider 稳定 ID。
+2. `makerId` 可以由官方站点域名/来源 Registry 明确归属；`labelId` 只有来源明确给出时才填写。
+3. 同名 Series 不跨 Maker 自动合并。
+4. 批次样本不等于完整 Series Index；未完成索引遍历时 `coverage.completeTraversal` 必须为 `false`。
+5. 当一个此前只有 Maker/Label 的 Source 新增 Series coverage 时，即使 Maker/Label 已 complete，来源级 `completeTraversal` 也必须回到 `false`，直到全部声明实体类型都完整。

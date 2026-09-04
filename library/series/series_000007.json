@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000007",
+  "names": {
+    "ja": "侵入者",
+    "zh-CN": "入侵者",
+    "en": "Intruder"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2402",
+  "externalIds": {
+    "attackers.series": "2402"
+  },
+  "firstPublishedIn": "0.4.3"
+}

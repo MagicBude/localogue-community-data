@@ -104,25 +104,36 @@
       ],
       "enumeration": {
         "seriesUrlPattern": "https://s1s1s1.com/works/list/series/<id>",
-        "pagination": "Series 作品列表分页；本批次未完整遍历全部 Series"
+        "pagination": "已核验主 Label 页面与 3 个 Series；当前执行环境无法可靠读取动态 Label/Series 索引，因此不声明完整遍历。",
+        "labelUrlPattern": "https://s1s1s1.com/works/list/label/<id>",
+        "labelIndex": "https://s1s1s1.com/works/label"
       },
-      "externalIdStability": "URL 路径中的 series/<id> 在当前公开目录中可作为稳定 Series 外部 ID 使用",
+      "externalIdStability": "URL 路径中的 label/<id> 与 series/<id> 分别作为 s1.label / s1.series 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
       "completeTraversal": false,
       "coverage": [
         {
-          "entityType": "series",
+          "entityType": "label",
           "discovered": 1,
           "reviewed": 1,
           "published": 1,
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": false
+        },
+        {
+          "entityType": "series",
+          "discovered": 3,
+          "reviewed": 3,
+          "published": 3,
+          "conflicts": 0,
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "新人NO.1STYLE 页面本身存在多页作品，但本批次目标是确认 Series 实体，不等价于完整枚举 S1 全部 Series。"
+        "S1 主 Label 4355 与 3 个 Series 已逐项核验，但官方索引在当前采集环境中未形成可证明的完整枚举快照，因此 Label 与 Series coverage 均保持 incomplete。"
       ]
     },
     {
@@ -163,18 +174,21 @@
       "baseUrl": "https://attackers.net/",
       "entityTypes": [
         "maker",
-        "label"
+        "label",
+        "series"
       ],
       "enumeration": {
         "makerPage": "https://attackers.net/",
         "labelIndex": "https://attackers.net/works/label",
         "labelUrlPattern": "https://attackers.net/works/list/label/<id>",
-        "pagination": "当前 /works/label 索引在单页列出全部 17 个可见 Label；本批次逐项进入 Label 链接核验外部 ID"
+        "pagination": "当前 /works/label 索引在单页列出全部 17 个可见 Label；本批次逐项进入 Label 链接核验外部 ID",
+        "seriesUrlPattern": "https://attackers.net/works/list/series/<id>",
+        "seriesIndex": "https://attackers.net/works/series"
       },
       "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 attackers.label 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
-      "completeTraversal": true,
+      "completeTraversal": false,
       "coverage": [
         {
           "entityType": "maker",
@@ -193,10 +207,19 @@
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": true
+        },
+        {
+          "entityType": "series",
+          "discovered": 8,
+          "reviewed": 8,
+          "published": 8,
+          "conflicts": 0,
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "completeTraversal=true 仅表示 2026-09-04 时点官方 /works/label 当前可见索引已全部遍历；不代表历史已删除 Label、Series、Work 或集团/法律公司关系已完整覆盖。"
+        "ATTACKERS 当前 Maker/Label coverage 已完整；本批次新增 8 个官方 Series 样本，但尚未完整枚举 Series Index，因此来源级 completeTraversal 降为 false。"
       ]
     },
     {
@@ -206,18 +229,21 @@
       "baseUrl": "https://madonna-av.com/",
       "entityTypes": [
         "maker",
-        "label"
+        "label",
+        "series"
       ],
       "enumeration": {
         "makerPage": "https://madonna-av.com/",
         "labelIndex": "https://madonna-av.com/works/label",
         "labelUrlPattern": "https://madonna-av.com/works/list/label/<id>",
-        "pagination": "当前 /works/label 索引在单页列出全部 18 个可见 Label；本批次逐项进入 Label 链接核验外部 ID"
+        "pagination": "当前 /works/label 索引在单页列出全部 18 个可见 Label；本批次逐项进入 Label 链接核验外部 ID",
+        "seriesUrlPattern": "https://madonna-av.com/works/list/series/<id>",
+        "seriesIndex": "https://madonna-av.com/works/series"
       },
       "externalIdStability": "Label 详情 URL 路径中的 label/<id> 作为 madonna.label 命名空间内的稳定外部 ID 使用",
       "accessStatus": "reachable",
       "lastCheckedAt": "2026-09-04",
-      "completeTraversal": true,
+      "completeTraversal": false,
       "coverage": [
         {
           "entityType": "maker",
@@ -236,10 +262,19 @@
           "conflicts": 0,
           "unrecognized": 0,
           "completeTraversal": true
+        },
+        {
+          "entityType": "series",
+          "discovered": 3,
+          "reviewed": 3,
+          "published": 3,
+          "conflicts": 0,
+          "unrecognized": 0,
+          "completeTraversal": false
         }
       ],
       "knownLimitations": [
-        "completeTraversal=true 仅表示 2026-09-04 时点官方 /works/label 当前可见索引已全部遍历；不代表历史已删除 Label、Series、Work 或集团/法律公司关系已完整覆盖。"
+        "Madonna 当前 Maker/Label coverage 已完整；本批次新增 3 个官方 Series 样本，但尚未完整枚举 Series Index，因此来源级 completeTraversal 降为 false。"
       ]
     }
   ]

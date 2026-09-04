@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000008",
+  "names": {
+    "ja": "あなたに愛されたくて。",
+    "zh-CN": "渴望被你爱。",
+    "en": "Wanting to Be Loved by You"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2269",
+  "externalIds": {
+    "attackers.series": "2269"
+  },
+  "firstPublishedIn": "0.4.3"
+}
