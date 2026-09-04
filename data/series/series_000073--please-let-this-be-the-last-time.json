@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000073",
+  "names": {
+    "ja": "これで最後にしてください。",
+    "zh-CN": "请让这成为最后一次。",
+    "en": "Please Let This Be the Last Time"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2303",
+  "externalIds": {
+    "attackers.series": "2303"
+  },
+  "firstPublishedIn": "0.4.7"
+}

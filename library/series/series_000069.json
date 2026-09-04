@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000069",
+  "names": {
+    "ja": "死夜悪アンソロジー",
+    "zh-CN": "死夜恶选集",
+    "en": "Shiyaaku Anthology"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2299",
+  "externalIds": {
+    "attackers.series": "2299"
+  },
+  "firstPublishedIn": "0.4.7"
+}

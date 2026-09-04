@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000070",
+  "names": {
+    "ja": "蛇縛の拷問折檻",
+    "zh-CN": "蛇缚的拷问惩戒",
+    "en": "Jabaku Torture and Punishment"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2300",
+  "externalIds": {
+    "attackers.series": "2300"
+  },
+  "firstPublishedIn": "0.4.7"
+}

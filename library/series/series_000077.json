@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000077",
+  "names": {
+    "ja": "声を出せない私",
+    "zh-CN": "无法发出声音的我",
+    "en": "I Cannot Make a Sound"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2308",
+  "externalIds": {
+    "attackers.series": "2308"
+  },
+  "firstPublishedIn": "0.4.7"
+}

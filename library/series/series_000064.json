@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000064",
+  "names": {
+    "ja": "背徳の契り",
+    "zh-CN": "背德之契",
+    "en": "Pact of Immorality"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2290",
+  "externalIds": {
+    "attackers.series": "2290"
+  },
+  "firstPublishedIn": "0.4.7"
+}

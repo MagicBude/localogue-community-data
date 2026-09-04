@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000090",
+  "names": {
+    "ja": "豊潤麗し競泳水着",
+    "zh-CN": "丰润美丽的竞泳泳装",
+    "en": "Lush Beauty in Competition Swimsuits"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1585",
+  "externalIds": {
+    "madonna.series": "1585"
+  },
+  "firstPublishedIn": "0.4.7"
+}

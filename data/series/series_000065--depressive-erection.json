@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000065",
+  "names": {
+    "ja": "鬱勃起",
+    "zh-CN": "抑郁勃起",
+    "en": "Depressive Erection"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2291",
+  "externalIds": {
+    "attackers.series": "2291"
+  },
+  "firstPublishedIn": "0.4.7"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000066",
+  "names": {
+    "ja": "抱かれるための出社",
+    "zh-CN": "为了被拥抱而上班",
+    "en": "Going to Work to Be Taken"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2292",
+  "externalIds": {
+    "attackers.series": "2292"
+  },
+  "firstPublishedIn": "0.4.7"
+}

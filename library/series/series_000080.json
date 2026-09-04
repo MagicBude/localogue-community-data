@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000080",
+  "names": {
+    "ja": "奴隷色のステージ",
+    "zh-CN": "奴隶色的舞台",
+    "en": "Slave-Colored Stage"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2312",
+  "externalIds": {
+    "attackers.series": "2312"
+  },
+  "firstPublishedIn": "0.4.7"
+}

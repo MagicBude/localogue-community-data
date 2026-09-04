@@ -1,17 +1,28 @@
 # Changelog
 
+## 0.4.7 - 2026-09-04
+
+### Series Review Batch C
+
+- 新增 ATTACKERS 第三份 partial Series Index Snapshot，沿官方索引继续审核下一段 20 个条目；其中 19 个为本批次新发布 Series，`attackers.series:2293` 为既有正式实体精确命中。
+- 新增 Madonna 第三份 partial Series Index Snapshot，继续审核下一段 20 个官方 Series，并全部发布为正式实体。
+- 本批次共新增 39 个正式 Series，分配 `series_000062` 至 `series_000100`；Series 总数增加至 100。
+- `attackers.series:2273` 的 `hold` 决策保持不变，不因最新 Snapshot 已向后移动而自动发布、删除或改变状态。
+- External ID Mapping / Provider Observation 增加至 181；Series Candidate Review 增加至 84（publish 83 / hold 1 / reject 0）。
+- ATTACKERS Series coverage 更新为 discovered 53 / reviewed 53 / published 52 / unrecognized 1；Madonna 更新为 42 / 42 / 42 / 0，二者仍为 partial coverage。
+- Pack 版本升级至 0.4.7。
+
 ## 0.4.6 - 2026-09-04
 
 ### Series Candidate Review / Promotion Batch B
 
-- 新增 ATTACKERS partial Snapshot Batch B（20 条）与 Madonna partial Snapshot Batch B（19 条）。
-- 经官方详情页逐项复核后新增 25 个正式 Series：ATTACKERS 16、Madonna 9。
-- ATTACKERS `series/2273` 官方 Series 名仅为“１”，本阶段明确 Review=hold，不分配 Community ID、不创建 approved Mapping。
-- Series 从 36 增加到 61，Registry Active 从 465 增加到 490，approved External ID Mapping / Observation 从 117 增加到 142。
-- Review Ledger 累计 45：publish 44、hold 1、reject 0。
-- 最新 Snapshot Diff 为 38 published、1 candidate-new、0 drift、0 missing、0 conflict。
-- ATTACKERS Series coverage 更新为 discovered 34 / reviewed 34 / published 33 / unrecognized 1；Madonna 更新为 22/22/22/0。
-- 两者 Snapshot 仍为 partial，因此 completeTraversal 继续为 false。
+- 新增 ATTACKERS 第二份 partial Series Snapshot（20 条）和 Madonna 第二份 partial Series Snapshot（19 条）。
+- ATTACKERS 第二批候选中 16 个正式发布，`attackers.series:2273` 因官网规范名仅为全角“１”进入 hold；Madonna 新增发布 9 个 Series。
+- 本版本实际新增 25 个正式 Series：Series 从 36 增加到 61，Registry Active 从 465 增加到 490，approved External ID Mapping / Provider Observation 从 117 增加到 142。
+- Review Ledger 从 19 增加到 45：publish 44、hold 1、reject 0。
+- 最新 Batch B Snapshot Diff 为 38 published、1 candidate-new（即已 Review=hold 的 2273）、0 drift、0 missing、0 conflict。
+- ATTACKERS Series coverage 更新为 discovered 34 / reviewed 34 / published 33 / unrecognized 1；Madonna 更新为 22 / 22 / 22 / 0。两者 Snapshot 仍为 partial，因此 completeTraversal 继续为 false。
+- 0.4.6 发布时部分 Markdown 文档残留早期“26 条全部发布”的草稿统计；0.4.7 对文档口径进行了勘误，正式数据与 Registry 本身没有错误发布。
 
 ## 0.4.5 - 2026-09-04
 

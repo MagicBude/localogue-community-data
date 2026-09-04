@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000072",
+  "names": {
+    "ja": "凌辱大捜査線",
+    "zh-CN": "凌辱大搜查线",
+    "en": "Humiliation Investigation Line"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2302",
+  "externalIds": {
+    "attackers.series": "2302"
+  },
+  "firstPublishedIn": "0.4.7"
+}

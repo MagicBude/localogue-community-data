@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000076",
+  "names": {
+    "ja": "昭和哀歌",
+    "zh-CN": "昭和哀歌",
+    "en": "Showa Elegy"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2307",
+  "externalIds": {
+    "attackers.series": "2307"
+  },
+  "firstPublishedIn": "0.4.7"
+}

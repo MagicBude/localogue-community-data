@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000063",
+  "names": {
+    "ja": "あなたが欲しくて",
+    "zh-CN": "渴望拥有你",
+    "en": "Wanting You"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2288",
+  "externalIds": {
+    "attackers.series": "2288"
+  },
+  "firstPublishedIn": "0.4.7"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000071",
+  "names": {
+    "ja": "BEST",
+    "zh-CN": "BEST精选",
+    "en": "BEST"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2301",
+  "externalIds": {
+    "attackers.series": "2301"
+  },
+  "firstPublishedIn": "0.4.7"
+}

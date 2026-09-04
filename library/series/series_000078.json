@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000078",
+  "names": {
+    "ja": "極道の女",
+    "zh-CN": "极道之女",
+    "en": "Yakuza Woman"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2309",
+  "externalIds": {
+    "attackers.series": "2309"
+  },
+  "firstPublishedIn": "0.4.7"
+}

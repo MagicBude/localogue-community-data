@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000074",
+  "names": {
+    "ja": "女優名鑑",
+    "zh-CN": "女优名鉴",
+    "en": "Actress Directory"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2305",
+  "externalIds": {
+    "attackers.series": "2305"
+  },
+  "firstPublishedIn": "0.4.7"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000079",
+  "names": {
+    "ja": "くノ一拷問凌辱",
+    "zh-CN": "女忍者拷问凌辱",
+    "en": "Kunoichi Torture and Humiliation"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000004",
+  "status": "unknown",
+  "officialWebsite": "https://attackers.net/works/list/series/2311",
+  "externalIds": {
+    "attackers.series": "2311"
+  },
+  "firstPublishedIn": "0.4.7"
+}

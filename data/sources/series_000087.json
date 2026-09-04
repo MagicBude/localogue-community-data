@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000087",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://madonna-av.com/works/list/series/1574",
+      "kind": "official",
+      "title": "犯されたセールスレディ該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": [
+        "names",
+        "makerId",
+        "officialWebsite",
+        "externalIds"
+      ],
+      "note": "0.4.7 Series Index partial Snapshot Batch C 候选经官方 Series 详情页人工复核后发布。URL 路径中的外部 ID 登记在对应 Provider *.series 命名空间；未根据名称或作品内容推断 Label 归属。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000085",
+  "names": {
+    "ja": "最高の筆おろし!",
+    "zh-CN": "最棒的初体验！",
+    "en": "The Best First Experience!"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000005",
+  "status": "unknown",
+  "officialWebsite": "https://madonna-av.com/works/list/series/1572",
+  "externalIds": {
+    "madonna.series": "1572"
+  },
+  "firstPublishedIn": "0.4.7"
+}
