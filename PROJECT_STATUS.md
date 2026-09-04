@@ -2,51 +2,53 @@
 
 ## 当前版本
 
-- Pack Version: `0.3.2`
-- Schema Version: `1`
-- 阶段：Work–Genre 引用试运行
+`0.4.0 — Organization & Series Registry Foundation`
+
+基线：0.3.2 / `c59e6711c26925b0eb446e63c6dc0d48b208d941`
 
 ## 已完成
 
-- Shared Pack Manifest
-- 标准 Library 目录
-- 六位顺序稳定 ID
-- 13 位真实人物主数据
-- JSON → Shared Pack / CSV / XLSX 自动生成
-- Entity Source Record
-- 无依赖 Validator
-- GitHub Actions 自动校验
-- PR / Issue 模板
-- 完整贡献、来源和许可文档
-- 虚构示例数据
-- Community ID Registry（active / redirect）
-- 人工 Merge Plan Schema 与状态机
-- Redirect 同类型、单跳和来源历史保留规则
-- Registry / Merge / Source Record 一体化 Validator
-- Localogue checkout 双重兼容性检查脚本
-- 10 人物 + 20 作品真实数据 Pilot 方案
-- Pilot A：桃乃木かな、石川澪、河北彩花 3 人物
-- Pilot A：IPZ-637、IPZ-653、MIDE-974、MIDE-989、SSIS-129 共 5 作品
-- 3 个 Maker 支撑实体、11 份 Source Record 与 11 个 active Registry 条目
-- 325 个日中英三语分类条目
-- 主题、角色、服装、体型与外观、行为、玩法与偏好、制作类别、媒介与格式、分级九个分面
-- 分类总览、别名 CSV 与格式化 XLSX 自动导出
-- 现有 5 部 Pilot A 作品已建立首轮保守 Genre 引用
+1. 冻结 Group / Company / Maker / Label 的语义边界与父级矩阵。
+2. 建立 Organization 与 Series Foundation Schema。
+3. 建立 Public Source Registry，覆盖范围按 Provider/来源记录，不再使用“全世界分类已经完整”一类无法证明的表述。
+4. 建立 Candidate/Staging 层，使未审核关系不会直接污染正式 Shared Pack。
+5. 建立 approved External ID Mapping 与 Provider Observation。
+6. 建立精确对账流程：稳定外部 ID、日文规范名、已登记别名可以唯一精确匹配；番号前缀和标题信号只能产生建议；模糊/AI 推测禁止自动写入。
+7. 正式新增 2 个 MOODYZ Label 与 4 个高复用官方 Series。
+8. 将株式会社WILL 作为已核验 Company Candidate 保存；在 Localogue 尚未一等支持 Company 前不伪装成 Maker。
+9. 扩展 CSV/XLSX 人工浏览导出。
+10. 修正 Registry 生成逻辑：保留已发布 Redirect；active ID 从 data 消失时直接阻止生成，避免历史 ID 静默丢失。
 
-## 审查结论
+## 当前正式统计
 
-- V0-01 基线 `pnpm check` 通过，正式 Library 为 0。
-- 修正 `pnpm new:id organization` 会生成 Validator 不接受 ID 的不一致；Organization 现在必须明确选择 `maker` 或 `label`。
-- 2026-09-02 可读取的 Localogue 公开主分支仍为 V1-10，未发现公开 V1-11 分支或 Tag；因此 V1-11 完整对齐仍待上游实现公开后复核。
-- Pilot A 的 MOODYZ 与 S1 数据由日文官方页直接核验；IdeaPocket 官方页抓取超时，两个早期作品由可公开读取的日文目录交叉核验并在 Source Record 中明示来源层级。
-- Pilot A 没有引入图片、媒体文件、本地路径、用户 Tag 或其它私人状态。
+- People: 13
+- Works: 5
+- Organizations: 5（Maker 3 / Label 2）
+- Series: 4
+- Genres: 325
+- Registry Active: 352
+- Registry Redirect: 0
+- Merge Plans: 0
+- Public Sources: 4
+- External ID Mappings: 6
+- Organization Candidates: 1
+
+## 当前已知边界
+
+- IdeaPocket / MOODYZ / S1 的公开目录尚未完整遍历所有分页，因此不能声明 Provider 当前目录已完整覆盖。
+- Group/Company 的正式 Shared Pack 发布仍等待 Localogue 消费契约升级。
+- WILL 与现有 Maker 的品牌/法人父子关系没有在本阶段仅凭搜索摘要或第三方数据推断。
+- Series 数量持续增长，本项目目标是建立可持续枚举/审核工作流，而不是一次性收全。
 
 ## 下一阶段建议
 
-1. 在 Localogue 中挂载 `0.3.2`，验证 5 部 Work 的 Genre 关联、分类显示与三语字段读取。
-2. 执行 Pilot B：3 人物 + 5 作品，优先复用 Maker，并首次验证 Label / Series。
-3. 为新作品继续采用来源明确支持的保守 Genre 映射，不根据演员印象或常见套路猜测。
-3. 分四批完成总计 10 人物 + 20 作品的端到端试运行。
-4. 演练 Duplicate Issue 和 `proposed` Merge Plan；消费端支持 Redirect 前不应用真实合并。
-5. Localogue V1-11 公开后重新运行契约检查并审查 Redirect 消费语义。
-6. 后续再考虑大规模批量导入和独立 Community Asset Pack。
+### 0.4.x：Organization Registry 扩充
+
+1. 继续从官方集团/公司/Maker/Label 页面收集第一批主流 Organization；
+2. 优先补齐 Maker ↔ Label 的稳定官方外部 ID；
+3. 对 Group/Company 建立更多可核验 Candidate，并准备 Localogue 一等 kind 消费契约；
+4. 增加冲突与未识别样本，验证人工审核流程。
+
+### 随后：Provider Series 枚举
+
+在 Maker/Label 基础更稳定后，再按 Provider 分批遍历 Series，并按来源输出 discovered/reviewed/published/conflicts/unrecognized 与 `completeTraversal`。

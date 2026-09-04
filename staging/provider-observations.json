@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "observations": [
+    {"sourceId": "source_moodyz_official", "provider": "moodyz.label", "entityType": "label", "externalId": "5048", "nameJa": "MOODYZ DIVA", "sourceUrl": "https://moodyz.com/works/list/label/5048"},
+    {"sourceId": "source_moodyz_official", "provider": "moodyz.label", "entityType": "label", "externalId": "12798", "nameJa": "みんなのキカタン", "sourceUrl": "https://moodyz.com/works/list/label/12798"},
+    {"sourceId": "source_s1_official", "provider": "s1.series", "entityType": "series", "externalId": "414", "nameJa": "新人NO.1STYLE", "sourceUrl": "https://s1s1s1.com/works/list/series/414"},
+    {"sourceId": "source_moodyz_official", "provider": "moodyz.series", "entityType": "series", "externalId": "5427", "nameJa": "カラミざかり", "sourceUrl": "https://moodyz.com/works/list/series/5427"},
+    {"sourceId": "source_ideapocket_official", "provider": "ideapocket.series", "entityType": "series", "externalId": "863", "nameJa": "死ぬほど大嫌いな上司とまさかの相部屋に", "sourceUrl": "https://ideapocket.com/works/list/series/863"},
+    {"sourceId": "source_ideapocket_official", "provider": "ideapocket.series", "entityType": "series", "externalId": "1011", "nameJa": "うちの妻を犯して下さい", "sourceUrl": "https://ideapocket.com/works/list/series/1011"}
+  ]
+}

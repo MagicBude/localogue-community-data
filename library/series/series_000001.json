@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000001",
+  "names": {
+    "ja": "新人NO.1STYLE",
+    "zh-CN": "新人NO.1 STYLE",
+    "en": "Shinjin NO.1 STYLE"
+  },
+  "aliases": {
+    "ja": [
+      "新人NO.1 STYLE"
+    ],
+    "zh-CN": [],
+    "en": [
+      "Newcomer NO.1 STYLE"
+    ]
+  },
+  "makerId": "maker_000003",
+  "status": "unknown",
+  "officialWebsite": "https://s1s1s1.com/works/list/series/414",
+  "externalIds": {
+    "s1.series": "414"
+  },
+  "firstPublishedIn": "0.4.0"
+}

@@ -1,0 +1,6 @@
+id,kind,name_ja,parent_organization_id,status,official_website,external_ids,first_published_in
+label_000001,label,MOODYZ DIVA,maker_000002,unknown,https://moodyz.com/works/list/label/5048,moodyz.label:5048,0.4.0
+label_000002,label,みんなのキカタン,maker_000002,unknown,https://moodyz.com/works/list/label/12798,moodyz.label:12798,0.4.0
+maker_000001,maker,アイデアポケット,,,,,
+maker_000002,maker,MOODYZ,,,,,
+maker_000003,maker,エスワン,,,,,

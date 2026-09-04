@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000001",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://s1s1s1.com/works/list/series/414",
+      "kind": "official",
+      "title": "新人NO.1STYLE該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": ["names", "makerId", "officialWebsite", "externalIds"],
+      "note": "S1 官方 Series 目录。URL 路径中的 414 作为稳定外部 Series ID 登记。"
+    }
+  ]
+}

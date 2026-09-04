@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "mappings": [
+    {
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "1011",
+      "communityId": "series_000004",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/series/1011",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "ideapocket.series",
+      "entityType": "series",
+      "externalId": "863",
+      "communityId": "series_000003",
+      "status": "approved",
+      "sourceUrl": "https://ideapocket.com/works/list/series/863",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "12798",
+      "communityId": "label_000002",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/12798",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.label",
+      "entityType": "label",
+      "externalId": "5048",
+      "communityId": "label_000001",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/label/5048",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "moodyz.series",
+      "entityType": "series",
+      "externalId": "5427",
+      "communityId": "series_000002",
+      "status": "approved",
+      "sourceUrl": "https://moodyz.com/works/list/series/5427",
+      "reviewedAt": "2026-09-04"
+    },
+    {
+      "provider": "s1.series",
+      "entityType": "series",
+      "externalId": "414",
+      "communityId": "series_000001",
+      "status": "approved",
+      "sourceUrl": "https://s1s1s1.com/works/list/series/414",
+      "reviewedAt": "2026-09-04"
+    }
+  ]
+}

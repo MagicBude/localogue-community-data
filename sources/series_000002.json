@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000002",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://moodyz.com/works/list/series/5427",
+      "kind": "official",
+      "title": "カラミざかり該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": ["names", "makerId", "officialWebsite", "externalIds"],
+      "note": "MOODYZ 官方 Series 目录。URL 路径中的 5427 作为稳定外部 Series ID 登记。"
+    }
+  ]
+}

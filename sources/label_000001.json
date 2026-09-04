@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "label_000001",
+  "entityType": "organization",
+  "sources": [
+    {
+      "url": "https://moodyz.com/works/list/label/5048",
+      "kind": "official",
+      "title": "MOODYZ DIVA 該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": ["names", "parentOrganizationId", "officialWebsite", "externalIds"],
+      "note": "MOODYZ 官方 Label 目录。URL 路径中的 5048 作为稳定外部 Label ID 登记；页面标题支持日文原名。"
+    }
+  ]
+}

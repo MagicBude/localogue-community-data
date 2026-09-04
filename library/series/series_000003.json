@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000003",
+  "names": {
+    "ja": "死ぬほど大嫌いな上司とまさかの相部屋に",
+    "zh-CN": "竟然和讨厌到要死的上司同住一间房",
+    "en": "Unexpectedly Sharing a Room with the Boss I Hate"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/series/863",
+  "externalIds": {
+    "ideapocket.series": "863"
+  },
+  "firstPublishedIn": "0.4.0"
+}

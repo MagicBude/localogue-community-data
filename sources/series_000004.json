@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entityId": "series_000004",
+  "entityType": "series",
+  "sources": [
+    {
+      "url": "https://ideapocket.com/works/list/series/1011",
+      "kind": "official",
+      "title": "うちの妻を犯して下さい該当作品",
+      "accessedAt": "2026-09-04",
+      "fields": ["names", "makerId", "officialWebsite", "externalIds"],
+      "note": "IDEAPOCKET 官方 Series 目录。URL 路径中的 1011 作为稳定外部 Series ID 登记；页面存在并不等于当前仍活跃，因此 status 保守为 unknown。"
+    }
+  ]
+}

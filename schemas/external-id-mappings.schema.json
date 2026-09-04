@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed External ID Mappings",
+  "type": "object",
+  "required": ["schemaVersion", "mappings"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["provider", "entityType", "externalId", "communityId", "status", "sourceUrl", "reviewedAt"],
+        "properties": {
+          "provider": {"type": "string", "minLength": 1},
+          "entityType": {"enum": ["group", "company", "maker", "label", "series"]},
+          "externalId": {"type": "string", "minLength": 1},
+          "communityId": {"type": "string", "pattern": "^(group|company|maker|label|series)_[0-9]{6}$"},
+          "status": {"enum": ["approved", "disabled"]},
+          "sourceUrl": {"type": "string", "format": "uri"},
+          "reviewedAt": {"type": "string", "format": "date"}
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

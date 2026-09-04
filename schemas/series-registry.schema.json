@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MagicBude/localogue-community-data/schemas/series-registry.schema.json",
+  "title": "Localogue Community Series Registry Entity",
+  "type": "object",
+  "required": ["schemaVersion", "id", "names", "makerId", "status"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^series_[0-9]{6}$"},
+    "names": {"$ref": "#/$defs/localizedNames"},
+    "aliases": {"$ref": "#/$defs/localizedAliases"},
+    "makerId": {"type": "string", "pattern": "^maker_[0-9]{6}$"},
+    "labelId": {"type": "string", "pattern": "^label_[0-9]{6}$"},
+    "status": {"enum": ["active", "inactive", "unknown"]},
+    "officialWebsite": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "firstKnownReleaseDate": {"$ref": "#/$defs/partialDate"},
+    "externalIds": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}},
+    "firstPublishedIn": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"}
+  },
+  "$defs": {
+    "localizedNames": {
+      "type": "object",
+      "required": ["ja"],
+      "properties": {"ja": {"type": "string", "minLength": 1}, "zh-CN": {"type": "string"}, "en": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "localizedAliases": {
+      "type": "object",
+      "properties": {"ja": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}, "zh-CN": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}, "en": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}},
+      "additionalProperties": false
+    },
+    "partialDate": {
+      "type": "object",
+      "required": ["value", "precision"],
+      "properties": {"value": {"type": "string"}, "precision": {"enum": ["day", "month", "year"]}},
+      "additionalProperties": false
+    }
+  }
+}

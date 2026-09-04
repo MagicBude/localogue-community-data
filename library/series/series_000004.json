@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000004",
+  "names": {
+    "ja": "うちの妻を犯して下さい",
+    "zh-CN": "请侵犯我的妻子",
+    "en": "Please Take My Wife"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000001",
+  "status": "unknown",
+  "officialWebsite": "https://ideapocket.com/works/list/series/1011",
+  "externalIds": {
+    "ideapocket.series": "1011"
+  },
+  "firstPublishedIn": "0.4.0"
+}

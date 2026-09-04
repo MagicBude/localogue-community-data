@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000001",
+  "kind": "label",
+  "names": {
+    "ja": "MOODYZ DIVA",
+    "zh-CN": "MOODYZ DIVA",
+    "en": "MOODYZ DIVA"
+  },
+  "aliases": {
+    "ja": [
+      "MOODYZ　DIVA"
+    ],
+    "zh-CN": [],
+    "en": []
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/5048",
+  "externalIds": {
+    "moodyz.label": "5048"
+  },
+  "firstPublishedIn": "0.4.0"
+}

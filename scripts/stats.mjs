@@ -12,11 +12,26 @@ for (const collection of collections) {
     stats[collection] = error?.code === "ENOENT" ? 0 : "ERROR";
   }
 }
-
 try {
-  const registry = JSON.parse(
-    await readFile(path.resolve(process.cwd(), "registry/community-ids.json"), "utf8"),
-  );
+  const names = (await readdir(path.join(root, "organizations"))).filter((name) => name.endsWith(".json"));
+  const kindCounts = { group: 0, company: 0, maker: 0, label: 0, other: 0 };
+  for (const name of names) {
+    const value = JSON.parse(await readFile(path.join(root, "organizations", name), "utf8"));
+    if (Object.hasOwn(kindCounts, value.kind)) kindCounts[value.kind] += 1;
+    else kindCounts.other += 1;
+  }
+  stats.organizationGroups = kindCounts.group;
+  stats.organizationCompanies = kindCounts.company;
+  stats.organizationMakers = kindCounts.maker;
+  stats.organizationLabels = kindCounts.label;
+} catch {
+  stats.organizationGroups = "ERROR";
+  stats.organizationCompanies = "ERROR";
+  stats.organizationMakers = "ERROR";
+  stats.organizationLabels = "ERROR";
+}
+try {
+  const registry = JSON.parse(await readFile(path.resolve(process.cwd(), "registry/community-ids.json"), "utf8"));
   const entries = Array.isArray(registry.entries) ? registry.entries : [];
   stats.registryActive = entries.filter((entry) => entry.status === "active").length;
   stats.registryRedirects = entries.filter((entry) => entry.status === "redirect").length;
@@ -24,11 +39,22 @@ try {
   stats.registryActive = "ERROR";
   stats.registryRedirects = "ERROR";
 }
-
 try {
   const names = await readdir(path.resolve(process.cwd(), "registry/merge-plans"));
   stats.mergePlans = names.filter((name) => name.endsWith(".json")).length;
 } catch (error) {
   stats.mergePlans = error?.code === "ENOENT" ? 0 : "ERROR";
 }
+try {
+  const sourceRegistry = JSON.parse(await readFile(path.resolve(process.cwd(), "registry/public-sources.json"), "utf8"));
+  stats.publicSources = Array.isArray(sourceRegistry.sources) ? sourceRegistry.sources.length : "ERROR";
+} catch { stats.publicSources = "ERROR"; }
+try {
+  const mappings = JSON.parse(await readFile(path.resolve(process.cwd(), "registry/external-id-mappings.json"), "utf8"));
+  stats.externalIdMappings = Array.isArray(mappings.mappings) ? mappings.mappings.length : "ERROR";
+} catch { stats.externalIdMappings = "ERROR"; }
+try {
+  const candidates = JSON.parse(await readFile(path.resolve(process.cwd(), "staging/organization-candidates.json"), "utf8"));
+  stats.organizationCandidates = Array.isArray(candidates.candidates) ? candidates.candidates.length : "ERROR";
+} catch { stats.organizationCandidates = "ERROR"; }
 console.table(stats);

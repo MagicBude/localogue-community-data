@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "source_ideapocket_official",
+      "name": "IDEAPOCKET 官方作品目录",
+      "sourceType": "official",
+      "baseUrl": "https://ideapocket.com/",
+      "entityTypes": ["maker", "label", "series", "work"],
+      "enumeration": {
+        "seriesUrlPattern": "https://ideapocket.com/works/list/series/<id>",
+        "pagination": "站点目录分页；本批次未完整遍历全部 Series 页面"
+      },
+      "externalIdStability": "URL 路径中的 series/<id> 在当前公开目录中可作为稳定 Series 外部 ID 使用",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": false,
+      "coverage": [
+        {"entityType": "series", "discovered": 2, "reviewed": 2, "published": 2, "conflicts": 0, "unrecognized": 0}
+      ],
+      "knownLimitations": ["本批次只验证高复用 Series 样本，没有遍历整个 Series 索引和所有分页。"]
+    },
+    {
+      "id": "source_moodyz_official",
+      "name": "MOODYZ 官方作品目录",
+      "sourceType": "official",
+      "baseUrl": "https://moodyz.com/",
+      "entityTypes": ["maker", "label", "series", "work"],
+      "enumeration": {
+        "labelUrlPattern": "https://moodyz.com/works/list/label/<id>",
+        "seriesUrlPattern": "https://moodyz.com/works/list/series/<id>",
+        "pagination": "作品目录使用 page 参数分页；本批次未完整遍历所有 Label/Series"
+      },
+      "externalIdStability": "URL 路径中的 label/<id> 与 series/<id> 在当前公开目录中可作为对应实体的稳定外部 ID 使用",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": false,
+      "coverage": [
+        {"entityType": "label", "discovered": 2, "reviewed": 2, "published": 2, "conflicts": 0, "unrecognized": 0},
+        {"entityType": "series", "discovered": 1, "reviewed": 1, "published": 1, "conflicts": 0, "unrecognized": 0}
+      ],
+      "knownLimitations": ["尚未完整枚举全部 Label 和 Series，因此不能声明 MOODYZ 当前公开目录已覆盖。"]
+    },
+    {
+      "id": "source_s1_official",
+      "name": "S1 NO.1 STYLE 官方作品目录",
+      "sourceType": "official",
+      "baseUrl": "https://s1s1s1.com/",
+      "entityTypes": ["maker", "label", "series", "work"],
+      "enumeration": {
+        "seriesUrlPattern": "https://s1s1s1.com/works/list/series/<id>",
+        "pagination": "Series 作品列表分页；本批次未完整遍历全部 Series"
+      },
+      "externalIdStability": "URL 路径中的 series/<id> 在当前公开目录中可作为稳定 Series 外部 ID 使用",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": false,
+      "coverage": [
+        {"entityType": "series", "discovered": 1, "reviewed": 1, "published": 1, "conflicts": 0, "unrecognized": 0}
+      ],
+      "knownLimitations": ["新人NO.1STYLE 页面本身存在多页作品，但本批次目标是确认 Series 实体，不等价于完整枚举 S1 全部 Series。"]
+    },
+    {
+      "id": "source_will_company",
+      "name": "株式会社WILL 官方公司页",
+      "sourceType": "official",
+      "baseUrl": "https://will-hp.jp/",
+      "entityTypes": ["company"],
+      "enumeration": {
+        "companyPage": "https://will-hp.jp/company/index.html",
+        "pagination": "单页公司概要，不是 Maker/Label 枚举目录"
+      },
+      "externalIdStability": "未发现可安全视为稳定 Company 外部 ID 的公开编号",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-04",
+      "completeTraversal": true,
+      "coverage": [
+        {"entityType": "company", "discovered": 1, "reviewed": 1, "published": 0, "conflicts": 0, "unrecognized": 0}
+      ],
+      "knownLimitations": ["Localogue 当前正式 OrganizationKind 尚未把 company 作为一等消费类型，因此先进入 Staging，不伪装成 Maker。"]
+    }
+  ]
+}

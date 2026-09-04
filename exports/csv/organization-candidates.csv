@@ -1,0 +1,2 @@
+candidate_id,kind,name_ja,name_zh,name_en,status,reason_not_published,official_website,founded_date,source_urls
+organization_candidate_will_company_001,company,株式会社WILL,WILL株式会社,"WILL Co., Ltd.",reviewed-candidate,Localogue 当前正式 Shared Pack OrganizationKind 尚未把 company 作为一等类型；本仓库先保留正确语义，不把法律公司伪装成 maker。,https://will-hp.jp/,2016-07-13,https://will-hp.jp/company/index.html

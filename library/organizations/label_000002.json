@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "label_000002",
+  "kind": "label",
+  "names": {
+    "ja": "みんなのキカタン",
+    "zh-CN": "大家的企画单体",
+    "en": "Minna no Kikatan"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [
+      "大家的企划单体"
+    ],
+    "en": []
+  },
+  "parentOrganizationId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/label/12798",
+  "externalIds": {
+    "moodyz.label": "12798"
+  },
+  "firstPublishedIn": "0.4.0"
+}

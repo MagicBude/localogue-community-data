@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "series_000002",
+  "names": {
+    "ja": "カラミざかり",
+    "zh-CN": "青春交缠",
+    "en": "Karamizakari"
+  },
+  "aliases": {
+    "ja": [],
+    "zh-CN": [],
+    "en": []
+  },
+  "makerId": "maker_000002",
+  "status": "unknown",
+  "officialWebsite": "https://moodyz.com/works/list/series/5427",
+  "externalIds": {
+    "moodyz.series": "5427"
+  },
+  "firstPublishedIn": "0.4.0"
+}
