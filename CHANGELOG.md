@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.4.10 - 2026-09-04
+
+### Series Coverage Checkpoint Foundation
+
+- 本版本不新增正式 Series，先解决 partial Snapshot 批次增加后“下一批从哪里继续”的可持续维护问题。
+- 为现有 12 份 Series Index Snapshot 全部补充 `coverageWindow`，区分 `sample`、`segment`、`expansion` 与 `complete-index`。
+- Window 显式记录第一/最后 External ID、排序依据、resume anchor 与 continuation predecessor。
+- `resumeAfterExternalId` 只表示下一批从该已审核官方详情锚点之后继续，不假设 External ID 数值连续，也不证明锚点之间没有遗漏。
+- 早期 Pilot 样本 Snapshot 标为 `sample` 且不提供 resume anchor，防止样本被误解为连续覆盖区间。
+- 当前五 Provider latest resume anchor：ATTACKERS 2312、Madonna 1595、MOODYZ 3567、IDEAPOCKET 944、S1 575。
+- 新增 `series:index:progress`，生成 `series-index-progress.json` 与 `series-index-progress.csv`，汇总 Snapshot 数量、唯一 External ID、approved Mapping、Review、最新 Window、chain depth、resume checkpoint 与 Source coverage。
+- `series:index:snapshot` 新生成的 partial Snapshot 会自动写入 parsed coverage window，并自动连接同 Provider 上一份 Snapshot；complete Snapshot 则不生成 resume anchor。
+- Snapshot Validator 新增 coverage window 起止一致性、resume anchor、predecessor 存在性/Provider 一致性/时间顺序、循环 continuation 和 complete-index 一致性检查。
+- Series Index Snapshot CSV 增加 Window / Start / End / Resume / Predecessor 列；Organization / Series XLSX 新增 Series Index Progress 工作表。
+- `stats` 新增 Progress Provider、Resume Checkpoint 与 Complete Provider 统计。
+- 新增 2 条 Coverage Checkpoint / Progress 回归测试，完整脚本测试增加至 19 条。
+- 正式数据保持 People 13、Works 5、Organizations 86、Series 119、Genres 325、Registry Active 548、External ID Mapping 200。
+- `attackers.series:2273` 继续保持 hold。
+- Pack 版本升级至 0.4.10。
+
 ## 0.4.9 - 2026-09-04
 
 ### Five-provider Coverage Balance Batch

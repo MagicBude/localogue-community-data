@@ -42,6 +42,7 @@ const mappings = await readJson("registry/external-id-mappings.json", { mappings
 const candidates = await readJson("staging/organization-candidates.json", { candidates: [] });
 const reconciliation = await readJson("exports/reports/provider-reconciliation.json", { results: [] });
 const seriesIndexDiff = await readJson("exports/reports/series-index-diff.json", { selectedSnapshots: [], results: [] });
+const seriesIndexProgress = await readJson("exports/reports/series-index-progress.json", { providers: [] });
 const seriesCandidateReviews = await readJson("staging/series-candidate-reviews.json", { reviews: [] });
 const orgById = new Map(organizations.map((item) => [item.id, item]));
 
@@ -91,9 +92,30 @@ setupSheet(workbook, "Reconciliation", [
 
 
 setupSheet(workbook, "Series Index Snapshots", [
-  ["Snapshot ID", "snapshotId", 38], ["Provider", "provider", 24], ["Source ID", "sourceId", 30], ["Maker ID", "makerId", 18],
-  ["Captured", "capturedAt", 14], ["Complete", "complete", 12], ["Entries", "entries", 12],
-], (seriesIndexDiff.selectedSnapshots ?? []).map((item) => ({ snapshotId: item.snapshotId, provider: item.provider, sourceId: item.sourceId, makerId: item.makerId, capturedAt: item.capturedAt, complete: item.completeTraversal ? "yes" : "no", entries: item.entries })));
+  ["Snapshot ID", "snapshotId", 40], ["Provider", "provider", 24], ["Source ID", "sourceId", 30], ["Maker ID", "makerId", 18],
+  ["Captured", "capturedAt", 14], ["Complete", "complete", 12], ["Entries", "entries", 12], ["Window", "windowKind", 16],
+  ["Order Basis", "orderBasis", 22], ["Start ID", "startExternalId", 16], ["End ID", "endExternalId", 16],
+  ["Resume After", "resumeAfterExternalId", 18], ["Continues From", "continuesFrom", 40],
+], (seriesIndexDiff.selectedSnapshots ?? []).map((item) => ({
+  snapshotId: item.snapshotId, provider: item.provider, sourceId: item.sourceId, makerId: item.makerId, capturedAt: item.capturedAt,
+  complete: item.completeTraversal ? "yes" : "no", entries: item.entries, windowKind: item.coverageWindow?.kind ?? "",
+  orderBasis: item.coverageWindow?.orderBasis ?? "", startExternalId: item.coverageWindow?.startExternalId ?? "",
+  endExternalId: item.coverageWindow?.endExternalId ?? "", resumeAfterExternalId: item.coverageWindow?.resumeAfterExternalId ?? "",
+  continuesFrom: item.coverageWindow?.continuesFromSnapshotId ?? "",
+})));
+
+setupSheet(workbook, "Series Index Progress", [
+  ["Provider", "provider", 24], ["Maker ID", "makerId", 18], ["Snapshots", "snapshots", 12], ["Snapshot Entries", "entries", 16],
+  ["Unique IDs", "uniqueIds", 12], ["Approved", "approved", 12], ["Publish", "publish", 10], ["Hold", "hold", 10], ["Reject", "reject", 10],
+  ["Latest Snapshot", "latestSnapshot", 42], ["Window", "windowKind", 16], ["Start ID", "startExternalId", 16], ["End ID", "endExternalId", 16],
+  ["Resume After", "resumeAfter", 18], ["Chain Depth", "chainDepth", 12], ["Complete", "complete", 12],
+], (seriesIndexProgress.providers ?? []).map((item) => ({
+  provider: item.provider, makerId: item.makerId, snapshots: item.totalSnapshots, entries: item.totalSnapshotEntries,
+  uniqueIds: item.uniqueSnapshotExternalIds, approved: item.approvedMappings, publish: item.reviews?.publish ?? 0, hold: item.reviews?.hold ?? 0, reject: item.reviews?.reject ?? 0,
+  latestSnapshot: item.latestSnapshotId ?? "", windowKind: item.coverageWindow?.kind ?? "", startExternalId: item.coverageWindow?.startExternalId ?? "",
+  endExternalId: item.coverageWindow?.endExternalId ?? "", resumeAfter: item.resumeCheckpoint?.externalId ?? "", chainDepth: item.continuationChainDepth ?? "",
+  complete: item.latestCompleteTraversal ? "yes" : "no",
+})));
 
 setupSheet(workbook, "Series Index Candidates", [
   ["Classification", "classification", 24], ["Reason", "reason", 36], ["Provider", "provider", 24], ["Snapshot ID", "snapshotId", 38],

@@ -44,5 +44,16 @@
       "nameJa": "突然の大雨で帰宅難民になった彼女の妹と朝まで…",
       "sourceUrl": "https://moodyz.com/works/list/series/3567"
     }
-  ]
+  ],
+  "coverageWindow": {
+    "kind": "segment",
+    "orderBasis": "manual-review-order",
+    "startExternalId": "3563",
+    "endExternalId": "3567",
+    "resumeAfterExternalId": "3567",
+    "continuesFromSnapshotId": "moodyz-series-2026-09-04-partial-001",
+    "notes": [
+      "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+    ]
+  }
 }

@@ -128,5 +128,16 @@
       "nameJa": "交換夫婦NTR",
       "sourceUrl": "https://madonna-av.com/works/list/series/1564"
     }
-  ]
+  ],
+  "coverageWindow": {
+    "kind": "expansion",
+    "orderBasis": "manual-review-order",
+    "startExternalId": "1546",
+    "endExternalId": "1564",
+    "resumeAfterExternalId": "1564",
+    "continuesFromSnapshotId": "madonna-series-2026-09-04-partial-001",
+    "notes": [
+      "该快照与前一批次存在重叠并向两侧扩展；resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续。"
+    ]
+  }
 }

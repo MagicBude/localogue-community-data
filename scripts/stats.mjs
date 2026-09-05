@@ -98,4 +98,17 @@ try {
   stats.seriesCandidateReviewHold = "ERROR";
   stats.seriesCandidateReviewReject = "ERROR";
 }
+
+try {
+  const progress = JSON.parse(await readFile(path.resolve(process.cwd(), "exports/reports/series-index-progress.json"), "utf8"));
+  const counts = progress.counts ?? {};
+  stats.seriesIndexProgressProviders = counts.providers ?? "ERROR";
+  stats.seriesIndexResumeCheckpoints = counts.withResumeCheckpoint ?? "ERROR";
+  stats.seriesIndexCompleteProviders = counts.completeProviders ?? "ERROR";
+} catch {
+  stats.seriesIndexProgressProviders = "ERROR";
+  stats.seriesIndexResumeCheckpoints = "ERROR";
+  stats.seriesIndexCompleteProviders = "ERROR";
+}
+
 console.table(stats);

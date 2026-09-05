@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { parseSeriesIndexHtml } from "./lib/series-index.mjs";
+import { latestSnapshotsByProvider, parseSeriesIndexHtml } from "./lib/series-index.mjs";
 
 const root = process.cwd();
 const args = process.argv.slice(2);
@@ -15,7 +15,7 @@ const outputArg = getArg("--output");
 const capturedAt = getArg("--captured-at") ?? new Date().toISOString().slice(0, 10);
 
 if (!providerKey) {
-  console.error("用法: pnpm series:index:snapshot -- <provider-key> [--input-html path] [--output path] [--captured-at YYYY-MM-DD] [--complete]；同一日期/模式重复运行会自动分配 -001/-002/...，不会覆盖历史快照");
+  console.error("用法: pnpm series:index:snapshot -- <provider-key> [--input-html path] [--output path] [--captured-at YYYY-MM-DD] [--complete]；同一日期/模式重复运行会自动分配 -001/-002/...，并自动写入 coverageWindow / resume anchor，不覆盖历史快照");
   process.exit(1);
 }
 
@@ -70,6 +70,18 @@ const used = existingNames
 const sequence = String((used.length ? Math.max(...used) : 0) + 1).padStart(3, "0");
 const snapshotId = `${prefix}${sequence}`;
 const output = outputArg ? path.resolve(root, outputArg) : path.join(snapshotDir, `${snapshotId}.json`);
+
+const priorSnapshots = [];
+for (const name of existingNames.filter((name) => name.endsWith(".json"))) {
+  try {
+    const prior = JSON.parse(await fs.readFile(path.join(snapshotDir, name), "utf8"));
+    if (prior.provider === config.provider) priorSnapshots.push(prior);
+  } catch {}
+}
+const priorSnapshot = latestSnapshotsByProvider(priorSnapshots).get(config.provider) ?? null;
+const firstExternalId = entries[0].externalId;
+const lastExternalId = entries.at(-1).externalId;
+
 const snapshot = {
   schemaVersion: 1,
   snapshotId,
@@ -81,6 +93,17 @@ const snapshot = {
   capturedAt,
   captureMethod,
   completeTraversal: complete,
+  coverageWindow: {
+    kind: complete ? "complete-index" : "segment",
+    orderBasis: "parsed-index-order",
+    startExternalId: firstExternalId,
+    endExternalId: lastExternalId,
+    resumeAfterExternalId: complete ? null : lastExternalId,
+    continuesFromSnapshotId: priorSnapshot?.snapshotId ?? null,
+    notes: complete
+      ? ["完整快照没有 resume anchor；后续更新应重新抓取当前官方完整索引。"]
+      : ["resumeAfterExternalId 是下次审核的详情锚点，不代表 externalId 数值连续，也不证明锚点之间不存在未发现 Series。"],
+  },
   notes: complete
     ? ["--complete 仅表示操作者确认该 provider 的当前官方 Series Index 已完整遍历；不会自动发布或删除正式 Series。"]
     : ["partial snapshot 只用于候选发现与差异审计，不得据此声明 Series Index 完整覆盖。"],

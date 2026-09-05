@@ -20,7 +20,18 @@
       "makerId": "maker_000004",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 20
+      "entries": 20,
+      "coverageWindow": {
+        "kind": "segment",
+        "orderBasis": "manual-review-order",
+        "startExternalId": "2287",
+        "endExternalId": "2312",
+        "resumeAfterExternalId": "2312",
+        "continuesFromSnapshotId": "attackers-series-2026-09-04-partial-002",
+        "notes": [
+          "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+        ]
+      }
     },
     {
       "snapshotId": "ideapocket-series-2026-09-04-partial-002",
@@ -29,7 +40,18 @@
       "makerId": "maker_000001",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 5
+      "entries": 5,
+      "coverageWindow": {
+        "kind": "segment",
+        "orderBasis": "manual-review-order",
+        "startExternalId": "940",
+        "endExternalId": "944",
+        "resumeAfterExternalId": "944",
+        "continuesFromSnapshotId": "ideapocket-series-2026-09-04-partial-001",
+        "notes": [
+          "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+        ]
+      }
     },
     {
       "snapshotId": "madonna-series-2026-09-04-partial-003",
@@ -38,7 +60,18 @@
       "makerId": "maker_000005",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 20
+      "entries": 20,
+      "coverageWindow": {
+        "kind": "segment",
+        "orderBasis": "manual-review-order",
+        "startExternalId": "1565",
+        "endExternalId": "1595",
+        "resumeAfterExternalId": "1595",
+        "continuesFromSnapshotId": "madonna-series-2026-09-04-partial-002",
+        "notes": [
+          "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+        ]
+      }
     },
     {
       "snapshotId": "moodyz-series-2026-09-04-partial-002",
@@ -47,7 +80,18 @@
       "makerId": "maker_000002",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 5
+      "entries": 5,
+      "coverageWindow": {
+        "kind": "segment",
+        "orderBasis": "manual-review-order",
+        "startExternalId": "3563",
+        "endExternalId": "3567",
+        "resumeAfterExternalId": "3567",
+        "continuesFromSnapshotId": "moodyz-series-2026-09-04-partial-001",
+        "notes": [
+          "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+        ]
+      }
     },
     {
       "snapshotId": "s1-series-2026-09-04-partial-002",
@@ -56,7 +100,18 @@
       "makerId": "maker_000003",
       "capturedAt": "2026-09-04",
       "completeTraversal": false,
-      "entries": 5
+      "entries": 5,
+      "coverageWindow": {
+        "kind": "segment",
+        "orderBasis": "manual-review-order",
+        "startExternalId": "571",
+        "endExternalId": "575",
+        "resumeAfterExternalId": "575",
+        "continuesFromSnapshotId": "s1-series-2026-09-04-partial-001",
+        "notes": [
+          "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+        ]
+      }
     }
   ],
   "counts": {

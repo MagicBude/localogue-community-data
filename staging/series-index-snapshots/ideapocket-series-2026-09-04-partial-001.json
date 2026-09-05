@@ -32,5 +32,16 @@
       "nameJa": "見つめる愛情イラマチオ",
       "sourceUrl": "https://ideapocket.com/works/list/series/939"
     }
-  ]
+  ],
+  "coverageWindow": {
+    "kind": "sample",
+    "orderBasis": "sample-order",
+    "startExternalId": "863",
+    "endExternalId": "939",
+    "resumeAfterExternalId": null,
+    "continuesFromSnapshotId": null,
+    "notes": [
+      "该快照是候选/已发布样本集合，不声明连续索引区间，因此不提供 resume anchor。"
+    ]
+  }
 }

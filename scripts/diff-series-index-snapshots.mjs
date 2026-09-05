@@ -46,6 +46,7 @@ for (const [provider, snapshot] of [...latest.entries()].sort(([a], [b]) => a.lo
     capturedAt: snapshot.capturedAt,
     completeTraversal: snapshot.completeTraversal,
     entries: snapshot.entries.length,
+    coverageWindow: snapshot.coverageWindow ?? null,
   });
   const snapshotIds = new Set();
   for (const entry of snapshot.entries) {
@@ -114,8 +115,12 @@ const candidateCsv = csv([
   ...candidateRows.map((item) => [item.classification,item.reason,item.provider,item.snapshotId,item.externalId,item.nameJa,item.makerId,item.communityId ?? "",(item.candidateCommunityIds ?? []).join(";"),item.sourceUrl]),
 ]);
 const snapshotCsv = csv([
-  ["snapshot_id","provider","source_id","maker_id","captured_at","complete_traversal","entries"],
-  ...selectedSnapshots.map((item) => [item.snapshotId,item.provider,item.sourceId,item.makerId,item.capturedAt,item.completeTraversal ? "true" : "false",item.entries]),
+  ["snapshot_id","provider","source_id","maker_id","captured_at","complete_traversal","entries","window_kind","order_basis","window_start_external_id","window_end_external_id","resume_after_external_id","continues_from_snapshot_id"],
+  ...selectedSnapshots.map((item) => [
+    item.snapshotId,item.provider,item.sourceId,item.makerId,item.capturedAt,item.completeTraversal ? "true" : "false",item.entries,
+    item.coverageWindow?.kind ?? "",item.coverageWindow?.orderBasis ?? "",item.coverageWindow?.startExternalId ?? "",
+    item.coverageWindow?.endExternalId ?? "",item.coverageWindow?.resumeAfterExternalId ?? "",item.coverageWindow?.continuesFromSnapshotId ?? "",
+  ]),
 ]);
 
 const outputs = new Map([

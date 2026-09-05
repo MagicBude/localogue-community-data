@@ -2,32 +2,155 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Series Index Snapshot",
   "type": "object",
-  "required": ["schemaVersion", "snapshotId", "providerKey", "provider", "sourceId", "makerId", "indexUrl", "capturedAt", "captureMethod", "completeTraversal", "entries"],
+  "required": [
+    "schemaVersion",
+    "snapshotId",
+    "providerKey",
+    "provider",
+    "sourceId",
+    "makerId",
+    "indexUrl",
+    "capturedAt",
+    "captureMethod",
+    "completeTraversal",
+    "entries",
+    "coverageWindow"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "snapshotId": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
-    "providerKey": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
-    "provider": { "type": "string", "pattern": "^[a-z0-9_.-]+\\.series$" },
-    "sourceId": { "type": "string", "pattern": "^source_[a-z0-9_]+$" },
-    "makerId": { "type": "string", "pattern": "^maker_\\d{6}$" },
-    "indexUrl": { "type": "string", "format": "uri" },
-    "capturedAt": { "type": "string", "format": "date" },
-    "captureMethod": { "enum": ["live-fetch", "html-fixture", "web-review"] },
-    "completeTraversal": { "type": "boolean" },
-    "notes": { "type": "array", "items": { "type": "string" } },
+    "schemaVersion": {
+      "const": 1
+    },
+    "snapshotId": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "providerKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "provider": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+\\.series$"
+    },
+    "sourceId": {
+      "type": "string",
+      "pattern": "^source_[a-z0-9_]+$"
+    },
+    "makerId": {
+      "type": "string",
+      "pattern": "^maker_\\d{6}$"
+    },
+    "indexUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "capturedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "captureMethod": {
+      "enum": [
+        "live-fetch",
+        "html-fixture",
+        "web-review"
+      ]
+    },
+    "completeTraversal": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "entries": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["position", "externalId", "nameJa", "sourceUrl"],
+        "required": [
+          "position",
+          "externalId",
+          "nameJa",
+          "sourceUrl"
+        ],
         "properties": {
-          "position": { "type": "integer", "minimum": 1 },
-          "externalId": { "type": "string", "minLength": 1 },
-          "nameJa": { "type": "string", "minLength": 1 },
-          "sourceUrl": { "type": "string", "format": "uri" }
+          "position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "externalId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "nameJa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          }
         },
         "additionalProperties": false
       }
+    },
+    "coverageWindow": {
+      "type": "object",
+      "required": [
+        "kind",
+        "orderBasis",
+        "startExternalId",
+        "endExternalId",
+        "resumeAfterExternalId",
+        "continuesFromSnapshotId"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "sample",
+            "segment",
+            "expansion",
+            "complete-index"
+          ]
+        },
+        "orderBasis": {
+          "enum": [
+            "sample-order",
+            "manual-review-order",
+            "parsed-index-order"
+          ]
+        },
+        "startExternalId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "endExternalId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resumeAfterExternalId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "continuesFromSnapshotId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-z0-9_-]+$"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

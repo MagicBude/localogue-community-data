@@ -85,4 +85,15 @@ test("series:index:snapshot 同日重复运行自动递增序号，不覆盖历�
   const second = JSON.parse(await fs.readFile(path.join(dir, names[1]), "utf8"));
   assert.equal(first.snapshotId, "demo-series-2026-09-04-partial-001");
   assert.equal(second.snapshotId, "demo-series-2026-09-04-partial-002");
+  assert.deepEqual(first.coverageWindow, {
+    kind: "segment",
+    orderBasis: "parsed-index-order",
+    startExternalId: "100",
+    endExternalId: "100",
+    resumeAfterExternalId: "100",
+    continuesFromSnapshotId: null,
+    notes: ["resumeAfterExternalId 是下次审核的详情锚点，不代表 externalId 数值连续，也不证明锚点之间不存在未发现 Series。"],
+  });
+  assert.equal(second.coverageWindow.continuesFromSnapshotId, first.snapshotId);
+  assert.equal(second.coverageWindow.resumeAfterExternalId, "100");
 });

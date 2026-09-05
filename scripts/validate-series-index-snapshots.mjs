@@ -54,6 +54,7 @@ for (const config of providers) {
 
 const snapshots = await readDirJson("staging/series-index-snapshots");
 unique(snapshots.map((item) => item.snapshotId), "Series Index Snapshot snapshotId");
+const snapshotById = new Map(snapshots.map((item) => [item.snapshotId, item]));
 const configByKey = new Map(providers.map((item) => [item.key, item]));
 for (const snapshot of snapshots) {
   const config = configByKey.get(snapshot.providerKey);
@@ -63,6 +64,25 @@ for (const snapshot of snapshots) {
   if (!["live-fetch", "html-fixture", "web-review"].includes(snapshot.captureMethod)) errors.push(`snapshot ${snapshot.snapshotId}: captureMethod 无效`);
   if (typeof snapshot.completeTraversal !== "boolean") errors.push(`snapshot ${snapshot.snapshotId}: completeTraversal 必须为布尔值`);
   if (!Array.isArray(snapshot.entries) || snapshot.entries.length === 0) errors.push(`snapshot ${snapshot.snapshotId}: entries 不能为空`);
+  const window = snapshot.coverageWindow;
+  if (!window || typeof window !== "object" || Array.isArray(window)) {
+    errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow 必填`);
+  } else {
+    const allowedKinds = new Set(["sample", "segment", "expansion", "complete-index"]);
+    const allowedOrderBasis = new Set(["sample-order", "manual-review-order", "parsed-index-order"]);
+    if (!allowedKinds.has(window.kind)) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.kind 无效 (${window.kind})`);
+    if (!allowedOrderBasis.has(window.orderBasis)) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.orderBasis 无效 (${window.orderBasis})`);
+    if (!String(window.startExternalId ?? "").trim()) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.startExternalId 不能为空`);
+    if (!String(window.endExternalId ?? "").trim()) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.endExternalId 不能为空`);
+    if (window.resumeAfterExternalId !== null && !String(window.resumeAfterExternalId ?? "").trim()) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.resumeAfterExternalId 必须为 null 或非空字符串`);
+    if (window.continuesFromSnapshotId !== null && !String(window.continuesFromSnapshotId ?? "").trim()) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.continuesFromSnapshotId 必须为 null 或非空字符串`);
+    if (snapshot.completeTraversal && window.kind !== "complete-index") errors.push(`snapshot ${snapshot.snapshotId}: completeTraversal=true 时 coverageWindow.kind 必须为 complete-index`);
+    if (!snapshot.completeTraversal && window.kind === "complete-index") errors.push(`snapshot ${snapshot.snapshotId}: partial snapshot 不能使用 complete-index coverageWindow`);
+    if (window.kind === "sample" && window.resumeAfterExternalId !== null) errors.push(`snapshot ${snapshot.snapshotId}: sample coverageWindow 不应设置 resumeAfterExternalId`);
+    if (window.kind === "complete-index" && window.resumeAfterExternalId !== null) errors.push(`snapshot ${snapshot.snapshotId}: complete-index 不应设置 resumeAfterExternalId`);
+    if (["segment", "expansion"].includes(window.kind) && window.resumeAfterExternalId !== window.endExternalId) errors.push(`snapshot ${snapshot.snapshotId}: segment/expansion 的 resumeAfterExternalId 必须等于 endExternalId`);
+    if (window.kind === "expansion" && !window.continuesFromSnapshotId) errors.push(`snapshot ${snapshot.snapshotId}: expansion 必须声明 continuesFromSnapshotId`);
+  }
   if (config) {
     for (const [field, expected] of [["provider", config.provider], ["sourceId", config.sourceId], ["makerId", config.makerId], ["indexUrl", config.indexUrl]]) {
       if (snapshot[field] !== expected) errors.push(`snapshot ${snapshot.snapshotId}: ${field} 与 Provider Registry 不一致`);
@@ -84,6 +104,33 @@ for (const snapshot of snapshots) {
   unique(positions, `snapshot ${snapshot.snapshotId} position`);
   const sortedPositions = [...positions].sort((a, b) => a - b);
   if (sortedPositions.some((value, index) => value !== index + 1)) errors.push(`snapshot ${snapshot.snapshotId}: position 必须从 1 连续编号`);
+  if (snapshot.entries?.length && snapshot.coverageWindow) {
+    if (snapshot.coverageWindow.startExternalId !== snapshot.entries[0].externalId) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.startExternalId 必须等于第一条 entry externalId`);
+    if (snapshot.coverageWindow.endExternalId !== snapshot.entries.at(-1).externalId) errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow.endExternalId 必须等于最后一条 entry externalId`);
+  }
+}
+
+for (const snapshot of snapshots) {
+  const previousId = snapshot.coverageWindow?.continuesFromSnapshotId;
+  if (!previousId) continue;
+  const previous = snapshotById.get(previousId);
+  if (!previous) {
+    errors.push(`snapshot ${snapshot.snapshotId}: continuesFromSnapshotId 不存在 (${previousId})`);
+    continue;
+  }
+  if (previous.provider !== snapshot.provider) errors.push(`snapshot ${snapshot.snapshotId}: predecessor Provider 不一致 (${previousId})`);
+  if (`${previous.capturedAt}\0${previous.snapshotId}` >= `${snapshot.capturedAt}\0${snapshot.snapshotId}`) errors.push(`snapshot ${snapshot.snapshotId}: predecessor 必须早于当前快照 (${previousId})`);
+}
+for (const snapshot of snapshots) {
+  const seen = new Set([snapshot.snapshotId]);
+  let current = snapshot;
+  while (current?.coverageWindow?.continuesFromSnapshotId) {
+    const nextId = current.coverageWindow.continuesFromSnapshotId;
+    if (seen.has(nextId)) { errors.push(`snapshot ${snapshot.snapshotId}: coverageWindow continuation 链存在循环 (${nextId})`); break; }
+    seen.add(nextId);
+    current = snapshotById.get(nextId);
+    if (!current) break;
+  }
 }
 
 const mappings = (await readJson("registry/external-id-mappings.json", { mappings: [] })).mappings ?? [];

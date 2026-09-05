@@ -73,5 +73,16 @@
       "nameJa": "女豹",
       "sourceUrl": "https://attackers.net/works/list/series/2263"
     }
-  ]
+  ],
+  "coverageWindow": {
+    "kind": "segment",
+    "orderBasis": "manual-review-order",
+    "startExternalId": "2253",
+    "endExternalId": "2263",
+    "resumeAfterExternalId": "2263",
+    "continuesFromSnapshotId": null,
+    "notes": [
+      "resume anchor 只表示下一次人工审核从该详情锚点之后继续，不声明外部 ID 连续，也不证明中间不存在未发现 Series。"
+    ]
+  }
 }

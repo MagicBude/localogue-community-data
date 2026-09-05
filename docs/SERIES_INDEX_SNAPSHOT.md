@@ -1,6 +1,6 @@
 # Series Index Snapshot / Enumerator 工作流
 
-> 适用版本：0.4.4
+> 适用版本：0.4.4+
 
 Series 的数量远高于 Maker / Label，而且会持续增加。0.4.3 以前主要靠“发现一个、审核一个、发布一个”推进，这种方式适合 Pilot，但不适合长期维护。
 
@@ -189,3 +189,19 @@ Snapshot Diff 产生的 candidate 不再直接进入正式 Registry。人工复�
 当前 Series Index Provider Registry 已覆盖 ATTACKERS、Madonna、MOODYZ、IDEAPOCKET、S1 五个 Maker。MOODYZ、IDEAPOCKET、S1 的首份快照仍是 `partial`：只有实际完整解析、去重、校验全部当前官方索引内容后，才允许讨论 `completeTraversal=true`。
 
 `--output` 只改变写入路径，不改变 Snapshot 身份治理；正常仓库流程应让工具自动写入 `staging/series-index-snapshots/`，以确保后续 Diff 能发现全部历史快照。
+
+## 0.4.10：Coverage Window 与 Resume Checkpoint
+
+从 0.4.10 起，每份 Snapshot 必须显式声明 `coverageWindow`，区分 `sample`、`segment`、`expansion` 与 `complete-index`。
+
+partial `segment` 可以记录 `resumeAfterExternalId`，它只表示“下一次从这个已审核详情锚点之后继续”，**不表示下一个 External ID 是当前数值 + 1，也不证明两个锚点之间没有遗漏**。
+
+运行：
+
+```bash
+pnpm series:index:progress
+```
+
+可生成五 Provider 当前的 Coverage / Resume Progress Report。详细语义见 `docs/SERIES_INDEX_PROGRESS.md`。
+
+`series:index:snapshot` 新生成的快照会自动写入 coverage window，并自动引用同 Provider 上一份 Snapshot 作为 continuation predecessor；Validator 会拒绝不存在的 predecessor、跨 Provider continuation、循环 continuation 以及与 Entry 起止位置不一致的窗口。
