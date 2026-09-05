@@ -1,6 +1,6 @@
 # Public Source Registry 与 Candidate/Staging 工作流
 
-> 适用版本：0.4.2
+> 适用版本：0.4.11
 
 Community Data 不以“搜索到多少结果”证明完整性，而以**指定公开来源是否已完成可验证遍历**来描述覆盖程度。
 
@@ -128,3 +128,23 @@ Series 数量进入批量阶段后，不再直接把搜索结果写成正式实�
 6. `completeTraversal` 仍然只能由实际完整遍历结果决定。
 
 详细流程见 `docs/SERIES_INDEX_SNAPSHOT.md`。
+
+
+## 8. 0.4.11：Person Identity Candidate 使用本地隔离 Staging
+
+People 的身份解析与官方 Series Index 不同：第三方 alias/substitution 清单可能有很高的发现价值，但未必允许整库以 CC0 再发布。
+
+因此 0.4.11 增加两层边界：
+
+- `registry/public-sources.json` 可以登记 `entityTypes: ["person"]`，描述发现来源、覆盖和限制；
+- 未确认可再分发的完整姓名关系数据默认生成到 `.local/staging/person-identity-candidates.json`，不进入 Git。
+
+MetaTube `substitution.Actor.txt` 的导入只做：
+
+1. `from=to` 解析与精确去重；
+2. 无向连通组件聚类，保留原有有向 edge；
+3. 冲突 source、自映射、短名、称呼、传递链标记；
+4. 与正式 Person 全部已有姓名做规范化完全匹配；
+5. 输出 Review Candidate。
+
+它明确**不做** canonical 推断、模糊 Merge、Community ID 分配或正式发布。

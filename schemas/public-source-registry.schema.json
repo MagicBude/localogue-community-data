@@ -49,6 +49,7 @@
             "type": "array",
             "items": {
               "enum": [
+                "person",
                 "group",
                 "company",
                 "maker",
@@ -96,6 +97,7 @@
               "properties": {
                 "entityType": {
                   "enum": [
+                    "person",
                     "group",
                     "company",
                     "maker",

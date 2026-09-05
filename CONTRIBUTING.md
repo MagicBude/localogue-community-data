@@ -11,6 +11,7 @@
 7. **不提交未经许可的图片和长篇第三方文本。**
 8. **新实体同步登记 Registry。** 实体、Source Record 和 active ID 条目必须在同一个 PR。
 9. **Merge 必须人工审核。** 不直接删除疑似重复实体，不创建 Redirect 链。
+10. **第三方人物姓名表先进入 Candidate。** 未确认可 CC0 再发布的 substitution/alias 整表只保留在 `.local/`；`A=B` 不得直接改正式 Person。
 
 ## 推荐工作流
 

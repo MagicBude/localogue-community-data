@@ -57,3 +57,18 @@ sources/<entity-id>.json
 - 不把来源页面整段文字复制进实体简介。
 - 不虚构 accessedAt、URL 或字段来源。
 - 不把“页面存在”误写成“页面支持全部字段”；每个来源只声明自己实际核验的字段。
+
+
+## Person Identity Discovery 与第三方姓名清单
+
+人物姓名替换表、alias 表或媒体刮削器 substitution 只属于 **Discovery / Candidate** 证据，不能因为 `A=B` 就直接写入正式 Person。
+
+规则：
+
+1. `from=to` 只表示来源自己的替换关系；右侧不得自动解释为当前艺名、规范名或时间上较新的姓名。
+2. 与 `data/people` 对账时，只允许 NFKC、空白与大小写规范化后的**完全姓名命中**作为 Review 提示；禁止模糊自动合并。
+3. 短昵称、`さん/ちゃん` 等称呼、同一 source 多目标、传递链必须显式进入 Review。
+4. 如果第三方整表没有明确允许 CC0 再发布，原始文件和完整派生 Candidate Set 必须留在 `.local/`，不得提交进 Shared Pack。
+5. 只有经过独立可核验来源确认的具体姓名事实，才可以写入正式 `data/people/<id>--<slug>.json`，并由对应 Source Record 支持 `names`。
+
+MetaTube Actor substitution 的具体工作流见 `docs/PERSON_IDENTITY_CANDIDATES.md`。

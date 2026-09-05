@@ -34,7 +34,9 @@ localogue-community-data/
 ├── sources/
 ├── registry/
 │   ├── community-ids.json
+│   ├── public-sources.json
 │   └── merge-plans/
+├── staging/                      # 审核/快照基础；第三方未授权完整候选默认放 .local/
 ├── schemas/
 ├── examples/
 ├── scripts/
@@ -47,7 +49,7 @@ localogue-community-data/
 
 ## 快速开始
 
-要求 Node.js 22+。本仓库没有第三方运行依赖。
+要求 Node.js 22+。核心 JSON 构建/校验使用 Node.js；XLSX 导出依赖 `exceljs`，统一通过 `pnpm install` 安装。
 
 ```bash
 pnpm install
@@ -56,6 +58,10 @@ pnpm data:export:xlsx
 pnpm check
 pnpm stats
 pnpm new person
+
+# 可选：本地导入 MetaTube Actor substitution，结果只写入 .local/
+pnpm people:identity:import:metatube -- --input "D:/Downloads/substitution.Actor.txt"
+pnpm people:identity:validate
 ```
 
 不要直接修改 `library/` 或 `exports/`。人物事实源可使用 `data/people/person_000001--momonogi-kana.json` 这样的可读文件名，程序引用仍只使用稳定 ID。
@@ -89,7 +95,8 @@ D:/Localogue-Packs/localogue-community-data
 - [Localogue 接入说明](docs/localogue-integration.md)
 - [Localogue Validator 对齐](docs/localogue-validator-alignment.md)
 - [首批真实数据试运行](docs/real-data-pilot.md)
+- [人物身份候选工作流](docs/PERSON_IDENTITY_CANDIDATES.md)
 
 ## 当前阶段
 
-当前版本是 **0.3.2 / Work–Genre Pilot**：除 13 位人物、5 部作品和 3 个 Maker 外，已建立 325 个日文、简体中文、英文对照的分类条目，并为现有 5 部作品完成第一轮保守 Genre 引用。详见 [三语分类词表](docs/genre-vocabulary.md)。CSV、XLSX、Shared Pack 与 Registry 均由 `data/` 自动生成。
+当前版本是 **0.4.11 / Person Identity Candidate Foundation**。正式数据保持 13 People、5 Works、86 Organizations、119 Series、325 Genres；在 0.4.10 Series Coverage Checkpoint 基础上新增 People 身份候选发现流程。MetaTube 等未确认可 CC0 再发布的第三方姓名清单只在本地 `.local/` 生成 Candidate Set，不会自动合并或发布正式 Person。CSV、XLSX、Shared Pack 与 Registry 仍由 `data/` 自动生成。

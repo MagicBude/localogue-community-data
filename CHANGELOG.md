@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.4.11 - 2026-09-05
+
+### Person Identity Candidate Foundation
+
+- 在 0.4.10 Series Coverage Checkpoint 基线上增加 People 身份候选发现流程，正式 People/Works/Organizations/Series/Genres 数量保持不变。
+- Public Source Registry 与 Schema 首次支持 `person` 实体类型；新增 `source_metatube_actor_substitution`，登记 MetaTube Discussion #491 的 Actor substitution 为 database/discovery source。
+- 新增 `people:identity:import:metatube` 与 `people:identity:validate`，第三方输入文件由用户本地提供，默认输出 `.local/staging/person-identity-candidates.json/csv`。
+- 新增 Person Identity Candidate Set Schema 与无依赖 Validator。
+- `from=to` 只作为来源替换 edge；导入器按无向连通组件生成 Candidate Cluster，但保留原始方向，不自动推断 canonical/current/former name。
+- 新增 `conflicting-source`、`self-mapping`、`contains-short-name`、`contains-honorific`、`contains-transitive-chain`、`multiple-community-matches` Review Flag。
+- Candidate 与正式 `data/people` 仅做 NFKC/空白/大小写规范化后的完全姓名匹配；禁止 fuzzy auto merge，命中也不自动分配 communityId 或发布。
+- 当前 MetaTube `substitution.Actor.txt` 本地实测：707 原始映射、704 唯一映射、926 个姓名、226 个 Cluster、3 个冲突 source、3 个自映射、5 个真正两步 source、0 parse error。
+- 当前 13 个正式 Person 中有 4 个 Cluster 可通过已有姓名精确命中，0 个 Cluster 同时命中多个正式 Person。
+- 因附件整表未确认允许 CC0 再发布，原始文件和完整派生 Candidate Set 均不进入 Git；Public Source Registry 只记录来源与审计统计。
+- 新增 5 条 Person Identity 回归测试；全仓实际脚本测试从 23 条增加到 28 条。
+- Public Sources 从 6 增加到 7；External ID Mappings 保持 200，MetaTube 不提供可批准的人物稳定外部 ID。
+- Pack 版本升级至 0.4.11。
+
 ## 0.4.10 - 2026-09-04
 
 ### Series Coverage Checkpoint Foundation

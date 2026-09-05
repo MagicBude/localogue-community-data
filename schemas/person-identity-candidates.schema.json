@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Localogue Person Identity Candidate Set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "source", "policy", "stats", "conflicts", "parseErrors", "clusters"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kind": { "const": "person-identity-candidate-set" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "sourceUrl", "inputFileName", "sourceFileSha256", "format"],
+      "properties": {
+        "sourceId": { "type": "string", "pattern": "^source_[a-z0-9_]+$" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "inputFileName": { "type": "string", "minLength": 1 },
+        "sourceFileSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "format": { "const": "from=to" }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["substitutionTargetIsCanonical", "exactCommunityNameMatchOnly", "fuzzyAutoMerge", "autoPublish", "thirdPartyCandidateDataRemainsLocal"],
+      "properties": {
+        "substitutionTargetIsCanonical": { "const": false },
+        "exactCommunityNameMatchOnly": { "const": true },
+        "fuzzyAutoMerge": { "const": false },
+        "autoPublish": { "const": false },
+        "thirdPartyCandidateDataRemainsLocal": { "const": true }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rawMappings", "uniqueMappings", "duplicateMappings", "uniqueSources", "uniqueNames", "clusters", "conflictSources", "selfMappings", "transitiveSources", "parseErrors", "matchedClusters", "multiMatchedClusters"],
+      "properties": {
+        "rawMappings": { "type": "integer", "minimum": 0 },
+        "uniqueMappings": { "type": "integer", "minimum": 0 },
+        "duplicateMappings": { "type": "integer", "minimum": 0 },
+        "uniqueSources": { "type": "integer", "minimum": 0 },
+        "uniqueNames": { "type": "integer", "minimum": 0 },
+        "clusters": { "type": "integer", "minimum": 0 },
+        "conflictSources": { "type": "integer", "minimum": 0 },
+        "selfMappings": { "type": "integer", "minimum": 0 },
+        "transitiveSources": { "type": "integer", "minimum": 0 },
+        "parseErrors": { "type": "integer", "minimum": 0 },
+        "matchedClusters": { "type": "integer", "minimum": 0 },
+        "multiMatchedClusters": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "targets"],
+        "properties": {
+          "from": { "type": "string", "minLength": 1 },
+          "targets": { "type": "array", "minItems": 2, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "parseErrors": { "type": "array" },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidateId", "names", "edges", "matchedCommunityIds", "reviewFlags", "resolution"],
+        "properties": {
+          "candidateId": { "type": "string", "pattern": "^person_identity_candidate_[0-9a-f]{16}$" },
+          "names": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+          "edges": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["from", "to", "lineNumbers"],
+              "properties": {
+                "from": { "type": "string", "minLength": 1 },
+                "to": { "type": "string", "minLength": 1 },
+                "lineNumbers": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 1 } }
+              }
+            }
+          },
+          "matchedCommunityIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^person_[0-9]{6}$" } },
+          "reviewFlags": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+          "resolution": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["status", "canonicalName", "communityId", "publish"],
+            "properties": {
+              "status": { "const": "unreviewed" },
+              "canonicalName": { "type": "null" },
+              "communityId": { "type": "null" },
+              "publish": { "const": false }
+            }
+          }
+        }
+      }
+    }
+  }
+}

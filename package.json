@@ -1,6 +1,6 @@
 {
   "name": "localogue-community-data",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "private": true,
   "packageManager": "pnpm@11.24.0",
   "engines": {
@@ -18,7 +18,9 @@
     "series:index:snapshot": "node scripts/snapshot-series-index.mjs",
     "series:index:diff": "node scripts/diff-series-index-snapshots.mjs",
     "series:index:review:check": "node scripts/validate-series-candidate-reviews.mjs",
-    "series:index:progress": "node scripts/report-series-index-progress.mjs"
+    "series:index:progress": "node scripts/report-series-index-progress.mjs",
+    "people:identity:import:metatube": "node scripts/import-metatube-actor-candidates.mjs",
+    "people:identity:validate": "node scripts/validate-person-identity-candidates.mjs"
   },
   "dependencies": {
     "exceljs": "^4.4.0"

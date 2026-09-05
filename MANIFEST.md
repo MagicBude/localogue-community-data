@@ -1,44 +1,77 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.10**
+当前 Pack 版本：**0.4.11**
 
-基线版本：`0.4.9 — Five-provider Coverage Balance Batch`
+基线版本：`0.4.10 — Series Coverage Checkpoint Foundation`
 
 ## 当前正式数据
 
 | 数据集 | 数量 | 说明 |
 | --- | ---: | --- |
-| People | 13 | 本阶段不扩量 |
-| Works | 5 | 延续 Pilot A |
-| Organizations | 86 | 5 Maker + 81 Label，本阶段不新增 Organization |
-| Series | 119 | 0.4.10 不新增正式 Series，先冻结 partial Snapshot 续采进度 |
-| Genres | 325 | 延续核心受控词表 |
-| Registry Active | 548 | 本阶段不新增正式实体 ID |
-| Registry Redirect | 0 | 本阶段无 Merge |
-| Merge Plans | 0 | 本阶段无 Merge |
-| Public Sources | 6 | 来源集合不变 |
-| External ID Mappings | 200 | 本阶段不新增 Mapping |
+| People | 13 | 本版本不自动新增人物，仅增加 Identity Candidate 基础 |
+| Works | 5 | 保持不变 |
+| Organizations | 86 | 5 Maker + 81 Label，保持不变 |
+| Series | 119 | 保持 0.4.10 Coverage Checkpoint 基线 |
+| Genres | 325 | 保持核心受控词表 |
+| Registry Active | 548 | 本版本不新增正式实体 ID |
+| Registry Redirect | 0 | 本版本无 Merge |
+| Merge Plans | 0 | 本版本无 Merge |
+| Public Sources | 7 | 新增 MetaTube Actor substitution discovery source |
+| External ID Mappings | 200 | MetaTube 无稳定人物 ID，不建立 approved Mapping |
 
-## Organization 组成
+## 0.4.11 Person Identity Candidate Foundation
 
-- Group：0
-- Company：0（株式会社WILL 仍为 Staging Candidate）
-- Maker：5
-- Label：81
+本版本新增 People 的第三方 identity discovery 管线，但明确区分“候选关系”和“正式人物事实”。
 
-## 0.4.10 Series Coverage Checkpoint Foundation
+MetaTube Discussion #491 的 `substitution.Actor.txt` 采用 `from=to` 格式。该方向用于媒体元数据替换，不能被自动解释为人物当前艺名、规范名或改名时间方向。
 
-随着 partial Snapshot 增加到 12 份，单纯保存“这一批看到什么”已经不足以支撑长期维护。本版本不再继续盲目加 Series，而是先为每份 Snapshot 冻结可审计的 `coverageWindow`，明确：
+本地导入命令：
 
-- 该快照是 `sample`、普通 `segment`、重叠扩展 `expansion`，还是 `complete-index`；
-- 当前窗口第一/最后 External ID；
-- 排序依据来自样本顺序、人工审核顺序还是 HTML 解析顺序；
-- partial segment 的 resume anchor；
-- 它与哪一份历史 Snapshot 构成 continuation 链。
+```bash
+pnpm people:identity:import:metatube -- --input "D:/Downloads/substitution.Actor.txt"
+pnpm people:identity:validate
+```
 
-`resumeAfterExternalId` 只表示“下一批从这个已审核官方详情锚点之后继续”，不允许据此假设 External ID 数值连续，也不证明锚点之间没有未发现 Series。
+默认输出：
 
-## 当前 Resume Checkpoint
+```text
+.local/staging/person-identity-candidates.json
+.local/staging/person-identity-candidates.csv
+```
+
+`.local/` 已被忽略，因此第三方原始/派生完整候选集不会进入 CC0 Shared Pack。
+
+## 当前 MetaTube 本地审计结果
+
+- Raw mappings：707
+- Unique mappings：704
+- Duplicate mappings：3
+- Unique source names：701
+- Unique names：926
+- Candidate clusters：226
+- Conflict sources：3
+- Self mappings：3
+- Transitive sources：5
+- Parse errors：0
+- Exact-match clusters against formal People：4
+- Multi-Person exact-match clusters：0
+
+这些数字只表示候选关系结构，不表示 226 个已核验人物。
+
+## Identity 安全边界
+
+- `substitution target` 不等于 canonical name。
+- 连通 Cluster 只表示“应一起审核”，不等于“全部姓名已确认属于同一人”。
+- 对现有 Person 只允许规范化完全姓名匹配作为提示。
+- 禁止编辑距离、AI 相似度、罗马字猜测或短昵称自动 Merge。
+- `resolution.communityId`、`canonicalName` 默认保持 `null`，`publish=false`。
+- 冲突 source、短名、称呼、传递链必须进入人工 Review。
+- 未明确允许 CC0 整库再发布的数据只保留 `.local/`。
+- 正式 Person 姓名变更仍必须有 Source Record 支持 `names`。
+
+## Series Coverage 基线保持
+
+0.4.10 的以下状态全部保持：
 
 | Provider | Latest Window | Resume anchor | Chain Depth | Complete |
 | --- | --- | ---: | ---: | --- |
@@ -48,70 +81,10 @@
 | IDEAPOCKET | 940 → 944 | 944 | 2 | no |
 | S1 | 571 → 575 | 575 | 2 | no |
 
-运行：
-
-```bash
-pnpm series:index:progress
-```
-
-生成 `series-index-progress.json/csv`，以后无需翻历史提交或聊天记录就能知道每个 Provider 当前从哪里继续审核。
-
-## Series Snapshot / Review 统计
-
-- Series Index Providers：5
-- Series Index Snapshots：12
-- Snapshot Entries：124
-- Series Candidate Reviews：103
-  - publish：102
-  - hold：1
-  - reject：0
-- Series Index Progress Providers：5
-- Resume Checkpoints：5
-- Complete Series Providers：0
-- 最新五个 Provider Snapshot Diff：published 55 / candidate 0 / drift 0 / missing 0 / conflict 0
-- 历史 `attackers.series:2273` 继续 hold，不分配 Community ID。
-
-## 当前 Series Coverage
-
-| Source | Discovered | Reviewed | Published | Unrecognized | Traversal |
-| --- | ---: | ---: | ---: | ---: | --- |
-| S1 official | 8 | 8 | 8 | 0 | incomplete |
-| ATTACKERS official | 53 | 53 | 52 | 1 | incomplete |
-| Madonna official | 42 | 42 | 42 | 0 | incomplete |
-| MOODYZ official | 9 | 9 | 9 | 0 | incomplete |
-| IDEAPOCKET official | 8 | 8 | 8 | 0 | incomplete |
-
-## 完整性边界
-
-- Coverage Checkpoint 只解决“下一批从哪里继续”，不提高任何 Provider 的完整性等级。
-- `resumeAfterExternalId=3567` 不代表下一个 MOODYZ Series 一定是 `3568`。
-- `sample` Snapshot 不提供 resume anchor，不把早期 Pilot 样本包装成连续索引区间。
-- `complete-index` 仍然只能在实际完整遍历官方公开 Series Index 后使用。
-- MOODYZ / IDEAPOCKET 的 Label coverage 已完成，但 Series coverage 仍为 incomplete。
-- partial Snapshot 当前候选归零只表示最新批次全部处理完成，不等于 Provider Series 全覆盖。
-- 已发布 ID、历史 Review 与 hold 不因后续 Snapshot 或 checkpoint 变化而自动删除、合并或重写。
+`attackers.series:2273` 继续 hold，不受 Person Identity 工作影响。
 
 ## 校验变化
 
-Snapshot Validator 新增：
+新增 Person Identity Candidate 回归测试 5 条。基线仓库实际脚本测试为 23 条，本版本完整脚本测试应为 **28/28**。
 
-- `coverageWindow` 必填；
-- Window 起止 ID 必须与第一/最后 Entry 一致；
-- `segment/expansion` 的 resume anchor 必须等于当前窗口末尾锚点；
-- `sample` 与 `complete-index` 不允许伪造 resume anchor；
-- continuation predecessor 必须存在、属于同一 Provider 且早于当前 Snapshot；
-- continuation 链不得形成循环；
-- `completeTraversal` 与 `complete-index` 必须一致。
-
-新增 2 条 Progress / Checkpoint 回归测试后，当前相关完整测试为 **19/19**。
-
-## 安全边界
-
-- Checkpoint、Snapshot、Diff 都不能直接发布正式 Series。
-- External ID 不假设连续，不执行 `anchor + 1` 自动创建。
-- publish Review 仍必须与 Snapshot、正式 Series 和 approved Mapping 三方一致。
-- hold/reject 不占用 Community ID。
-- 同名 Series 不跨 Maker 自动合并。
-- 不新增大量 Work。
-- 不提交图片、Community Asset 或用户私人状态。
-- 不修改 Localogue 主程序。
+本版本不新增按版本命名的 Manifest；继续只维护根目录本文件。

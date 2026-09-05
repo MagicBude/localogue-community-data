@@ -13,3 +13,4 @@
 - [首批真实数据试运行](real-data-pilot.md)
 - [Pilot A 验证报告](pilot-a-report.md)
 - [三语分类词表](genre-vocabulary.md)
+- [Person Identity Candidate](PERSON_IDENTITY_CANDIDATES.md)

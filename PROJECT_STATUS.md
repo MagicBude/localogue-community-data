@@ -2,24 +2,24 @@
 
 ## 当前版本
 
-`0.4.10 — Series Coverage Checkpoint Foundation`
+`0.4.11 — Person Identity Candidate Foundation`
 
-基线：0.4.9
+基线：0.4.10
 
 ## 已完成
 
-1. 保持当前 5 个 Series Index Provider 和 119 个正式 Series，不为了版本数字继续盲目扩量。
-2. 为现有 12 份 Series Index Snapshot 全部补充 `coverageWindow`。
-3. 明确区分 `sample / segment / expansion / complete-index` 四种 Snapshot 覆盖窗口。
-4. 为五个 Provider 建立可审计 resume anchor：ATTACKERS 2312、Madonna 1595、MOODYZ 3567、IDEAPOCKET 944、S1 575。
-5. resume anchor 仅代表已审核官方详情锚点，不推断下一个 External ID，也不声明 External ID 连续。
-6. 新增 `pnpm series:index:progress`，输出 JSON / CSV Progress Report。
-7. 新生成 Snapshot 自动写 coverage window，并自动连接同 Provider 上一份历史 Snapshot。
-8. Snapshot Validator 新增 predecessor、循环链、起止 ID、resume anchor 与 complete-index 一致性校验。
-9. Series Index Snapshot CSV / XLSX 增加 Window、Start/End、Resume、Predecessor 信息；XLSX 新增 Series Index Progress 工作表。
-10. 新增 2 条 Coverage Checkpoint 回归测试，当前完整脚本测试为 19/19。
-11. `attackers.series:2273` 继续保持 hold，不受进度锚点影响。
-12. 不新增 Organization、Series、Work、Genre，不修改 Localogue 主程序。
+1. 保持 0.4.10 的 13 People、5 Works、86 Organizations、119 Series、325 Genres，不因发现第三方姓名关系直接扩充正式 Person。
+2. Public Source Registry 首次支持 `person` 实体类型，并登记 MetaTube 社区 Actor Substitution 清单为数据库型 discovery source。
+3. 新增 `pnpm people:identity:import:metatube`，读取用户本地 `substitution.Actor.txt`，不把第三方原始附件复制进仓库。
+4. 新增 Person Identity Candidate Set Schema、无依赖 Validator 和 CSV 本地浏览输出。
+5. Candidate 聚类按姓名关系的无向连通组件生成，同时保留 `from→to` 原始方向；右侧绝不自动解释为 canonical/current/former name。
+6. 新增 conflict source、自映射、短名、称呼、传递链、多正式 Person 命中等 Review Flag。
+7. 与现有 `data/people` 只做规范化后的完全姓名匹配；命中只作为 Review 提示，不自动填写 communityId，不自动发布，不模糊 Merge。
+8. 未确认可 CC0 再发布的完整第三方姓名关系只写入 `.local/staging/`，不进入 `data/`、`library/`、正式 `staging/` 或版本化 exports。
+9. 当前 `substitution.Actor.txt` 实测：707 原始映射、704 唯一映射、926 姓名、226 Candidate Cluster、3 conflict source、3 自映射、5 个两步 source、0 parse error。
+10. 当前 13 个正式 Person 中有 4 个 Cluster 可通过已有姓名精确命中；命中本身不等于批准合并。
+11. 新增 5 条 Person Identity 回归测试；全仓脚本测试从实际 23 条增加到 28 条。
+12. 0.4.10 的五个 Series Provider、12 份 Snapshot、119 个正式 Series 与 resume checkpoint 全部保持不变。
 
 ## 当前正式统计
 
@@ -31,9 +31,25 @@
 - Registry Active: 548
 - Registry Redirect: 0
 - Merge Plans: 0
-- Public Sources: 6
+- Public Sources: 7
 - External ID Mappings: 200
 - Organization Candidates: 1
+
+## Person Identity Discovery 统计
+
+> 以下统计来自用户本地 MetaTube `substitution.Actor.txt`，不作为 CC0 Shared Pack 数据提交。
+
+- Raw mappings: 707
+- Unique mappings: 704
+- Unique source names: 701
+- Unique names: 926
+- Candidate clusters: 226
+- Conflict sources: 3
+- Self mappings: 3
+- Transitive sources: 5
+- Parse errors: 0
+- Exact-match clusters against current formal People: 4
+- Multi-Person exact-match clusters: 0
 
 ## Series Review / Snapshot 统计
 
@@ -60,26 +76,14 @@
 | IDEAPOCKET | partial-002 | 940 → 944 | 944 | 后续从 944 锚点之后继续 |
 | S1 | partial-002 | 571 → 575 | 575 | 后续从 575 锚点之后继续 |
 
-> Resume anchor 是导航提示，不是数值连续规则；禁止自动使用 `anchor + 1` 生成 Series。
-
-## 当前 Series Coverage
-
-| Source | Discovered | Reviewed | Published | Unrecognized | Traversal |
-| --- | ---: | ---: | ---: | ---: | --- |
-| S1 official | 8 | 8 | 8 | 0 | incomplete |
-| ATTACKERS official | 53 | 53 | 52 | 1 | incomplete |
-| Madonna official | 42 | 42 | 42 | 0 | incomplete |
-| MOODYZ official | 9 | 9 | 9 | 0 | incomplete |
-| IDEAPOCKET official | 8 | 8 | 8 | 0 | incomplete |
-
 ## 下一阶段
 
-### 0.4.x：Resume-driven Series Snapshot Batch
+### 0.4.x：Person Identity Multi-source Review
 
-1. 不再靠聊天记录记忆上一批终点，先运行 `pnpm series:index:progress` 获取当前 resume checkpoint。
-2. 继续优先扩大 MOODYZ / IDEAPOCKET / S1：分别从 3567、944、575 这三个已审核官方详情锚点之后继续查找。
-3. 每次仍然先 Snapshot / Diff，再逐项官方详情页 Review，最后才 Promotion。
-4. External ID 只作为详情身份，不假设连续；如果官网索引跳号，应跟随官网实际顺序，不补不存在的数字。
-5. 当某一家能够稳定完整解析全部当前官方 Series Index 时，才创建第一份 `complete-index` Snapshot。
-6. `attackers.series:2273` 继续 hold，直到取得额外可靠证据。
-7. 暂不扩大量 Work；继续优先建设有限、高复用的 Organization / Series 基础。
+1. 先使用本地 MetaTube Candidate Set 作为 discovery seed，不直接 Promotion。
+2. 优先审核当前 4 个精确命中正式 Person 的 Cluster，确认现有 alias/localized name 是否完整、是否存在错误方向或昵称污染。
+3. 接入 Wikidata CC0 作为可再分发 Identity Seed，优先补 QID、多语言姓名与可靠外部 ID。
+4. 评估 StashDB、Minnano-AV、Gfriends、WAPdB 作为 Resolver/Discovery 来源；在数据再发布许可不明确时继续只保留本地 candidate/provenance。
+5. 为 Person Alias Review 设计明确决策：`accept-name / hold / reject / split-cluster`，避免把一个大 Cluster 整体无脑合并。
+6. 只有具备独立来源证据的具体姓名才进入正式 `data/people`，并同步 Source Record；已有 Person 的稳定 ID 不因艺名变化而更换。
+7. Series resume checkpoint 继续保留；Person Identity 工作不影响后续 Series Coverage 批次。

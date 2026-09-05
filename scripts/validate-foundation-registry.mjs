@@ -93,8 +93,11 @@ for (const [name, ids] of seriesNames) {
 const publicSources = await readJson("registry/public-sources.json", { sources: [] });
 if (publicSources?.schemaVersion !== 1 || !Array.isArray(publicSources?.sources)) errors.push("registry/public-sources.json: 结构无效");
 unique((publicSources?.sources ?? []).map((source) => source.id), "Public Source Registry source.id");
+const allowedPublicSourceEntityTypes = new Set(["person", "group", "company", "maker", "label", "series", "work"]);
 for (const source of publicSources?.sources ?? []) {
   if (!/^source_[a-z0-9_]+$/.test(source.id ?? "")) errors.push(`public source ${source.id}: id 格式无效`);
+  if (!Array.isArray(source.entityTypes) || source.entityTypes.length === 0) errors.push(`public source ${source.id}: entityTypes 不能为空`);
+  for (const entityType of source.entityTypes ?? []) if (!allowedPublicSourceEntityTypes.has(entityType)) errors.push(`public source ${source.id}: entityTypes 包含不支持类型 (${entityType})`);
   if (!["official", "distributor", "database"].includes(source.sourceType)) errors.push(`public source ${source.id}: sourceType 无效`);
   if (!isUrl(source.baseUrl)) errors.push(`public source ${source.id}: baseUrl 无效`);
   if (!isDate(source.lastCheckedAt)) errors.push(`public source ${source.id}: lastCheckedAt 必须为 YYYY-MM-DD`);

@@ -281,6 +281,42 @@
       "knownLimitations": [
         "Madonna 已通过三批 partial Series Snapshot 联合审核并发布 42 个 Series；最新 Snapshot 仍不是完整索引遍历，因此 Series 与来源级 completeTraversal 继续为 false。"
       ]
+    },
+    {
+      "id": "source_metatube_actor_substitution",
+      "name": "MetaTube 社区 Actor Substitution 清单",
+      "sourceType": "database",
+      "baseUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/discussions/491",
+      "entityTypes": [
+        "person"
+      ],
+      "enumeration": {
+        "discussion": "https://github.com/metatube-community/jellyfin-plugin-metatube/discussions/491",
+        "attachment": "substitution.Actor.txt",
+        "format": "每行 from=to；用于媒体元数据姓名替换，不等价于 canonical/旧艺名方向声明",
+        "workflow": "pnpm people:identity:import:metatube -- --input <local-file>"
+      },
+      "externalIdStability": "该清单不提供稳定人物外部 ID；只能作为姓名/身份候选发现证据，不能建立 approved External ID Mapping。",
+      "accessStatus": "reachable",
+      "lastCheckedAt": "2026-09-05",
+      "completeTraversal": false,
+      "coverage": [
+        {
+          "entityType": "person",
+          "discovered": 226,
+          "reviewed": 0,
+          "published": 0,
+          "conflicts": 3,
+          "unrecognized": 226,
+          "completeTraversal": false
+        }
+      ],
+      "knownLimitations": [
+        "substitution.Actor.txt 本轮本地解析为 707 条原始映射、704 条唯一映射、926 个姓名、226 个候选连通 Cluster；这些数量表示候选关系，不表示 226 个已核验人物。",
+        "右侧名称表示 MetaTube 替换目标，不保证是当前艺名、规范名或时间上较新的姓名；例如音琴るい→妃月るい不能直接解释为改名方向。",
+        "同一短昵称可能映射到多个不同目标，本轮检测到 3 个冲突 source；候选必须人工、多源复核。",
+        "附件数据未确认允许作为 CC0 整库再发布，因此原始文件和派生完整候选集只保留在 .local/，不提交到 Shared Pack。"
+      ]
     }
   ]
 }
