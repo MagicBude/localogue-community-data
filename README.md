@@ -24,6 +24,7 @@ Private Library
 ```text
 localogue-community-data/
 ├── localogue-pack.json
+├── catalog.db                    # 只读 SQLite 运行时发布投影
 ├── data/                         # 唯一事实源：单实体 JSON
 ├── library/                      # 自动生成：Localogue Shared Pack
 │   ├── people/
@@ -45,7 +46,7 @@ localogue-community-data/
 └── docs/
 ```
 
-正式数据在 `data/` 遵循“一实体一 JSON 文件”。`library/`、Registry、CSV 和 XLSX 都由它自动生成；`examples/` 只包含虚构示例。
+正式数据在 `data/` 遵循“一实体一 JSON 文件”。`library/`、Registry、CSV、XLSX 和 `catalog.db` 都是生成物；`examples/` 只包含虚构示例。`catalog.db` 可用 SQLiteStudio、DB Browser for SQLite 或 DBeaver 只读浏览，不应直接修改后反向覆盖 JSON。
 
 ## 快速开始
 
@@ -99,4 +100,4 @@ D:/Localogue-Packs/localogue-community-data
 
 ## 当前阶段
 
-当前版本是 **0.4.11 / Person Identity Candidate Foundation**。正式数据保持 13 People、5 Works、86 Organizations、119 Series、325 Genres；在 0.4.10 Series Coverage Checkpoint 基础上新增 People 身份候选发现流程。MetaTube 等未确认可 CC0 再发布的第三方姓名清单只在本地 `.local/` 生成 Candidate Set，不会自动合并或发布正式 Person。CSV、XLSX、Shared Pack 与 Registry 仍由 `data/` 自动生成。
+当前版本是 **0.4.12 / Read-only Catalog SQLite Projection**。正式数据保持 13 People、5 Works、86 Organizations、119 Series、325 Community Classification；新增根目录 `catalog.db` 作为 Localogue 的只读查询投影，不改变 JSON/Sources 的审核真相地位。MetaTube 等未确认可 CC0 再发布的第三方姓名清单仍只在本地 `.local/` 生成 Candidate Set，不会自动合并或发布正式 Person。

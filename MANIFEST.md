@@ -1,8 +1,16 @@
 # Localogue Community Data Manifest
 
-当前 Pack 版本：**0.4.11**
+当前 Pack 版本：**0.4.12**
 
-基线版本：`0.4.10 — Series Coverage Checkpoint Foundation`
+基线版本：`0.4.11 — Person Identity Candidate Foundation`
+
+## 0.4.12 Read-only Catalog SQLite Projection
+
+- `data/` 继续是公共事实的唯一可编辑真相源；
+- `library/`、CSV、XLSX 与根目录 `catalog.db` 都是发布生成物；
+- `catalog.db` 是标准 SQLite 3，只读查询时使用，可由 Localogue 主仓库的 `pnpm catalog:sqlite:publish` 确定性重建；
+- 数据库必须与 `localogue-pack.json` 的 ID / Version 一致并通过实体、关系、外键和分类 Crosswalk 对账；
+- 本版本没有改变 13 People、5 Works、86 Organizations、119 Series、325 Community Classification 或 Registry ID。
 
 ## 当前正式数据
 

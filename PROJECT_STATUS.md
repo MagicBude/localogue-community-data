@@ -2,9 +2,18 @@
 
 ## 当前版本
 
-`0.4.11 — Person Identity Candidate Foundation`
+`0.4.12 — Read-only Catalog SQLite Projection`
 
-基线：0.4.10
+基线：0.4.11
+
+## 0.4.12 完成项
+
+1. 根目录新增只读 `catalog.db`，供 Localogue Desktop/Web 通过 SQLite Repository 查询。
+2. JSON/Sources 继续作为公共数据审核真相，数据库只作为可整体替换的确定性发布投影。
+3. 数据库包含 5 Works、13 People、86 Organizations、119 Series，以及主程序当前 361 Genre、43 Work Type、51 Source-only Classification。
+4. 325 个 Community Classification 已全部经 Crosswalk 路由，数据库未映射关系为 0。
+5. Pack ID/Version、SQLite 完整性、外键、集合数量与 JSON 均已对账。
+6. 当前稳定 ID、正式实体事实和 Person Identity Candidate 均未改变。
 
 ## 已完成
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.12 - 2026-09-11
+
+### Read-only Catalog SQLite Projection
+
+- 新增根目录 `catalog.db`，作为 `data/`、受控词表与 Crosswalk 确定性构建的只读运行时投影；公共事实仍以 `data/` 一实体一 JSON 和 Sources 为审核真相。
+- 数据库包含 5 Works、13 People、86 Organizations、119 Series，并将 325 个旧 Community Classification 全部路由到 361 个 Canonical Genre、43 个 Work Type 或 51 个 Source-only 分类。
+- `catalog.db` 与 Pack 版本绑定为 `0.4.12`，可由 Localogue 的 `pnpm catalog:sqlite:publish` 重建并对账；禁止人工直接编辑数据库代替 JSON 审核。
+- Shared Portable Pack 同时保留 `library/`、`sources/` 与 `catalog.db`，旧客户端仍可读取 JSON，新客户端优先读取只读 SQLite。
+- 本版本不新增或修改正式实体事实、Registry ID、人物身份候选和 Provider Evidence。
+
 ## 0.4.11 - 2026-09-05
 
 ### Person Identity Candidate Foundation
